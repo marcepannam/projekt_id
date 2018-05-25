@@ -2,7 +2,7 @@
 --Linia lotnicza powstała w 2005 roku. Do tej pory oferowała jedynie loty czarterowe.
 --Od nowego roku postanowiła wprowadzić również loty rejsowe. Zatrudniła ciebie do zaprojektowania bazy, w której będzie przechowywać dane o lotach.
 
-create table kraj(
+create table kraje(
 	id_kraju serial primary key,
 	nazwa varchar(20) not null,
 	czy_w_schegen boolean not null	
@@ -11,7 +11,16 @@ create table kraj(
 
 create table lotniska(
 	kod_IATA varchar(6) primary key,
-	kraj serial not null references kraj(id_kraju)
+	kraj serial not null references kraje(id_kraju)
+);
+
+
+create table modele_samolotow(
+	model varchar(20) primary key,
+	potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach	
+	ilosc_miejsc numeric (4) not null,
+	ilosc_zalogi numeric (2) not null,
+	zasieg varchar(30) not null
 );
 
 
@@ -19,22 +28,14 @@ create table samoloty(
 	id_samolotu serial primary key,
 	nazwa varchar(20),
 	--np Bodzio maly helikopter
-	id_modelu serial not null,
+	id_modelu varchar(20) not null references modele_samolotow(model),
 	czy_sprawny boolean default true
 );
-
-create table modele_samolotow(
-	model varchar (20) primary key,
-	potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach	
-	ilosc_miejsc numeric (4) not null,
-	ilosc_zalogi numeric (2) not null,
-	zasieg varchar(30) not null
-);
-
 create table bilety_laczone(
 	id_biletu_laczonego serial primary key,
 	kod_rezerewacji char(6) not null,
 	--zawsze 6 znakowy, globalny
+	--nie mamy modelu "pasazer", poniewaz nie zbieramy unikalnych identyfikatorow (np. PESELu, nr paszportu jest nieobowiazkowy)
 	imie varchar(25) not null,
 	nazwisko varchar(25) not null,
 	mail varchar(25),
@@ -51,20 +52,6 @@ create table bilety_laczone(
 	oplaty_dodatkowe numeric(7, 2) default 0
 );
 
-create table bilety(
-	id_biletu serial primary key,
-	id_biletu_laczonego integer references bilety_laczone(id_biletu_laczonego),
-	--nawetjak maszjeden bielt wpisac wartosc, wtedy id_biletu
-	klasa varchar(20) default 'ekonomiczna', 
-	--jeszcze biznes, premium (check)
-	czy_karta_pokladowa_wystawiona boolean default false, 
-	--zrobic funkcje wstawiajaca karty pokladowe
-	cena numeric(7, 2) not null, 
-	-- funkcja przeliczajaca  pln na euro i dolary
-	oplacony boolean default false
-	--jesli nieoplacona nie wystawiaj karty pokladowej
-);
-
 
 create table pasy_startowe (
 	id_pasa serial primary key,
@@ -72,11 +59,12 @@ create table pasy_startowe (
 	dl_pasa numeric(6, 2) not null --w metrach
 );
 
-create table lot(
+create table loty(
+	id_lotu serial primary key,
 	id_samolotu integer references samoloty(id_samolotu),
 	kod numeric(6) not null,
 	skad varchar(6) not null references lotniska (kod_IATA),	--nr lotniska
-	dokad varchar(6) not null references lotniska (kod_IATA),
+	dokad varchar(6) not null references lotniska (kod_IATA) check (skad <> dokad),
 	odlot timestamp not null,--w utc
 	wylot timestamp not null,--w utc
 	nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa), --kodlotniska+4cyfrowy_nr
@@ -86,16 +74,32 @@ create table lot(
 	--check sprawdzajaca czy samolot sie nie teleportuje
 );
 
-create table rezerwacja_pasow_startowych(
-	id_pasa integer not null, 	
+create table bilety(
+	id_biletu serial primary key,
+	id_lotu integer references loty(id_lotu),
+	id_biletu_laczonego integer references bilety_laczone(id_biletu_laczonego),
+	--nawetjak maszjeden bielt wpisac wartosc, wtedy id_biletu
+	klasa varchar(20) default 'ekonomiczna', 
+	--jeszcze biznes, premium (check)
+	czy_karta_pokladowa_wystawiona boolean default false, 
+	--zrobic funkcje wstawiajaca karty pokladowe
+	cena numeric(7, 2) not null, 
+	-- funkcja przeliczajaca  pln na euro i dolary
+	oplacony boolean default false,
+	--jesli nieoplacona nie wystawiaj karty pokladowej
+	miejsce varchar(5) -- + check czy takie miejsce jest w samolocie i czy nie pokrywaja sie
+);
+
+create table rezerwacje_pasow_startowych(
+	id_pasa integer not null references pasy_startowe(id_pasa), 	
 	od timestamp not null,
-	"do" timestamp not null
+	"do" timestamp not null check ("do" > od)
 );
 
 
 create table miejsca_w_samolocie(
-	id_modelu_samolotu numeric(2) not null,
-	nr_miejsca varchar(5) not null,--np. A25	
+	id_modelu_samolotu varchar(20) not null references modele_samolotow(model),
+	nr_miejsca varchar(5) not null,--np. A25
 	rodzaj varchar(20) default 'normal' --pro, plus
 );
 
