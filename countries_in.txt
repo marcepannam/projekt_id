@@ -1,0 +1,229 @@
+iso_code	Name	schengen
+AW	Aruba	false
+AG	Antigua and Barbuda	false
+AE	United Arab Emirates	false
+AF	Afghanistan	false
+DZ	Algeria	false
+AZ	Azerbaijan	false
+AL	Albania	false
+AM	Armenia	false
+AO	Angola	false
+AS	American Samoa	false
+AR	Argentina	false
+AU	Australia	false
+AT	Austria	true
+AI	Anguilla	false
+AQ	Antarctica	false
+BH	Bahrain	false
+BB	Barbados	false
+BW	Botswana	false
+BM	Bermuda	false
+BE	Belgium	true
+BS	Bahamas	false
+BD	Bangladesh	false
+BZ	Belize	false
+BA	Bosnia and Herzegovina	false
+BO	Bolivia	false
+MM	Burma	false
+BJ	Benin	false
+BY	Belarus	false
+SB	Solomon Islands	false
+BR	Brazil	false
+BT	Bhutan	false
+BG	Bulgaria	true
+BN	Brunei	false
+BI	Burundi	false
+CA	Canada	false
+KH	Cambodia	false
+TD	Chad	false
+LK	Sri Lanka	false
+CD	Congo (Kinshasa)	false
+CG	Congo (Brazzaville)	false
+CN	China	false
+CL	Chile	false
+KY	Cayman Islands	false
+CC	Cocos (Keeling) Islands	false
+CM	Cameroon	false
+KM	Comoros	false
+CO	Colombia	false
+MP	Northern Mariana Islands	false
+CR	Costa Rica	false
+CF	Central African Republic	false
+CU	Cuba	false
+CV	Cape Verde	false
+CK	Cook Islands	false
+CY	Cyprus	true
+DK	Denmark	true
+DJ	Djibouti	false
+DM	Dominica	false
+DO	Dominican Republic	false
+EC	Ecuador	false
+EG	Egypt	false
+IE	Ireland	true
+GQ	Equatorial Guinea	false
+EE	Estonia	true
+ER	Eritrea	false
+SV	El Salvador	false
+ET	Ethiopia	false
+CZ	Czech Republic	true
+GF	French Guiana	false
+FI	Finland	true
+FJ	Fiji	false
+FK	Falkland Islands	false
+FM	Micronesia	false
+FO	Faroe Islands	false
+PF	French Polynesia	false
+FR	France	true
+GM	Gambia	false
+GA	Gabon	false
+GE	Georgia	false
+GH	Ghana	false
+GI	Gibraltar	false
+GD	Grenada	false
+GG	Guernsey	false
+GL	Greenland	false
+DE	Germany	true
+GP	Guadeloupe	false
+GU	Guam	false
+GR	Greece	false
+GT	Guatemala	false
+GN	Guinea	false
+GY	Guyana	false
+HT	Haiti	false
+HK	Hong Kong	false
+HN	Honduras	false
+HR	Croatia	true
+HU	Hungary	true
+IS	Iceland	true
+ID	Indonesia	false
+IM	Isle of Man	false
+IN	India	false
+IO	British Indian Ocean Territory	false
+IR	Iran	false
+IL	Israel	false
+IT	Italy	true
+IV	Ivory Coast	false
+IQ	Iraq	false
+JP	Japan	false
+JE	Jersey	false
+JM	Jamaica	false
+JO	Jordan	false
+KE	Kenya	false
+KG	Kyrgyzstan	false
+KP	North Korea	false
+KI	Kiribati	false
+KR	South Korea	false
+CX	Christmas Island	false
+KW	Kuwait	false
+KZ	Kazakhstan	false
+LA	Laos	false
+LB	Lebanon	false
+LV	Latvia	true
+LT	Lithuania	true
+LR	Liberia	false
+SK	Slovakia	true
+LS	Lesotho	false
+LU	Luxembourg	true
+LY	Libya	false
+MG	Madagascar	false
+MQ	Martinique	false
+MO	Macau	false
+MD	Moldova	false
+YT	Mayotte	false
+MN	Mongolia	false
+MS	Montserrat	false
+MW	Malawi	false
+ME	Montenegro	false
+MK	Macedonia	false
+ML	Mali	false
+MC	Monaco	false
+MA	Morocco	false
+MU	Mauritius	false
+MR	Mauritania	false
+MT	Malta	true
+OM	Oman	false
+MV	Maldives	false
+MX	Mexico	false
+MY	Malaysia	false
+MZ	Mozambique	false
+NC	New Caledonia	false
+NU	Niue	false
+NF	Norfolk Island	false
+NE	Niger	false
+VU	Vanuatu	false
+NG	Nigeria	false
+NL	Netherlands	true
+NO	Norway	true
+NP	Nepal	false
+NR	Nauru	false
+SR	Suriname	false
+AN	Netherlands Antilles	false
+NI	Nicaragua	false
+NZ	New Zealand	false
+PY	Paraguay	false
+PE	Peru	false
+PK	Pakistan	false
+PL	Poland	true
+PA	Panama	false
+PT	Portugal	true
+PG	Papua New Guinea	false
+PW	Palau	false
+GW	Guinea-Bissau	false
+QA	Qatar	false
+RS	Serbia	false
+MH	Marshall Islands	false
+RO	Romania	true
+PH	Philippines	false
+PR	Puerto Rico	false
+RU	Russia	false
+RW	Rwanda	false
+SA	Saudi Arabia	false
+PM	Saint Pierre and Miquelon	false
+KN	Saint Kitts and Nevis	false
+SC	Seychelles	false
+ZA	South Africa	false
+SN	Senegal	false
+SH	Saint Helena	false
+SI	Slovenia	true
+SL	Sierra Leone	false
+SG	Singapore	false
+SO	Somalia	false
+ES	Spain	true
+SS	South Sudan	false
+LC	Saint Lucia	false
+SD	Sudan	false
+SE	Sweden	true
+SY	Syria	false
+CH	Switzerland	true
+TT	Trinidad and Tobago	false
+TH	Thailand	false
+TJ	Tajikistan	false
+TC	Turks and Caicos Islands	false
+TK	Tokelau	false
+TO	Tonga	false
+TG	Togo	false
+TN	Tunisia	false
+TL	Timor-Leste	false
+TR	Turkey	false
+TV	Tuvalu	false
+TW	Taiwan	false
+TM	Turkmenistan	false
+TZ	Tanzania	false
+UG	Uganda	false
+GB	United Kingdom	false
+UA	Ukraine	false
+US	United States	false
+BF	Burkina Faso	false
+UY	Uruguay	false
+UZ	Uzbekistan	false
+VC	Saint Vincent and the Grenadines	false
+VE	Venezuela	false
+VG	British Virgin Islands	false
+VN	Vietnam	false
+WF	Wallis and Futuna	false
+EH	Western Sahara	false
+WS	Samoa	false
+SZ	Swaziland	false
+YE	Yemen	false
+ZM	Zambia	false
+ZW	Zimbabwe	false
