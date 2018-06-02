@@ -30,8 +30,12 @@ create table linie_lotnicze(
 );
 
 create table lotniska(
-  kod_IATA varchar(6) primary key,
-  kraj varchar(2) not null references kraje
+  kod_iata varchar(3) primary key,
+  nazwa varchar(80),
+  nazwa_miasta varchar(40),
+  kod_icao varchar(4),
+  szerokosc double precision,
+  dlugosc double precision
 );
 
 
@@ -128,13 +132,7 @@ create table nadanie_bagazu(
   id_biletu integer references bilety(id_biletu)
 );
 
-
-/*
-alter table linie_lotnicze add column kraj varchar(2);
-update linie_lotnicze set kraj = (select kod_iso from kraje where nazwa_kraju=nazwa);
-delete from linie_lotnicze where kraj is null;
-alter table linie_lotnicze add foreign key (kraj) references kraje;
-alter table linie_lotnicze drop column nazwa_kraju;
+--zmiany w tabelach zawiera plik alter.sql
 --funkcja spr czy dwom osobom niezostalo przyznane jedno miejsce
 
---funkcja wypisz kortke podróż bagażu np KRK->WAW->BAR->VIE */
+--funkcja wypisz kortke podróż bagażu np KRK->WAW->BAR->VIE
