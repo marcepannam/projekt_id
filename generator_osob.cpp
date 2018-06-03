@@ -47,6 +47,7 @@ auto random_choice(const M& v) {
 }
 
 int main() {
+  cout << "begin;" << endl;
   fstream surname("nazwiska.txt");
   vector<string> names = readlines("imiona.txt");
   vector<string> surnames = readlines("nazwiska.txt");
@@ -62,7 +63,7 @@ int main() {
 
   // loty!
 
-  for (int i=1; i <=30; i++) {
+  for (int i=1; i <=3000; i++) {
     string start = random_choice(kody_lotnisk);
     string koniec = random_choice(kody_lotnisk);
     while (koniec == start) koniec = random_choice(kody_lotnisk);
@@ -111,7 +112,11 @@ int main() {
     
     string skad = random_choice(kody_lotnisk);
     string dokad = random_choice(kody_lotnisk);
+    while (dokad == skad) dokad = random_choice(kody_lotnisk);
 
-    cout << "select zaplanuj_lot(" << i << ", '" << skad << "', '" <<  dokad <<"', '2008-12-30 13:52:57'::timestamp);" << endl;
+    int planuj_po = rok * 40;// + rand() % (rok / 5);
+    cout << "select zaplanuj_lot(" << i << ", '" << skad << "', '" <<  dokad <<"', to_timestamp("<< planuj_po << ")::timestamp);" << endl;
   }
+
+  cout << "commit;" << endl;
 }
