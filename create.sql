@@ -2,855 +2,855 @@
 
 
 COPY linie_lotnicze(id_linii_lotniczej, nazwa, kod_iata, kod_icao, nazwa_kraju) from stdin;
-3	1Time Airline	1T	RNX	South Africa
-10	40-Mile Air	Q5	MLA	United States
-13	Ansett Australia	AN	AAA	Australia
-21	Aigle Azur	ZI	AAF	France
-22	Aloha Airlines	AQ	AAH	United States
-24	American Airlines	AA	AAL	United States
-28	Asiana Airlines	OZ	AAR	Republic of Korea
-29	Askari Aviation	4K	AAS	Pakistan
-32	Afriqiyah Airways	8U	AAW	Libya
-35	Allegiant Air	G4	AAY	United States
-42	ABSA - Aerolinhas Brasileiras	M3	TUS	Brazil
-55	Astral Aviation	8V	ACP	Kenya
-72	Ada Air	ZY	ADE	Albania
-83	Adria Airways	JP	ADR	Slovenia
-90	Air Europa	UX	AEA	Spain
-93	Aero Benin	EM	AEB	Benin
-96	Aegean Airlines	A3	AEE	Greece
-106	Air Europe	PE	AEL	Italy
-109	Alaska Central Express	KO	AER	United States
-112	Astraeus	5W	AEU	United Kingdom
-114	Aerosvit Airlines	VV	AEW	Ukraine
-116	Air Italy	I9	AEY	Italy
-120	Alliance Airlines	QQ	UTY	Australia
-125	Ariana Afghan Airlines	FG	AFG	Afghanistan
-130	Aeroflot Russian Airlines	SU	AFL	Russia
-132	Air Bosna	JA	BON	Bosnia and Herzegovina
-137	Air France	AF	AFR	France
-139	Air Caledonie International	SB	ACI	France
-149	Air Cargo Carriers	2Q	SNC	United States
-153	Air Namibia	SW	NMB	Namibia
-165	Aerolitoral	5D	SLI	Mexico
-174	Air Glaciers	7T	AGV	Switzerland
-179	Aeroper	PL	PLI	Peru
-180	Atlas Blue	8A	BMM	Morocco
-197	Azerbaijan Airlines	J2	AHY	Azerbaijan
-198	Avies	U3	AIA	Estonia
-208	Airblue	ED	ABQ	Pakistan
-214	Air Berlin	AB	BER	Germany
-218	Air India Limited	AI	AIC	India
-220	Air Bourbon	ZB	BUB	Reunion
-221	Air Atlanta Icelandic	CC	ABD	Iceland
-225	Air Tahiti Nui	TN	THT	France
-231	Arkia Israel Airlines	IZ	AIZ	Israel
-239	Air Jamaica	JM	AJM	Jamaica
-240	Air One	AP	ADH	Italy
-241	Air Sahara	S2	RSH	India
-242	Air Malta	KM	AMC	Malta
-250	Air Japan	NQ	AJX	Japan
-263	Air Kiribati	4A	AKL	Kiribati
-281	America West Airlines	HP	AWE	United States
-282	Air Wisconsin	ZW	AWI	United States
-286	Tatarstan Airlines	U9	TAK	Russia
-306	Air Malawi	QM	AML	Malawi
-316	Air Macau	NX	AMU	Macao
-319	Air Seychelles	HM	SEY	Seychelles
-321	AeroMéxico	AM	AMX	Mexico
-324	All Nippon Airways	NH	ANA	Japan
-327	Air Nostrum	YW	ANE	Spain
-328	Air Niugini	PX	ANG	Papua New Guinea
-329	Air Arabia	G9	ABY	United Arab Emirates
-330	Air Canada	AC	ACA	Canada
-333	Air Baltic	BT	BTI	Latvia
-336	Air Nippon	EL	ANK	Japan
-338	Airnorth	TL	ANO	Australia
-341	Air North Charter - Canada	4N	ANT	Canada
-345	Air New Zealand	NZ	ANZ	New Zealand
-371	Alitalia Express	XM	SMX	Italy
-386	Aero Flight	GV	ARF	Germany
-397	Arrow Air	JW	APW	United States
-410	Aerocondor	2B	ARD	Portugal
-411	Aires	4C	ARE	 S.A.
-412	Aerolineas Argentinas	AR	ARG	Argentina
-439	Alaska Airlines	AS	ASA	ALASKA
-442	Air Sinai	4D	ASD	Egypt
-452	Atlantic Southeast Airlines	EV	ASQ	United States
-462	Astrakhan Airlines	OB	ASZ	Russia
-465	Air Tanzania	TC	ATC	Tanzania
-470	Air Burkina	2J	VBW	Burkina Faso
-476	Airlines Of Tasmania	FO	ATM	Australia
-477	Air Saint Pierre	PJ	SPM	France
-491	Austrian Airlines	OS	AUA	Austria
-493	Augsburg Airways	IQ	AUB	Germany
-502	Abu Dhabi Amiri Flight	MO	AUH	United Arab Emirates
-503	Aeroflot-Nord	5N	AUL	Russia
-508	Aurigny Air Services	GR	AUR	United Kingdom
-510	Austral Lineas Aereas	AU	AUT	Argentina
-515	Avianca - Aerovias Nacionales de Colombia	AV	AVA	AVIANCA
-524	Air Vanuatu	NF	AVN	Vanuatu
-543	Air Bangladesh	B9	BGD	Bangladesh
-547	Air Mediterranee	DR	BIE	France
-563	Aeroline GmbH	7E	AWU	Germany
-565	Air Wales	6G	AWW	United Kingdom
-567	Air Caraïbes	TX	FWI	France
-569	Air India Express	IX	AXB	India
-575	Air Exel	XT	AXL	Netherlands
-576	AirAsia	AK	AXM	Malaysia
-595	Atlant-Soyuz Airlines	3G	AYZ	Russia
-596	Alitalia	AZ	AZA	Italy
-603	Amaszonas	Z8	AZN	Bolivia
-608	Air Zimbabwe	UM	AZW	Zimbabwe
-622	Aserca Airlines	R7	OCA	Venezuela
-641	Rossiya-Russian Airlines	FV	SDM	Russia
-659	American Eagle Airlines	MQ	EGF	United States
-682	Air Ivoire	VU	VUN	Ivory Coast
-683	Air Botswana	BP	BOT	Botswana
-690	Air Foyle	GS	UPA	United Kingdom
-692	Air Tahiti	VT	VTA	French Polynesia
-695	Air VIA	VL	VIM	Bulgaria
-715	Africa West	FK	WTA	Togo
-724	ATRAN Cargo Airlines	V8	VAS	Russian Federation
-751	Air China	CA	CCA	China
-753	Aero Condor Peru	Q6	CDP	Peru
-787	Air Chathams	CV	CVA	New Zealand
-788	Air Marshall Islands	CW	CWM	Marshall Islands
-792	Access Air	ZA	CYD	United States
-794	Air Algerie	AH	DAH	Algeria
-800	Adam Air	KI	DHI	Indonesia
-807	Air Dolomiti	EN	DLA	Italy
-816	Aeroflot-Don	D9	DNV	Russia
-817	Air Madrid	NM	DRD	Spain
-837	Aer Lingus	EI	EIN	Ireland
-876	Air Finland	OF	FIF	Finland
-879	Air Pacific	FJ	FJI	Fiji
-881	Atlantic Airways	RC	FLI	Faroe Islands
-882	Air Florida	QH	FLZ	United States
-896	Air Iceland	NY	FXI	Iceland
-897	Air Philippines	2P	GAP	Philippines
-909	Air Guinee Express	2U	GIP	Guinea
-921	Air Greenland	GL	GRL	Denmark
-928	Atlas Air	5Y	GTI	United States
-931	Air Guyane	GG	GUY	French Guiana
-970	Air Bagan	W9	JAB	Myanmar
-983	Air Canada Jazz	QK	JZA	Canada
-995	Atlasjet	KK	KKK	Turkey
-998	Air Koryo	JS	KOR	Democratic People's Republic of Korea
-1006	Air Astana	KC	KZR	Kazakhstan
-1008	Albanian Airlines	LV	LBC	Albania
-1034	Aerolane	XL	LNE	Ecuador
-1048	Atlantis European Airways	TD	LUR	Armenia
-1052	Air Luxor	LK	LXR	Portugal
-1057	Air Mauritius	MK	MAU	Mauritius
-1066	Air Madagascar	MD	MDG	Madagascar
-1073	Air Moldova	9U	MLD	Moldova
-1087	Air Plus Comet	A7	MPD	Spain
-1116	Aero Contractors	AJ	NIG	Nigeria
-1143	Aeropelican Air Services	OT	PEL	Australia
-1188	Aer Arann	RE	REA	Ireland
-1191	Air Austral	UU	REU	France
-1200	Asian Spirit	6K	RIT	Philippines
-1202	Air Afrique	RK	RKA	Ivory Coast
-1203	Airlinair	A5	RLA	France
-1206	Aero Lanka	QL	RLN	Sri Lanka
-1213	Air Salone	20	RNE	Sierra Leone
-1216	Armavia	U8	RNV	Armenia
-1224	AeroRep	P5	RPB	Colombia
-1230	Aero-Service	BF	RSR	Republic of the Congo
-1231	Aerosur	5L	RSU	Bolivia
-1266	Avient Aviation	Z3	SMJ	Zimbabwe
-1287	Aircompany Yakutia	R3	SYL	Russia
-1290	Aeromar	VW	TAO	Mexico
-1299	Arkefly	OR	TFL	Netherlands
-1308	Airlines PNG	CG	TOK	Papua New Guinea
-1316	AirTran Airways	FL	TRS	United States
-1317	Air Transat	TS	TSC	Canada
-1322	Avialeasing Aviation Company	EC	TWN	Uzbekistan
-1326	Tyrolean Airways	VO	TYR	Austria
-1338	Aerolineas Galapagos (Aerogal)	2K	GLG	Ecuador
-1340	Alrosa Mirny Air Enterprise	6R	DRU	Russia
-1355	British Airways	BA	BAW	United Kingdom
-1359	Biman Bangladesh Airlines	BG	BBC	Bangladesh
-1401	Belair Airlines	4T	BHP	Switzerland
-1403	Bahamasair	UP	BHS	Bahamas
-1411	British International Helicopters	BS	BIH	United Kingdom
-1422	Bangkok Airways	PG	BKP	Thailand
-1427	Blue1	KF	BLF	Finland
-1434	Bearskin Lake Air Service	JV	BLS	Canada
-1436	Bellview Airlines	B3	BLV	Nigeria
-1437	bmi	BD	BMA	United Kingdom
-1441	bmibaby	WW	BMI	United Kingdom
-1442	Bemidji Airlines	CH	BMJ	United States
-1463	Blue Panorama Airlines	BV	BPA	Italy
-1472	Bering Air	8E	BRG	United States
-1478	Belavia Belarusian Airlines	B2	BRU	Belarus
-1500	Metro Batavia	7P	BTV	Indonesia
-1508	Berjaya Air	J8	BVT	Malaysia
-1510	Blue Wings	QW	BWG	Germany
-1523	Brit Air	DB	BZH	France
-1531	Brussels Airlines	SN	DAT	Belgium
-1539	Binter Canarias	NT	IBB	Spain
-1542	Blue Air	0B	JOR	Romania
-1543	British Mediterranean Airways	KJ	LAJ	United Kingdom
-1548	Bulgaria Air	FB	LZB	Bulgaria
-1550	Barents AirLink	8N	NKF	Sweden
-1581	CAL Cargo Air Lines	5C	ICL	Israel
-1607	Calima Aviacion	XG	CLI	Spain
-1615	Canadian Airlines	CP	CDN	Canada
-1623	Canadian North	5T	MPE	Canada
-1629	Cape Air	9K	KAP	United States
-1663	Caribbean Airlines	BW	BWA	Trinidad and Tobago
-1669	Carpatair	V3	KRP	Romania
-1675	Caspian Airlines	RV	CPN	Iran
-1680	Cathay Pacific	CX	CPA	Hong Kong SAR of China
-1682	Cayman Airways	KX	CAY	Cayman Islands
-1683	Cebu Pacific	5J	CEB	Philippines
-1708	Centralwings	C0	CLW	Poland
-1739	Chautauqua Airlines	RP	CHQ	United States
-1756	China Airlines	CI	CAL	Taiwan
-1758	China Eastern Airlines	MU	CES	China
-1767	China Southern Airlines	CZ	CSN	China
-1769	China United Airlines	HR	CUA	China
-1771	Yunnan Airlines	3Q	CYH	China
-1781	Cimber Air	QI	CIM	Denmark
-1784	Cirrus Airlines	C9	RUS	Germany
-1789	City Airline	CF	SDR	Sweden
-1790	City Connexion Airlines	G3	CIX	Burundi
-1792	CityJet	WX	BCY	Ireland
-1795	BA CityFlyer	CJ	CFE	United Kingdom
-1821	Colgan Air	9L	CJC	United States
-1828	Comair	OH	COM	United States
-1829	Comair	MN	CAW	South Africa
-1843	CommutAir	C5	UCA	United States
-1844	Comores Airlines	KR	CWK	Comoros
-1860	Compass Airlines	CP	CPZ	United States
-1868	Condor Flugdienst	DE	CFG	Germany
-1876	Consorcio Aviaxsa	6A	CHP	Mexico
-1879	Contact Air	C3	KIS	Germany
-1881	Continental Airlines	CO	COA	United States
-1884	Continental Micronesia	CS	CMI	United States
-1886	Conviasa	V0	VCV	Venezuela
-1889	Copa Airlines	CM	CMP	Panama
-1908	Corsairfly	SS	CRL	France
-1909	Corse-Mediterranee	XK	CCM	France
-1925	Croatia Airlines	OU	CTN	Croatia
-1936	Cubana de Aviación	CU	CUB	Cuba
-1942	Cyprus Airways	CY	CYP	Cyprus
-1946	Czech Airlines	OK	CSA	Czech Republic
-1954	DAT Danish Air Transport	DX	DTR	Denmark
-1966	Daallo Airlines	D3	DAO	Djibouti
-1973	Dalavia	H8	KHB	Russia
-1983	Darwin Airline	0D	DWT	Switzerland
-2009	Delta Air Lines	DL	DAL	United States
-2041	Djibouti Airlines	D8	DJB	Djibouti
-2047	Dominicana de Aviaci	DO	DOA	Dominican Republic
-2048	Domodedovo Airlines	E3	DMO	Russia
-2051	DonbassAero	5D	UDC	Ukraine
-2056	Dragonair	KA	HDA	DRAGON
-2058	Druk Air	KB	DRK	Bhutan
-2077	dba	DI	BAG	Germany
-2091	EVA Air	BR	EVA	Taiwan
-2104	East African	QU	UGX	Uganda
-2117	Eastern Airways	T3	EZE	United Kingdom
-2125	Eastland Air	DK	ELA	Australia
-2138	Edelweiss Air	WK	EDW	Switzerland
-2143	Egyptair	MS	MSR	Egypt
-2150	El Al Israel Airlines	LY	ELY	Israel
-2155	El-Buraq Air Transport	UZ	BRQ	Libya
-2183	Emirates	EK	UAE	United Arab Emirates
-2193	Empresa Ecuatoriana De Aviacion	EU	EEA	Ecuador
-2213	Eritrean Airlines	B8	ERT	Eritrea
-2218	Estonian Air	OV	ELL	Estonia
-2220	Ethiopian Airlines	ET	ETH	Ethiopia
-2222	Etihad Airways	EY	ETD	United Arab Emirates
-2237	Eurocypria Airlines	UI	ECA	Cyprus
-2239	Eurofly Service	GJ	EEU	Italy
-2245	Eurolot	K2	ELO	Poland
-2251	European Air Express	EA	EAL	Germany
-2260	Eurowings	EW	EWG	Germany
-2261	Evergreen International Airlines	EZ	EIA	United States
-2264	Excel Airways	JN	XLA	United Kingdom
-2293	Express One International	EO	LHN	United States
-2295	ExpressJet	XE	BTA	United States
-2297	easyJet	U2	EZY	United Kingdom
-2324	Far Eastern Air Transport	EF	EFA	Taiwan
-2350	Finnair	AY	FIN	Finland
-2351	Finncomm Airlines	FC	WBA	Finland
-2353	Firefly	FY	FFM	Malaysia
-2354	First Air	7F	FAB	Canada
-2357	First Choice Airways	DP	FCA	United Kingdom
-2395	Flightline	B5	FLT	United Kingdom
-2404	Florida West International Airways	RF	FWL	United States
-2417	AirAsia X	D7	XAX	Malaysia
-2418	FlyLal	TE	LIL	Lithuania
-2419	FlyNordic	LF	NDC	Sweden
-2420	Flybaboo	F7	BBO	Switzerland
-2421	Flybe	BE	BEE	United Kingdom
-2425	Flyglobespan	B4	GSM	United Kingdom
-2439	Formosa Airlines	VY	FOS	Taiwan
-2454	Freedom Air	FP	FRE	United States
-2468	Frontier Airlines	F9	FFT	United States
-2470	Frontier Flying Service	2F	FTA	United States
-2486	GB Airways	GT	GBL	United Kingdom
-2520	Garuda Indonesia	GA	GIA	Indonesia
-2524	Gazpromavia	4G	GZP	Russia
-2538	Georgian Airways	A9	TGZ	Georgia
-2541	Georgian National Airlines	QB	GFG	Georgia
-2547	Germania	ST	GMI	Germany
-2548	Germanwings	4U	GWI	Germany
-2556	Ghana International Airlines	G0	GHB	Ghana
-2575	Go Air	G8	GOW	India
-2577	GoJet Airlines	G7	GJS	United States
-2581	Gol Transportes Aéreos	G3	GLO	Brazil
-2585	Golden Air	DC	GAO	Sweden
-2607	Great Lakes Airlines	ZK	GLA	United States
-2622	Grupo TACA	TA	TAT	Costa Rica
-2638	Gulf Air Bahrain	GF	GBA	Bahrain
-2657	Hageland Aviation Services	H6	HAG	United States
-2660	Hainan Airlines	HU	CHH	China
-2663	Haiti Ambassador Airlines	2T	HAM	Haiti
-2674	Hamburg International	4R	HHI	Germany
-2681	TUIfly	X3	HLX	Germany
-2682	Hapagfly	HF	HLF	Germany
-2688	Hawaiian Airlines	HA	HAL	United States
-2704	Heli France	8H	HFR	France
-2731	Helijet	JB	JBA	Canada
-2747	Hellas Jet	T4	HEJ	Greece
-2748	Hello	HW	FHE	Switzerland
-2750	Helvetic Airways	2L	OAW	Switzerland
-2757	Hex'Air	UD	HER	France
-2765	Hokkaido International Airlines	HD	ADO	Japan
-2773	Hong Kong Airlines	HX	CRK	Hong Kong SAR of China
-2774	Hong Kong Express Airways	UO	HKE	Hong Kong SAR of China
-2778	Horizon Air	QX	QXE	United States
-2782	Horizon Airlines	BN	HZA	Australia
-2822	Iberia Airlines	IB	IBE	Spain
-2825	Iberworld	TY	IWD	Spain
-2826	Ibex Airlines	FW	IBX	Japan
-2835	Icelandair	FI	ICE	Iceland
-2845	Imair Airlines	IK	ITX	Azerbaijan
-2850	IndiGo Airlines	6E	IGO	India
-2853	Indian Airlines	IC	IAC	India
-2855	Indigo	I9	IBU	United States
-2857	Indonesia AirAsia	QZ	AWQ	Indonesia
-2858	Indonesian Airlines	IO	IAA	Indonesia
-2881	Interair South Africa	D6	ILN	South Africa
-2883	Interavia Airlines	ZA	SUW	Russia
-2896	Interlink Airlines	ID	ITK	South Africa
-2916	Intersky	3L	ISK	Austria
-2922	Iran Air	IR	IRA	Iran
-2923	Iran Aseman Airlines	EP	IRC	Iran
-2926	Iraqi Airways	IA	IAW	Iraq
-2942	Cargo Plus Aviation	8L	CGP	United Arab Emirates
-2948	Islas Airways	IF	ISW	Spain
-2950	Islena De Inversiones	WC	ISV	Honduras
-2954	Israir	6H	ISR	Israel
-2958	Itek Air	GI	IKA	Kyrgyzstan
-2969	JAL Express	JC	JEX	Japan
-2970	JALways	JO	JAZ	Japan
-2987	Japan Airlines	JL	JAL	Japan
-2988	Japan Airlines Domestic	JL	JAL	Japan
-2989	Japan Asia Airways	EG	JAA	Japan
-2990	Japan Transocean Air	NU	JTA	Japan
-2993	Jazeera Airways	J9	JZR	Kuwait
-2994	Jeju Air	7C	JJA	Republic of Korea
-3000	Jet Airways	9W	JAI	India
-3021	Jetstar Asia Airways	3K	JSA	Singapore
-3026	Jet2.com	LS	EXS	United Kingdom
-3027	Jet4You	8J	JFU	Morocco
-3029	JetBlue Airways	B6	JBU	United States
-3032	Jetairfly	JF	JAF	Belgium
-3052	Jetstar Airways	JQ	JST	Australia
-3081	Juneyao Airlines	HO	DKH	China
-3087	KD Avia	KD	KNI	Russia
-3088	KLM Cityhopper	WA	KLC	Netherlands
-3090	KLM Royal Dutch Airlines	KL	KLM	Netherlands
-3097	Kam Air	RQ	KMF	Afghanistan
-3110	Kavminvodyavia	KV	MVD	Russia
-3123	Kenmore Air	M5	KEN	United States
-3126	Kenya Airways	KQ	KQA	Kenya
-3142	Kingfisher Airlines	IT	KFR	India
-3148	Kish Air	Y9	IRK	Iran
-3157	Kogalymavia Air Company	7K	KGL	Russia
-3163	Korean Air	KE	KAL	Republic of Korea
-3168	Krasnojarsky Airlines	7B	KJC	Russia
-3175	Kuban Airlines	GW	KIL	Russia
-3179	Kuwait Airways	KU	KAC	Kuwait
-3180	Kuzu Airlines Cargo	GO	KZU	Turkey
-3197	LACSA	LR	LRC	Costa Rica
-3200	LAN Airlines	LA	LAN	Chile
-3201	LAN Argentina	4M	DSM	Argentina
-3204	LAN Express	LU	LXP	Chile
-3205	LAN Peru	LP	LPE	Peru
-3210	LOT Polish Airlines	LO	LOT	Poland
-3211	LTE International Airways	XO	LTE	Spain
-3212	LTU Austria	L3	LTO	Austria
-3233	Lao Airlines	QV	LAO	Lao Peoples Democratic Republic
-3239	Lauda Air	NG	LDA	Austria
-3251	Leeward Islands Air Transport	LI	LIA	Antigua and Barbuda
-3258	Libyan Arab Airlines	LN	LAA	Libya
-3287	Linhas A	LM	LAM	Mozambique
-3290	Lion Mentari Airlines	JT	LNI	Indonesia
-3319	Luftfahrtgesellschaft Walter	HE	LGW	Germany
-3320	Lufthansa	LH	DLH	Germany
-3321	Lufthansa Cargo	LH	GEC	Germany
-3322	Lufthansa CityLine	CL	CLH	Germany
-3326	Lufttransport	L5	LTR	Norway
-3329	Luxair	LG	LGL	Luxembourg
-3342	L	MJ	LPR	Argentina
-3349	MasAir	M7	MAA	Mexico
-3350	MAT Macedonian Airlines	IN	MAK	Macedonia
-3354	MIAT Mongolian Airlines	OM	MGL	Mongolia
-3357	MNG Airlines	MB	MNB	Turkey
-3363	Macair Airlines	CC	MCK	Australia
-3370	Mahan Air	W5	IRM	Iran
-3378	Malaysia Airlines	MH	MAS	Malaysia
-3386	Malmö Aviation	TF	SCW	Sweden
-3387	Malta Air Charter	R5	MAC	Malta
-3389	Malév	MA	MAH	Hungary
-3391	Mandala Airlines	RI	MDL	Indonesia
-3392	Mandarin Airlines	AE	MDA	Taiwan
-3393	Mango	JE	MNO	South Africa
-3411	Martinair	MP	MPH	Netherlands
-3432	Maxair	8M	MXL	Sweden
-3437	Maya Island Air	MW	MYD	Belize
-3463	Meridiana	IG	ISS	Italy
-3465	Merpati Nusantara Airlines	MZ	MNA	Indonesia
-3466	Mesa Airlines	YV	ASH	United States
-3467	Mesaba Airlines	XJ	MES	United States
-3479	Mexicana de Aviaci	MX	MXA	Mexico
-3490	Middle East Airlines	ME	MEA	Lebanon
-3494	Midway Airlines	JI	MDW	United States
-3497	Midwest Airlines	YX	MEP	United States
-3498	Midwest Airlines (Egypt)	MY	MWA	Egypt
-3529	Moldavian Airlines	2M	MDV	Moldova
-3532	Monarch Airlines	ZB	MON	United Kingdom
-3539	Montenegro Airlines	YM	MGX	Montenegro
-3545	Moskovia Airlines	3R	GAI	Russia
-3547	Motor Sich	M9	MSI	Ukraine
-3568	MyTravel Airways	VZ	MYT	United Kingdom
-3569	Myanma Airways	UB	UBA	Myanmar
-3570	Myanmar Airways International	8M	MMM	Myanmar
-3589	Nasair	UE	NAS	Eritrea
-3608	National Jet Systems	NC	NJS	Australia
-3613	Nationwide Airlines	CE	NTW	South Africa
-3618	Nauru Air Corporation	ON	RON	Nauru
-3637	Nepal Airlines	RA	RNA	Nepal
-3641	NetJets	1I	EJA	United States
-3644	New England Airlines	EJ	NEA	United States
-3652	NextJet	2N	NTJ	Sweden
-3661	Niki	HG	NLY	Austria
-3674	Nok Air	DD	NOK	Thailand
-3731	Northwest Airlines	NW	NWA	United States
-3734	Northwestern Air	J3	PLR	Canada
-3737	Norwegian Air Shuttle	DY	NAX	Norway
-3740	Nouvel Air Tunisie	BJ	LBT	Tunisia
-3743	Novair	1I	NVR	Sweden
-3754	Nas Air	XY	KNE	Saudi Arabia
-3759	Oasis Hong Kong Airlines	O8	OHK	Hong Kong
-3764	Oceanair	O6	ONE	Brazil
-3776	Olympic Airlines	OA	OAL	Greece
-3778	Oman Air	WY	OMA	Oman
-3781	Omni Air International	OY	OAE	United States
-3788	Onur Air	8Q	OHY	Turkey
-3805	Orenburg Airlines	R2	ORB	Russia
-3811	Orient Thai Airlines	OX	OEA	Thailand
-3814	Origin Pacific Airways	QO	OGN	New Zealand
-3822	Ostfriesische Lufttransport	OL	OLT	Germany
-3826	Overland Airways	OJ	OLA	Nigeria
-3831	Ozjet Airlines	O7	OZJ	Australia
-3834	PAN Air	PV	PNR	Spain
-3835	PB Air	9Q	PBA	Thailand
-3839	PLUNA	PU	PUA	Uruguay
-3840	PMTair	U4	PMT	Cambodia
-3850	Jetstar Pacific	BL	PIC	Vietnam
-3856	Pacific Coastal Airline	8P	PCO	Canada
-3857	Pacific East Asia Cargo Airlines	Q8	PEC	Philippines
-3865	Pacific Wings	LW	NMI	United States
-3871	Pakistan International Airlines	PK	PIA	Pakistan
-3907	Paramount Airways	I7	PMW	India
-3926	Pegasus Airlines	PC	PGT	Turkey
-3935	Peninsula Airways	KS	PEN	United States
-3952	Philippine Airlines	PR	PAL	Philippines
-3969	Piedmont Airlines (1948-1989)	PI	PDT	United States
-3976	Pinnacle Airlines	9E	FLG	United States
-4013	Polynesian Airlines	PH	PAO	Samoa
-4021	Porter Airlines	PD	POE	Canada
-4022	Portugalia	NI	PGA	Portugal
-4026	Potomac Air	BK	PDC	United States
-4031	Precision Air	PW	PRF	Tanzania
-4089	Qantas	QF	QFA	Australia
-4091	Qatar Airways	QR	QTR	Qatar
-4178	Regional Express	ZL	RXA	Australia
-4187	Republic Airlines	RW	RPA	United States
-4188	Republic Express Airlines	RH	RPH	Indonesia
-4234	Air Rarotonga	GZ	RAR	Cook Islands
-4248	Royal Air Maroc	AT	RAM	Morocco
-4255	Royal Brunei Airlines	BI	RBA	Brunei
-4259	Royal Jordanian	RJ	RJA	Jordan
-4264	Royal Nepal Airlines	RA	RNA	Nepal
-4292	Rwandair Express	WB	RWD	Rwanda
-4295	Ryan International Airlines	RD	RYN	United States
-4296	Ryanair	FR	RYR	Ireland
-4299	Régional	YS	RAE	France
-4304	SATA International	S4	RZO	Portugal
-4305	South African Airways	SA	SAA	South Africa
-4311	Shaheen Air International	NL	SAI	Pakistan
-4319	Scandinavian Airlines System	SK	SAS	Sweden
-4329	S7 Airlines	S7	SBI	Russia
-4335	Seaborne Airlines	BB	SBS	United States
-4349	SriLankan Airlines	UL	ALK	Sri Lanka
-4356	Sun Country Airlines	SY	SCX	United States
-4374	Sky Express	G3	SEH	Greece
-4375	Spicejet	SG	SEJ	India
-4388	Star Flyer	7G	SFJ	Japan
-4411	Skagway Air Service	N5	SGY	United States
-4429	SATA Air Acores	SP	SAT	Portugal
-4435	Singapore Airlines	SQ	SIA	Singapore
-4436	Sibaviatrans	5M	SIB	Russia
-4438	Skynet Airlines	SI	SIH	Ireland
-4454	Sriwijaya Air	SJ	SJY	Indonesia
-4455	Sama Airlines	ZS	SMY	Saudi Arabia
-4464	Singapore Airlines Cargo	SQ	SQC	Singapore
-4469	Siem Reap Airways	FT	SRH	Cambodia
-4475	South East Asian Airlines	DG	SRQ	Philippines
-4496	Skyservice Airlines	5G	SSV	Canada
-4513	Servicios de Transportes A	FS	STU	Argentina
-4521	Sudan Airways	SD	SUD	Sudan
-4533	Saudi Arabian Airlines	SV	SVA	Saudi Arabia
-4547	Southwest Airlines	WN	SWA	United States
-4550	Southern Winds Airlines	A4	SWD	Argentina
-4559	Swiss International Air Lines	LX	SWR	Switzerland
-4560	Swissair	SR	SWR	Switzerland
-4564	Swe Fly	WV	SWV	Sweden
-4573	SunExpress	XQ	SXS	Turkey
-4586	Syrian Arab Airlines	RB	SYR	Syrian Arab Republic
-4589	Skywalk Airlines	AL	SYX	United States
-4599	Shandong Airlines	SC	CDG	China
-4607	Spring Airlines	9S	CQH	China
-4608	Sichuan Airlines	3U	CSC	China
-4609	Shanghai Airlines	FM	CSH	China
-4611	Shenzhen Airlines	ZH	CSZ	China
-4619	Sun D'Or	7L	ERO	Israel
-4620	SkyEurope	NE	ESK	Slovakia
-4652	Spanair	JK	JKK	Spain
-4687	Spirit Airlines	NK	NKS	United States
-4691	SATENA	9R	NSE	Colombia
-4735	Santa Barbara Airlines	S3	BBR	Venezuela
-4737	Sky Airline	H2	SKU	Chile
-4738	SkyWest	OO	SKW	United States
-4739	Skyways Express	JZ	SKX	Sweden
-4740	Skymark Airlines	BC	SKY	Japan
-4750	SilkAir	MI	SLK	Singapore
-4752	Surinam Airways	PY	SLM	Suriname
-4776	Sterling Airlines	NB	SNB	Denmark
-4781	Skynet Asia Airways	6J	SNJ	Japan
-4797	Solomon Airlines	IE	SOL	Solomon Islands
-4805	Saratov Aviation Division	6W	SOV	Russia
-4808	Sat Airlines	HZ	SOZ	Kazakhstan
-4822	Shuttle America	S5	TCF	United States
-4840	Scat Air	DV	VSV	Kazakhstan
-4863	TAME	EQ	TAE	Ecuador
-4867	TAM Brazilian Airlines	JJ	TAM	Brazil
-4869	TAP Portugal	TP	TAP	Portugal
-4870	Tunisair	TU	TAR	Tunisia
-4889	Thai Air Cargo	T2	TCG	Thailand
-4896	Thomas Cook Airlines	FQ	TCW	Belgium
-4897	Thomas Cook Airlines	MT	TCX	United Kingdom
-4936	Tiger Airways	TR	TGW	Singapore
-4937	Tiger Airways Australia	TT	TGW	Australia
-4940	Thai Airways International	TG	THA	Thailand
-4947	Thai AirAsia	FD	AIQ	Thailand
-4951	Turkish Airlines	TK	THY	Turkey
-4965	Twin Jet	T7	TJT	France
-4981	Trans Mediterranean Airlines	TL	TMA	Lebanon
-5002	Tiara Air	3P	TNM	Aruba
-5013	Thomsonfly	BY	TOM	United Kingdom
-5016	Tropic Air	PM	TOS	Belize
-5020	TAMPA	QT	TPA	Colombia
-5038	TransAsia Airways	GE	TNA	Taiwan
-5039	Transavia Holland	HV	TRA	Netherlands
-5041	TACV	VR	TCV	Portugal
-5064	Transwest Air	9T	ABS	Canada
-5067	Transaero Airlines	UN	TSO	Russia
-5083	Turkmenistan Airlines	T5	TUA	Turkmenistan
-5085	Tuninter	UG	TUI	Tunisia
-5097	Travel Service	QS	TVS	Czech Republic
-5122	TUIfly Nordic	6B	BLX	Sweden
-5133	TAAG Angola Airlines	DT	DTA	Angola
-5156	TAM Mercosur	PZ	LAP	Paraguay
-5160	Trans States Airlines	AX	LOF	United States
-5179	Tarom	RO	ROT	Romania
-5187	Turan Air	3T	URN	Azerbaijan
-5188	TRIP Linhas A	8R	TIB	Brazil
-5207	USA3000 Airlines	U5	GWY	United States
-5209	United Airlines	UA	UAL	United States
-5234	Ural Airlines	U6	SVR	Russia
-5251	UM Airlines	UF	UKM	Ukraine
-5265	US Airways	US	USA	United States
-5271	UTair Aviation	UT	UTA	Russia
-5281	Uzbekistan Airways	HY	UZB	Uzbekistan
-5282	Ukraine International Airlines	PS	AUI	Ukraine
-5297	Valuair	VF	VLU	Singapore
-5309	Vietnam Airlines	VN	HVN	Vietnam
-5311	VIM Airlines	NN	MOV	Russia
-5325	Volaris	Y4	VOI	Mexico
-5326	Volga-Dnepr Airlines	VI	VDA	Russia
-5331	Virgin America	VX	VRD	United States
-5333	Virgin Express	TV	VEX	Belgium
-5335	Virgin Nigeria Airways	VK	VGN	Nigeria
-5347	Virgin Atlantic Airways	VS	VIR	United Kingdom
-5350	Viva Macau	ZG	VVM	Macao
-5351	Volare Airlines	VE	VLE	Italy
-5352	Vueling Airlines	VY	VLG	Spain
-5353	Vladivostok Air	XF	VLK	Russia
-5354	Varig Log	LC	VLO	Brazil
-5360	Virgin Australia	VA	VOZ	Australia
-5368	VRG Linhas Aereas	RG	VRN	Brazil
-5373	VASP	VP	VSP	Brazil
-5383	VLM Airlines	VG	VLM	Belgium
-5399	WebJet Linhas A	WJ	WEB	Brazil
-5401	Welcome Air	2W	WLC	Austria
-5416	WestJet	WS	WJA	Canada
-5424	Western Airlines	WA	WAL	United States
-5439	Widerøe	WF	WIF	Norway
-5447	Wind Jet	IV	JET	Italy
-5451	Wings Air	IW	WON	Indonesia
-5461	Wizz Air	W6	WZZ	Hungary
-5462	Wizz Air Hungary	8Z	WVL	Bulgaria
-5465	World Airways	WO	WOA	United States
-5479	XL Airways France	SE	SEU	France
-5484	Xiamen Airlines	MF	CXA	China
-5492	Yamal Airlines	YL	LLM	Russia
-5496	Yemenia	IY	IYE	Yemen
-5523	Zoom Airlines	Z4	OOM	Canada
-5584	Sky Express	XW	SXR	Russia
-5651	Royal Air Cambodge	VJ	RAC	Cambodia
-5982	Air Busan	BX	ABL	Republic of Korea
-6196	Globus	GH	GLP	Russia
-6222	Air Kazakhstan	9Y	KZK	Kazakhstan
-6557	Japan Air System	JD	JAS	Japan
-8463	United Airways	4H	UBD	Bangladesh
-8576	Fly540	5H	FFV	Kenya
-8745	Transavia France	TO	TVF	France
-8809	Island Air (WP)	WP	MKU	United States
-9082	Uni Air	B7	UIA	Taiwan
-9239	Red Wings	WZ	RWZ	Russia
-9343	Felix Airways	FU	FXX	Yemen
-9344	Kostromskie avialinii	K1	KOQ	Russia
-9373	Greenfly	XX	GFY	Spain
-9577	ELK Airways	--	ELK	Estonia
-9620	Gabon Airlines	GY	GBK	Gabon
-9656	Maldivo Airlines	ML	MAV	Maldives
-9666	Virgin Pacific	VH	VNP	Fiji
-9809	Eastar Jet	ZE	ESR	South Korea
-9810	Jin Air	LJ	JNA	South Korea
-9825	Baltic Air lines	B1	BA1	Latvia
-9828	Ciel Canadien	YC	YCC	Canada
-9829	Canadian National Airways	CN	YCP	Canada
-9833	Epic Holiday	FA	4AA	United States
-10114	Line Blue	L8	LBL	Germany
-10123	Texas Wings	TQ	TXW	United States
-10128	Dennis Sky	DH	DSY	Israel
-10226	Atifly	A1	A1F	United States
-10673	CanXpress	C1	CA1	Canada
-10675	Sharp Airlines	SH	SHA	Australia
-10683	CanXplorer	C2	CAP	Canada
-10735	World Experience Airline	W1	WE1	Canada
-10748	Locair	ZQ	LOC	United States
-10765	SeaPort Airlines	K5	SQH	United States
-10800	Star1 Airlines	V9	HCW	Lithuania
-10955	MexicanaLink	I6	MXI	Mexico
-10960	Island Spirit	IP	ISX	Iceland
-11755	Regional Paraguaya	P7	REP	Paraguay
-11811	AlMasria Universal Airlines	UJ	LMU	Egypt
-11816	KoralBlue Airlines	K7	KBR	Egypt
-11823	Elysian Airlines	E4	GIE	Cameroon
-11834	Hellenic Imperial Airways	HT	IMP	Greece
-11836	Amsterdam Airlines	WD	AAN	Netherlands
-11838	Arik Niger	Q9	NAK	Niger
-11840	STP Airways	8F	STP	Sao Tome and Principe
-11850	Skyjet Airlines	UQ	SJU	Uganda
-11857	Royal Falcon	RL	RFJ	Jordan
-11873	Euroline	4L	MJX	Georgia
-11948	Viking Hellas	VQ	VKH	Greece
-12962	Gadair European Airlines	GP	GDR	Spain
-12965	Spirit of Manila Airlines	SM	MNP	Philippines
-12975	Chongqing Airlines	OQ	CQN	China
-12978	West Air China	PN	CHB	China
-12997	QatXpress	C3	QAX	Qatar
-13076	OneChina	1C	1CH	China
-13089	Joy Air	JR	JOY	China
-13303	Parmiss Airlines (IPV)	PA	IPV	Iran
-13304	EuropeSky	ES	EUV	Germany
-13306	BRAZIL AIR	GB	BZE	Brazil
-13335	Homer Air	MR	OME	Germany
-13633	PanAm World Airways	WQ	PQW	United States
-13690	Virginwings	YY	VWA	Germany
-13704	KSY	KY	KSY	Greece
-13732	Buquebus Líneas Aéreas	BQ	BQB	Uruguay
-13734	SOCHI AIR	CQ	KOL	Russia
-13757	Wizz Air Ukraine	WU	WAU	Ukraine
-13781	88	47	VVN	Cyprus
-13815	LCM AIRLINES	LQ	LMM	Russia
-13947	Tom\\'s & co airliners	&T	T&O	France
-13983	Azul	AD	AZU	Brazil
-14061	LSM Airlines	PQ	LOO	Russia
-14094	LionXpress	C4	LIX	Cameroon
-14485	Fly Dubai	FZ	FDB	United Arab Emirates
-14620	Domenican Airlines	D1	MDO	Dominican Republic
-14849	Aereonautica militare	JY	AXZ	Italy
-14881	LSM AIRLINES 	YZ	YZZ	Russia
-15867	Zabaykalskii Airlines	ZP	ZZZ	Russia
-15893	Marysya Airlines	M4	1QA	Russia
-15975	Black Stallion Airways	BZ	BSA	United States
-15984	German International Air Lines	GM	GER	Germany
-15985	TrasBrasil	TB	TBZ	Brazil
-15989	TransBrasil Airlines	TH	THS	Brazil
-16103	Air Mekong	P8	MKG	Vietnam
-16116	Air Hamburg (AHO)	HH	AHO	Germany
-16120	ZABAIKAL AIRLINES	Z6	ZTT	Russia
-16127	TransHolding	TI	THI	Brazil
-16139	Serbian Airlines	S1	SA1	Serbia
-16150	TransHolding System	YO	TYS	Brazil
-16151	CCML Airlines	CB	CCC	Colombia
-16234	Fly Brasil	F1	FBL	Brazil
-16261	CB Airways UK ( Interliging Flights )	1F	CIF	United Kingdom
-16262	Fly Colombia ( Interliging Flights )	3F	3FF	Colombia
-16264	Trans Pas Air	T6	TP6	United States
-16323	Himalayan Airlines	HC	HYM	Nepal
-16327	Indya Airline Group	G1	IG1	India
-16359	Japan Regio	ZX	ZXY	Japan
-16459	Sky Regional	RS	SKV	Canada
-16507	LSM International 	II	UWW	Russia
-16508	Baikotovitchestrian Airlines 	BU	BUU	American Samoa
-16511	Luchsh Airlines 	L4	LJJ	Russia
-16615	Mongolian International Air Lines 	7M	ZTF	Mongolia
-16624	Tway Airlines	TW	TWB	South Korea
-16628	Jusur airways	JX	JSR	Egypt
-16645	NEXT Brasil	XB	NXB	Brazil
-16660	AeroWorld 	W4	WER	Russia
-16702	Usa Sky Cargo	E1	ES2	United States
-16707	Hankook Airline	HN	HNX	South Korea
-16725	Marusya Airways	Y8	MRS	Russia
-16726	Era Alaska	7H	ERR	United States
-16728	AirRussia	R8	RRJ	Russia
-16735	Hankook Air US	H1	HA1	United States
-16796	I-Fly	H5	RSY	Russia
-16837	VickJet	KT	VKJ	France
-16860	Salsa d\\'Haiti	SO	SLC	Haiti
-16901	12 North	12	N12	India
-16942	Mauritania Airlines International	L6	MAI	Mauritania
-16956	MAT Airways	6F	MKD	Macedonia
-16960	Asian Wings Airways	AW	AWM	Burma
-16963	Air Arabia Egypt	E5	RBG	Egypt
-17022	Orchid Airlines	OI	ORC	Australia
-17023	Asia Wings	Y5	AWA	Kazakhstan
-17083	Nile Air	NP	NIA	Egypt
-17094	Senegal Airlines	DN	SGG	Senegal
-17115	Copenhagen Express	0X	CX0	Denmark
-17408	BusinessAir	8B	BCC	Thailand
-17571	Sky Wing Pacific	C7	CR7	South Korea
-17574	Air Indus	PP	AI0	Pakistan
-17750	Aviabus	U1	ABI	Russia
-17780	Michael Airlines	DF	MJG	Puerto Rico
-17786	Korongo Airlines	ZC	KGO	Congo (Kinshasa)
-17794	Indonesia Sky	I5	IDS	Indonesia
-17841	Aws express	B0	666	United States
-17859	Southjet	76	SJS	United States
-17860	Southjet connect	77	ZCS	United States
-17862	Southjet cargo	78	XAN	United States
-17881	Iberia Express	I2	IBS	Spain
-17890	Nordic Global Airlines	NJ	NGB	Finland
-17891	Scoot	TZ	SCO	Singapore
-17935	Zenith International Airline	ZN	ZNA	Thailand
-17936	Orbit Airlines Azerbaijan	O1	OAB	Azerbaijan
-18178	Vision Airlines (V2)	V2	RBY	United States
-18239	Yellowtail	YE	YEL	United States
-18241	Royal Airways	KG	RAW	United States
-18252	FlyHigh Airlines Ireland (FH)	FH	FHI	Ireland
-18529	T.J. Air	TJ	TJA	United States
-18700	SOCHI AIR CHATER	Q3	QER	Russia
-18732	Malindo Air	OD	MXD	Malaysia
-18930	Maryland Air	M1	M1F	United States
-18946	VivaColombia	5Z	VVC	Colombia
-19016	Apache Air	ZM	IWA	United States
-19030	Jettor Airlines	NR	JTO	Hong Kong
-19287	National Air Cargo	N8	NCR	United States
-19290	Eastern Atlantic Virtual Airlines	13	EAV	United States
-19361	Snowbird Airlines	S8	SBD	Finland
-19367	Kharkiv Airlines	KH	KHK	Ukraine
-19433	XAIR USA	XA	XAU	United States
-19473	XPTO	XP	XPT	Portugal
-19582	Air Serbia	JU	ASL	Serbia
-19610	Air Lituanica	LT	LTU	Lithuania
-19674	Rainbow Air (RAI)	RN	RAB	United States
-19675	Rainbow Air Canada	RY	RAY	Canada
-19676	Rainbow Air Polynesia	RX	RPO	United States
-19677	Rainbow Air Euro	RU	RUE	United Kingdom
-19678	Rainbow Air US	RM	RNY	United States
-19751	Dobrolet	QD	DOB	Russia
-19774	Spike Airlines	S0	SAL	United States
-19803	All Argentina	L1	AL1	Argentina
-19804	All America	A2	AL2	United States
-19805	All Asia	L9	AL3	China
-19806	All Africa	9A	99F	South Africa
-19807	Regionalia México	N4	J88	Mexico
-19808	All Europe	N9	N99	United Kingdom
-19809	All Spain	N7	N77	Spain
-19810	Regional Air Iceland	9N	N78	Iceland
-19812	Voestar	8K	K88	Brazil
-19813	All Colombia	7O	7KK	Colombia
-19814	Regionalia Uruguay	2X	2K2	Uruguay
-19815	Regionalia Venezuela	9X	9XX	Venezuela
-19827	Regionalia Chile	9J	CR1	Chile
-19828	Vuela Cuba	6C	6CC	Cuba
-19830	All Australia	88	8K8	Australia
-19831	Fly Europa	ER	RWW	Spain
-19834	FlyPortugal	PO	FPT	Portugal
-19886	Spring Airlines Japan	IJ	SJO	Japan
-19890	Dense Airways	KP	DWA	United States
-19891	Dense Connection	KZ	DC2	United States
-19908	Vuola Italia	4S	VI4	Italy
-19928	All Argentina Express	Z0	Z9H	Argentina
-19970	All America AR	2R	M7A	Argentina
-19971	All America CL	1R	R1R	Chile
-19974	SOCHI AIR EXPRESS	Q4	SAE	Russia
-19977	All America BR	1Y	A9B	Brazil
-20004	Volotea Costa Rica	9V	VC9	Costa Rica
-20017	Fly Romania	X5	OTJ	Romania
-20073	All America CO	0Y	7ZC	Colombia
-20074	All America MX	0M	0MM	Mexico
-20110	FOX Linhas Aereas	FX	FOX	Brazil
-20144	Via Conectia Airlines	6V	CZV	Uruguay
-20160	City Airways	E8	GTA	Thailand
-20170	Norwegian Long Haul AS	DU	NLH	Norway
-20207	TransNusa Air	M8	TNU	Indonesia
-20218	Tomp Airlines	ZT	T9P	Chile
-20224	Global Airlines	0G	GA0	Argentina
-20264	Air Vistara	UK	VTI	India
-20268	TransRussiaAirlines	1E	RGG	Russia
-20282	REXAIR VIRTUEL	RR	RXR	France
-20285	WestJet Encore	WR	WEN	Canada
-20286	Air Pegasus	OP	PPL	India
-20288	International Europe	9I	INE	Spain
-20401	V Air	ZV	VAX	Taiwan
-20565	Boutique Air (Priv)	4B	BTQ	United States
-20577	VOLOTEA Airways	V7	VOE	Spain
-20599	INAVIA Internacional	Z5	IIR	Argentina
-20607	Liberty Airways	LE	LTY	United States
-20657	Bassaka airlines	5B	BSX	Cambodia
-20769	VIA Líneas Aéreas	V1	VIA	Argentina
-20802	GermanXL	GX	GXG	Germany
-20827	Fly France	FF	FRF	France
-20881	Europe Jet	EX	EU9	France
-20976	World Scale Airlines	W3	WSS	United States
-20978	All America US	AG	SSA	United States
-20995	BudgetAir	1K	BG1	Germany
-21012	Fly One	F5	FI5	Moldova
-21131	All America BOPY	0P	PYB	Paraguay
-21317	Svyaz Rossiya	7R	SJM	Russia
+1	1Time Airline	1T	RNX	South Africa
+2	40-Mile Air	Q5	MLA	United States
+3	Ansett Australia	AN	AAA	Australia
+4	Aigle Azur	ZI	AAF	France
+5	Aloha Airlines	AQ	AAH	United States
+6	American Airlines	AA	AAL	United States
+7	Asiana Airlines	OZ	AAR	Republic of Korea
+8	Askari Aviation	4K	AAS	Pakistan
+9	Afriqiyah Airways	8U	AAW	Libya
+10	Allegiant Air	G4	AAY	United States
+11	ABSA - Aerolinhas Brasileiras	M3	TUS	Brazil
+12	Astral Aviation	8V	ACP	Kenya
+13	Ada Air	ZY	ADE	Albania
+14	Adria Airways	JP	ADR	Slovenia
+15	Air Europa	UX	AEA	Spain
+16	Aero Benin	EM	AEB	Benin
+17	Aegean Airlines	A3	AEE	Greece
+18	Air Europe	PE	AEL	Italy
+19	Alaska Central Express	KO	AER	United States
+20	Astraeus	5W	AEU	United Kingdom
+21	Aerosvit Airlines	VV	AEW	Ukraine
+22	Air Italy	I9	AEY	Italy
+23	Alliance Airlines	QQ	UTY	Australia
+24	Ariana Afghan Airlines	FG	AFG	Afghanistan
+25	Aeroflot Russian Airlines	SU	AFL	Russia
+26	Air Bosna	JA	BON	Bosnia and Herzegovina
+27	Air France	AF	AFR	France
+28	Air Caledonie International	SB	ACI	France
+29	Air Cargo Carriers	2Q	SNC	United States
+30	Air Namibia	SW	NMB	Namibia
+31	Aerolitoral	5D	SLI	Mexico
+32	Air Glaciers	7T	AGV	Switzerland
+33	Aeroper	PL	PLI	Peru
+34	Atlas Blue	8A	BMM	Morocco
+35	Azerbaijan Airlines	J2	AHY	Azerbaijan
+36	Avies	U3	AIA	Estonia
+37	Airblue	ED	ABQ	Pakistan
+38	Air Berlin	AB	BER	Germany
+39	Air India Limited	AI	AIC	India
+40	Air Bourbon	ZB	BUB	Reunion
+41	Air Atlanta Icelandic	CC	ABD	Iceland
+42	Air Tahiti Nui	TN	THT	France
+43	Arkia Israel Airlines	IZ	AIZ	Israel
+44	Air Jamaica	JM	AJM	Jamaica
+45	Air One	AP	ADH	Italy
+46	Air Sahara	S2	RSH	India
+47	Air Malta	KM	AMC	Malta
+48	Air Japan	NQ	AJX	Japan
+49	Air Kiribati	4A	AKL	Kiribati
+50	America West Airlines	HP	AWE	United States
+51	Air Wisconsin	ZW	AWI	United States
+52	Tatarstan Airlines	U9	TAK	Russia
+53	Air Malawi	QM	AML	Malawi
+54	Air Macau	NX	AMU	Macao
+55	Air Seychelles	HM	SEY	Seychelles
+56	AeroMéxico	AM	AMX	Mexico
+57	All Nippon Airways	NH	ANA	Japan
+58	Air Nostrum	YW	ANE	Spain
+59	Air Niugini	PX	ANG	Papua New Guinea
+60	Air Arabia	G9	ABY	United Arab Emirates
+61	Air Canada	AC	ACA	Canada
+62	Air Baltic	BT	BTI	Latvia
+63	Air Nippon	EL	ANK	Japan
+64	Airnorth	TL	ANO	Australia
+65	Air North Charter - Canada	4N	ANT	Canada
+66	Air New Zealand	NZ	ANZ	New Zealand
+67	Alitalia Express	XM	SMX	Italy
+68	Aero Flight	GV	ARF	Germany
+69	Arrow Air	JW	APW	United States
+70	Aerocondor	2B	ARD	Portugal
+71	Aires	4C	ARE	 S.A.
+72	Aerolineas Argentinas	AR	ARG	Argentina
+73	Alaska Airlines	AS	ASA	ALASKA
+74	Air Sinai	4D	ASD	Egypt
+75	Atlantic Southeast Airlines	EV	ASQ	United States
+76	Astrakhan Airlines	OB	ASZ	Russia
+77	Air Tanzania	TC	ATC	Tanzania
+78	Air Burkina	2J	VBW	Burkina Faso
+79	Airlines Of Tasmania	FO	ATM	Australia
+80	Air Saint Pierre	PJ	SPM	France
+81	Austrian Airlines	OS	AUA	Austria
+82	Augsburg Airways	IQ	AUB	Germany
+83	Abu Dhabi Amiri Flight	MO	AUH	United Arab Emirates
+84	Aeroflot-Nord	5N	AUL	Russia
+85	Aurigny Air Services	GR	AUR	United Kingdom
+86	Austral Lineas Aereas	AU	AUT	Argentina
+87	Avianca - Aerovias Nacionales de Colombia	AV	AVA	AVIANCA
+88	Air Vanuatu	NF	AVN	Vanuatu
+89	Air Bangladesh	B9	BGD	Bangladesh
+90	Air Mediterranee	DR	BIE	France
+91	Aeroline GmbH	7E	AWU	Germany
+92	Air Wales	6G	AWW	United Kingdom
+93	Air Caraïbes	TX	FWI	France
+94	Air India Express	IX	AXB	India
+95	Air Exel	XT	AXL	Netherlands
+96	AirAsia	AK	AXM	Malaysia
+97	Atlant-Soyuz Airlines	3G	AYZ	Russia
+98	Alitalia	AZ	AZA	Italy
+99	Amaszonas	Z8	AZN	Bolivia
+100	Air Zimbabwe	UM	AZW	Zimbabwe
+101	Aserca Airlines	R7	OCA	Venezuela
+102	Rossiya-Russian Airlines	FV	SDM	Russia
+103	American Eagle Airlines	MQ	EGF	United States
+104	Air Ivoire	VU	VUN	Ivory Coast
+105	Air Botswana	BP	BOT	Botswana
+106	Air Foyle	GS	UPA	United Kingdom
+107	Air Tahiti	VT	VTA	French Polynesia
+108	Air VIA	VL	VIM	Bulgaria
+109	Africa West	FK	WTA	Togo
+110	ATRAN Cargo Airlines	V8	VAS	Russian Federation
+111	Air China	CA	CCA	China
+112	Aero Condor Peru	Q6	CDP	Peru
+113	Air Chathams	CV	CVA	New Zealand
+114	Air Marshall Islands	CW	CWM	Marshall Islands
+115	Access Air	ZA	CYD	United States
+116	Air Algerie	AH	DAH	Algeria
+117	Adam Air	KI	DHI	Indonesia
+118	Air Dolomiti	EN	DLA	Italy
+119	Aeroflot-Don	D9	DNV	Russia
+120	Air Madrid	NM	DRD	Spain
+121	Aer Lingus	EI	EIN	Ireland
+122	Air Finland	OF	FIF	Finland
+123	Air Pacific	FJ	FJI	Fiji
+124	Atlantic Airways	RC	FLI	Faroe Islands
+125	Air Florida	QH	FLZ	United States
+126	Air Iceland	NY	FXI	Iceland
+127	Air Philippines	2P	GAP	Philippines
+128	Air Guinee Express	2U	GIP	Guinea
+129	Air Greenland	GL	GRL	Denmark
+130	Atlas Air	5Y	GTI	United States
+131	Air Guyane	GG	GUY	French Guiana
+132	Air Bagan	W9	JAB	Myanmar
+133	Air Canada Jazz	QK	JZA	Canada
+134	Atlasjet	KK	KKK	Turkey
+135	Air Koryo	JS	KOR	Democratic People's Republic of Korea
+136	Air Astana	KC	KZR	Kazakhstan
+137	Albanian Airlines	LV	LBC	Albania
+138	Aerolane	XL	LNE	Ecuador
+139	Atlantis European Airways	TD	LUR	Armenia
+140	Air Luxor	LK	LXR	Portugal
+141	Air Mauritius	MK	MAU	Mauritius
+142	Air Madagascar	MD	MDG	Madagascar
+143	Air Moldova	9U	MLD	Moldova
+144	Air Plus Comet	A7	MPD	Spain
+145	Aero Contractors	AJ	NIG	Nigeria
+146	Aeropelican Air Services	OT	PEL	Australia
+147	Aer Arann	RE	REA	Ireland
+148	Air Austral	UU	REU	France
+149	Asian Spirit	6K	RIT	Philippines
+150	Air Afrique	RK	RKA	Ivory Coast
+151	Airlinair	A5	RLA	France
+152	Aero Lanka	QL	RLN	Sri Lanka
+153	Air Salone	20	RNE	Sierra Leone
+154	Armavia	U8	RNV	Armenia
+155	AeroRep	P5	RPB	Colombia
+156	Aero-Service	BF	RSR	Republic of the Congo
+157	Aerosur	5L	RSU	Bolivia
+158	Avient Aviation	Z3	SMJ	Zimbabwe
+159	Aircompany Yakutia	R3	SYL	Russia
+160	Aeromar	VW	TAO	Mexico
+161	Arkefly	OR	TFL	Netherlands
+162	Airlines PNG	CG	TOK	Papua New Guinea
+163	AirTran Airways	FL	TRS	United States
+164	Air Transat	TS	TSC	Canada
+165	Avialeasing Aviation Company	EC	TWN	Uzbekistan
+166	Tyrolean Airways	VO	TYR	Austria
+167	Aerolineas Galapagos (Aerogal)	2K	GLG	Ecuador
+168	Alrosa Mirny Air Enterprise	6R	DRU	Russia
+169	British Airways	BA	BAW	United Kingdom
+170	Biman Bangladesh Airlines	BG	BBC	Bangladesh
+171	Belair Airlines	4T	BHP	Switzerland
+172	Bahamasair	UP	BHS	Bahamas
+173	British International Helicopters	BS	BIH	United Kingdom
+174	Bangkok Airways	PG	BKP	Thailand
+175	Blue1	KF	BLF	Finland
+176	Bearskin Lake Air Service	JV	BLS	Canada
+177	Bellview Airlines	B3	BLV	Nigeria
+178	bmi	BD	BMA	United Kingdom
+179	bmibaby	WW	BMI	United Kingdom
+180	Bemidji Airlines	CH	BMJ	United States
+181	Blue Panorama Airlines	BV	BPA	Italy
+182	Bering Air	8E	BRG	United States
+183	Belavia Belarusian Airlines	B2	BRU	Belarus
+184	Metro Batavia	7P	BTV	Indonesia
+185	Berjaya Air	J8	BVT	Malaysia
+186	Blue Wings	QW	BWG	Germany
+187	Brit Air	DB	BZH	France
+188	Brussels Airlines	SN	DAT	Belgium
+189	Binter Canarias	NT	IBB	Spain
+190	Blue Air	0B	JOR	Romania
+191	British Mediterranean Airways	KJ	LAJ	United Kingdom
+192	Bulgaria Air	FB	LZB	Bulgaria
+193	Barents AirLink	8N	NKF	Sweden
+194	CAL Cargo Air Lines	5C	ICL	Israel
+195	Calima Aviacion	XG	CLI	Spain
+196	Canadian Airlines	CP	CDN	Canada
+197	Canadian North	5T	MPE	Canada
+198	Cape Air	9K	KAP	United States
+199	Caribbean Airlines	BW	BWA	Trinidad and Tobago
+200	Carpatair	V3	KRP	Romania
+201	Caspian Airlines	RV	CPN	Iran
+202	Cathay Pacific	CX	CPA	Hong Kong SAR of China
+203	Cayman Airways	KX	CAY	Cayman Islands
+204	Cebu Pacific	5J	CEB	Philippines
+205	Centralwings	C0	CLW	Poland
+206	Chautauqua Airlines	RP	CHQ	United States
+207	China Airlines	CI	CAL	Taiwan
+208	China Eastern Airlines	MU	CES	China
+209	China Southern Airlines	CZ	CSN	China
+210	China United Airlines	HR	CUA	China
+211	Yunnan Airlines	3Q	CYH	China
+212	Cimber Air	QI	CIM	Denmark
+213	Cirrus Airlines	C9	RUS	Germany
+214	City Airline	CF	SDR	Sweden
+215	City Connexion Airlines	G3	CIX	Burundi
+216	CityJet	WX	BCY	Ireland
+217	BA CityFlyer	CJ	CFE	United Kingdom
+218	Colgan Air	9L	CJC	United States
+219	Comair	OH	COM	United States
+220	Comair	MN	CAW	South Africa
+221	CommutAir	C5	UCA	United States
+222	Comores Airlines	KR	CWK	Comoros
+223	Compass Airlines	CP	CPZ	United States
+224	Condor Flugdienst	DE	CFG	Germany
+225	Consorcio Aviaxsa	6A	CHP	Mexico
+226	Contact Air	C3	KIS	Germany
+227	Continental Airlines	CO	COA	United States
+228	Continental Micronesia	CS	CMI	United States
+229	Conviasa	V0	VCV	Venezuela
+230	Copa Airlines	CM	CMP	Panama
+231	Corsairfly	SS	CRL	France
+232	Corse-Mediterranee	XK	CCM	France
+233	Croatia Airlines	OU	CTN	Croatia
+234	Cubana de Aviación	CU	CUB	Cuba
+235	Cyprus Airways	CY	CYP	Cyprus
+236	Czech Airlines	OK	CSA	Czech Republic
+237	DAT Danish Air Transport	DX	DTR	Denmark
+238	Daallo Airlines	D3	DAO	Djibouti
+239	Dalavia	H8	KHB	Russia
+240	Darwin Airline	0D	DWT	Switzerland
+241	Delta Air Lines	DL	DAL	United States
+242	Djibouti Airlines	D8	DJB	Djibouti
+243	Dominicana de Aviaci	DO	DOA	Dominican Republic
+244	Domodedovo Airlines	E3	DMO	Russia
+245	DonbassAero	5D	UDC	Ukraine
+246	Dragonair	KA	HDA	DRAGON
+247	Druk Air	KB	DRK	Bhutan
+248	dba	DI	BAG	Germany
+249	EVA Air	BR	EVA	Taiwan
+250	East African	QU	UGX	Uganda
+251	Eastern Airways	T3	EZE	United Kingdom
+252	Eastland Air	DK	ELA	Australia
+253	Edelweiss Air	WK	EDW	Switzerland
+254	Egyptair	MS	MSR	Egypt
+255	El Al Israel Airlines	LY	ELY	Israel
+256	El-Buraq Air Transport	UZ	BRQ	Libya
+257	Emirates	EK	UAE	United Arab Emirates
+258	Empresa Ecuatoriana De Aviacion	EU	EEA	Ecuador
+259	Eritrean Airlines	B8	ERT	Eritrea
+260	Estonian Air	OV	ELL	Estonia
+261	Ethiopian Airlines	ET	ETH	Ethiopia
+262	Etihad Airways	EY	ETD	United Arab Emirates
+263	Eurocypria Airlines	UI	ECA	Cyprus
+264	Eurofly Service	GJ	EEU	Italy
+265	Eurolot	K2	ELO	Poland
+266	European Air Express	EA	EAL	Germany
+267	Eurowings	EW	EWG	Germany
+268	Evergreen International Airlines	EZ	EIA	United States
+269	Excel Airways	JN	XLA	United Kingdom
+270	Express One International	EO	LHN	United States
+271	ExpressJet	XE	BTA	United States
+272	easyJet	U2	EZY	United Kingdom
+273	Far Eastern Air Transport	EF	EFA	Taiwan
+274	Finnair	AY	FIN	Finland
+275	Finncomm Airlines	FC	WBA	Finland
+276	Firefly	FY	FFM	Malaysia
+277	First Air	7F	FAB	Canada
+278	First Choice Airways	DP	FCA	United Kingdom
+279	Flightline	B5	FLT	United Kingdom
+280	Florida West International Airways	RF	FWL	United States
+281	AirAsia X	D7	XAX	Malaysia
+282	FlyLal	TE	LIL	Lithuania
+283	FlyNordic	LF	NDC	Sweden
+284	Flybaboo	F7	BBO	Switzerland
+285	Flybe	BE	BEE	United Kingdom
+286	Flyglobespan	B4	GSM	United Kingdom
+287	Formosa Airlines	VY	FOS	Taiwan
+288	Freedom Air	FP	FRE	United States
+289	Frontier Airlines	F9	FFT	United States
+290	Frontier Flying Service	2F	FTA	United States
+291	GB Airways	GT	GBL	United Kingdom
+292	Garuda Indonesia	GA	GIA	Indonesia
+293	Gazpromavia	4G	GZP	Russia
+294	Georgian Airways	A9	TGZ	Georgia
+295	Georgian National Airlines	QB	GFG	Georgia
+296	Germania	ST	GMI	Germany
+297	Germanwings	4U	GWI	Germany
+298	Ghana International Airlines	G0	GHB	Ghana
+299	Go Air	G8	GOW	India
+300	GoJet Airlines	G7	GJS	United States
+301	Gol Transportes Aéreos	G3	GLO	Brazil
+302	Golden Air	DC	GAO	Sweden
+303	Great Lakes Airlines	ZK	GLA	United States
+304	Grupo TACA	TA	TAT	Costa Rica
+305	Gulf Air Bahrain	GF	GBA	Bahrain
+306	Hageland Aviation Services	H6	HAG	United States
+307	Hainan Airlines	HU	CHH	China
+308	Haiti Ambassador Airlines	2T	HAM	Haiti
+309	Hamburg International	4R	HHI	Germany
+310	TUIfly	X3	HLX	Germany
+311	Hapagfly	HF	HLF	Germany
+312	Hawaiian Airlines	HA	HAL	United States
+313	Heli France	8H	HFR	France
+314	Helijet	JB	JBA	Canada
+315	Hellas Jet	T4	HEJ	Greece
+316	Hello	HW	FHE	Switzerland
+317	Helvetic Airways	2L	OAW	Switzerland
+318	Hex'Air	UD	HER	France
+319	Hokkaido International Airlines	HD	ADO	Japan
+320	Hong Kong Airlines	HX	CRK	Hong Kong SAR of China
+321	Hong Kong Express Airways	UO	HKE	Hong Kong SAR of China
+322	Horizon Air	QX	QXE	United States
+323	Horizon Airlines	BN	HZA	Australia
+324	Iberia Airlines	IB	IBE	Spain
+325	Iberworld	TY	IWD	Spain
+326	Ibex Airlines	FW	IBX	Japan
+327	Icelandair	FI	ICE	Iceland
+328	Imair Airlines	IK	ITX	Azerbaijan
+329	IndiGo Airlines	6E	IGO	India
+330	Indian Airlines	IC	IAC	India
+331	Indigo	I9	IBU	United States
+332	Indonesia AirAsia	QZ	AWQ	Indonesia
+333	Indonesian Airlines	IO	IAA	Indonesia
+334	Interair South Africa	D6	ILN	South Africa
+335	Interavia Airlines	ZA	SUW	Russia
+336	Interlink Airlines	ID	ITK	South Africa
+337	Intersky	3L	ISK	Austria
+338	Iran Air	IR	IRA	Iran
+339	Iran Aseman Airlines	EP	IRC	Iran
+340	Iraqi Airways	IA	IAW	Iraq
+341	Cargo Plus Aviation	8L	CGP	United Arab Emirates
+342	Islas Airways	IF	ISW	Spain
+343	Islena De Inversiones	WC	ISV	Honduras
+344	Israir	6H	ISR	Israel
+345	Itek Air	GI	IKA	Kyrgyzstan
+346	JAL Express	JC	JEX	Japan
+347	JALways	JO	JAZ	Japan
+348	Japan Airlines	JL	JAL	Japan
+349	Japan Airlines Domestic	JL	JAL	Japan
+350	Japan Asia Airways	EG	JAA	Japan
+351	Japan Transocean Air	NU	JTA	Japan
+352	Jazeera Airways	J9	JZR	Kuwait
+353	Jeju Air	7C	JJA	Republic of Korea
+354	Jet Airways	9W	JAI	India
+355	Jetstar Asia Airways	3K	JSA	Singapore
+356	Jet2.com	LS	EXS	United Kingdom
+357	Jet4You	8J	JFU	Morocco
+358	JetBlue Airways	B6	JBU	United States
+359	Jetairfly	JF	JAF	Belgium
+360	Jetstar Airways	JQ	JST	Australia
+361	Juneyao Airlines	HO	DKH	China
+362	KD Avia	KD	KNI	Russia
+363	KLM Cityhopper	WA	KLC	Netherlands
+364	KLM Royal Dutch Airlines	KL	KLM	Netherlands
+365	Kam Air	RQ	KMF	Afghanistan
+366	Kavminvodyavia	KV	MVD	Russia
+367	Kenmore Air	M5	KEN	United States
+368	Kenya Airways	KQ	KQA	Kenya
+369	Kingfisher Airlines	IT	KFR	India
+370	Kish Air	Y9	IRK	Iran
+371	Kogalymavia Air Company	7K	KGL	Russia
+372	Korean Air	KE	KAL	Republic of Korea
+373	Krasnojarsky Airlines	7B	KJC	Russia
+374	Kuban Airlines	GW	KIL	Russia
+375	Kuwait Airways	KU	KAC	Kuwait
+376	Kuzu Airlines Cargo	GO	KZU	Turkey
+377	LACSA	LR	LRC	Costa Rica
+378	LAN Airlines	LA	LAN	Chile
+379	LAN Argentina	4M	DSM	Argentina
+380	LAN Express	LU	LXP	Chile
+381	LAN Peru	LP	LPE	Peru
+382	LOT Polish Airlines	LO	LOT	Poland
+383	LTE International Airways	XO	LTE	Spain
+384	LTU Austria	L3	LTO	Austria
+385	Lao Airlines	QV	LAO	Lao Peoples Democratic Republic
+386	Lauda Air	NG	LDA	Austria
+387	Leeward Islands Air Transport	LI	LIA	Antigua and Barbuda
+388	Libyan Arab Airlines	LN	LAA	Libya
+389	Linhas A	LM	LAM	Mozambique
+390	Lion Mentari Airlines	JT	LNI	Indonesia
+391	Luftfahrtgesellschaft Walter	HE	LGW	Germany
+392	Lufthansa	LH	DLH	Germany
+393	Lufthansa Cargo	LH	GEC	Germany
+394	Lufthansa CityLine	CL	CLH	Germany
+395	Lufttransport	L5	LTR	Norway
+396	Luxair	LG	LGL	Luxembourg
+397	L	MJ	LPR	Argentina
+398	MasAir	M7	MAA	Mexico
+399	MAT Macedonian Airlines	IN	MAK	Macedonia
+400	MIAT Mongolian Airlines	OM	MGL	Mongolia
+401	MNG Airlines	MB	MNB	Turkey
+402	Macair Airlines	CC	MCK	Australia
+403	Mahan Air	W5	IRM	Iran
+404	Malaysia Airlines	MH	MAS	Malaysia
+405	Malmö Aviation	TF	SCW	Sweden
+406	Malta Air Charter	R5	MAC	Malta
+407	Malév	MA	MAH	Hungary
+408	Mandala Airlines	RI	MDL	Indonesia
+409	Mandarin Airlines	AE	MDA	Taiwan
+410	Mango	JE	MNO	South Africa
+411	Martinair	MP	MPH	Netherlands
+412	Maxair	8M	MXL	Sweden
+413	Maya Island Air	MW	MYD	Belize
+414	Meridiana	IG	ISS	Italy
+415	Merpati Nusantara Airlines	MZ	MNA	Indonesia
+416	Mesa Airlines	YV	ASH	United States
+417	Mesaba Airlines	XJ	MES	United States
+418	Mexicana de Aviaci	MX	MXA	Mexico
+419	Middle East Airlines	ME	MEA	Lebanon
+420	Midway Airlines	JI	MDW	United States
+421	Midwest Airlines	YX	MEP	United States
+422	Midwest Airlines (Egypt)	MY	MWA	Egypt
+423	Moldavian Airlines	2M	MDV	Moldova
+424	Monarch Airlines	ZB	MON	United Kingdom
+425	Montenegro Airlines	YM	MGX	Montenegro
+426	Moskovia Airlines	3R	GAI	Russia
+427	Motor Sich	M9	MSI	Ukraine
+428	MyTravel Airways	VZ	MYT	United Kingdom
+429	Myanma Airways	UB	UBA	Myanmar
+430	Myanmar Airways International	8M	MMM	Myanmar
+431	Nasair	UE	NAS	Eritrea
+432	National Jet Systems	NC	NJS	Australia
+433	Nationwide Airlines	CE	NTW	South Africa
+434	Nauru Air Corporation	ON	RON	Nauru
+435	Nepal Airlines	RA	RNA	Nepal
+436	NetJets	1I	EJA	United States
+437	New England Airlines	EJ	NEA	United States
+438	NextJet	2N	NTJ	Sweden
+439	Niki	HG	NLY	Austria
+440	Nok Air	DD	NOK	Thailand
+441	Northwest Airlines	NW	NWA	United States
+442	Northwestern Air	J3	PLR	Canada
+443	Norwegian Air Shuttle	DY	NAX	Norway
+444	Nouvel Air Tunisie	BJ	LBT	Tunisia
+445	Novair	1I	NVR	Sweden
+446	Nas Air	XY	KNE	Saudi Arabia
+447	Oasis Hong Kong Airlines	O8	OHK	Hong Kong
+448	Oceanair	O6	ONE	Brazil
+449	Olympic Airlines	OA	OAL	Greece
+450	Oman Air	WY	OMA	Oman
+451	Omni Air International	OY	OAE	United States
+452	Onur Air	8Q	OHY	Turkey
+453	Orenburg Airlines	R2	ORB	Russia
+454	Orient Thai Airlines	OX	OEA	Thailand
+455	Origin Pacific Airways	QO	OGN	New Zealand
+456	Ostfriesische Lufttransport	OL	OLT	Germany
+457	Overland Airways	OJ	OLA	Nigeria
+458	Ozjet Airlines	O7	OZJ	Australia
+459	PAN Air	PV	PNR	Spain
+460	PB Air	9Q	PBA	Thailand
+461	PLUNA	PU	PUA	Uruguay
+462	PMTair	U4	PMT	Cambodia
+463	Jetstar Pacific	BL	PIC	Vietnam
+464	Pacific Coastal Airline	8P	PCO	Canada
+465	Pacific East Asia Cargo Airlines	Q8	PEC	Philippines
+466	Pacific Wings	LW	NMI	United States
+467	Pakistan International Airlines	PK	PIA	Pakistan
+468	Paramount Airways	I7	PMW	India
+469	Pegasus Airlines	PC	PGT	Turkey
+470	Peninsula Airways	KS	PEN	United States
+471	Philippine Airlines	PR	PAL	Philippines
+472	Piedmont Airlines (1948-1989)	PI	PDT	United States
+473	Pinnacle Airlines	9E	FLG	United States
+474	Polynesian Airlines	PH	PAO	Samoa
+475	Porter Airlines	PD	POE	Canada
+476	Portugalia	NI	PGA	Portugal
+477	Potomac Air	BK	PDC	United States
+478	Precision Air	PW	PRF	Tanzania
+479	Qantas	QF	QFA	Australia
+480	Qatar Airways	QR	QTR	Qatar
+481	Regional Express	ZL	RXA	Australia
+482	Republic Airlines	RW	RPA	United States
+483	Republic Express Airlines	RH	RPH	Indonesia
+484	Air Rarotonga	GZ	RAR	Cook Islands
+485	Royal Air Maroc	AT	RAM	Morocco
+486	Royal Brunei Airlines	BI	RBA	Brunei
+487	Royal Jordanian	RJ	RJA	Jordan
+488	Royal Nepal Airlines	RA	RNA	Nepal
+489	Rwandair Express	WB	RWD	Rwanda
+490	Ryan International Airlines	RD	RYN	United States
+491	Ryanair	FR	RYR	Ireland
+492	Régional	YS	RAE	France
+493	SATA International	S4	RZO	Portugal
+494	South African Airways	SA	SAA	South Africa
+495	Shaheen Air International	NL	SAI	Pakistan
+496	Scandinavian Airlines System	SK	SAS	Sweden
+497	S7 Airlines	S7	SBI	Russia
+498	Seaborne Airlines	BB	SBS	United States
+499	SriLankan Airlines	UL	ALK	Sri Lanka
+500	Sun Country Airlines	SY	SCX	United States
+501	Sky Express	G3	SEH	Greece
+502	Spicejet	SG	SEJ	India
+503	Star Flyer	7G	SFJ	Japan
+504	Skagway Air Service	N5	SGY	United States
+505	SATA Air Acores	SP	SAT	Portugal
+506	Singapore Airlines	SQ	SIA	Singapore
+507	Sibaviatrans	5M	SIB	Russia
+508	Skynet Airlines	SI	SIH	Ireland
+509	Sriwijaya Air	SJ	SJY	Indonesia
+510	Sama Airlines	ZS	SMY	Saudi Arabia
+511	Singapore Airlines Cargo	SQ	SQC	Singapore
+512	Siem Reap Airways	FT	SRH	Cambodia
+513	South East Asian Airlines	DG	SRQ	Philippines
+514	Skyservice Airlines	5G	SSV	Canada
+515	Servicios de Transportes A	FS	STU	Argentina
+516	Sudan Airways	SD	SUD	Sudan
+517	Saudi Arabian Airlines	SV	SVA	Saudi Arabia
+518	Southwest Airlines	WN	SWA	United States
+519	Southern Winds Airlines	A4	SWD	Argentina
+520	Swiss International Air Lines	LX	SWR	Switzerland
+521	Swissair	SR	SWR	Switzerland
+522	Swe Fly	WV	SWV	Sweden
+523	SunExpress	XQ	SXS	Turkey
+524	Syrian Arab Airlines	RB	SYR	Syrian Arab Republic
+525	Skywalk Airlines	AL	SYX	United States
+526	Shandong Airlines	SC	CDG	China
+527	Spring Airlines	9S	CQH	China
+528	Sichuan Airlines	3U	CSC	China
+529	Shanghai Airlines	FM	CSH	China
+530	Shenzhen Airlines	ZH	CSZ	China
+531	Sun D'Or	7L	ERO	Israel
+532	SkyEurope	NE	ESK	Slovakia
+533	Spanair	JK	JKK	Spain
+534	Spirit Airlines	NK	NKS	United States
+535	SATENA	9R	NSE	Colombia
+536	Santa Barbara Airlines	S3	BBR	Venezuela
+537	Sky Airline	H2	SKU	Chile
+538	SkyWest	OO	SKW	United States
+539	Skyways Express	JZ	SKX	Sweden
+540	Skymark Airlines	BC	SKY	Japan
+541	SilkAir	MI	SLK	Singapore
+542	Surinam Airways	PY	SLM	Suriname
+543	Sterling Airlines	NB	SNB	Denmark
+544	Skynet Asia Airways	6J	SNJ	Japan
+545	Solomon Airlines	IE	SOL	Solomon Islands
+546	Saratov Aviation Division	6W	SOV	Russia
+547	Sat Airlines	HZ	SOZ	Kazakhstan
+548	Shuttle America	S5	TCF	United States
+549	Scat Air	DV	VSV	Kazakhstan
+550	TAME	EQ	TAE	Ecuador
+551	TAM Brazilian Airlines	JJ	TAM	Brazil
+552	TAP Portugal	TP	TAP	Portugal
+553	Tunisair	TU	TAR	Tunisia
+554	Thai Air Cargo	T2	TCG	Thailand
+555	Thomas Cook Airlines	FQ	TCW	Belgium
+556	Thomas Cook Airlines	MT	TCX	United Kingdom
+557	Tiger Airways	TR	TGW	Singapore
+558	Tiger Airways Australia	TT	TGW	Australia
+559	Thai Airways International	TG	THA	Thailand
+560	Thai AirAsia	FD	AIQ	Thailand
+561	Turkish Airlines	TK	THY	Turkey
+562	Twin Jet	T7	TJT	France
+563	Trans Mediterranean Airlines	TL	TMA	Lebanon
+564	Tiara Air	3P	TNM	Aruba
+565	Thomsonfly	BY	TOM	United Kingdom
+566	Tropic Air	PM	TOS	Belize
+567	TAMPA	QT	TPA	Colombia
+568	TransAsia Airways	GE	TNA	Taiwan
+569	Transavia Holland	HV	TRA	Netherlands
+570	TACV	VR	TCV	Portugal
+571	Transwest Air	9T	ABS	Canada
+572	Transaero Airlines	UN	TSO	Russia
+573	Turkmenistan Airlines	T5	TUA	Turkmenistan
+574	Tuninter	UG	TUI	Tunisia
+575	Travel Service	QS	TVS	Czech Republic
+576	TUIfly Nordic	6B	BLX	Sweden
+577	TAAG Angola Airlines	DT	DTA	Angola
+578	TAM Mercosur	PZ	LAP	Paraguay
+579	Trans States Airlines	AX	LOF	United States
+580	Tarom	RO	ROT	Romania
+581	Turan Air	3T	URN	Azerbaijan
+582	TRIP Linhas A	8R	TIB	Brazil
+583	USA3000 Airlines	U5	GWY	United States
+584	United Airlines	UA	UAL	United States
+585	Ural Airlines	U6	SVR	Russia
+586	UM Airlines	UF	UKM	Ukraine
+587	US Airways	US	USA	United States
+588	UTair Aviation	UT	UTA	Russia
+589	Uzbekistan Airways	HY	UZB	Uzbekistan
+590	Ukraine International Airlines	PS	AUI	Ukraine
+591	Valuair	VF	VLU	Singapore
+592	Vietnam Airlines	VN	HVN	Vietnam
+593	VIM Airlines	NN	MOV	Russia
+594	Volaris	Y4	VOI	Mexico
+595	Volga-Dnepr Airlines	VI	VDA	Russia
+596	Virgin America	VX	VRD	United States
+597	Virgin Express	TV	VEX	Belgium
+598	Virgin Nigeria Airways	VK	VGN	Nigeria
+599	Virgin Atlantic Airways	VS	VIR	United Kingdom
+600	Viva Macau	ZG	VVM	Macao
+601	Volare Airlines	VE	VLE	Italy
+602	Vueling Airlines	VY	VLG	Spain
+603	Vladivostok Air	XF	VLK	Russia
+604	Varig Log	LC	VLO	Brazil
+605	Virgin Australia	VA	VOZ	Australia
+606	VRG Linhas Aereas	RG	VRN	Brazil
+607	VASP	VP	VSP	Brazil
+608	VLM Airlines	VG	VLM	Belgium
+609	WebJet Linhas A	WJ	WEB	Brazil
+610	Welcome Air	2W	WLC	Austria
+611	WestJet	WS	WJA	Canada
+612	Western Airlines	WA	WAL	United States
+613	Widerøe	WF	WIF	Norway
+614	Wind Jet	IV	JET	Italy
+615	Wings Air	IW	WON	Indonesia
+616	Wizz Air	W6	WZZ	Hungary
+617	Wizz Air Hungary	8Z	WVL	Bulgaria
+618	World Airways	WO	WOA	United States
+619	XL Airways France	SE	SEU	France
+620	Xiamen Airlines	MF	CXA	China
+621	Yamal Airlines	YL	LLM	Russia
+622	Yemenia	IY	IYE	Yemen
+623	Zoom Airlines	Z4	OOM	Canada
+624	Sky Express	XW	SXR	Russia
+625	Royal Air Cambodge	VJ	RAC	Cambodia
+626	Air Busan	BX	ABL	Republic of Korea
+627	Globus	GH	GLP	Russia
+628	Air Kazakhstan	9Y	KZK	Kazakhstan
+629	Japan Air System	JD	JAS	Japan
+630	United Airways	4H	UBD	Bangladesh
+631	Fly540	5H	FFV	Kenya
+632	Transavia France	TO	TVF	France
+633	Island Air (WP)	WP	MKU	United States
+634	Uni Air	B7	UIA	Taiwan
+635	Red Wings	WZ	RWZ	Russia
+636	Felix Airways	FU	FXX	Yemen
+637	Kostromskie avialinii	K1	KOQ	Russia
+638	Greenfly	XX	GFY	Spain
+639	ELK Airways	--	ELK	Estonia
+640	Gabon Airlines	GY	GBK	Gabon
+641	Maldivo Airlines	ML	MAV	Maldives
+642	Virgin Pacific	VH	VNP	Fiji
+643	Eastar Jet	ZE	ESR	South Korea
+644	Jin Air	LJ	JNA	South Korea
+645	Baltic Air lines	B1	BA1	Latvia
+646	Ciel Canadien	YC	YCC	Canada
+647	Canadian National Airways	CN	YCP	Canada
+648	Epic Holiday	FA	4AA	United States
+649	Line Blue	L8	LBL	Germany
+650	Texas Wings	TQ	TXW	United States
+651	Dennis Sky	DH	DSY	Israel
+652	Atifly	A1	A1F	United States
+653	CanXpress	C1	CA1	Canada
+654	Sharp Airlines	SH	SHA	Australia
+655	CanXplorer	C2	CAP	Canada
+656	World Experience Airline	W1	WE1	Canada
+657	Locair	ZQ	LOC	United States
+658	SeaPort Airlines	K5	SQH	United States
+659	Star1 Airlines	V9	HCW	Lithuania
+660	MexicanaLink	I6	MXI	Mexico
+661	Island Spirit	IP	ISX	Iceland
+662	Regional Paraguaya	P7	REP	Paraguay
+663	AlMasria Universal Airlines	UJ	LMU	Egypt
+664	KoralBlue Airlines	K7	KBR	Egypt
+665	Elysian Airlines	E4	GIE	Cameroon
+666	Hellenic Imperial Airways	HT	IMP	Greece
+667	Amsterdam Airlines	WD	AAN	Netherlands
+668	Arik Niger	Q9	NAK	Niger
+669	STP Airways	8F	STP	Sao Tome and Principe
+670	Skyjet Airlines	UQ	SJU	Uganda
+671	Royal Falcon	RL	RFJ	Jordan
+672	Euroline	4L	MJX	Georgia
+673	Viking Hellas	VQ	VKH	Greece
+674	Gadair European Airlines	GP	GDR	Spain
+675	Spirit of Manila Airlines	SM	MNP	Philippines
+676	Chongqing Airlines	OQ	CQN	China
+677	West Air China	PN	CHB	China
+678	QatXpress	C3	QAX	Qatar
+679	OneChina	1C	1CH	China
+680	Joy Air	JR	JOY	China
+681	Parmiss Airlines (IPV)	PA	IPV	Iran
+682	EuropeSky	ES	EUV	Germany
+683	BRAZIL AIR	GB	BZE	Brazil
+684	Homer Air	MR	OME	Germany
+685	PanAm World Airways	WQ	PQW	United States
+686	Virginwings	YY	VWA	Germany
+687	KSY	KY	KSY	Greece
+688	Buquebus Líneas Aéreas	BQ	BQB	Uruguay
+689	SOCHI AIR	CQ	KOL	Russia
+690	Wizz Air Ukraine	WU	WAU	Ukraine
+691	88	47	VVN	Cyprus
+692	LCM AIRLINES	LQ	LMM	Russia
+693	Tom\\'s & co airliners	&T	T&O	France
+694	Azul	AD	AZU	Brazil
+695	LSM Airlines	PQ	LOO	Russia
+696	LionXpress	C4	LIX	Cameroon
+697	Fly Dubai	FZ	FDB	United Arab Emirates
+698	Domenican Airlines	D1	MDO	Dominican Republic
+699	Aereonautica militare	JY	AXZ	Italy
+700	LSM AIRLINES 	YZ	YZZ	Russia
+701	Zabaykalskii Airlines	ZP	ZZZ	Russia
+702	Marysya Airlines	M4	1QA	Russia
+703	Black Stallion Airways	BZ	BSA	United States
+704	German International Air Lines	GM	GER	Germany
+705	TrasBrasil	TB	TBZ	Brazil
+706	TransBrasil Airlines	TH	THS	Brazil
+707	Air Mekong	P8	MKG	Vietnam
+708	Air Hamburg (AHO)	HH	AHO	Germany
+709	ZABAIKAL AIRLINES	Z6	ZTT	Russia
+710	TransHolding	TI	THI	Brazil
+711	Serbian Airlines	S1	SA1	Serbia
+712	TransHolding System	YO	TYS	Brazil
+713	CCML Airlines	CB	CCC	Colombia
+714	Fly Brasil	F1	FBL	Brazil
+715	CB Airways UK ( Interliging Flights )	1F	CIF	United Kingdom
+716	Fly Colombia ( Interliging Flights )	3F	3FF	Colombia
+717	Trans Pas Air	T6	TP6	United States
+718	Himalayan Airlines	HC	HYM	Nepal
+719	Indya Airline Group	G1	IG1	India
+720	Japan Regio	ZX	ZXY	Japan
+721	Sky Regional	RS	SKV	Canada
+722	LSM International 	II	UWW	Russia
+723	Baikotovitchestrian Airlines 	BU	BUU	American Samoa
+724	Luchsh Airlines 	L4	LJJ	Russia
+725	Mongolian International Air Lines 	7M	ZTF	Mongolia
+726	Tway Airlines	TW	TWB	South Korea
+727	Jusur airways	JX	JSR	Egypt
+728	NEXT Brasil	XB	NXB	Brazil
+729	AeroWorld 	W4	WER	Russia
+730	Usa Sky Cargo	E1	ES2	United States
+731	Hankook Airline	HN	HNX	South Korea
+732	Marusya Airways	Y8	MRS	Russia
+733	Era Alaska	7H	ERR	United States
+734	AirRussia	R8	RRJ	Russia
+735	Hankook Air US	H1	HA1	United States
+736	I-Fly	H5	RSY	Russia
+737	VickJet	KT	VKJ	France
+738	Salsa d\\'Haiti	SO	SLC	Haiti
+739	12 North	12	N12	India
+740	Mauritania Airlines International	L6	MAI	Mauritania
+741	MAT Airways	6F	MKD	Macedonia
+742	Asian Wings Airways	AW	AWM	Burma
+743	Air Arabia Egypt	E5	RBG	Egypt
+744	Orchid Airlines	OI	ORC	Australia
+745	Asia Wings	Y5	AWA	Kazakhstan
+746	Nile Air	NP	NIA	Egypt
+747	Senegal Airlines	DN	SGG	Senegal
+748	Copenhagen Express	0X	CX0	Denmark
+749	BusinessAir	8B	BCC	Thailand
+750	Sky Wing Pacific	C7	CR7	South Korea
+751	Air Indus	PP	AI0	Pakistan
+752	Aviabus	U1	ABI	Russia
+753	Michael Airlines	DF	MJG	Puerto Rico
+754	Korongo Airlines	ZC	KGO	Congo (Kinshasa)
+755	Indonesia Sky	I5	IDS	Indonesia
+756	Aws express	B0	666	United States
+757	Southjet	76	SJS	United States
+758	Southjet connect	77	ZCS	United States
+759	Southjet cargo	78	XAN	United States
+760	Iberia Express	I2	IBS	Spain
+761	Nordic Global Airlines	NJ	NGB	Finland
+762	Scoot	TZ	SCO	Singapore
+763	Zenith International Airline	ZN	ZNA	Thailand
+764	Orbit Airlines Azerbaijan	O1	OAB	Azerbaijan
+765	Vision Airlines (V2)	V2	RBY	United States
+766	Yellowtail	YE	YEL	United States
+767	Royal Airways	KG	RAW	United States
+768	FlyHigh Airlines Ireland (FH)	FH	FHI	Ireland
+769	T.J. Air	TJ	TJA	United States
+770	SOCHI AIR CHATER	Q3	QER	Russia
+771	Malindo Air	OD	MXD	Malaysia
+772	Maryland Air	M1	M1F	United States
+773	VivaColombia	5Z	VVC	Colombia
+774	Apache Air	ZM	IWA	United States
+775	Jettor Airlines	NR	JTO	Hong Kong
+776	National Air Cargo	N8	NCR	United States
+777	Eastern Atlantic Virtual Airlines	13	EAV	United States
+778	Snowbird Airlines	S8	SBD	Finland
+779	Kharkiv Airlines	KH	KHK	Ukraine
+780	XAIR USA	XA	XAU	United States
+781	XPTO	XP	XPT	Portugal
+782	Air Serbia	JU	ASL	Serbia
+783	Air Lituanica	LT	LTU	Lithuania
+784	Rainbow Air (RAI)	RN	RAB	United States
+785	Rainbow Air Canada	RY	RAY	Canada
+786	Rainbow Air Polynesia	RX	RPO	United States
+787	Rainbow Air Euro	RU	RUE	United Kingdom
+788	Rainbow Air US	RM	RNY	United States
+789	Dobrolet	QD	DOB	Russia
+790	Spike Airlines	S0	SAL	United States
+791	All Argentina	L1	AL1	Argentina
+792	All America	A2	AL2	United States
+793	All Asia	L9	AL3	China
+794	All Africa	9A	99F	South Africa
+795	Regionalia México	N4	J88	Mexico
+796	All Europe	N9	N99	United Kingdom
+797	All Spain	N7	N77	Spain
+798	Regional Air Iceland	9N	N78	Iceland
+799	Voestar	8K	K88	Brazil
+800	All Colombia	7O	7KK	Colombia
+801	Regionalia Uruguay	2X	2K2	Uruguay
+802	Regionalia Venezuela	9X	9XX	Venezuela
+803	Regionalia Chile	9J	CR1	Chile
+804	Vuela Cuba	6C	6CC	Cuba
+805	All Australia	88	8K8	Australia
+806	Fly Europa	ER	RWW	Spain
+807	FlyPortugal	PO	FPT	Portugal
+808	Spring Airlines Japan	IJ	SJO	Japan
+809	Dense Airways	KP	DWA	United States
+810	Dense Connection	KZ	DC2	United States
+811	Vuola Italia	4S	VI4	Italy
+812	All Argentina Express	Z0	Z9H	Argentina
+813	All America AR	2R	M7A	Argentina
+814	All America CL	1R	R1R	Chile
+815	SOCHI AIR EXPRESS	Q4	SAE	Russia
+816	All America BR	1Y	A9B	Brazil
+817	Volotea Costa Rica	9V	VC9	Costa Rica
+818	Fly Romania	X5	OTJ	Romania
+819	All America CO	0Y	7ZC	Colombia
+820	All America MX	0M	0MM	Mexico
+821	FOX Linhas Aereas	FX	FOX	Brazil
+822	Via Conectia Airlines	6V	CZV	Uruguay
+823	City Airways	E8	GTA	Thailand
+824	Norwegian Long Haul AS	DU	NLH	Norway
+825	TransNusa Air	M8	TNU	Indonesia
+826	Tomp Airlines	ZT	T9P	Chile
+827	Global Airlines	0G	GA0	Argentina
+828	Air Vistara	UK	VTI	India
+829	TransRussiaAirlines	1E	RGG	Russia
+830	REXAIR VIRTUEL	RR	RXR	France
+831	WestJet Encore	WR	WEN	Canada
+832	Air Pegasus	OP	PPL	India
+833	International Europe	9I	INE	Spain
+834	V Air	ZV	VAX	Taiwan
+835	Boutique Air (Priv)	4B	BTQ	United States
+836	VOLOTEA Airways	V7	VOE	Spain
+837	INAVIA Internacional	Z5	IIR	Argentina
+838	Liberty Airways	LE	LTY	United States
+839	Bassaka airlines	5B	BSX	Cambodia
+840	VIA Líneas Aéreas	V1	VIA	Argentina
+841	GermanXL	GX	GXG	Germany
+842	Fly France	FF	FRF	France
+843	Europe Jet	EX	EU9	France
+844	World Scale Airlines	W3	WSS	United States
+845	All America US	AG	SSA	United States
+846	BudgetAir	1K	BG1	Germany
+847	Fly One	F5	FI5	Moldova
+848	All America BOPY	0P	PYB	Paraguay
+849	Svyaz Rossiya	7R	SJM	Russia
 \.
 
 
