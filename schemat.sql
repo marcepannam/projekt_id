@@ -136,5 +136,4 @@ create table nadanie_bagazu(
 
 --funkcja wypisz kortke podróż bagażu np KRK->WAW->BAR->VIE
 
---create or replace language plpython3u;
-
+create or replace language plpython3u;

@@ -77,8 +77,7 @@ int main() {
     start << "','" << koniec << "',to_timestamp(" << odlot << "),to_timestamp(" << przylot
     << "));" << endl;
   }
-  return 0;
-
+  
   // bilety_laczone
   for (int i=1; i<=100; i++) {
     string name = random_choice(names);
@@ -109,9 +108,10 @@ int main() {
      title << "','" << data_urodzenia << "'::date,'" << nr_paszportu << "');" << endl;
 
     // generujemy bileciki!
-    int przesiadki = rand() % 3 + 1;
-    for (int j=0; j < przesiadki; j ++) {
-      //cout << "insert into bilety (" << i << "," << 
-    }
+    
+    string skad = random_choice(kody_lotnisk);
+    string dokad = random_choice(kody_lotnisk);
+
+    cout << "select zaplanuj_lot(" << i << ", '" << skad << "', '" <<  dokad <<"', '2008-12-30 13:52:57'::timestamp);" << endl;
   }
 }
