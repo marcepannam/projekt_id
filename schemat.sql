@@ -60,16 +60,16 @@ create table bilety_laczone(
   kod_rezerewacji char(6) not null,
   --zawsze 6 znakowy, globalny
   --nie mamy modelu "pasazer", poniewaz nie zbieramy unikalnych identyfikatorow (np. PESELu, nr paszportu jest nieobowiazkowy)
-  imie varchar(25) not null,
-  nazwisko varchar(25) not null,
-  mail varchar(25),
+  imie varchar(30) not null,
+  nazwisko varchar(30) not null,
+  mail varchar(100),
   --moze byc null, spr poprawnosc
   tytul varchar(25) not null,
   --Pan, Pani
   data_urodzenia date not null,
   --spr czy ma <13, jesli tak przydziel czlonka zalogi do opieki
   --do ceny biletu dodaj 300 zl
-  nr_paszportu numeric(30) ,
+  nr_paszportu varchar(30),
   --tylko loty miedzynarodowe!(schengen nie licza sie jako miedzynarodowe)
   --dla biletow laczonych, w ktorychg wystepuje wiecej niz jeden lot spr
   --czy miedzy lotami jest przynajmniej 30 min odstepu
@@ -86,14 +86,13 @@ create table pasy_startowe (
 create table loty(
   id_lotu serial primary key,
   id_samolotu integer references samoloty(id_samolotu),
-  linia_lotnicza integer references linie_lotnicze,
-  kod numeric(6) not null,
+  linia_lotnicza integer references linie_lotnicze not null,
+  kod varchar(6) not null,
   skad varchar(6) not null references lotniska (kod_IATA),  --nr lotniska
   dokad varchar(6) not null references lotniska (kod_IATA) check (skad <> dokad),
   odlot timestamp not null,--w utc
-  przylot timestamp not null,--w utc
-  nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa), --kodlotniska+4cyfrowy_nr
-  czy_miedzynarodowy boolean not null
+  przylot timestamp not null--w utc
+  --nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa) --kodlotniska+4cyfrowy_nr
   --check sprawdzajaca czy loty na pasach startowych sie nie pokrywaja
   --check spr czy dlugosc pasa startowego jest opowiednia
   --check sprawdzajaca czy samolot sie nie teleportuje
@@ -136,3 +135,6 @@ create table nadanie_bagazu(
 --funkcja spr czy dwom osobom niezostalo przyznane jedno miejsce
 
 --funkcja wypisz kortke podróż bagażu np KRK->WAW->BAR->VIE
+
+--create or replace language plpython3u;
+
