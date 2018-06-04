@@ -1,4 +1,3 @@
-begin;
 insert into loty (linia_lotnicza, kod, skad, dokad, odlot, przylot) values (94,'BMQBHC','LAE','UAK',to_timestamp(1262263977),to_timestamp(1262267292));
 insert into loty (linia_lotnicza, kod, skad, dokad, odlot, przylot) values (27,'WKKYHI','GOH','GKA',to_timestamp(1263353659),to_timestamp(1263361022));
 insert into loty (linia_lotnicza, kod, skad, dokad, odlot, przylot) values (63,'DXRJMO','GOH','THU',to_timestamp(1263624182),to_timestamp(1263629712));
@@ -3199,4 +3198,3 @@ insert into bilety_laczone (id_biletu_laczonego,kod_rezerewacji,imie,nazwisko,ma
 select zaplanuj_lot(99, 'POM', 'THU', to_timestamp(1261440000)::timestamp);
 insert into bilety_laczone (id_biletu_laczonego,kod_rezerewacji,imie,nazwisko,mail,tytul,data_urodzenia,nr_paszportu) values (100,'ZDIPCQ','Nelly','Wąsiel','Nelly.Wąsiel6@gmail.com','Pan','1939-9-28'::date,'AUX8219105');
 select zaplanuj_lot(100, 'UAK', 'LAE', to_timestamp(1261440000)::timestamp);
-commit;
