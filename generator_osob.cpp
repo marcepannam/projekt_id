@@ -29,11 +29,12 @@ id_biletu_laczonego serial primary key,
   oplaty_dodatkowe numeric(7, 2) default 0
 */
 
-vector<string> readlines(std::string fi) {
+template <typename T>
+vector<T> readlines(string fi) {
   ifstream f(fi);
-  vector<string> n;
+  vector<T> n;
   while (true) {
-    string nn;
+    T nn;
     if (!(f >> nn))
       break;
     n.push_back(nn);
@@ -49,13 +50,14 @@ auto random_choice(const M& v) {
 int main() {
   cout << "begin;" << endl;
   fstream surname("nazwiska.txt");
-  vector<string> names = readlines("imiona.txt");
-  vector<string> surnames = readlines("nazwiska.txt");
+  vector<string> names = readlines<string>("imiona.txt");
+  vector<string> surnames = readlines<string>("nazwiska.txt");
   
   string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   string digits = "0123456789";
 
-  vector<string> kody_lotnisk = readlines("airports_codes.txt");
+  vector<string> kody_lotnisk = readlines<string>("airports_codes.txt");
+  vector<int> id_linii_lotniczych = readlines<int>("id_linii_lotniczych.txt");
   kody_lotnisk = vector<string>(kody_lotnisk.begin(), kody_lotnisk.begin() + 10);
 
   int ilosc_linii = 100;
@@ -69,7 +71,7 @@ int main() {
     while (koniec == start) koniec = random_choice(kody_lotnisk);
     int odlot = rok * 40 + rand() % (rok / 10); // sekundy po 1970
     int przylot = odlot + 3200 + rand() % 7200;
-    int linia = rand() % ilosc_linii + 1;
+    int linia = random_choice(id_linii_lotniczych);
     int id_samolotu = 1;
     string kod;
     for (int i=0;i<6;i++) kod += random_choice(alphabet);
