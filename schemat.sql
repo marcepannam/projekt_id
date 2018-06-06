@@ -40,12 +40,13 @@ create table lotniska(
 
 
 create table modele_samolotow(
-  model varchar(20) primary key,
+  model varchar(3) primary key,
+  nazwa varchar(50) not null,
 --PASY STARTOWE - WYRZUCONE
 --potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
-  ilosc_miejsc numeric (4) not null,
+  liczba_miejsc numeric (4) not null,
   ilosc_zalogi numeric (2) not null,
-  zasieg varchar(30) not null
+  zasieg integer not null
 );
 
 
