@@ -6703,176 +6703,679 @@ SXJ	Shanshan Airport	Shanshan	ZWSS	42.9117012024	90.2474975586
 YKH	Yingkou Lanqi Airport	Yingkou	ZYYK	40.542524	122.3586
 \.
 
-COPY modele_samolotow(model, nazwa, liczba_miejsc, ilosc_zalogi, zasieg) from stdin;
-CRV	Aerospatiale (Sud Aviation) Se.210 Caravelle	248	2	2459
-AT4	Aerospatiale/Alenia ATR 42-300	149	13	3925
-AT5	Aerospatiale/Alenia ATR 42-500	192	11	11311
-ATR	Aerospatiale/Alenia ATR 42-600	158	2	11403
-AT7	Aerospatiale/Alenia ATR 72	143	17	3456
-AB3	Airbus A300	85	2	14827
-ABY	Airbus A300-600	170	16	13647
-310	Airbus A310	76	4	15544
-318	Airbus A318	126	11	15547
-319	Airbus A319	62	18	3299
-320	Airbus A320	226	6	8055
-321	Airbus A321	65	10	12734
-330	Airbus A330	162	13	15797
-332	Airbus A330-200	263	2	14798
-333	Airbus A330-300	225	7	6011
-340	Airbus A340	124	13	14874
-342	Airbus A340-200	287	11	5826
-343	Airbus A340-300	211	4	13094
-345	Airbus A340-500	64	12	11472
-346	Airbus A340-600	232	18	5853
-350	Airbus A350	101	15	10813
-351	Airbus A350-1000	127	15	12138
-359	Airbus A350-900	219	3	9101
-380	Airbus A380	179	11	11932
-388	Airbus A380-800	63	14	12635
-A81	Antonov An-148	23	8	9992
-A58	Antonov An-158	180	11	12130
-AN7	Antonov AN-72	29	3	8721
-AR1	Avro RJ100	204	2	8558
-AR7	Avro RJ70	164	11	15970
-AR8	Avro RJ85	200	3	2346
-146	BAe 146	90	16	8175
-141	BAe 146-100	200	3	6457
-142	BAe 146-200	282	11	1974
-143	BAe 146-300	77	3	4132
-BEH	Beechcraft 1900	137	4	6159
-BH2	Bell 212	276	12	5323
-703	Boeing 707	77	16	12246
-717	Boeing 717	45	3	2229
-B72	Boeing 720B	267	18	3660
-727	Boeing 727	40	11	5997
-721	Boeing 727-100	48	9	3630
-722	Boeing 727-200	212	12	15788
-737	Boeing 737	292	7	3989
-7M8	Boeing 737 MAX 8	257	13	13845
-732	Boeing 737-200	230	14	12069
-733	Boeing 737-300	262	12	12689
-734	Boeing 737-400	101	11	7160
-735	Boeing 737-500	220	2	4747
-736	Boeing 737-600	83	18	3967
-73G	Boeing 737-700	72	10	7703
-738	Boeing 737-800	141	4	9506
-739	Boeing 737-900	76	14	10729
-747	Boeing 747	134	5	4460
-741	Boeing 747-100	203	16	10486
-742	Boeing 747-200	290	14	13163
-743	Boeing 747-300	191	6	14182
-744	Boeing 747-400	216	11	6860
-748	Boeing 747-8	225	8	13150
-74L	Boeing 747SP	70	13	9588
-74R	Boeing 747SR	99	4	13037
-757	Boeing 757	119	9	3757
-752	Boeing 757-200	257	2	13291
-753	Boeing 757-300	202	18	1933
-767	Boeing 767	43	6	3219
-762	Boeing 767-200	125	2	15213
-763	Boeing 767-300	224	4	7783
-764	Boeing 767-400	40	6	7691
-777	Boeing 777	221	17	1675
-772	Boeing 777-200	51	13	3603
-77L	Boeing 777-200LR	155	10	7235
-773	Boeing 777-300	291	18	14290
-77W	Boeing 777-300ER	107	10	11361
-787	Boeing 787	78	11	1989
-78J	Boeing 787-10	186	9	14513
-788	Boeing 787-8	239	3	8233
-789	Boeing 787-9	134	3	10232
-CS1	Bombardier CS100	177	12	11887
-CS3	Bombardier CS300	264	5	9174
-CCX	Bombardier Global Express	275	14	5982
-ATP	British Aerospace ATP	88	8	3525
-J31	British Aerospace Jetstream 31	31	4	6953
-J32	British Aerospace Jetstream 32	175	2	1720
-J41	British Aerospace Jetstream 41	158	15	3558
-CL4	Canadair CL-44	187	6	12833
-CR1	Canadair Regional Jet 100	75	7	8371
-CRK	Canadair Regional Jet 1000	269	11	15313
-CR2	Canadair Regional Jet 200	65	3	13940
-CR7	Canadair Regional Jet 700	145	11	6441
-CR9	Canadair Regional Jet 900	40	15	12914
-CN1	Cessna 172	239	2	1698
-CN1	Cessna 182 Skylane	136	8	1949
-CN1	Cessna 208 Caravan	152	17	1678
-CN1	Cessna 210 Centurion	76	15	4408
-CNJ	Cessna Citation CJ3	269	5	1020
-CNJ	Cessna Citation CJ4	165	6	2862
-CNJ	Cessna Citation Excel	296	6	4689
-CNJ	Cessna Citation I	30	9	11258
-CNJ	Cessna Citation II	168	2	2645
-CNJ	Cessna Citation Mustang	293	17	5945
-CNJ	Cessna Citation Sovereign	50	2	1775
-CNJ	Cessna Citation X	145	3	8446
-SSC	Concorde	79	13	11858
-D20	Dassault Falcon 2000	135	5	2894
-DF7	Dassault Falcon 7X	147	15	6676
-DHC	De Havilland Canada DHC-4 Caribou	125	14	8614
-DHT	De Havilland Canada DHC-6 Twin Otter	67	14	1206
-DH7	De Havilland Canada DHC-7 Dash 7	53	9	7801
-DH3	De Havilland Canada DHC-8-300 Dash 8	284	14	14640
-DH4	De Havilland Canada DHC-8-400 Dash 8Q	250	14	15447
-D10	Douglas DC-10	164	15	1141
-D3F	Douglas DC-3	184	17	13204
-D6F	Douglas DC-6	46	13	1120
-D91	Douglas DC-9-10	172	2	12277
-D93	Douglas DC-9-30	94	4	11329
-D94	Douglas DC-9-40	224	16	14889
-D95	Douglas DC-9-50	53	8	9195
-E70	Embraer 170	169	2	4039
-E90	Embraer 190	21	5	8120
-E95	Embraer 195	157	4	5477
-EMB	Embraer EMB 110 Bandeirante	135	8	15846
-EM2	Embraer EMB 120 Brasilia	56	8	9145
-ER3	Embraer Legacy 600	25	16	14582
-EP1	Embraer Phenom 100	56	13	12461
-EP3	Embraer Phenom 300	216	13	10557
-ER3	Embraer RJ135	203	6	7824
-ERD	Embraer RJ140	85	15	7838
-ER4	Embraer RJ145	219	18	3195
-FRJ	Fairchild Dornier 328JET	279	11	4774
-D28	Fairchild Dornier Do.228	123	8	15799
-D38	Fairchild Dornier Do.328	141	16	13382
-100	Fokker 100	220	18	10062
-F50	Fokker 50	208	14	7813
-F70	Fokker 70	82	10	13083
-F27	Fokker F27 Friendship	129	13	12000
-GJ4	Gulfstream IV	247	17	11538
-GJ5	Gulfstream V	203	15	15484
-YN2	Harbin Yunshuji Y12	197	6	14478
-HS7	Hawker Siddeley HS 748	157	9	6766
-IL8	Ilyushin IL18	298	4	13645
-IL6	Ilyushin IL62	90	16	15085
-IL7	Ilyushin IL76	218	8	6768
-ILW	Ilyushin IL86	294	9	14614
-I93	Ilyushin IL96	168	7	5509
-LRJ	Learjet 35	280	3	2480
-LRJ	Learjet 60	102	15	3879
-LOE	Lockheed L-188 Electra	185	12	8138
-M11	McDonnell Douglas MD-11	139	8	15442
-M81	McDonnell Douglas MD-81	269	5	1032
-M82	McDonnell Douglas MD-82	101	17	13253
-M83	McDonnell Douglas MD-83	186	10	3690
-M87	McDonnell Douglas MD-87	55	18	3103
-M88	McDonnell Douglas MD-88	48	15	11345
-M90	McDonnell Douglas MD-90	62	13	8708
-YS1	NAMC YS-11	235	5	10292
-PN6	Partenavia P.68	284	4	15942
-BNT	Pilatus Britten-Norman BN-2A Mk III Trislander	132	6	14308
-BNI	Pilatus Britten-Norman BN-2A/B Islander	237	16	9309
-PL2	Pilatus PC-12	140	2	8915
-PL6	Pilatus PC-6 Turbo Porter	132	2	3940
-PA2	Piper PA-31 Navajo	70	9	1411
-S20	Saab 2000	49	5	12543
-SF3	Saab SF340A/B	71	13	2066
-SH6	Shorts SD.360	73	16	14086
-S61	Sikorsky S-61	156	3	11970
-S76	Sikorsky S-76	138	16	6648
-SU9	Sukhoi Superjet 100-95	241	13	2154
-TU3	Tupolev Tu-134	293	2	1619
-TU5	Tupolev Tu-154	195	7	2347
-T20	Tupolev Tu-204	106	6	4599
-YK4	Yakovlev Yak-40	180	16	7118
+COPY modele_samolotow(model, kod_iata, nazwa, liczba_miejsc, ilosc_zalogi, zasieg) from stdin;
+1	CRV	Aerospatiale (Sud Aviation) Se.210 Caravelle	35	7	3338
+2	AT4	Aerospatiale/Alenia ATR 42-300	176	5	1360
+3	AT5	Aerospatiale/Alenia ATR 42-500	211	6	2781
+4	ATR	Aerospatiale/Alenia ATR 42-600	31	15	7026
+5	AT7	Aerospatiale/Alenia ATR 72	294	15	6575
+6	AB3	Airbus A300	189	16	5445
+7	ABY	Airbus A300-600	167	7	13905
+8	310	Airbus A310	229	2	7844
+9	318	Airbus A318	219	6	4744
+10	319	Airbus A319	207	12	14689
+11	320	Airbus A320	280	3	15327
+12	321	Airbus A321	248	12	9856
+13	330	Airbus A330	282	14	9843
+14	332	Airbus A330-200	130	11	11513
+15	333	Airbus A330-300	295	3	12610
+16	340	Airbus A340	281	16	7598
+17	342	Airbus A340-200	167	18	12571
+18	343	Airbus A340-300	68	17	4973
+19	345	Airbus A340-500	161	16	8326
+20	346	Airbus A340-600	109	2	1100
+21	350	Airbus A350	195	15	7284
+22	351	Airbus A350-1000	64	3	7466
+23	359	Airbus A350-900	140	17	1418
+24	380	Airbus A380	205	6	3856
+25	388	Airbus A380-800	158	9	2914
+26	A81	Antonov An-148	152	6	11450
+27	A58	Antonov An-158	204	13	4753
+28	AN7	Antonov AN-72	193	9	2807
+29	AR1	Avro RJ100	195	17	5065
+30	AR7	Avro RJ70	299	15	6458
+31	AR8	Avro RJ85	266	11	4932
+32	146	BAe 146	110	6	10878
+33	141	BAe 146-100	190	17	13868
+34	142	BAe 146-200	223	10	4396
+35	143	BAe 146-300	259	8	5196
+36	BEH	Beechcraft 1900	68	13	7224
+38	BH2	Bell 212	212	15	15634
+39	703	Boeing 707	151	13	15060
+40	717	Boeing 717	77	15	2136
+41	B72	Boeing 720B	216	13	3201
+42	727	Boeing 727	168	12	8895
+43	721	Boeing 727-100	282	9	1166
+44	722	Boeing 727-200	259	17	12606
+45	737	Boeing 737	97	17	10225
+46	7M8	Boeing 737 MAX 8	127	6	5137
+47	732	Boeing 737-200	239	6	8949
+48	733	Boeing 737-300	197	8	5730
+49	734	Boeing 737-400	80	16	3547
+50	735	Boeing 737-500	32	16	7775
+51	736	Boeing 737-600	223	15	12488
+52	73G	Boeing 737-700	86	6	12184
+53	738	Boeing 737-800	215	8	2903
+54	739	Boeing 737-900	94	2	14389
+55	747	Boeing 747	58	14	12569
+56	741	Boeing 747-100	112	16	7185
+57	742	Boeing 747-200	99	8	12976
+58	743	Boeing 747-300	137	3	12869
+59	744	Boeing 747-400	66	2	3392
+60	748	Boeing 747-8	61	4	11015
+61	74L	Boeing 747SP	283	11	14766
+62	74R	Boeing 747SR	72	7	11793
+63	757	Boeing 757	111	12	3300
+64	752	Boeing 757-200	103	9	2771
+65	753	Boeing 757-300	50	7	11855
+66	767	Boeing 767	53	12	7501
+67	762	Boeing 767-200	76	15	7920
+68	763	Boeing 767-300	252	7	15680
+69	764	Boeing 767-400	128	3	7291
+70	777	Boeing 777	26	8	11118
+71	772	Boeing 777-200	113	16	12226
+72	77L	Boeing 777-200LR	263	12	6524
+73	773	Boeing 777-300	91	13	11435
+74	77W	Boeing 777-300ER	209	2	5907
+75	787	Boeing 787	294	18	5103
+76	78J	Boeing 787-10	235	9	11813
+77	788	Boeing 787-8	283	11	14388
+78	789	Boeing 787-9	180	5	5095
+79	CS1	Bombardier CS100	46	13	6217
+80	CS3	Bombardier CS300	211	2	8234
+81	CCX	Bombardier Global Express	262	17	11430
+82	ATP	British Aerospace ATP	132	8	14947
+83	J31	British Aerospace Jetstream 31	75	12	8046
+84	J32	British Aerospace Jetstream 32	96	7	1552
+85	J41	British Aerospace Jetstream 41	171	7	9933
+86	CL4	Canadair CL-44	219	16	5822
+87	CR1	Canadair Regional Jet 100	225	17	14051
+88	CRK	Canadair Regional Jet 1000	226	14	2233
+89	CR2	Canadair Regional Jet 200	262	8	12582
+90	CR7	Canadair Regional Jet 700	195	12	3145
+91	CR9	Canadair Regional Jet 900	52	5	10424
+92	CN1	Cessna 172	233	10	2925
+93	CN1	Cessna 182 Skylane	73	18	5869
+94	CN1	Cessna 208 Caravan	236	14	11477
+95	CN1	Cessna 210 Centurion	222	10	10789
+96	CNJ	Cessna Citation CJ3	277	5	2706
+97	CNJ	Cessna Citation CJ4	136	18	14907
+98	CNJ	Cessna Citation Excel	262	5	9144
+99	CNJ	Cessna Citation I	60	5	11694
+100	CNJ	Cessna Citation II	241	5	3963
+101	CNJ	Cessna Citation Mustang	220	2	10497
+102	CNJ	Cessna Citation Sovereign	262	10	4361
+103	CNJ	Cessna Citation X	141	5	13521
+105	SSC	Concorde	43	4	6745
+106	D20	Dassault Falcon 2000	276	2	15819
+107	DF7	Dassault Falcon 7X	26	16	6232
+108	DHC	De Havilland Canada DHC-4 Caribou	287	18	1330
+109	DHT	De Havilland Canada DHC-6 Twin Otter	217	10	11205
+110	DH7	De Havilland Canada DHC-7 Dash 7	178	7	7761
+111	DH3	De Havilland Canada DHC-8-300 Dash 8	249	4	3001
+112	DH4	De Havilland Canada DHC-8-400 Dash 8Q	276	8	5715
+113	D10	Douglas DC-10	23	9	2945
+114	D3F	Douglas DC-3	168	10	14913
+115	D6F	Douglas DC-6	69	12	5045
+116	D91	Douglas DC-9-10	138	16	7684
+117	D93	Douglas DC-9-30	156	2	9911
+118	D94	Douglas DC-9-40	49	10	13077
+119	D95	Douglas DC-9-50	264	4	13419
+120	E70	Embraer 170	32	10	2519
+121	E90	Embraer 190	101	2	1651
+122	E95	Embraer 195	149	8	3873
+123	EMB	Embraer EMB 110 Bandeirante	230	9	14332
+124	EM2	Embraer EMB 120 Brasilia	28	13	2639
+125	ER3	Embraer Legacy 600	248	17	11322
+126	EP1	Embraer Phenom 100	21	4	3947
+127	EP3	Embraer Phenom 300	246	18	14279
+128	ER3	Embraer RJ135	270	12	1134
+129	ERD	Embraer RJ140	267	3	6453
+130	ER4	Embraer RJ145	115	14	2946
+131	FRJ	Fairchild Dornier 328JET	85	9	2378
+132	D28	Fairchild Dornier Do.228	60	18	15465
+133	D38	Fairchild Dornier Do.328	145	3	13682
+134	100	Fokker 100	252	10	6117
+135	F50	Fokker 50	252	2	3580
+136	F70	Fokker 70	231	6	8316
+137	F27	Fokker F27 Friendship	46	12	10567
+138	GJ4	Gulfstream IV	74	18	11879
+139	GJ5	Gulfstream V	76	6	4808
+140	YN2	Harbin Yunshuji Y12	132	5	5528
+141	HS7	Hawker Siddeley HS 748	196	11	2997
+142	IL8	Ilyushin IL18	89	12	12607
+143	IL6	Ilyushin IL62	62	14	4120
+144	IL7	Ilyushin IL76	228	7	8628
+145	ILW	Ilyushin IL86	72	4	10604
+146	I93	Ilyushin IL96	289	17	10989
+147	LRJ	Learjet 35	69	10	9689
+148	LRJ	Learjet 60	102	13	7130
+149	LOE	Lockheed L-188 Electra	60	11	12561
+150	M11	McDonnell Douglas MD-11	232	12	14924
+151	M81	McDonnell Douglas MD-81	240	11	5823
+152	M82	McDonnell Douglas MD-82	285	17	9852
+153	M83	McDonnell Douglas MD-83	208	4	2425
+154	M87	McDonnell Douglas MD-87	43	16	13346
+155	M88	McDonnell Douglas MD-88	273	8	6974
+156	M90	McDonnell Douglas MD-90	195	17	2742
+157	YS1	NAMC YS-11	199	8	3989
+158	PN6	Partenavia P.68	261	11	10784
+159	BNT	Pilatus Britten-Norman BN-2A Mk III Trislander	280	18	5439
+160	BNI	Pilatus Britten-Norman BN-2A/B Islander	148	13	8886
+161	PL2	Pilatus PC-12	246	17	15953
+162	PL6	Pilatus PC-6 Turbo Porter	246	16	3443
+163	PA2	Piper PA-31 Navajo	79	11	9252
+164	S20	Saab 2000	101	2	14393
+165	SF3	Saab SF340A/B	193	17	4184
+166	SH6	Shorts SD.360	238	2	7815
+167	S61	Sikorsky S-61	124	2	13019
+168	S76	Sikorsky S-76	146	18	1840
+169	SU9	Sukhoi Superjet 100-95	210	7	7511
+170	TU3	Tupolev Tu-134	25	8	4647
+172	TU5	Tupolev Tu-154	230	9	7037
+173	T20	Tupolev Tu-204	102	6	1064
+174	YK4	Yakovlev Yak-40	124	12	10192
+\.
+
+COPY samoloty(id_samolotu, nazwa, id_modelu, czy_sprawny) from stdin;
+1	Odd Door	73	t
+2	Vexed Hill	21	t
+3	Fuzzy House	34	t
+4	Timely Street	143	t
+5	Horrific Cow	83	t
+6	Delightful Party	44	t
+7	Gentle Father	134	t
+8	Ashamed School	14	t
+9	Little Head	6	t
+10	Precious Night	95	t
+11	Disturbed Seed	98	t
+12	Jumpy Brother	132	t
+13	Naughty Thing	10	t
+14	Silly Rabbit	100	t
+15	Cruel Chair	82	t
+16	Condescending Rain	54	t
+17	Clear Table	35	t
+18	Vast Horse	140	t
+19	Crooked Robin	56	t
+20	Trite Kitty	120	t
+21	Lazy Day	86	f
+22	Witty Wind	4	t
+23	Arrogant Thing	6	t
+24	Bulky Cow	116	t
+25	Successful Corn	73	t
+26	Livid Bear	113	t
+27	Charming Ground	129	t
+28	Virtuous Hill	19	t
+29	Appetizing Ground	27	t
+30	Gritty Paper	73	t
+31	Shaggy Egg	61	t
+32	Horrific Egg	147	t
+33	Fluttering Baby	52	t
+34	Soggy Brother	33	t
+35	Steady Birthday	48	t
+36	Steady Toy	29	t
+37	Thoughtless Water	173	t
+38	Funny Way	2	t
+39	Zealous Bird	87	t
+40	Juicy Wood	15	t
+41	Uptight Coat	64	t
+42	Nutritious Dog	74	t
+43	Hungry Doll	15	t
+44	Scattered Flower	117	t
+45	Gritty Tree	122	t
+46	Dilapidated Corn	109	f
+47	Trite Flower	47	t
+48	Impressionable Nest	17	t
+49	Clear Wind	39	t
+50	Wonderful Ring	13	t
+51	Gorgeous Door	135	t
+52	Nonchalant Name	55	t
+53	Bitter Wood	129	t
+54	Succulent Cake	71	t
+55	Melted Wood	84	t
+56	Courageous Watch	6	t
+57	Scattered Coat	107	f
+58	Motionless Chair	68	t
+59	Enthusiastic Grass	109	t
+60	Moody Bread	155	t
+61	Moody Bell	87	t
+62	Jolly Kitty	116	t
+63	Cumbersome Egg	142	t
+64	Sharp Morning	124	t
+65	Steady Rabbit	123	t
+66	Silky Coat	85	t
+67	Friendly Picture	139	t
+68	Enormous Farmer	67	t
+69	Stout Chair	55	t
+70	Hollow Time	34	t
+71	Ideal Table	48	t
+72	Gorgeous Man	75	t
+73	Creepy Hand	47	t
+74	Tasty Wind	59	t
+75	Fuzzy Hill	169	t
+76	Helpful Time	87	t
+77	Panicky Mother	6	t
+78	Clean Farmer	142	t
+79	Pleasant Shoe	43	t
+80	Worried Letter	131	t
+81	Perplexed Apple	99	t
+82	Giddy Seed	75	t
+83	Precious Bell	122	t
+84	Bored Money	103	t
+85	Petty Wood	152	t
+86	Dashing Flower	36	t
+87	Jolly Wood	106	t
+88	Icy Paper	151	t
+89	Grubby Brother	150	t
+90	Victorious Dog	13	t
+91	Narrow Children	58	t
+92	Loose Man	113	t
+93	Reassured Door	100	t
+94	Gritty Top	103	t
+95	Grumpy Morning	34	t
+96	Fluttering Fire	122	t
+97	Terrible Leg	117	t
+98	Foolish Fish	168	t
+99	Jealous Farmer	94	t
+100	Yummy Shoe	111	t
+101	Sore Feet	64	t
+102	Harebrained Bird	24	t
+103	Itchy Day	79	t
+104	Terrible Door	116	t
+105	Cumbersome Hill	135	t
+106	Exhilarated Flower	89	t
+107	Amused Chicken	132	t
+108	Smarmy Brother	167	t
+109	Gentle Eye	129	t
+110	Muddy Egg	134	t
+111	Superior Chair	12	t
+112	Muddy Chair	5	t
+113	Slimy Fire	174	t
+114	Loose Table	18	t
+115	Slimy Children	131	t
+116	Livid Stick	112	t
+117	Gaudy Brother	121	t
+118	Ripe Watch	25	t
+119	Clean Children	13	t
+120	Graceful School	158	t
+121	Victorious Rain	7	t
+122	High Way	7	t
+123	Nasty Cake	89	t
+124	Victorious Way	169	t
+125	Sharp Sheep	71	t
+126	Quizzical Home	32	t
+127	Vivacious Birthday	72	t
+128	Envious Thing	112	t
+129	Agitated Money	162	t
+130	Rotten Day	13	t
+131	Splendid Dog	19	t
+132	Perplexed Feet	169	t
+133	Ideal Milk	130	t
+134	Combative Kitty	146	t
+135	Healthy Bread	113	t
+136	Sweet Street	15	t
+137	Deceitful Box	22	t
+138	Healthy Wood	28	t
+139	Straight Table	27	t
+140	Tricky Shoe	137	t
+141	Frustrating Toy	63	t
+142	Gentle Eye	127	t
+143	Apprehensive Robin	138	t
+144	Fierce Window	84	t
+145	Petite Pig	132	t
+146	Miniature Shoe	136	t
+147	Envious Man	112	t
+148	Scary Hand	155	t
+149	Irate Baby	11	t
+150	Nutritious Eye	72	t
+151	Clumsy Fire	59	t
+152	Glorious Door	55	t
+153	Batty Farm	40	t
+154	Odd Baby	15	t
+155	Thankful Coat	40	t
+156	Vexed Corn	122	t
+157	Quizzical Bear	73	t
+158	Encouraging Sister	5	t
+159	Excited Birthday	128	t
+160	Decayed Shoe	5	t
+161	Fancy Chicken	141	t
+162	Zealous Bell	169	t
+163	Grieving Bread	62	t
+164	Steady Table	49	t
+165	Impressionable Mother	134	t
+166	Hollow Garden	98	t
+167	Lethal Wood	75	t
+168	Annoyed Coat	88	t
+169	Exuberant Garden	101	t
+170	Colorful Egg	108	t
+171	Moody Ball	63	t
+172	Magnificent Ball	148	t
+173	Virtuous Morning	89	t
+174	Loose Dog	62	t
+175	Succulent Doll	17	t
+176	Silly Door	79	t
+177	Uptight Game	9	t
+178	Anxious Window	113	t
+179	Fresh Sun	49	t
+180	Massive Window	103	t
+181	Intrigued Paper	166	t
+182	Dizzy Sun	19	t
+183	Smoggy Time	25	t
+184	Superior Floor	162	t
+185	High Fire	122	t
+186	Foolish Window	53	t
+187	Maniacal Morning	46	t
+188	Whimsical Ball	164	t
+189	Adorable Horse	96	t
+190	Vexed Chicken	172	t
+191	Round Car	129	t
+192	Itchy Robin	147	t
+193	Yummy House	88	t
+194	Tense Apple	101	t
+195	Anxious Cat	78	t
+196	Puny Rain	99	t
+197	Jittery Head	36	t
+198	Average Rabbit	145	t
+199	Despicable Robin	114	t
+200	Vivid Bear	66	t
+201	Hurt Baby	10	t
+202	Depraved Car	141	t
+203	Strange Bread	64	t
+204	Greasy Bell	63	t
+205	Excited Robin	14	t
+206	Smarmy Floor	164	t
+207	High Birthday	137	t
+208	Costly Father	159	t
+209	Outrageous Water	30	t
+210	Smooth Rain	95	t
+211	Ghastly Chair	33	t
+212	Crabby Kitty	21	t
+213	Broad Game	103	t
+214	Gleaming Hand	89	t
+215	Colorful Feet	153	t
+216	Sharp Flower	142	t
+217	Plain Nest	125	t
+218	Enormous Mother	19	t
+219	Massive Back	151	t
+220	Mammoth Watch	108	t
+221	Arrogant Watch	22	t
+222	Ratty Boy	78	t
+223	Frightened Corn	90	t
+224	Encouraging Father	23	t
+225	Old-Fashioned Table	162	t
+226	Mortified Head	3	t
+227	Muddy Bread	69	t
+228	High Morning	128	t
+229	Antsy Floor	123	t
+230	Helpless Boy	165	t
+231	Horrific Children	62	t
+232	Short Chair	119	t
+233	Gleaming Bed	32	t
+234	Frantic Money	61	t
+235	Lively Birthday	89	t
+236	Uneven Day	58	t
+237	Gorgeous Window	47	t
+238	Motionless Home	88	t
+239	Superficial Milk	15	t
+240	Substantial Shoe	3	t
+241	Vivacious Leg	39	f
+242	Nutty Box	140	t
+243	Amiable Garden	65	t
+244	Nonsensical Money	113	t
+245	Stormy Milk	166	t
+246	Grubby Street	167	t
+247	Bland Wind	33	t
+248	Smarmy Hill	55	t
+249	Worried Bird	5	t
+250	Rough House	11	t
+251	Cloudy Farm	142	t
+252	Alert Money	25	t
+253	Gentle Party	145	t
+254	Homely Flower	145	t
+255	Glamorous Rain	105	t
+256	Uptight Coat	90	t
+257	Helpless Door	89	t
+258	Hollow Egg	101	t
+259	Foolish Night	135	t
+260	Cooperative Hand	113	t
+261	Grumpy Window	109	t
+262	Gritty Mother	9	t
+263	Petite Birthday	107	t
+264	Determined Wind	45	t
+265	Comfortable Baby	158	t
+266	Hurt Wood	111	t
+267	Brave Cat	25	t
+268	Jumpy Rabbit	137	t
+269	Stormy Bell	18	t
+270	Wacky Water	8	t
+271	Fuzzy Shoe	82	t
+272	Loose Robin	83	t
+273	Icy Street	135	t
+274	Helpless Back	91	t
+275	Prickly Home	109	t
+276	Puny Brother	161	t
+277	Gigantic Top	159	t
+278	Graceful Snow	103	t
+279	Narrow Tree	35	t
+280	Repulsive Bread	100	t
+281	Scrawny Sheep	133	t
+282	Cheerful Robin	155	t
+283	Grieving Shoe	44	t
+284	Slimy Morning	155	t
+285	Fluttering Name	105	t
+286	Jumpy Door	20	t
+287	Irate Time	6	t
+288	Enthusiastic Kitty	15	t
+289	Confused Ball	8	t
+290	Ripe Picture	136	t
+291	Funny Coat	50	t
+292	Amiable Coat	53	t
+293	Condemned Street	31	t
+294	Whimsical Horse	166	t
+295	Confused House	73	t
+296	Sarcastic Girl	14	t
+297	Irate House	134	t
+298	Diminutive Birthday	12	t
+299	Wacky Cake	3	t
+300	Handsome Hill	149	t
+301	Successful Ring	61	t
+302	Shiny Bird	167	t
+303	Irate Coat	150	t
+304	Lethal Apple	55	t
+305	Frothy Horse	52	t
+306	Juicy Thing	137	t
+307	Puny Picture	20	t
+308	Slimy School	163	t
+309	Horrific Picture	12	t
+310	Giddy Leg	89	t
+311	Loose Snow	125	t
+312	Ecstatic Name	135	t
+313	Emaciated Eye	110	t
+314	Alert Home	174	t
+315	Sticky Farm	108	t
+316	Splendid Watch	119	t
+317	Jealous Man	131	f
+318	Testy Sheep	58	t
+319	Splendid Dog	86	t
+320	Sparkling Bed	119	t
+321	Ideal Flower	96	t
+322	Proud Leg	77	t
+323	Distraught Father	96	t
+324	Perfect Bed	28	t
+325	Scattered Seed	77	t
+326	Large Money	142	t
+327	Icy Girl	9	t
+328	Defeated Bell	66	t
+329	Smarmy Dog	10	t
+330	Greasy Stick	54	t
+331	Itchy Bed	82	t
+332	Hollow Leg	131	t
+333	Fluttering Apple	118	t
+334	Shaggy Nest	14	t
+335	Lethal Boy	64	t
+336	Gaudy School	52	t
+337	Extensive Man	55	t
+338	Convoluted Rain	139	t
+339	Filthy Watch	75	t
+340	Ideal Coat	119	t
+341	Panicky Girl	108	t
+342	Condescending Garden	94	t
+343	Glamorous Leg	44	t
+344	Whopping Name	164	t
+345	Exasperated Sheep	154	t
+346	Lazy Box	118	t
+347	Ratty Doll	10	t
+348	Brave Snow	96	t
+349	Stale Chicken	165	t
+350	Grotesque Girl	103	t
+351	Apprehensive Rabbit	150	t
+352	Minute Night	96	t
+353	Clear Baby	48	t
+354	Disturbed Letter	93	t
+355	Filthy Money	148	t
+356	Defiant Ring	165	t
+357	Frightened Milk	14	t
+358	Uptight Horse	120	t
+359	Intrigued Hill	21	t
+360	Nonsensical Grass	26	t
+361	Skinny Sheep	19	t
+362	Rough Night	61	t
+363	Shaky Fire	102	t
+364	Fluttering Apple	137	t
+365	Aloof Sister	108	t
+366	Fluttering Kitty	170	t
+367	Gaudy Time	61	t
+368	Appetizing Chicken	24	t
+369	Miniature Ground	100	t
+370	Upset Dog	85	t
+371	Cloudy Sheep	71	t
+372	Superficial Wind	70	t
+373	Loose Table	167	t
+374	Robust School	146	t
+375	Muddy Stick	19	t
+376	Gaudy Night	91	t
+377	Wonderful Man	46	t
+378	Friendly Sister	131	t
+379	Soggy Farm	93	t
+380	Envious Cake	154	t
+381	Intrigued Sheep	62	t
+382	Floppy Mother	159	t
+383	Lucky Hand	138	t
+384	Round Floor	97	t
+385	Uneven Night	62	t
+386	Teeny Cake	98	t
+387	Nasty Top	4	t
+388	Weary Floor	112	t
+389	Square Home	17	t
+390	Defiant Men	24	t
+391	Harebrained Feet	145	t
+392	Motionless Water	158	t
+393	Apprehensive Night	89	t
+394	Smug Seed	122	t
+395	Ecstatic Name	14	t
+396	Appalling Street	169	t
+397	Smarmy Apple	132	t
+398	Abrupt Boat	161	t
+399	Gritty Car	54	t
+400	Encouraging Night	134	t
+401	Pompous Cat	10	t
+402	Depraved Sun	39	t
+403	Jealous Hill	55	t
+404	Crabby Chicken	100	t
+405	Excited Sheep	115	t
+406	Adorable Rain	128	t
+407	Depressed Fire	32	t
+408	Cloudy Pig	135	t
+409	Lively Sister	84	t
+410	Strange Name	93	t
+411	Miniature Top	89	t
+412	Cooperative Game	124	t
+413	Cheeky Game	43	t
+414	Blushing Street	157	t
+415	Convoluted Bread	80	t
+416	Joyous Birthday	111	t
+417	Clumsy Wind	97	t
+418	Attractive Bell	60	f
+419	Exuberant Horse	157	t
+420	Adorable Rabbit	56	t
+421	Grotesque Morning	73	t
+422	Misty Ground	49	t
+423	Pompous Corn	67	t
+424	Bland Time	29	t
+425	Nonchalant Watch	149	t
+426	Worried Floor	49	t
+427	Biting Leg	93	t
+428	Shaky Street	27	t
+429	Condemned Cow	58	t
+430	Filthy Thing	15	t
+431	Handsome Stick	71	t
+432	Dull Seed	14	t
+433	Vexed Eye	124	t
+434	Nonchalant Bell	85	t
+435	Bulky Birthday	7	t
+436	Grieving Tree	162	t
+437	Irritable School	63	f
+438	Giddy Duck	35	t
+439	Wicked Paper	97	t
+440	Distressed Wood	69	t
+441	Dangerous Car	105	t
+442	Silly Wood	119	t
+443	Moody Day	48	t
+444	Graceful Letter	157	t
+445	Floppy Cow	92	t
+446	Moody Shoe	81	t
+447	Vexed Fish	168	t
+448	Salty Bell	71	t
+449	Combative Garden	25	t
+450	Smoggy Grass	2	t
+451	Fluttering Way	144	t
+452	Thoughtful Mother	120	t
+453	Frustrating Name	69	t
+454	Enormous Farmer	5	t
+455	Gorgeous Box	77	t
+456	Splendid Farm	83	t
+457	Magnificent Mother	29	t
+458	Jittery Day	1	t
+459	Bitter Bell	170	t
+460	Crooked Floor	21	t
+461	Crooked Horse	51	t
+462	Convoluted Shoe	100	t
+463	Grotesque Rain	128	t
+464	Large Egg	42	t
+465	Icy Stick	166	t
+466	Quizzical Farm	58	t
+467	Amused Door	32	t
+468	Scant Night	115	t
+469	Naughty Duck	6	t
+470	Obedient Fire	141	t
+471	Gaudy Game	7	t
+472	Sarcastic Robin	66	t
+473	Delicious Sheep	3	t
+474	Fantastic Bell	31	t
+475	Funny Ball	60	t
+476	Scant Feet	44	t
+477	Giddy Ground	25	t
+478	Trite Horse	47	t
+479	Creepy Flower	65	t
+480	Prickly Farm	93	t
+481	Fluttering Dog	82	f
+482	Sarcastic Letter	108	t
+483	Rotten Bell	57	t
+484	Frothy Ball	94	t
+485	Fresh Grass	22	t
+486	Defeated Time	6	t
+487	Annoyed Feet	151	t
+488	Batty Game	130	t
+489	Drab Bird	98	t
+490	Selfish Corn	173	t
+491	Frantic Shoe	80	t
+492	Wacky Men	127	t
+493	Sarcastic Children	9	t
+494	Clueless Paper	43	t
+495	Funny Shoe	70	t
+496	Superficial Hill	8	t
+497	Maniacal Mother	111	t
+498	Slippery Stick	50	t
+499	Irritable Corn	107	t
+500	Fancy Kitty	78	t
 \.

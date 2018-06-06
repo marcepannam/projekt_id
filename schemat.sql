@@ -8,12 +8,13 @@ drop table if exists modele_samolotow cascade;
 drop table if exists samoloty cascade;
 drop table if exists bilety cascade;
 drop table if exists bilety_laczone cascade;
-drop table if exists pasy_startowe cascade;
 drop table if exists loty cascade;
 drop table if exists nadanie_bagazu cascade;
 drop table if exists miejsca_w_samolocie cascade;
-drop table if exists rezerwacje_pasow_startowych cascade;
 drop table if exists linie_lotnicze cascade;
+--PASY STARTOWE - WYRZUCONE
+--drop table if exists pasy_startowe cascade;
+--drop table if exists rezerwacje_pasow_startowych cascade;
 
 create table kraje(
   kod_iso varchar(2) primary key,
@@ -40,7 +41,8 @@ create table lotniska(
 
 
 create table modele_samolotow(
-  model varchar(3) primary key,
+  model serial primary key,
+  kod_iata varchar(3) not null,
   nazwa varchar(50) not null,
 --PASY STARTOWE - WYRZUCONE
 --potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
@@ -52,9 +54,9 @@ create table modele_samolotow(
 
 create table samoloty(
   id_samolotu serial primary key,
-  nazwa varchar(20),
+  nazwa varchar(30),
   --np Bodzio maly helikopter
-  id_modelu varchar(20) not null references modele_samolotow(model),
+  id_modelu integer not null references modele_samolotow(model),
   czy_sprawny boolean default true
 );
 create table bilety_laczone(
@@ -127,7 +129,7 @@ create table bilety(
 --);
 
 create table miejsca_w_samolocie(
-  id_modelu_samolotu varchar(20) not null references modele_samolotow(model),
+  id_modelu_samolotu integer not null references modele_samolotow(model),
   nr_miejsca varchar(5) not null,--np. A25
   rodzaj varchar(20) default 'normal' --pro, plus
 );
