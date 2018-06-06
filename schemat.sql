@@ -41,7 +41,8 @@ create table lotniska(
 
 create table modele_samolotow(
   model varchar(20) primary key,
-  potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
+--PASY STARTOWE - WYRZUCONE
+--potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
   ilosc_miejsc numeric (4) not null,
   ilosc_zalogi numeric (2) not null,
   zasieg varchar(30) not null
@@ -77,11 +78,12 @@ create table bilety_laczone(
 );
 
 
-create table pasy_startowe (
-  id_pasa serial primary key,
-  id_lotniska varchar(6) not null references lotniska(kod_IATA),
-  dl_pasa numeric(6, 2) not null --w metrach
-);
+--PASY STARTOWE - WYRZUCONE
+--create table pasy_startowe (
+--  id_pasa serial primary key,
+--  id_lotniska varchar(6) not null references lotniska(kod_IATA),
+--  dl_pasa numeric(6, 2) not null --w metrach
+--);
 
 create table loty(
   id_lotu serial primary key,
@@ -92,7 +94,9 @@ create table loty(
   dokad varchar(6) not null references lotniska (kod_IATA) check (skad <> dokad),
   odlot timestamp not null,--w utc
   przylot timestamp not null--w utc
+  --PASY STARTOWE - WYRZUCONE
   --nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa) --kodlotniska+4cyfrowy_nr
+
   --check sprawdzajaca czy loty na pasach startowych sie nie pokrywaja
   --check spr czy dlugosc pasa startowego jest opowiednia
   --check sprawdzajaca czy samolot sie nie teleportuje
@@ -114,11 +118,12 @@ create table bilety(
   miejsce varchar(5) -- + check czy takie miejsce jest w samolocie i czy nie pokrywaja sie
 );
 
-create table rezerwacje_pasow_startowych(
-  id_pasa integer not null references pasy_startowe(id_pasa),   
-  od timestamp not null,
-  "do" timestamp not null check ("do" > od)
-);
+--PASY STARTOWE - WYRZUCONE
+--create table rezerwacje_pasow_startowych(
+--  id_pasa integer not null references pasy_startowe(id_pasa),   
+--  od timestamp not null,
+--  "do" timestamp not null check ("do" > od)
+--);
 
 create table miejsca_w_samolocie(
   id_modelu_samolotu varchar(20) not null references modele_samolotow(model),
