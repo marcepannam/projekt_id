@@ -3,6 +3,7 @@
 --Od nowego roku postanowiła wprowadzić również loty rejsowe. Zatrudniła ciebie do zaprojektowania bazy, w której będzie przechowywać dane o lotach.
 
 drop table if exists kraje cascade;
+drop table if exists miasta cascade;
 drop table if exists lotniska cascade;
 drop table if exists modele_samolotow cascade;
 drop table if exists samoloty cascade;
@@ -20,6 +21,12 @@ create table kraje(
   kod_iso varchar(2) primary key,
   nazwa varchar(40) not null,
   czy_w_schengen boolean not null  
+);
+
+create table miasta(
+  id_miasta serial primary key,
+  nazwa varchar(40) not null,
+  kraj varchar(2) references kraje
 );
 
 create table linie_lotnicze(
