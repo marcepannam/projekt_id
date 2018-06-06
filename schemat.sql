@@ -130,8 +130,9 @@ create table bilety(
 
 create table miejsca_w_samolocie(
   id_modelu_samolotu integer not null references modele_samolotow(model),
-  nr_miejsca varchar(5) not null,--np. A25
-  rodzaj varchar(20) default 'normal' --pro, plus
+  nr_miejsca varchar(3) not null,--np. A25
+  rodzaj varchar(20) default 'normal', --pro, plus
+  primary key(id_modelu_samolotu, nr_miejsca)
 );
 
 create table nadanie_bagazu(
