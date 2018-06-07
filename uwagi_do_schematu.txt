@@ -1,0 +1,12 @@
+wyrzucić klasę z tabeli bilety a wrzucić do tabeli miejsca_w_samolocie
+
+modele_samolotow create constraint deferrable initially deferred - żeby miejsc w tabeli miejsca było tyle samo ile wskazuje liczność w tabeli modele_somolotow
+
+dodać strefę czasową do miasta/lotniska
+
+dodać dzień tygodnia do odlotu i przylotu
+
+w lotach będzie wtedy identyfikatorem kod lotu
+
+w biletach unikatowym identyfikatorem będzie wtedy konkretna data + kod lotu
+
