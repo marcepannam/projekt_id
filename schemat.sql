@@ -26,7 +26,8 @@ create table kraje(
 create table miasta(
   id_miasta serial primary key,
   nazwa varchar(40) not null,
-  kraj varchar(2) references kraje
+  kraj varchar(2) references kraje,
+  strefa_czasowa numeric(4,2)
 );
 
 create table linie_lotnicze(
