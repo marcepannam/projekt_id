@@ -109,6 +109,7 @@ create table plany_lotow(
 create view loty as 
 select
 (kod || '_' || tydzien::text) as id_lotu,
+kod as kod_lotu,
 id_samolotu,
 linia_lotnicza,
 kod,
@@ -160,10 +161,10 @@ begin
       (select nr_miejsca from miejsca_w_samolocie m
       join samoloty s on m.id_modelu_samolotu = s.id_modelu
       join loty l on s.id_samolotu = l.id_samolotu
-      where new.id_lotu = l.id_lotu 
+      where new.kod_lotu = l.kod_lotu
       and nr_miejsca not in 
       (select b.miejsce from bilety b
-       where b.id_lotu = new.id_lotu)
+       where new.kod_lotu = b.kod_lotu and new.data_lotu = b.data_lotu)
       limit 1);
     if new.miejsce is null then
       raise exception 'brakuje miejsc';

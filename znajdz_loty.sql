@@ -1,4 +1,4 @@
-create or replace function znajdz_id_lotow(src text, dest text, czas timestamp) returns int[] as $$
+create or replace function znajdz_id_lotow(src text, dest text, czas timestamp) returns text[] as $$
 import time, datetime
 
 def parse_date(x):
@@ -58,7 +58,7 @@ $$ language sql;
 
 create or replace function zaplanuj_lot(id_biletu_laczonego bigint, src text, dest text, czas timestamp) returns void as $$
 
-    insert into bilety (id_lotu, id_biletu_laczonego, cena) select id_lotu, $1, 100 from znajdz_loty($2, $3, czas);
+    insert into bilety (kod_lotu, data_lotu, id_biletu_laczonego, cena) select (select l.kod_lotu from loty l where l.id_lotu = z.id_lotu), (select odlot::date from loty l where l.id_lotu = z.id_lotu), $1, 100 from znajdz_loty($2, $3, czas) z;
 
 
 $$ language sql;

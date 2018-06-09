@@ -1,22 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.12
--- Dumped by pg_dump version 9.5.12
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-SET row_security = off;
-
---
--- Data for Name: plany_lotow; Type: TABLE DATA; Schema: public; Owner: marianna
---
 
 COPY public.plany_lotow (id_samolotu, linia_lotnicza, kod, skad, dokad, dzien_tygodnia, odlot, czas_lotu) FROM stdin;
 1	249	MQBHCD	YSR	YBG	0	646	335

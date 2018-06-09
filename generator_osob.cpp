@@ -99,7 +99,7 @@ int main(int argc, char** argv) {
   } else if (polecenie == "bilety") {
   
   // bilety_laczone
-  for (int i=1; i<=600; i++) {
+  for (int i=1; i<=40; i++) {
     string name = random_choice(names);
     string surname = random_choice(surnames);
     string title;
@@ -133,7 +133,7 @@ int main(int argc, char** argv) {
     string dokad = random_choice(kody_lotnisk);
     while (dokad == skad) dokad = random_choice(kody_lotnisk);
 
-    int planuj_po = rok * 40;// + rand() % (rok / 5);
+    int planuj_po = 1263081600 + rand() % (24 * 3600 * 40);
     cout << "select zaplanuj_lot(" << i << ", '" << skad << "', '" <<  dokad <<"', to_timestamp("<< planuj_po << ")::timestamp);" << endl;
   }
   }
