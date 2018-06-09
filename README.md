@@ -10,4 +10,4 @@ Contains information from OpenFlights Airports Database, which is made available
 
 Set up the DB:
 
-cat schemat.sql create.sql alter.sql znajdz_loty.sql create_bilety.sql | psql
+cat schemat.sql create.sql alter.sql znajdz_loty.sql create_loty.sql create_bilety.sql | psql
