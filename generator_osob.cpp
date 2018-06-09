@@ -74,24 +74,24 @@ int main(int argc, char** argv) {
     // 
 
     string start = random_choice(kody_lotnisk);
-    int czas = rok * 40 + rand() % (3600 * 24 + 10);
-    for (int i=1; i<=50; i++) {
+    int czas = rand() % (60*24);
+    while (czas < 60*24*6) {
       string koniec = random_choice(kody_lotnisk);
       while (koniec == start) koniec = random_choice(kody_lotnisk);
 
       int odlot = czas; // sekundy po 1970
-      czas += 3200 + rand() % 7200;
-      int przylot = odlot + 3200 + rand() % 7200;
-      czas += rand() % (3600 * 24) + 3200;
+      czas += rand() % (9*60) + 40;
+      int przylot = czas;
+      czas += rand() % (20*60) + 4*60;
 
       int linia = random_choice(id_linii_lotniczych);
       string kod;
       for (int i=0;i<6;i++) kod += random_choice(alphabet);
   
-      cout << "insert into loty (id_samolotu, linia_lotnicza, kod, skad, dokad, odlot, przylot)   values (" << id_samolotu << "," <<
+      cout << "insert into plany_lotow (id_samolotu, linia_lotnicza, kod, skad, dokad, dzien_tygodnia, odlot, czas_lotu)   values (" << id_samolotu << "," <<
       linia << ",'" << kod << "','" <<
-      start << "','" << koniec << "',to_timestamp(" << odlot << "),to_timestamp(" <<   przylot
-      << "));" << endl;
+      start << "','" << koniec << "'," << (odlot/(24*60)) << "," << (odlot%(24*60)) << "," << przylot - odlot 
+      << ");" << endl;
 
       start = koniec;
     }

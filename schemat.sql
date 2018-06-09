@@ -93,30 +93,39 @@ create table bilety_laczone(
 --  dl_pasa numeric(6, 2) not null --w metrach
 --);
 
-create table loty(
-  id_lotu serial primary key,
+create table plany_lotow(
   id_samolotu integer references samoloty(id_samolotu) not null,
 
   linia_lotnicza integer references linie_lotnicze not null,
-  kod varchar(6) not null,
+  kod varchar(6) primary key,
   skad varchar(6) not null references lotniska (kod_IATA),  --nr lotniska
   dokad varchar(6) not null references lotniska (kod_IATA) check (skad <> dokad),
-  odlot timestamp not null,--w utc
-  przylot timestamp not null--w utc
-  --PASY STARTOWE - WYRZUCONE
-  --nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa) --kodlotniska+4cyfrowy_nr
-
-  --check sprawdzajaca czy loty na pasach startowych sie nie pokrywaja
-  --check spr czy dlugosc pasa startowego jest opowiednia
-  --check sprawdzajaca czy samolot sie nie teleportuje
+  dzien_tygodnia int check(dzien_tygodnia >= 0 and dzien_tygodnia < 7),
+  odlot int not null check(odlot >= 0 and odlot < 24 * 60), -- w minutach
+  czas_lotu int not null check(czas_lotu > 0) -- w minutach
 );
+
+-- wszystkie loty od 2010 przez 10 tygodnii
+create view loty as 
+select
+(kod || '_' || tydzien::text) as id_lotu,
+id_samolotu,
+linia_lotnicza,
+kod,
+skad,
+dokad,
+'2010-01-03'::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + (odlot * '1 minute'::interval) as odlot,
+'2010-01-03'::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + ((odlot+czas_lotu) * '1 minute'::interval) as przylot
+from plany_lotow p 
+cross join (select generate_series(0, 9) as tydzien) t;
 
 -- (kod, data odlotu) muszą być unikalne. Nie stanowią primary key ze wzgłedów praktycznych.
 --create unique index loty_index
 --on loty (kod, skad::date);
 
 create table bilety(
-  id_lotu integer references loty(id_lotu),
+  kod_lotu varchar(6) references plany_lotow(kod),
+  data_lotu date, -- check(extract(dow from data_lotu) = ),
   id_biletu_laczonego integer references bilety_laczone(id_biletu_laczonego),
   --nawetjak maszjeden bielt wpisac wartosc, wtedy id_biletu
   czy_karta_pokladowa_wystawiona boolean default false,
@@ -126,7 +135,7 @@ create table bilety(
   oplacony boolean default false,
   --jesli nieoplacona nie wystawiaj karty pokladowej
   miejsce varchar(5),  -- + check czy takie miejsce jest w samolocie i czy nie pokrywaja sie
-  primary key (id_lotu, miejsce)
+  primary key (kod_lotu, data_lotu, miejsce)
 );
 
 
@@ -140,7 +149,7 @@ create table bilety(
 create table miejsca_w_samolocie(
   id_modelu_samolotu integer not null references modele_samolotow(model),
   nr_miejsca varchar(3) not null,--np. A25
-  klasa varchar(20) default 'ekonomiczna' check(klasa = 'ekonomiczna' or = like 'biznes' or klasa = 'premium'),
+  klasa varchar(20) default 'ekonomiczna' check(klasa = 'ekonomiczna' or klasa = 'biznes' or klasa = 'premium'),
   primary key(id_modelu_samolotu, nr_miejsca)
 );
 
@@ -166,12 +175,12 @@ $$ language plpgsql;
 
 create trigger ustaw_miejsce before insert on bilety for each row execute procedure ustaw_miejsce();
 
-create table nadanie_bagazu(
-  waga numeric(3, 2) check (waga <= 32), -- >=18 kg, >=32kg, 32kg +
-  id_lotu integer not null,
-  miejsce varchar(5) not null,
-  foreign key (id_lotu, miejsce) references bilety(id_lotu, miejsce)
-);
+--create table nadanie_bagazu(
+--  waga numeric(3, 2) check (waga <= 32), -- >=18 kg, >=32kg, 32kg +
+--  id_lotu integer not null,
+--  miejsce varchar(5) not null,
+--  foreign key (id_lotu, miejsce) references bilety(id_lotu, miejsce)
+--);
 
 --zmiany w tabelach zawiera plik alter.sql
 
