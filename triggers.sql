@@ -21,3 +21,24 @@ drop trigger if EXISTS miejsce_w_samolocie on bilety;
 CREATE TRIGGER miejsce_w_samolocie before INSERT or update
 on bilety
 for each row execute procedure miejsce_check();
+
+
+
+create or replace function teleport_check() returns trigger AS
+$$
+DECLARE
+ a varchar;
+ b varchar;
+BEGIN
+    select dokad into a from loty where id_samolotu=new.id_samolotu and przylot<=new.odlot order by przylot desc limit 1;
+    select skad into b from loty where id_samolotu=new.id_samolotu and odlot>=new.przylot order by odlot asc limit 1;
+
+    case when (not a like null) or (not a like new.skad) then raise exception 'Samolot teleportuje się'; else end case;
+    case when (not b like null) or (not b like new.dokad) then raise exception 'Samolot releportuje się'; else end case;
+
+    return new;
+end
+$$ language plpgsql;
+
+drop trigger if exists teleport_check on loty;
+create trigger teleport_check before insert or update on loty for each row execute procedure teleport_check();
