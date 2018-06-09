@@ -1,0 +1,6478 @@
+	City	iso_code
+1	Goroka	PG
+2	Madang	PG
+3	Mount Hagen	PG
+4	Nadzab	PG
+5	Port Moresby	PG
+6	Wewak	PG
+7	Buka Island	PG
+8	Kundiawa	PG
+9	Daru	PG
+10	Gurney	PG
+11	Girua	PG
+12	Hoskins	PG
+13	Kiunga	PG
+14	Kikori	PG
+15	Kerema	PG
+16	Kavieng	PG
+17	Mendi	PG
+18	Momote	PG
+19	Moro	PG
+20	Misima Island	PG
+21	Tari	PG
+22	Tabubil	PG
+23	Tokua	PG
+24	Vanimo	PG
+25	Wapenamanda	PG
+26	Kieta	PG
+27	Narssarssuaq	GL
+28	Godthaab	GL
+29	Sondrestrom	GL
+30	Thule	GL
+31	Ilulissat	GL
+32	Qasigiannguit	GL
+33	Aasiaat	GL
+34	Alluitsup Paa	GL
+35	Neerlerit Inaat	GL
+36	Paamiut	GL
+37	Qeqertarsuaq Airport	GL
+38	Qaqortoq	GL
+39	Maniitsoq	GL
+40	Nanortalik	GL
+41	Narsaq	GL
+42	Qaanaaq	GL
+43	Sisimiut	GL
+44	Upernavik	GL
+45	Uummannaq	GL
+46	Angmagssalik	GL
+47	Ittoqqortoormiit	GL
+49	Akureyri	IS
+50	Egilsstadir	IS
+51	Hofn	IS
+52	Husavik	IS
+53	Isafjordur	IS
+54	Keflavik	IS
+55	Patreksfjordur	IS
+56	Reykjavik	IS
+57	Siglufjordur	IS
+58	Vestmannaeyjar	IS
+59	Bakki	IS
+60	Grímsey	IS
+61	Thorshofn	IS
+62	Vopnafjörður	IS
+63	Myvatn	IS
+64	Bildudalur	IS
+65	Gjogur	IS
+66	Saudarkrokur	IS
+67	Selfoss	IS
+68	Nordfjordur	IS
+69	Sault Sainte Marie	CA
+70	Winnipeg	CA
+71	Halifax	CA
+72	St. Anthony	CA
+73	Tofino	CA
+74	Pelly Bay	CA
+75	Baie Comeau	CA
+76	Bagotville	CA
+77	Baker Lake	CA
+78	Campbell River	CA
+79	Brandon	CA
+80	Cambridge Bay	CA
+81	Nanaimo	CA
+82	Castlegar	CA
+83	Chatham	CA
+84	Charlo	CA
+85	Coppermine	CA
+86	Coronation	CA
+87	Chilliwack	CA
+88	Clyde River	CA
+89	Coral Harbour	CA
+90	Dawson	CA
+91	Burwash	CA
+92	Princeton	CA
+93	Deer Lake	CA
+94	Dease Lake	CA
+95	Dauphin	CA
+96	Dawson Creek	CA
+97	Edmonton	CA
+98	Eskimo Point	CA
+99	Estevan	CA
+100	Edson	CA
+101	Eureka	CA
+102	Inuvik	CA
+103	Iqaluit	CA
+104	Fredericton	CA
+105	Forestville	CA
+106	Flin Flon	CA
+107	Fort Resolution	CA
+108	Fort Simpson	CA
+109	Kingston	CA
+110	La Grande Riviere	CA
+111	Gaspe	CA
+112	Geraldton	CA
+113	Iles De La Madeleine	CA
+114	Hudson Bay	CA
+115	Dryden	CA
+116	Holman Island	CA
+117	Gjoa Haven	CA
+118	Hamilton	CA
+119	Montreal	CA
+120	Hay River	CA
+122	Atikokan	CA
+123	Pond Inlet	CA
+124	St. Jean	CA
+125	Stephenville	CA
+126	Kamloops	CA
+127	Waterloo	CA
+128	Schefferville	CA
+129	Kindersley	CA
+130	Toronto	CA
+131	Chapleau	CA
+132	Meadow Lake	CA
+133	Lloydminster	CA
+134	Alert	CA
+135	Kelowna	CA
+136	Mayo	CA
+137	Moose Jaw	CA
+138	Fort Mcmurray	CA
+139	Moosonee	CA
+140	Maniwaki	CA
+142	Natashquan	CA
+143	Gatineau	CA
+144	Matagami	CA
+145	Old Crow	CA
+146	Cold Lake	CA
+147	High Level	CA
+148	Ottawa	CA
+149	Prince Albert	CA
+150	Peace River	CA
+151	Portage-la-prairie	CA
+152	Pitt Meadows	CA
+153	Pickle Lake	CA
+154	Port Menier	CA
+155	Peterborough	CA
+156	Prince Pupert	CA
+157	Fort Chipewyan	CA
+158	Muskoka	CA
+159	Quebec	CA
+160	Red Deer Industrial	CA
+161	Windsor	CA
+162	Watson Lake	CA
+163	Kenora	CA
+164	Lethbridge	CA
+165	Moncton	CA
+166	Comox	CA
+167	Regina	CA
+168	Thunder Bay	CA
+169	Grande Prairie	CA
+170	Yorkton	CA
+171	North Battleford	CA
+172	Gander	CA
+173	Sydney	CA
+174	Quesnel	CA
+175	Resolute	CA
+176	Riviere Du Loup	CA
+177	Roberval	CA
+178	Rocky Mountain House	CA
+179	Rankin Inlet	CA
+180	Sudbury	CA
+181	Sherbrooke	CA
+182	St. John	CA
+183	Fort Smith	CA
+184	Nanisivik	CA
+185	Summerside	CA
+186	Sachs Harbour	CA
+187	Cape Dorset	CA
+188	Thompson	CA
+189	Trenton	CA
+190	Timmins	CA
+192	Tuktoyaktuk	CA
+194	Repulse Bay	CA
+195	Hall Beach	CA
+196	Rouyn	CA
+197	La Ronge	CA
+198	Vermillion	CA
+199	Broughton Island	CA
+200	Val D'or	CA
+201	Quujjuaq	CA
+202	Norman Wells	CA
+203	Vancouver	CA
+204	Buffalo Narrows	CA
+205	Wiarton	CA
+206	Petawawa	CA
+208	Wabush	CA
+209	Williams Lake	CA
+210	Wrigley	CA
+211	Cranbrook	CA
+213	Saskatoon	CA
+214	Medicine Hat	CA
+215	Fort Saint John	CA
+216	Sioux Lookout	CA
+217	Pangnirtung	CA
+218	Earlton	CA
+219	Prince George	CA
+220	Terrace	CA
+221	London	CA
+222	Abbotsford	CA
+223	Whitehorse	CA
+224	North Bay	CA
+225	Calgary	CA
+226	Smithers	CA
+227	Fort Nelson	CA
+228	Penticton	CA
+229	Charlottetown	CA
+230	Spence Bay	CA
+231	Victoria	CA
+232	Lynn Lake	CA
+233	Swift Current	CA
+234	Churchill	CA
+235	Goose Bay	CA
+236	St. John's	CA
+237	Kapuskasing	CA
+238	Armstrong	CA
+239	Mont Joli	CA
+242	Gore Bay	CA
+243	Yellowknife	CA
+244	Slave Lake	CA
+245	Sandspit	CA
+246	Sarnia	CA
+247	Port Hardy	CA
+248	Whitecourt	CA
+249	Sept-iles	CA
+250	Teslin	CA
+251	Greenwood	CA
+252	Faro	CA
+253	Fort Mcpherson	CA
+254	Ekati	CA
+257	Aklavik	CA
+258	Deline	CA
+259	Tulita	CA
+260	Fort Good Hope	CA
+261	Paulatuk	CA
+262	Whistler	CA
+263	Anahim Lake	CA
+264	Williams Harbour	CA
+265	St. Lewis	CA
+266	Port Hope Simpson	CA
+267	Rigolet	CA
+268	Colville Lake	CA
+269	Whatì	CA
+270	Summer Beaver	CA
+271	Angling Lake	CA
+272	Wunnumin Lake	CA
+273	North Spirit Lake	CA
+274	Bearskin Lake	CA
+275	Kingfisher Lake	CA
+276	Ogoki Post	CA
+277	Poplar Hill	CA
+278	Chisasibi	CA
+279	Tête-à-la-Baleine	CA
+280	La Tabatière	CA
+281	Cat Lake	CA
+282	Fort Frances	CA
+283	Kasabonika	CA
+284	Kangirsuk	CA
+285	Attawapiskat	CA
+286	Lac Du Bonnet	CA
+287	Uranium City	CA
+288	Lourdes-De-Blanc-Sablon	CA
+289	Cartwright	CA
+290	Chesterfield Inlet	CA
+291	Nain	CA
+292	Fort Severn	CA
+293	Fort Albany	CA
+294	Fort Hope	CA
+295	Makkovik	CA
+296	Texada	CA
+297	Gods Lake Narrows	CA
+298	Igloolik	CA
+299	Kuujjuarapik	CA
+300	Gillam	CA
+301	Grise Fiord	CA
+302	Quaqtaq	CA
+304	Nemiscau	CA
+305	Hopedale	CA
+306	Chevery	CA
+307	Ivujivik	CA
+308	Island Lake	CA
+309	Akulivik	CA
+310	Waskaganish	CA
+311	Aupaluk	CA
+312	Kimmirut	CA
+313	Lansdowne House	CA
+314	Lutselk'e	CA
+315	Kangiqsualujjuaq	CA
+316	Mary's Harbour	CA
+317	Chibougamau	CA
+318	Umiujaq	CA
+319	Wemindji	CA
+320	Norway House	CA
+321	Points North Landing	CA
+322	Oxford House	CA
+323	Inukjuak	CA
+324	Pikangikum	CA
+325	Peawanuck	CA
+326	Powell River	CA
+327	The Pas	CA
+328	Nakina	CA
+329	Gamètì	CA
+330	Red Lake	CA
+331	Stony Rapids	CA
+332	Sanikiluaq	CA
+333	St. Theresa Point	CA
+334	Big Trout Lake	CA
+336	Webequie	CA
+337	Whale Cove	CA
+338	Salluit	CA
+339	York Landing	CA
+340	Ilford	CA
+341	Bathurst	CA
+342	Eastmain River	CA
+343	Fond-Du-Lac	CA
+344	Gods River	CA
+345	Swan River	CA
+346	Kashechewan	CA
+347	Muskrat Dam	CA
+348	Masset	CA
+349	Sachigo Lake	CA
+350	Round Lake	CA
+351	Sandy Lake	CA
+352	Shamattawa	CA
+353	Churchill Falls	CA
+354	Wollaston Lake	CA
+355	Puvirnituq	CA
+356	Tasiujaq	CA
+357	Bella Coola	CA
+358	Bonaventure	CA
+359	St-Augustin	CA
+360	Prince Rupert	CA
+361	Berens River	CA
+362	Mont-Tremblant	CA
+363	Natuashish	CA
+364	Postville	CA
+365	Kangiqsujuaq	CA
+366	Alma	CA
+367	Havre-Saint-Pierre	CA
+368	Rimouski	CA
+369	Tadoule Lake	CA
+370	Lac Brochet	CA
+371	South Indian Lake	CA
+372	Brochet	CA
+373	Little Grand Rapids	CA
+374	Cross Lake	CA
+375	Red Sucker Lake	CA
+376	Rainbow Lake	CA
+377	Bonnyville	CA
+379	Ganges	CA
+380	Fort St. James	CA
+381	Boundary Bay	CA
+382	Langley Township	CA
+383	Bella Bella	CA
+384	Wekweeti	CA
+385	Yarmouth	CA
+386	Burlington	CA
+387	Waterville	CA
+388	Brampton	CA
+389	Oshawa	CA
+390	Mackenzie British Columbia	CA
+392	Golden	CA
+393	Revelstoke	CA
+394	Pembroke	CA
+395	Suffield	CA
+396	Cornwall	CA
+397	La Romaine	CA
+398	Kegaska	CA
+399	Black Tickle	CA
+400	Trail	CA
+401	Patricia Bay	CA
+402	Arctic Bay	CA
+403	Keewaywin	CA
+404	Marathon	CA
+405	Hearst	CA
+406	Hornepayne	CA
+407	Kirkland Lake	CA
+408	Manitouwadge	CA
+409	Wawa	CA
+410	Manitowaning	CA
+411	Slate Falls	CA
+412	Collingwood	CA
+413	Brantford	CA
+414	One Hundred Mile House	CA
+415	108 Mile Ranch	CA
+416	Gimli	CA
+417	Matheson Island	CA
+418	Bob Quinn Lake	CA
+419	Trois Rivieres	CA
+420	Bromont	CA
+421	Cochrane	CA
+422	Barrie-Orillia	CA
+423	Midland	CA
+424	Markham	CA
+425	Haliburton	CA
+426	Lindsay	CA
+427	Saint Catherines	CA
+428	Edenvale	CA
+429	Orillia	CA
+430	Holland Landing	CA
+431	Parry Sound	CA
+432	Hanover	CA
+433	Bedwell Harbour	CA
+434	ELLIOT LAKE	CA
+436	Dunnville	CA
+437	Wood Buffalo	CA
+438	Canmore	CA
+439	Banff	CA
+440	Drumheller	CA
+441	Hinton	CA
+443	Musselwhite Mine	CA
+444	Squamish	CA
+445	La Grande-4	CA
+446	Alert Bay	CA
+447	Liverpool	CA
+448	Nipawin	CA
+449	Centralia	CA
+450	Blue River	CA
+451	Chetwynd	CA
+452	Ross River	CA
+453	Dolbeau-St-Félicien	CA
+454	Amos	CA
+455	Goderich	CA
+456	Hope	CA
+457	Haines Junction	CA
+458	Digby	CA
+459	Fort Liard	CA
+460	Key Lake	CA
+461	Leaf Rapids	CA
+462	Matane	CA
+463	Charlevoix	CA
+464	Nejanilini Lake	CA
+465	Owen Sound	CA
+466	Port Hawkesbury	CA
+467	St Thomas	CA
+470	Smiths Falls	CA
+471	St Leonard	CA
+472	Virden	CA
+473	Vernon	CA
+474	Beaver Creek	CA
+475	Salmon Arm	CA
+476	Kelsey	CA
+477	Pukatawagan	CA
+478	Grand Forks	CA
+479	Jenpeg	CA
+480	Thicket Portage	CA
+481	Pikwitonei	CA
+482	Poplar River	CA
+483	Pincher Creek	CA
+484	Stewart	CA
+485	Ignace	CA
+486	Blida	DZ
+487	Bou Saada	DZ
+488	Bejaja	DZ
+489	Algier	DZ
+490	Djanet	DZ
+491	Boufarik	DZ
+492	Reggan	DZ
+493	Illizi	DZ
+494	Ain Oussera	DZ
+495	Tamanrasset	DZ
+496	Jijel	DZ
+497	Mecheria	DZ
+498	Relizane	DZ
+499	Annaba	DZ
+500	Constantine	DZ
+501	Tebessa	DZ
+502	Tilrempt	DZ
+503	Tiaret	DZ
+504	Bou Sfer	DZ
+505	Tindouf	DZ
+506	Ech-cheliff	DZ
+507	Oran	DZ
+508	Tlemcen	DZ
+510	Sidi Bel Abbes	DZ
+511	Ghriss	DZ
+512	Adrar	DZ
+513	Biskra	DZ
+514	El Golea	DZ
+515	Ghardaia	DZ
+516	Hassi Messaoud	DZ
+517	In Salah	DZ
+518	Touggourt	DZ
+519	Laghouat	DZ
+520	Timimoun	DZ
+521	Ouargla	DZ
+522	Zarzaitine	DZ
+523	Batna	DZ
+524	Béchar	DZ
+525	Bordj Badji Mokhtar	DZ
+526	Guemar	DZ
+527	Setif	DZ
+528	Djelfa	DZ
+529	Cotonou	BJ
+530	Ouagadougou	BF
+531	Bobo-dioulasso	BF
+532	Accra	GH
+533	Tamale	GH
+534	Wa	GH
+535	Sunyani	GH
+536	Takoradi	GH
+537	Kumasi	GH
+538	Abidjan	IV
+539	Bouake	IV
+540	Daloa	IV
+541	Korhogo	IV
+542	Man	IV
+543	San Pedro	IV
+544	Yamoussoukro	IV
+545	Abuja	NG
+546	Akure	NG
+547	Benin	NG
+548	Calabar	NG
+549	Enugu	NG
+550	Gusau	NG
+551	Ibadan	NG
+552	Ilorin	NG
+553	Jos	NG
+554	Kaduna	NG
+555	Kano	NG
+556	Maiduguri	NG
+557	Makurdi	NG
+558	Lagos	NG
+559	Minna	NG
+560	Port Hartcourt	NG
+561	Sokoto	NG
+562	Yola	NG
+563	Zaria	NG
+564	Imo	NG
+565	Asaba	NG
+566	Uyo	NG
+567	Maradi	NE
+568	Niamey	NE
+569	Tahoua	NE
+570	Agadez	NE
+571	Dirkou	NE
+572	Diffa	NE
+573	Zinder	NE
+574	Monastir	TN
+575	Tunis	TN
+576	Bizerte	TN
+577	Remada	TN
+578	Gafsa	TN
+579	Gabes	TN
+580	Bordj El Amri	TN
+581	Djerba	TN
+582	El Borma	TN
+583	Sfax	TN
+584	Tozeur	TN
+585	Tabarka	TN
+586	Niatougou	TG
+587	Lome	TG
+588	Antwerp	BE
+589	Beauvechain	BE
+590	Kleine Brogel	BE
+591	Brussels	BE
+592	Bertrix	BE
+593	Charleroi	BE
+594	Chievres	BE
+595	Koksijde	BE
+596	Florennes	BE
+597	Kortrijk-vevelgem	BE
+598	Liege	BE
+599	Ostend	BE
+600	Zutendaal	BE
+601	Sint-truiden	BE
+602	St.-hubert	BE
+603	Ursel	BE
+604	Weelde	BE
+605	Zoersel	BE
+606	Knokke	BE
+607	GOETSENHOVEN	BE
+608	Spa	BE
+609	Namur	BE
+610	Hasselt	BE
+611	Leopoldsburg	BE
+612	Bautzen	DE
+613	Altenburg	DE
+614	Dessau	DE
+615	Eisenhuettenstadt	DE
+616	Suhl	DE
+617	Muehlhausen	DE
+618	Halle	DE
+619	Riesa	DE
+620	Rechlin-laerz	DE
+621	Strausberg	DE
+622	Schoenhagen	DE
+623	Barth	DE
+624	Jena	DE
+625	Kyritz	DE
+626	Magdeburg	DE
+627	Rothenburg/ol	DE
+628	Anklam	DE
+629	Cottbus	DE
+630	Kamenz	DE
+631	Berlin	DE
+632	Dresden	DE
+633	Erfurt	DE
+634	Frankfurt	DE
+635	Munster	DE
+636	Hamburg	DE
+638	Cologne	DE
+639	Duesseldorf	DE
+640	Munich	DE
+641	Nuernberg	DE
+642	Leipzig	DE
+643	Saarbruecken	DE
+644	Stuttgart	DE
+646	Hannover	DE
+647	Bremen	DE
+648	Egelsbach	DE
+649	Hahn	DE
+650	Mannheim	DE
+651	Allendorf	DE
+652	Worms	DE
+653	Mainz	DE
+654	Eisenach	DE
+655	Siegerland	DE
+657	Kiel	DE
+658	Luebeck	DE
+659	Dahlemer Binz	DE
+660	Meinerzhagen	DE
+661	Arnsberg	DE
+662	Essen	DE
+663	Bielefeld	DE
+664	Moenchengladbach	DE
+665	Paderborn	DE
+666	Stadtlohn	DE
+667	Dortmund	DE
+668	Augsburg	DE
+669	Biberach	DE
+670	Eggenfelden	DE
+671	Mindelheim	DE
+672	Oberpfaffenhofen	DE
+673	Straubing	DE
+674	Vilshofen	DE
+675	Leutkirch	DE
+676	Friedrichshafen	DE
+677	Parchim	DE
+678	Stendal	DE
+679	Aalen-heidenheim	DE
+680	Bayreuth	DE
+681	Burg Feuerstein	DE
+682	Hof	DE
+683	Hassfurt	DE
+684	Koblenz	DE
+685	Trier	DE
+686	Speyer	DE
+687	Zweibruecken	DE
+688	Donaueschingen	DE
+689	Freiburg	DE
+690	Mengen	DE
+691	Schwaebisch Hall	DE
+692	Soest	DE
+693	Braunschweig	DE
+694	Kassel	DE
+695	Hildesheim	DE
+696	Bremerhaven	DE
+697	Emden	DE
+698	Leer	DE
+699	Wilhelmshaven	DE
+700	Borkum	DE
+701	Norderney	DE
+702	Flensburg	DE
+703	Rendsburg	DE
+704	Westerland	DE
+705	Spangdahlem	DE
+706	Ramstein	DE
+707	Giebelstadt	DE
+708	Brueckeburg	DE
+709	Celle	DE
+710	Rheine-brentlange	DE
+711	Fritzlar	DE
+712	Laupheim	DE
+713	Mendig	DE
+714	Niederstetten	DE
+715	Roth	DE
+716	Fassberg	DE
+717	Grafenwoehr	DE
+718	Hanau	DE
+719	Hohenfels	DE
+720	Kitzingen	DE
+721	Nordholz	DE
+722	Diepholz	DE
+723	Geilenkirchen	DE
+724	Hohn	DE
+725	Jever	DE
+726	Laage	DE
+727	Noervenich	DE
+728	Schleswig	DE
+729	Wittmundhafen	DE
+730	Wunstorf	DE
+731	Vilseck	DE
+732	Coleman	DE
+733	Wiesbaden	DE
+734	Landsberg	DE
+735	Buechel	DE
+736	Erding	DE
+737	Fuerstenfeldbruck	DE
+738	Holzdorf	DE
+739	Ingolstadt	DE
+740	Lechfeld	DE
+741	Neuburg	DE
+742	Guetersloh	DE
+743	Memmingen	DE
+744	Aachen	DE
+745	Karlsruhe/Baden-Baden	DE
+746	Weeze	DE
+747	Norden	DE
+748	Juist	DE
+749	Heringsdorf	DE
+750	Büsum	DE
+751	Helgoland	DE
+752	Ruegen	DE
+753	Tannheim	DE
+754	Nauen	DE
+755	Uetersen	DE
+756	Hellwege	DE
+757	Finsterwalde	DE
+758	Dinslaken	DE
+759	Hoexter Holzminden	DE
+760	Harlesiel	DE
+761	Wangerooge	DE
+762	Langeoog	DE
+763	Cuxhaven	DE
+764	Kirchheim-Teck	DE
+765	Wuerzburg	DE
+766	Hopsten	DE
+767	Linkenheim	DE
+768	Ebenhofen	DE
+769	Kempten	DE
+771	Lindau	DE
+772	Roitzschjora	DE
+773	Nannhausen	DE
+774	Recklinghausen	DE
+775	Lahr	DE
+776	Regensburg	DE
+777	Cochstedt	DE
+778	Landshut	DE
+779	Itzehoe	DE
+780	Allstedt	DE
+781	Peine	DE
+782	Welzow	DE
+783	Rotenburg Wuemme	DE
+784	Wipperfuerth	DE
+785	Osnabrueck	DE
+786	Ballenstedt	DE
+787	Hasenmoor	DE
+788	Ganderkesee	DE
+789	Nienburg Weser	DE
+790	Damme	DE
+791	Duelmen	DE
+792	Obermehler	DE
+793	Hodenhagen	DE
+794	Grube	DE
+796	Uelzen	DE
+797	Hamm	DE
+798	Luesse	DE
+799	Bad Oeynhausen	DE
+800	Brilon	DE
+801	Bad Pyrmont	DE
+803	Koethen	DE
+804	Sankt Michaelisdonn	DE
+805	Salzgitter	DE
+806	Karlshoefen	DE
+807	Oldenburg	DE
+808	Rinteln	DE
+809	Muenster	DE
+810	Sankt Peter-Ording	DE
+811	Luechow	DE
+812	Scharlibbe	DE
+813	Burg	DE
+814	Bad Neuenahr	DE
+815	Bad Duerkheim	DE
+816	Leverkusen	DE
+817	Wershofen	DE
+818	Gera	DE
+819	TELGTE	DE
+820	Furstenwalde	DE
+821	Eberswalde	DE
+822	Saarmund	DE
+823	Karlsruhe	DE
+824	Weinheim	DE
+825	Grefrath	DE
+826	Segeletz	DE
+827	Peenemunde	DE
+828	Neustadt-Glewe	DE
+829	Wildenrath	DE
+830	Bremgarten	DE
+831	Birburg	DE
+832	Thalmaessing	DE
+833	Ansbach	DE
+834	Schleissheim	DE
+835	Verden	DE
+836	Nittenau	DE
+837	Neumuenster	DE
+838	Pellworm	DE
+839	Elsenthal	DE
+840	Meschede	DE
+841	Stade	DE
+842	Giessen	DE
+843	Gelnhausen	DE
+844	Lauterbach-Wernges	DE
+845	Aschaffenburg	DE
+846	Reichelsheim	DE
+847	Schoenstadt	DE
+848	Lauenbrueck	DE
+849	Huettenbusch	DE
+850	Neubrandenburg	DE
+851	Bamberg	DE
+852	Zerbst/Anhalt	DE
+853	Armari Air Force Base	EE
+854	Kardla	EE
+855	Kuressaare	EE
+856	Parnu	EE
+857	Tallinn-ulemiste International	EE
+858	Tartu	EE
+859	Kihnu	EE
+860	Ruhnu	EE
+861	Tallinn	EE
+862	Enontekio	FI
+863	Eura	FI
+864	Halli	FI
+865	Helsinki	FI
+867	Hameenkyro	FI
+868	Hanko	FI
+869	Hyvinkaa	FI
+870	Kikala	FI
+871	Immola	FI
+872	Kitee	FI
+873	Ivalo	FI
+874	Joensuu	FI
+875	Jyvaskyla	FI
+876	Kauhava	FI
+877	Kemi	FI
+878	Kajaani	FI
+879	Kauhajoki	FI
+880	Kruunupyy	FI
+881	Kemijarvi	FI
+882	Kuusamo	FI
+883	Kittila	FI
+884	Kuopio	FI
+885	Vesivehmaa	FI
+886	Lappeenranta	FI
+887	Mariehamn	FI
+888	Menkijarvi	FI
+889	Mikkeli	FI
+890	Nummela	FI
+891	Oulu	FI
+892	Piikajarvi	FI
+893	Pori	FI
+894	Pudasjarvi	FI
+895	Pyhasalmi	FI
+896	Pattijoki	FI
+897	Rantasalmi	FI
+898	Rovaniemi	FI
+899	Rayskala	FI
+900	Savonlinna	FI
+901	Selanpaa	FI
+902	Sodankyla	FI
+903	Tampere	FI
+904	Teisko	FI
+905	Turku	FI
+906	Utti	FI
+907	Vaasa	FI
+908	Varkaus	FI
+909	Ylivieska-raudaskyla	FI
+910	Seinäjoki / Ilmajoki	FI
+912	Kotka	FI
+913	Belfast	GB
+914	Enniskillen	GB
+916	Londonderry	GB
+917	Birmingham	GB
+918	Coventry	GB
+919	Leicester	GB
+920	Golouchestershire	GB
+921	Halfpenny Green	GB
+922	Pailton	GB
+923	Turweston	GB
+924	Wellesbourne	GB
+925	Manchester	GB
+926	Woodfort	GB
+927	Chivenor	GB
+928	Newquai	GB
+929	Lyneham	GB
+930	Boscombe Down	GB
+931	Culdrose	GB
+932	St. Athan	GB
+933	Yeovilton	GB
+934	Haverfordwest	GB
+935	Cardiff	GB
+936	Swansea	GB
+937	Bristol	GB
+940	Plymouth	GB
+941	Bournemouth	GB
+942	Southampton	GB
+943	Lasham	GB
+944	Shoreham By Sea	GB
+945	Biggin Hill	GB
+948	Farnborough	GB
+949	Chalsgrove	GB
+950	Blackbushe	GB
+952	Southend	GB
+953	Lydd	GB
+954	Manston	GB
+955	Brough	GB
+956	Carlisle	GB
+957	Repton	GB
+958	Blackpool	GB
+959	Humberside	GB
+960	Barrow Island	GB
+961	Leeds	GB
+962	Warton	GB
+963	Hawarden	GB
+964	Newcastle	GB
+965	Teesside	GB
+966	East Midlands	GB
+967	Llanbedr	GB
+968	Ternhill	GB
+969	Shawbury	GB
+970	Woodvale	GB
+971	Kirkwall	GB
+972	Sumburgh	GB
+973	Wick	GB
+974	Aberdeen	GB
+975	Inverness	GB
+976	Glasgow	GB
+977	Edinburgh	GB
+978	Islay	GB
+979	Prestwick	GB
+980	Benbecula	GB
+981	Scatsta	GB
+982	Dundee	GB
+983	Stornoway	GB
+984	Tiree	GB
+985	Leuchars	GB
+986	Lossiemouth	GB
+987	Cambridge	GB
+989	Norwich	GB
+991	North Weald	GB
+992	Fowlmere	GB
+993	Cranfield	GB
+994	Exeter	GB
+996	Oxford	GB
+997	Benson	GB
+998	Lakenheath	GB
+999	Mildenhall	GB
+1000	Wattisham	GB
+1001	Wyton	GB
+1002	Fairford	GB
+1003	Brize Norton	GB
+1004	Odiham	GB
+1005	Cosford	GB
+1006	Northolt	GB
+1007	Coningsby	GB
+1008	Dishforth	GB
+1009	Leeming	GB
+1010	Church Fenton	GB
+1011	Honington	GB
+1012	Cottesmore	GB
+1013	Scampton	GB
+1014	Wittering	GB
+1015	Linton-on-ouse	GB
+1016	Waddington	GB
+1017	Topcliffe	GB
+1018	Cranwell	GB
+1019	Barkston Heath	GB
+1020	Marham	GB
+1021	ST MARY\\'S	GB
+1022	Nottingham	GB
+1023	Doncaster. Sheffield	GB
+1024	Campbeltown	GB
+1025	Eday	GB
+1026	Fair Isle	GB
+1027	North Ronaldsay	GB
+1028	Papa Westray	GB
+1029	Stronsay	GB
+1030	Sanday	GB
+1031	Lerwick	GB
+1032	Westray	GB
+1033	Land's End	GB
+1034	Penzance	GB
+1035	Angelsey	GB
+1036	Barra	GB
+1037	Unst	GB
+1038	North Connel	GB
+1039	Isle Of Wight	GB
+1040	Lympne	GB
+1041	Colonsay	GB
+1042	Tresco	GB
+1044	Maidenhead	GB
+1045	Wycombe	GB
+1046	Bembridge	GB
+1047	Shaftesbury	GB
+1049	Forties Alpha	GB
+1050	Perth	GB
+1051	Caernarfon	GB
+1052	Duxford	GB
+1053	Fairoaks	GB
+1054	Rochester	GB
+1055	Beccles	GB
+1056	Brawdy	GB
+1057	Redhill	GB
+1058	Elstree	GB
+1059	Sandtoft	GB
+1060	Popham	GB
+1062	Shrewsbury	GB
+1063	Burton-on-Trent	GB
+1064	York	GB
+1066	Shobdon	GB
+1067	Newtownards	GB
+1068	Headcorn	GB
+1069	Panshanger	GB
+1070	Thurrock	GB
+1071	Stapleford	GB
+1072	Goodwood	GB
+1073	Spadeadam	GB
+1074	Kinloss	GB
+1075	Alderney	GG
+1076	Guernsey	GG
+1077	Jersey	JE
+1078	Isle Of Man	IM
+1079	Mount Pleasant	FK
+1080	Stanley	FK
+1081	Amsterdam	NL
+1082	Weert	NL
+1083	Maastricht	NL
+1084	Deelen	NL
+1085	Drachten	NL
+1086	Eindhoven	NL
+1087	Groningen	NL
+1088	Gilze-rijen	NL
+1089	De Kooy	NL
+1090	Lelystad	NL
+1091	Leeuwarden	NL
+1092	Rotterdam	NL
+1093	Soesterberg	NL
+1094	Enschede	NL
+1095	Valkenburg	NL
+1096	Woensdrecht	NL
+1097	Volkel	NL
+1098	Hilversum	NL
+1099	Texel	NL
+1100	Hoogeveen	NL
+1101	Deventer	NL
+1102	Middelburg	NL
+1103	Ameland	NL
+1104	Deurne	NL
+1105	Bosschenhoofd	NL
+1106	Arnhem	NL
+1107	Cork	IE
+1108	Galway	IE
+1109	Dublin	IE
+1110	Connaught	IE
+1111	Kerry	IE
+1112	Casement	IE
+1113	Shannon	IE
+1114	Sligo	IE
+1115	Waterford	IE
+1116	Dongloe	IE
+1117	Leixlip	IE
+1118	Inis Mor	IE
+1119	Indreabhan	IE
+1120	Inisheer	IE
+1121	Inishmaan	IE
+1123	Bantry	IE
+1124	Aarhus	DK
+1125	Billund	DK
+1126	Copenhagen	DK
+1127	Esbjerg	DK
+1128	Gronholt	DK
+1129	Karup	DK
+1130	Laeso	DK
+1131	Maribo	DK
+1132	Odense	DK
+1133	Krusa-padborg	DK
+1135	Ronne	DK
+1136	Soenderborg	DK
+1137	Skrydstrup	DK
+1138	Skive	DK
+1139	Thisted	DK
+1140	Kolding	DK
+1141	Vesthimmerland	DK
+1142	Stauning	DK
+1143	Aalborg	DK
+1144	Samsoe	DK
+1145	Sindal	DK
+1146	Kalundborg	DK
+1147	Toender	DK
+1148	Endelage	DK
+1149	Herning	DK
+1150	Aero	DK
+1151	Vagar	FO
+1152	Mykines	FO
+1153	Skuvoy	FO
+1154	Stora Dimun	FO
+1155	Frooba	FO
+1156	Luxemburg	LU
+1157	Alesund	NO
+1158	Andoya	NO
+1159	Alta	NO
+1160	Voss	NO
+1161	Bronnoysund	NO
+1162	Bodo	NO
+1163	Bergen	NO
+1164	Batsfjord	NO
+1165	Kristiansand	NO
+1166	Geilo	NO
+1167	Bardufoss	NO
+1168	Harstad/Narvik	NO
+1169	Fagernes	NO
+1170	Floro	NO
+1171	Oslo	NO
+1172	Haugesund	NO
+1173	Hasvik	NO
+1174	Kristiansund	NO
+1175	Kjeller	NO
+1176	Kirkenes	NO
+1177	Farsund	NO
+1178	Molde	NO
+1179	Mosjoen	NO
+1180	Lakselv	NO
+1181	Notodden	NO
+1182	Orland	NO
+1183	Roros	NO
+1184	Rygge	NO
+1185	Svalbard	NO
+1186	Skien	NO
+1187	Stord	NO
+1188	Sandnessjoen	NO
+1189	Tromso	NO
+1190	Sandefjord	NO
+1191	Trondheim	NO
+1192	Stavanger	NO
+1193	Stokmarknes	NO
+1194	Hammerfest	NO
+1195	Honningsvag	NO
+1196	Mehamn	NO
+1197	Vadsø	NO
+1198	Orsta-Volda	NO
+1199	Narvik	NO
+1200	Berlevag	NO
+1202	Leknes	NO
+1203	Namsos	NO
+1204	Mo i Rana	NO
+1205	Rørvik	NO
+1206	Røst	NO
+1207	Sandane	NO
+1208	Sogndal	NO
+1209	Svolvær	NO
+1210	Sorkjosen	NO
+1211	Vardø	NO
+1212	Værøy	NO
+1213	Jan Mayen	NO
+1214	Hamar	NO
+1215	Frya	NO
+1216	Rakkestad	NO
+1217	Kautokeino	NO
+1218	Warsaw	PL
+1219	Gdansk	PL
+1220	Krakow	PL
+1221	Katowice	PL
+1223	Mielec	PL
+1224	Poznan	PL
+1225	Rzeszow	PL
+1226	Szczecin	PL
+1227	Slupsk	PL
+1228	Shapaja	PL
+1230	Wroclaw	PL
+1231	Zielona Gora	PL
+1232	Bydgoszcz	PL
+1233	Lodz	PL
+1235	Bielsko-Biala	PL
+1236	Koszalin	PL
+1237	Gdynia	PL
+1238	Malbork	PL
+1239	Lask	PL
+1240	Miroslawiec	PL
+1242	RADOM	PL
+1244	Inowroclaw	PL
+1245	Pruszcz Gdansk	PL
+1246	Goraszka	PL
+1247	Szczytno-Szymany	PL
+1248	Jelenia Gora	PL
+1249	Biała Podlaska	PL
+1250	Lębork	PL
+1251	Dęblin	PL
+1252	Leczyca	PL
+1255	Tomaszów Mazowiecki	PL
+1256	Linkoeping	SE
+1257	Norrkoeping	SE
+1258	Uppsala	SE
+1259	Ronneby	SE
+1260	Rada	SE
+1261	Gothenborg	SE
+1262	Joenkoeping	SE
+1263	Falkoping	SE
+1264	Lidkoping	SE
+1266	Skovde	SE
+1267	Trollhattan	SE
+1268	Karlsborg	SE
+1269	Satenas	SE
+1270	Stockholm	SE
+1271	Karlskoga	SE
+1272	Mora	SE
+1274	Arvika	SE
+1275	Emmaboda	SE
+1276	Ljungby	SE
+1277	Kristianstad	SE
+1278	Landskrona	SE
+1279	Oskarshamn	SE
+1280	Anderstorp	SE
+1281	Kalkmar	SE
+1282	Malmoe	SE
+1283	Halmstad	SE
+1284	Hagshult	SE
+1285	Vaxjo	SE
+1286	Hallviken	SE
+1287	Hede	SE
+1288	Sveg	SE
+1289	Gallivare	SE
+1290	Hudiksvall	SE
+1291	Jokkmokk	SE
+1292	Kramfors	SE
+1293	Lycksele	SE
+1294	Optand	SE
+1295	Sundsvall	SE
+1296	Ornskoldsvik	SE
+1297	Pitea	SE
+1298	Kiruna	SE
+1299	Orsa	SE
+1300	Skelleftea	SE
+1301	Sattna	SE
+1302	Umea	SE
+1303	Vilhelmina	SE
+1304	Arvidsjaur	SE
+1305	Orebro	SE
+1306	Vasteras	SE
+1307	Lulea	SE
+1308	Vidsel	SE
+1309	Arboga	SE
+1312	Borlange	SE
+1313	Hultsfred	SE
+1314	Gavle	SE
+1317	Eskilstuna	SE
+1318	Visby	SE
+1319	Kalixfors	SE
+1320	Östersund	SE
+1321	Hagfors	SE
+1322	Karlstad	SE
+1323	Torsby	SE
+1324	Ängelholm	SE
+1325	Mohed	SE
+1326	Hemavan	SE
+1327	Pajala	SE
+1328	Farila	SE
+1329	Soderhamn	SE
+1330	Vangso	SE
+1331	Björkvik	SE
+1332	Ljungbyhed	SE
+1333	Alexander Bay	ZA
+1334	Aggeneys	ZA
+1335	Brakpan	ZA
+1336	Bisho	ZA
+1337	Bloemfontein	ZA
+1338	Bethlehem	ZA
+1339	Bothaville	ZA
+1340	Cape Town	ZA
+1341	Calvinia	ZA
+1342	Durban	ZA
+1343	East London	ZA
+1344	Ermelo	ZA
+1345	Ficksburg	ZA
+1346	Johannesburg	ZA
+1347	George	ZA
+1348	Graaff Reinet	ZA
+1349	Grahamstown	ZA
+1350	Greytown	ZA
+1351	Harmony	ZA
+1352	Harrismith	ZA
+1353	Hoedspruit	ZA
+1354	Hendrik Verwoerddam	ZA
+1356	Klerksdorp	ZA
+1357	Kimberley	ZA
+1358	Krugersdorp	ZA
+1359	Kroonstad	ZA
+1360	Kuruman	ZA
+1361	Kleinsee	ZA
+1363	Lichtenburg	ZA
+1364	Lambertsbaai	ZA
+1365	Langebaanweg	ZA
+1366	Ladysmith	ZA
+1368	Margate	ZA
+1369	Marble Hall	ZA
+1370	Majuba Power Station	ZA
+1371	Malalane	ZA
+1372	Musina	ZA
+1373	Mkuze	ZA
+1375	Nylstroom	ZA
+1376	Overberg	ZA
+1377	Oudtshoorn	ZA
+1378	Port Elizabeth	ZA
+1379	Plettenberg Bay	ZA
+1380	Phalaborwa	ZA
+1381	Polokwane	ZA
+1382	Port Saint Johns	ZA
+1383	Pietermaritzburg	ZA
+1384	Pilanesberg	ZA
+1385	Potgietersrus	ZA
+1386	Potchefstroom	ZA
+1387	Parys	ZA
+1388	Queenstown	ZA
+1389	Richard's Bay	ZA
+1390	Rustenburg	ZA
+1391	Robertson	ZA
+1392	Springbok	ZA
+1393	Secunda	ZA
+1394	Saldanha	ZA
+1395	Springs	ZA
+1396	Swartkop	ZA
+1397	Sishen	ZA
+1398	Swellendam	ZA
+1399	Skukuza	ZA
+1400	Tommy's Field	ZA
+1402	Tutuka	ZA
+1403	Tzaneen	ZA
+1404	Ulundi	ZA
+1405	Upington	ZA
+1406	Umtata	ZA
+1407	Vryburg	ZA
+1409	Vredendal	ZA
+1410	Vereeniging	ZA
+1411	Pretoria	ZA
+1412	Witbank	ZA
+1413	Waterkloof	ZA
+1414	Welkom	ZA
+1415	Ysterplaat	ZA
+1416	Zeerust	ZA
+1418	Mpumalanga	ZA
+1419	Malamala	ZA
+1420	Mafeking	ZA
+1421	Nelspruit	ZA
+1422	Aliwal North	ZA
+1423	Alkantpan	ZA
+1424	Alldays	ZA
+1425	Barberton	ZA
+1426	Dedeben	ZA
+1427	Phinda	ZA
+1428	Lime Acres	ZA
+1429	Francistown	BW
+1430	Jwaneng	BW
+1431	Kasane	BW
+1432	Maun	BW
+1433	Gaberone	BW
+1434	Selebi-phikwe	BW
+1435	Ghanzi	BW
+1436	Orapa	BW
+1437	Shakawe	BW
+1438	Tuli Lodge	BW
+1439	Okavango Delta	BW
+1440	Khwai River	BW
+1441	Sowa	BW
+1442	Brazzaville	CG
+1443	Pointe-noire	CG
+1444	Loubomo	CG
+1445	Owando	CD
+1446	Ouesso	CD
+1447	Kinshasa	CD
+1449	Muanda	CD
+1450	Kitona Base	CD
+1451	Bandoundu	CD
+1452	Kikwit	CD
+1453	Mbandaka	CD
+1454	Gbadolite	CD
+1455	Gemena	CD
+1456	Kotakoli	CD
+1457	Lisala	CD
+1458	Kisangani	CD
+1459	Isiro	CD
+1460	Bunia	CD
+1461	Buta Zega	CD
+1462	Bukavu/kavumu	CD
+1463	Goma	CD
+1464	Kindu	CD
+1465	Lubumashi	CD
+1466	Kolwezi	CD
+1467	Kalemie	CD
+1468	Kamina Base	CD
+1469	Kananga	CD
+1470	Mbuji-mayi	CD
+1471	Boma	CD
+1472	Matadi	CD
+1473	Inongo	CD
+1474	Nioki	CD
+1475	Kiri	CD
+1476	Basankusu	CD
+1477	Tshikapa	CD
+1478	Lodja	CD
+1479	Ilebo	CD
+1480	Kasongo	CD
+1481	Mwene-Ditu	CD
+1482	Kabinda	CD
+1483	Ikela	CD
+1484	Bumba	CD
+1485	Beni	CD
+1486	Boende	CD
+1487	Kongolo	CD
+1488	Kahemba	CD
+1489	Manzini	SZ
+1490	Bangui	CF
+1491	Berberati	CF
+1492	Bata	GQ
+1493	Malabo	GQ
+1494	Wide Awake	SH
+1495	Plaisance	MU
+1496	Rodriguez Island	MU
+1497	Diego Garcia Island	IO
+1498	Tiko	CM
+1499	Douala	CM
+1500	Maroua	CM
+1501	Foumban	CM
+1502	N'gaoundere	CM
+1503	Garoua	CM
+1504	Bafoussam	CM
+1505	Bamenda	CM
+1506	Yaounde	CM
+1508	Kasompe	ZM
+1509	Livingstone	ZM
+1510	Lusaka	ZM
+1511	Mfuwe	ZM
+1512	Mongu	ZM
+1513	Ndola	ZM
+1514	Southdowns	ZM
+1515	Chipata	ZM
+1516	Solwesi	ZM
+1517	Kasaba Bay	ZM
+1518	Kasama	ZM
+1520	Moroni	KM
+1521	Moheli	KM
+1522	Anjouan	KM
+1524	Dzaoudzi	YT
+1525	Antananarivo	MG
+1526	Miandrivazo	MG
+1527	Sainte Marie	MG
+1528	Toamasina	MG
+1529	Morondava	MG
+1530	Antsiranana	MG
+1531	Mananara	MG
+1532	Andapa	MG
+1533	Ambilobe	MG
+1534	Antalaha	MG
+1535	Analalava	MG
+1536	Mahajanga	MG
+1537	Nosy-be	MG
+1538	Besalampy	MG
+1539	Maroantsetra	MG
+1540	Sambava	MG
+1541	Vohemar	MG
+1542	Antsohihy	MG
+1543	Ampampamena	MG
+1544	Tolagnaro	MG
+1545	Fianarantsoa	MG
+1546	Farafangana	MG
+1547	Manakara	MG
+1548	Mananjary	MG
+1549	Morombe	MG
+1550	Toliara	MG
+1551	Antsalova	MG
+1552	Ankavandra	MG
+1553	Belo sur Tsiribihina	MG
+1554	Maintirano	MG
+1555	Morafenobe	MG
+1556	Tambohorano	MG
+1557	Tsiroanomandidy	MG
+1558	Ambatondrazaka	MG
+1559	Port Bergé	MG
+1560	Ambanja	MG
+1561	Soalala	MG
+1562	Mampikony	MG
+1563	Tsaratanana	MG
+1564	Mandritsara	MG
+1565	Manja	MG
+1566	Antsirabe	MG
+1567	Bekily	MG
+1568	M'banza-congo	AO
+1569	Benguela	AO
+1570	Cabinda	AO
+1571	Huambo	AO
+1572	Kuito	AO
+1573	Lobito	AO
+1574	Luanda	AO
+1575	Malanje	AO
+1576	Menongue	AO
+1577	Negage	AO
+1578	Porto Amboim	AO
+1579	Saurimo	AO
+1580	Soyo	AO
+1581	Lubango	AO
+1582	Luena	AO
+1583	Uige	AO
+1584	Xangongo	AO
+1585	Catumbela	AO
+1586	Dundo	AO
+1587	Ondjiva	AO
+1588	Mocamedes	AO
+1589	Nzagi	AO
+1590	Lucapa	AO
+1591	Sumbe	AO
+1592	Oyem	GA
+1593	Okondja	GA
+1594	Lambarene	GA
+1595	Bitam	GA
+1596	Port Gentil	GA
+1597	Omboue Hospial	GA
+1598	Makokou	GA
+1599	Libreville	GA
+1600	Franceville	GA
+1601	Koulamoutou	GA
+1602	Mouila	GA
+1603	Tchibanga	GA
+1604	Mayumba	GA
+1605	Beira	MZ
+1606	Inhambane	MZ
+1607	Lichinga	MZ
+1608	Lumbo	MZ
+1609	Maputo	MZ
+1610	Mueda	MZ
+1611	Mocimboa Da Praia	MZ
+1612	Marrupa	MZ
+1613	Nacala	MZ
+1614	Nampula	MZ
+1615	Pemba	MZ
+1616	Quelimane	MZ
+1617	Songo	MZ
+1618	Tete	MZ
+1619	Ulongwe	MZ
+1620	Vilankulu	MZ
+1621	Chimoio	MZ
+1622	Inhaca	MZ
+1623	Cuamba	MZ
+1624	Alphonse	SC
+1625	Desroches	SC
+1626	Farquhar	SC
+1627	Mahe	SC
+1628	Praslin	SC
+1629	Coetivy	SC
+1630	Bird Island	SC
+1631	Assumption Island	SC
+1632	Abeche	TD
+1633	Moundou	TD
+1634	N'djamena	TD
+1635	Faya-largeau	TD
+1636	Sarh	TD
+1637	Am Timan	TD
+1638	Bulawayo	ZW
+1639	Harare	ZW
+1640	Chiredzi	ZW
+1641	Victoria Falls	ZW
+1643	Kariba	ZW
+1644	Mutoko	ZW
+1645	Mutare	ZW
+1646	Masvingo	ZW
+1647	Zvishavane	ZW
+1648	Gwert	ZW
+1649	Hwange National Park	ZW
+1650	Spray View	ZW
+1651	Bumi Hills	ZW
+1652	Mana Pools	ZW
+1653	Blantyre	MW
+1654	Karonga	MW
+1655	Kasungu	MW
+1656	Lilongwe	MW
+1657	Mzuzu	MW
+1658	Club Makokola	MW
+1659	Likoma Island	MW
+1660	Mangochi	MW
+1661	Maseru	LS
+1663	Mantsonyane	LS
+1664	Bamako	ML
+1665	Gao	ML
+1666	Kayes	ML
+1667	Mopti	ML
+1668	Tombouctou	ML
+1669	Tessalit	ML
+1670	Bougouni	ML
+1671	Sikasso	ML
+1672	Banjul	GM
+1673	Fuerteventura	ES
+1674	Hierro	ES
+1675	Santa Cruz De La Palma	ES
+1676	Gran Canaria	ES
+1677	Arrecife	ES
+1678	Tenerife	ES
+1680	Melilla	ES
+1681	Albacete	ES
+1682	Alicante	ES
+1683	Almeria	ES
+1684	Aviles	ES
+1685	Cordoba	ES
+1686	Bilbao	ES
+1687	Barcelona	ES
+1688	Badajoz	ES
+1689	La Coruna	ES
+1690	Granada	ES
+1691	Gerona	ES
+1693	Madrid	ES
+1694	Ibiza	ES
+1695	Jerez	ES
+1696	Murcia	ES
+1698	Malaga	ES
+1699	Menorca	ES
+1700	Sevilla	ES
+1701	Ocana	ES
+1702	Pamplona	ES
+1704	Reus	ES
+1705	Rota	ES
+1706	Salamanca	ES
+1707	Son Bonet	ES
+1708	San Luis	ES
+1709	San Sebastian	ES
+1710	Santiago	ES
+1711	Seo De Urgel	ES
+1713	Valencia	ES
+1714	Valladolid	ES
+1715	Vitoria	ES
+1716	Vigo	ES
+1717	Santander	ES
+1718	Zaragoza	ES
+1720	Palma de Mallorca	ES
+1721	La Gomera	ES
+1722	Logroño-Agoncillo	ES
+1723	Leon	ES
+1724	Burgos	ES
+1725	Sabadell	ES
+1726	Lleida	ES
+1727	Huesca	ES
+1728	Ciudad Real	ES
+1729	Das i Fontanals de Cerdanya	ES
+1730	Segovia	ES
+1733	Castellón de la Plana	ES
+1734	Teruel	ES
+1735	Freetown	SL
+1736	Bonthe	SL
+1737	Bo	SL
+1738	Kenema	SL
+1740	Yengema	SL
+1741	Gbangbatok	SL
+1742	Cufar	GW
+1743	Bissau	GW
+1744	Bubaque	GW
+1745	Monrovia	LR
+1747	Greenville	LR
+1748	Agadir	MA
+1749	Tan Tan	MA
+1750	Fes	MA
+1751	Ifrane	MA
+1752	Er-rachidia	MA
+1753	Meknes	MA
+1754	Oujda	MA
+1755	Ben Slimane	MA
+1756	Rabat	MA
+1757	Casablanca	MA
+1758	Marrakech	MA
+1759	Kentira	MA
+1760	Ouarzazate	MA
+1761	Al Hociema	MA
+1762	Tetouan	MA
+1763	Tanger	MA
+1764	Essadouira	MA
+1765	El Aroui	MA
+1767	Zagora	MA
+1768	Bouarfa	MA
+1769	Beni Mellal	MA
+1770	Ziguinchor	SN
+1771	Cap Skiring	SN
+1772	Kaolack	SN
+1773	Dakar	SN
+1774	St. Louis	SN
+1775	Bakel	SN
+1776	Kedougou	SN
+1777	Tambacounda	SN
+1778	Matam	SN
+1779	Aioun El Atrouss	MR
+1780	Tidjikja	MR
+1781	Kiffa	MR
+1782	Nema	MR
+1783	Kaedi	MR
+1784	Nouakschott	MR
+1785	Selibabi	MR
+1786	Atar	MR
+1787	Nouadhibou	MR
+1788	Bir Moghrein	MR
+1789	Zouerat	MR
+1790	Fira	GN
+1791	Faranah	GN
+1792	Labe	GN
+1793	Conakry	GN
+1794	Kissidougou	GN
+1795	Kamsar	GN
+1796	Amilcar Cabral	CV
+1797	Boa Vista	CV
+1798	Maio	CV
+1799	Sao Nocolau Island	CV
+1800	Sao Vicente Island	CV
+1801	Praia. Santiago Island	CV
+1802	Sao Filipe. Fogo Island	CV
+1803	Addis Ababa	ET
+1805	Arba Minch	ET
+1806	Axum	ET
+1807	Bahar Dar	ET
+1808	Dire Dawa	ET
+1809	Gambella	ET
+1810	Gondar	ET
+1811	Jimma	ET
+1812	Lalibella	ET
+1813	Makale	ET
+1814	Asosa	ET
+1815	Baco	ET
+1816	Beica	ET
+1817	Dessie	ET
+1818	Dembidollo	ET
+1819	Gode	ET
+1820	Gore	ET
+1821	Kabri Dehar	ET
+1822	Mizan Teferi	ET
+1823	Tippi	ET
+1824	Awasa	ET
+1825	Jijiga	ET
+1826	Mekane Selam	ET
+1827	Debre Marqos	ET
+1828	Debre Tabor	ET
+1829	Debre Zeyit	ET
+1830	Goba	ET
+1831	Humera	ET
+1832	Bujumbura	BI
+1833	Hargeisa	SO
+1834	Berbera	SO
+1835	Kismayu	SO
+1836	Alula	SO
+1837	Bosaso	SO
+1838	Mogadishu	SO
+1839	Galcaio	SO
+1840	Burao	SO
+1841	Alexandria	EG
+1842	Abu Simbel	EG
+1843	Cairo	EG
+1845	Hurghada	EG
+1846	El Gorah	EG
+1847	Luxor	EG
+1848	Mersa-matruh	EG
+1849	Port Said	EG
+1850	St. Catherine	EG
+1851	Aswan	EG
+1852	El-tor	EG
+1854	Sharm El Sheikh	EG
+1855	Marsa Alam	EG
+1856	Taba	EG
+1857	El Arish	EG
+1858	Asyut	EG
+1859	Sharq Al-Owainat	EG
+1860	Dabaa City	EG
+1861	Sohag	EG
+1863	Beni Suef	EG
+1864	Jiyanklis	EG
+1865	Eldoret	KE
+1866	Kakamega	KE
+1867	Kisumu	KE
+1868	Kitale	KE
+1869	Lodwar	KE
+1870	Lamu	KE
+1871	Mombasa	KE
+1872	Naivasha	KE
+1873	Nairobi	KE
+1875	Wajir	KE
+1877	Amboseli National Park	KE
+1878	Lokichoggio	KE
+1879	Malindi	KE
+1880	Nanyuki	KE
+1881	Samburu South	KE
+1882	Bamburi	KE
+1883	Masai Mara	KE
+1884	Meru National Park	KE
+1885	Keekorok	KE
+1886	Ukunda	KE
+1887	Moyale	KE
+1888	Bungoma	KE
+1889	Bura	KE
+1890	Busia	KE
+1891	Embu	KE
+1892	Garba Tula	KE
+1893	Garissa	KE
+1894	Hola	KE
+1895	Homa Bay	KE
+1896	Isiolo	KE
+1897	Kericho	KE
+1898	Kilaguni	KE
+1899	NYERI	KE
+1900	Buattifel	LY
+1901	Giallo	LY
+1902	Ghat	LY
+1903	Kufra	LY
+1904	Benghazi	LY
+1905	Sebha	LY
+1906	Tripoli	LY
+1907	Marsa Brega	LY
+1908	Ras Lanouf V 40	LY
+1909	Hon	LY
+1910	Dahra	LY
+1911	Ghadames	LY
+1912	Zella 74	LY
+1913	Sirt	LY
+1914	Tobruk	LY
+1916	Al Bayda'	LY
+1917	Gisenyi	RW
+1918	Kigali	RW
+1919	Kamembe	RW
+1920	Dongola	SD
+1921	Damazin	SD
+1922	El Fasher	SD
+1923	Kassala	SD
+1924	Kadugli	SD
+1925	El Obeid	SD
+1926	Malakal	SD
+1927	Khartoum	SD
+1928	Atbara	SD
+1929	Nyala	SD
+1930	Port Sudan	SD
+1931	Geneina	SD
+1932	Rumbek	SD
+1933	Yei	SD
+1934	Wadi Halfa	SD
+1935	Aweil	SD
+1936	Wau	SD
+1937	Merowe	SD
+1938	Juba	SS
+1939	Torit	SS
+1940	Arusha	TZ
+1941	Dar Es Salaam	TZ
+1942	Dodoma	TZ
+1943	Iringa	TZ
+1944	Kilimanjaro	TZ
+1945	Lake Manyara	TZ
+1946	Mtwara	TZ
+1947	Mwanza	TZ
+1949	Tanga	TZ
+1950	Zanzibar	TZ
+1951	Seronera	TZ
+1952	Mafia Island	TZ
+1953	Bukoba	TZ
+1954	Kigoma	TZ
+1955	Lindi	TZ
+1956	Musoma	TZ
+1957	Shinyanga	TZ
+1958	Tabora	TZ
+1959	Mbeya	TZ
+1960	Mpanda	TZ
+1961	Songea	TZ
+1962	Morogoro	TZ
+1963	Entebbe	UG
+1964	Soroti	UG
+1965	Arua	UG
+1966	Gulu	UG
+1967	Kidepo	UG
+1968	Kitgum	UG
+1969	Pakuba	UG
+1970	Kabale	UG
+1971	Kotido	UG
+1972	Kampala	UG
+1973	Tirana	AL
+1974	Gjadër	AL
+1975	Kukës	AL
+1976	Kuçovë	AL
+1977	Vlorë	AL
+1978	Bourgas	BG
+1979	Gorna Orechovica	BG
+1980	Plovdiv	BG
+1981	Sofia	BG
+1982	Stara Zagora	BG
+1983	Varna	BG
+1984	Haskovo	BG
+1985	Gabrovnitsa	BG
+1986	Graf Ignatievo	BG
+1987	Dolna Mitropoliya	BG
+1988	Balchik	BG
+1989	Larnaca	CY
+1990	Paphos	CY
+1991	Akrotiri	CY
+1992	Nicosia	CY
+1993	Dubrovnik	HR
+1994	Cepin	HR
+1995	Osijek	HR
+1996	Pula	HR
+1997	Grobnik	HR
+1998	Rijeka	HR
+1999	Split	HR
+2000	Varazdin	HR
+2001	Zagreb	HR
+2002	Zadar	HR
+2003	Udbina	HR
+2004	Brac	HR
+2005	Mali Losinj	HR
+2006	Vsar	HR
+2007	Calais	FR
+2008	Peronne	FR
+2009	Nangis	FR
+2010	Bagnole-de-l'orne	FR
+2011	Albert	FR
+2012	Le Tourquet	FR
+2013	Valenciennes	FR
+2014	Amiens	FR
+2015	Agen	FR
+2016	Cazaux	FR
+2017	Bordeaux	FR
+2018	Bergerac	FR
+2019	Toulouse	FR
+2020	Cognac	FR
+2021	Poitiers	FR
+2022	Montlucon-gueret	FR
+2023	Limoges	FR
+2024	Mont-de-marsan	FR
+2025	Niort	FR
+2027	Pau	FR
+2028	La Rochelle	FR
+2029	Tarbes	FR
+2030	Angouleme	FR
+2031	Brive	FR
+2032	Perigueux	FR
+2033	Biarritz-bayonne	FR
+2034	Cahors	FR
+2035	St.-girons	FR
+2036	Arcachon	FR
+2037	Albi	FR
+2038	Castres	FR
+2040	Millau	FR
+2041	Graulhet	FR
+2042	Rodez	FR
+2043	Ussel	FR
+2044	Villeneuve-sur-lot	FR
+2045	Royan	FR
+2046	Mimizan	FR
+2047	Aire-sur-l'adour	FR
+2048	Montauban	FR
+2049	Auch	FR
+2050	Libourne	FR
+2051	Pamiers	FR
+2052	Marmande	FR
+2053	Rochefort	FR
+2054	Pontivy	FR
+2055	Aubigny-sur-nere	FR
+2056	Guiscriff-scaer	FR
+2057	Ancenis	FR
+2058	Brienne-le Chateau	FR
+2059	Colmar	FR
+2060	Beaune	FR
+2061	Dole	FR
+2062	Joigny	FR
+2063	Verdun	FR
+2064	Aubenas-vals-lanas	FR
+2065	Le Puy	FR
+2066	St.-flour	FR
+2067	Bourg	FR
+2068	Vilefrance	FR
+2069	Moulins	FR
+2070	St.-afrique-belmont	FR
+2071	Cassagnes-beghones	FR
+2072	Metz	FR
+2073	Bastia	FR
+2074	Calvi	FR
+2075	Figari	FR
+2076	Ajaccio	FR
+2077	Propriano	FR
+2078	Solenzara	FR
+2079	Corte	FR
+2080	Auxerre	FR
+2081	Chambery	FR
+2082	Clermont-Ferrand	FR
+2083	Bourges	FR
+2085	Chalon	FR
+2086	Annemasse	FR
+2087	Lyon	FR
+2088	Macon	FR
+2089	St.-yan	FR
+2090	Roanne	FR
+2091	Annecy	FR
+2092	Grenoble	FR
+2093	Montlucon	FR
+2094	Valence	FR
+2095	Vichy	FR
+2096	Aurillac	FR
+2097	Chateauroux	FR
+2099	Aix-les-milles	FR
+2100	Le Luc	FR
+2101	Cannes	FR
+2102	St-Etienne	FR
+2103	Istres	FR
+2104	Carcassonne	FR
+2105	Marseille	FR
+2106	Nice	FR
+2107	Orange	FR
+2108	Perpignan	FR
+2109	Le Castellet	FR
+2110	Ales	FR
+2111	Montpellier	FR
+2112	Beziers	FR
+2113	Avignon	FR
+2114	Salon	FR
+2115	Lezignan-corbieres	FR
+2116	Mende	FR
+2117	Carpentras	FR
+2118	Avord	FR
+2119	Beauvais	FR
+2120	Chateaudun	FR
+2121	Saumur	FR
+2122	Evreux	FR
+2123	Le Havre	FR
+2124	Abbeville	FR
+2125	Orleans	FR
+2126	Chalons	FR
+2127	Rouen	FR
+2128	Tours	FR
+2129	Cholet	FR
+2130	Laval	FR
+2132	Paris	FR
+2133	Creil	FR
+2135	Coulommiers	FR
+2136	Melun	FR
+2137	Toussous-le-noble	FR
+2139	Pontoise	FR
+2140	Villacoublay	FR
+2141	Reims	FR
+2142	Troyes	FR
+2143	Luneville	FR
+2144	Etain	FR
+2145	Autun	FR
+2146	Nevers	FR
+2147	Cambrai	FR
+2148	Maubeuge	FR
+2149	Besancon-la-veze	FR
+2150	Phalsbourg	FR
+2151	Lille	FR
+2152	Merville	FR
+2153	Charleville	FR
+2154	Vesoul-frotey	FR
+2155	Brest	FR
+2156	Cherbourg	FR
+2157	Dinard	FR
+2158	La Baule	FR
+2159	Granville	FR
+2160	Deauville	FR
+2161	Lorient	FR
+2162	La Roche-sur-yon	FR
+2163	Landivisiau	FR
+2164	Caen	FR
+2165	Lanvedoc	FR
+2166	Le Mans	FR
+2167	Rennes	FR
+2168	Lannion	FR
+2169	Quimper	FR
+2170	Nantes	FR
+2171	St.-brieuc Armor	FR
+2172	Morlaix	FR
+2173	Vannes	FR
+2174	St.-nazaire	FR
+2175	Mulhouse	FR
+2177	Dijon	FR
+2179	Epinal	FR
+2180	Haguenau	FR
+2181	St.-dizier	FR
+2182	Montbeliard	FR
+2183	Nancy	FR
+2185	Pontarlier	FR
+2187	Strasbourg	FR
+2188	Luxeuil	FR
+2189	Cuers	FR
+2190	Hyeres	FR
+2191	Nimes	FR
+2192	Amberieu	FR
+2193	Damblain	FR
+2194	Enghien-moisselles	FR
+2195	Île d'Yeu	FR
+2196	Angers/Marcé	FR
+2197	La Môle	FR
+2198	Gustavia	FR
+2199	Courcheval	FR
+2200	Andernos-Les-Bains	FR
+2202	Ouessant	FR
+2203	Frejus	FR
+2204	Saint-Cyr	FR
+2205	Strasbourg Neudorf	FR
+2208	Pont Sur Yonne	FR
+2209	St Florentin Cheu	FR
+2210	Saulieu	FR
+2211	Meaux	FR
+2212	Chateau-Thierry	FR
+2213	Belfort	FR
+2214	La Ferte Alais	FR
+2215	Marigot	FR
+2216	Marcq En Baroeul	FR
+2217	Tremblay-en-France	FR
+2218	La Grand'Combe	FR
+2219	Malbouhans	FR
+2220	Blois/Le Breuil	FR
+2221	Miquelon	PM
+2222	St.-pierre	PM
+2223	Andravida	GR
+2224	Agrinion	GR
+2225	Alexandroupolis	GR
+2227	Nea Anghialos	GR
+2228	Elefsis	GR
+2229	Chios	GR
+2230	Ioannina	GR
+2231	Heraklion	GR
+2232	Kastoria	GR
+2233	Kithira	GR
+2234	Keffallinia	GR
+2235	Kalamata	GR
+2236	Kavala	GR
+2237	Kos	GR
+2238	Karpathos	GR
+2239	Kerkyra/corfu	GR
+2240	Kasos	GR
+2242	Kozani	GR
+2243	Leros	GR
+2244	Limnos	GR
+2245	Larissa	GR
+2246	Megara	GR
+2247	Mykonos	GR
+2248	Mytilini	GR
+2249	Preveza	GR
+2250	Rhodos	GR
+2252	Patras	GR
+2253	Chania	GR
+2254	Skiathos	GR
+2255	Samos	GR
+2256	Sparti	GR
+2257	Thira	GR
+2258	Sitia	GR
+2259	Stefanovikion	GR
+2260	Skiros	GR
+2261	Tanagra	GR
+2262	Kasteli	GR
+2263	Tripolis	GR
+2264	Thessaloniki	GR
+2265	Dekelia	GR
+2266	Zakynthos	GR
+2267	Athens	GR
+2269	Astypalaia	GR
+2270	Ikaria	GR
+2271	Kalymnos	GR
+2272	Milos	GR
+2273	Cyclades Islands	GR
+2274	Paros	GR
+2275	Kastelorizo	GR
+2276	Syros Island	GR
+2277	Porto Heli	GR
+2278	Budapest	HU
+2279	Debrecen	HU
+2280	Kecskemet	HU
+2281	Nyirregyhaza	HU
+2282	Ocseny	HU
+2283	Azentkilyszabadja	HU
+2284	Szolnok	HU
+2285	Pécs-Pogány	HU
+2286	Győr	HU
+2287	Sármellék	HU
+2288	Papa	HU
+2290	Amendola	IT
+2291	Crotone	IT
+2292	Bari	IT
+2293	Foggia	IT
+2294	Grottaglie	IT
+2295	Lecce	IT
+2296	Pescara	IT
+2297	Brindisi	IT
+2298	Gioia Del Colle	IT
+2299	Lamezia	IT
+2300	Catania	IT
+2301	Lampedusa	IT
+2302	Pantelleria	IT
+2303	Palermo	IT
+2305	Reggio Calabria	IT
+2306	Trapani	IT
+2307	Sigonella	IT
+2308	Alghero	IT
+2309	Decimomannu	IT
+2310	Cagliari	IT
+2311	Olbia	IT
+2312	Tortoli	IT
+2313	Turin	IT
+2314	Milano	IT
+2316	Bergamo	IT
+2317	Torino	IT
+2318	Albenga	IT
+2319	Genoa	IT
+2320	Milan	IT
+2321	Cameri	IT
+2322	Parma	IT
+2323	Piacenza	IT
+2324	Cuneo	IT
+2325	Aviano	IT
+2326	Bolzano	IT
+2327	Cervia	IT
+2328	Bologna	IT
+2329	Treviso	IT
+2330	Rivolto	IT
+2331	Forli	IT
+2332	Ghedi	IT
+2333	Verona	IT
+2334	Brescia	IT
+2335	Ronchi De Legionari	IT
+2336	Rimini	IT
+2338	Vicenza	IT
+2339	Padova	IT
+2340	Villafranca	IT
+2341	Venice	IT
+2342	Siena	IT
+2343	Rome	IT
+2344	Pratica Di Mare	IT
+2346	Guidonia	IT
+2347	Marina Di Campo	IT
+2348	Latina	IT
+2349	Grazzanise	IT
+2350	Naples	IT
+2351	Pisa	IT
+2352	Florence	IT
+2353	Grosseto	IT
+2355	Viterbo	IT
+2356	Perugia	IT
+2357	Ancona	IT
+2358	Aosta	IT
+2359	Salerno	IT
+2361	Oristano	IT
+2362	Como	IT
+2363	Comiso	IT
+2364	Trento (TN)	IT
+2365	Alessandria	IT
+2366	Biella (BI)	IT
+2367	Vercelli	IT
+2368	Casale Monferrato	IT
+2369	Varese	IT
+2370	Novi Ligure	IT
+2371	Sarzana (SP)	IT
+2372	Cerklje	SI
+2373	Ljubljana	SI
+2374	Maribor	SI
+2375	Portoroz	SI
+2376	Slovenj Gradec	SI
+2377	Ceske Budejovice	CZ
+2378	Caslav	CZ
+2379	Hradec Kralove	CZ
+2380	Horovice	CZ
+2381	Praha	CZ
+2382	Kunovice	CZ
+2383	Karlovy Vary	CZ
+2384	Line	CZ
+2385	Mnichovo Hradiste	CZ
+2386	Ostrava	CZ
+2387	Namest	CZ
+2388	Pardubice	CZ
+2389	Pribram	CZ
+2390	Prerov	CZ
+2391	Prague	CZ
+2392	Brno	CZ
+2393	Vodochody	CZ
+2394	Sazena	CZ
+2395	Benesov	CZ
+2396	Roudnice nad Lebem	CZ
+2397	Usti Nad Labem	CZ
+2398	Vysoke Myto	CZ
+2399	Klatovy	CZ
+2400	Bubovice	CZ
+2401	Tel-aviv	IL
+2402	Beer-sheba	IL
+2403	Tel-nof	IL
+2404	Eyn-shemer	IL
+2405	Elat	IL
+2406	Eyn-yahav	IL
+2407	Haifa	IL
+2408	Haztor	IL
+2409	Rosh Pina	IL
+2410	Megido Airstrip	IL
+2411	Metzada	IL
+2412	Nevatim	IL
+2413	Ovda	IL
+2414	Ramat David	IL
+2415	Ramon	IL
+2417	Malta	MT
+2418	Gozo	MT
+2419	Wiener Neustadt Ost	AT
+2420	Wels	AT
+2421	Graz	AT
+2422	Innsbruck	AT
+2423	Linz	AT
+2424	Salzburg	AT
+2425	Vienna	AT
+2426	Zeltweg	AT
+2427	Klagenfurt	AT
+2428	Niederoeblarn	AT
+2429	Bad Voeslau	AT
+2430	Hohenems	AT
+2431	Krems	AT
+2432	Zell am See	AT
+2433	Tulln	AT
+2434	Punitz-Guessing	AT
+2435	Mauterndorf	AT
+2436	Notsch Im Gailtal	AT
+2437	St. Johann in Tirol	AT
+2438	Alverca	PT
+2439	Santa Maria (island)	PT
+2440	Braganca	PT
+2441	Beja (madeira)	PT
+2442	Braga	PT
+2443	Coimba	PT
+2444	Cascais	PT
+2445	Covilha	PT
+2446	Evora	PT
+2447	Flores	PT
+2449	Graciosa Island	PT
+2450	Horta	PT
+2451	Lajes (terceira Island)	PT
+2452	Monte Real	PT
+2453	Montijo	PT
+2454	Ovar	PT
+2455	Ponta Delgada	PT
+2456	Pico	PT
+2457	Portimao	PT
+2458	Porto	PT
+2459	Porto Santo	PT
+2460	Lisbon	PT
+2461	Sao Jorge Island	PT
+2462	Sintra	PT
+2463	Tancos	PT
+2464	Vila Real	PT
+2465	Viseu	PT
+2466	Funchal	PT
+2467	Corvo	PT
+2468	Aveiro	PT
+2469	Ota	PT
+2470	Mostar	BA
+2471	Sarajevo	BA
+2472	Banja Luka	BA
+2473	Null	BA
+2474	Arad	RO
+2475	Bacau	RO
+2476	Baia Mare	RO
+2477	Bucharest	RO
+2478	Constanta	RO
+2479	Cluj-napoca	RO
+2480	Caransebes	RO
+2481	Craiova	RO
+2482	Iasi	RO
+2483	Oradea	RO
+2485	Sibiu	RO
+2486	Satu Mare	RO
+2487	Suceava	RO
+2488	Tulcea	RO
+2489	Tirgu Mures	RO
+2490	Timisoara	RO
+2491	Tuzla	RO
+2492	Câmpia Turzii	RO
+2493	Les Eplatures	CH
+2494	Geneva	CH
+2495	Saanen	CH
+2496	Sion	CH
+2497	Alpnach	CH
+2498	Dubendorf	CH
+2499	Emmen	CH
+2500	Mollis	CH
+2501	Meiringen	CH
+2502	Payerne	CH
+2503	Lugano	CH
+2504	Bern	CH
+2505	Grenchen	CH
+2506	Zurich	CH
+2507	Altenrhein	CH
+2508	Samedan	CH
+2509	Prangins	CH
+2510	Yverdon-Les-Bains	CH
+2511	Raron	CH
+2512	Amlikon	CH
+2513	Lommis	CH
+2514	Triengen	CH
+2515	Lausanne	CH
+2516	Fehraltorf	CH
+2517	Locarno	CH
+2518	Neuchatel	CH
+2519	Biel	CH
+2520	Birrfeld	CH
+2521	Interlaken	CH
+2522	Ecuvillens	CH
+2523	Wangen-Lachen	CH
+2524	Courtelary 	CH
+2525	St.Stephan	CH
+2526	Balzers	CH
+2527	Olten	CH
+2528	Buochs	CH
+2529	Quinto	CH
+2530	Lodrino	CH
+2531	Reichenbach im Kandertal	CH
+2532	Thun	CH
+2533	Lucerne	CH
+2534	Ankara	TR
+2538	Adana	TR
+2540	Afyon	TR
+2541	Antalya	TR
+2542	Gaziantep	TR
+2543	Iskenderun	TR
+2544	Konya	TR
+2545	Malatya	TR
+2546	Merzifon	TR
+2547	Sivas	TR
+2549	Kayseri	TR
+2550	Sivrihisar	TR
+2551	Tokat	TR
+2552	Denizli	TR
+2553	Istanbul	TR
+2554	Balikesir	TR
+2555	Bandirma	TR
+2556	Eskisehir	TR
+2557	Izmir	TR
+2560	Isparta	TR
+2561	Kutahya	TR
+2562	Yalova	TR
+2563	Topel	TR
+2564	Dalaman	TR
+2565	Akhisar	TR
+2566	Bodrum	TR
+2568	Elazig	TR
+2569	Diyabakir	TR
+2570	Erzincan	TR
+2571	Erzurum	TR
+2572	Trabzon	TR
+2573	Van	TR
+2574	Batman	TR
+2575	Siirt	TR
+2578	Nevsehir	TR
+2581	Usak	TR
+2582	Kars	TR
+2583	Sanliurfa	TR
+2584	Kahramanmaras	TR
+2585	Agri	TR
+2586	Adiyaman	TR
+2588	Balikesir Korfez	TR
+2589	Samsun	TR
+2590	Mardin	TR
+2591	Eskissehir	TR
+2592	Canakkale	TR
+2593	Mus	TR
+2594	Sinop	TR
+2595	Çorlu	TR
+2596	Yenisehir	TR
+2597	Hatay	TR
+2598	Zonguldak	TR
+2599	Alanya	TR
+2602	Kastamonu	TR
+2603	Bursa	TR
+2604	Cizre	TR
+2605	Hakkari	TR
+2606	Saltsy	MD
+2607	Chisinau	MD
+2608	Mărculeşti	MD
+2609	Cahul	MD
+2610	Tiraspol	MD
+2611	Ohrid	MK
+2612	Skopje	MK
+2613	Gibraltar	GI
+2614	Belgrade	RS
+2615	Nis	RS
+2616	Pristina	RS
+2617	Vrsac	RS
+2618	Batajnica	RS
+2619	Podgorica	ME
+2620	Tivat	ME
+2621	Bratislava	SK
+2622	Kosice	SK
+2623	Malacky	SK
+2624	Piestany	SK
+2625	Sliac	SK
+2626	Trencin	SK
+2627	Poprad	SK
+2628	Žilina	SK
+2629	North Caicos	TC
+2630	Providenciales	TC
+2631	South Caicos	TC
+2632	Cockburn Town	TC
+2633	Middle Caicos	TC
+2634	Salt Cay	TC
+2635	Samana	DO
+2636	Barahona	DO
+2637	Cabo Rojo	DO
+2638	La Romana	DO
+2639	Punta Cana	DO
+2640	Puerto Plata	DO
+2641	Santo Domingo	DO
+2642	San Isidoro	DO
+2645	La Isabela	DO
+2646	Constanza	DO
+2648	Bananera	GT
+2649	Coban	GT
+2650	Guatemala City	GT
+2651	Retalhuleu	GT
+2652	San Jose	GT
+2654	Puerto Barrios	GT
+2655	Quezaltenango	GT
+2656	Santa Cruz des Quiche	GT
+2657	Rubelsanto	GT
+2658	La Ceiba	HN
+2659	San Pedro Sula	HN
+2660	Guanaja	HN
+2661	Roatan	HN
+2662	Tela	HN
+2663	Tegucigalpa	HN
+2664	Trujillo	HN
+2665	Utila	HN
+2666	Ahuas	HN
+2667	Puerto Lempira	HN
+2668	Brus Laguna	HN
+2669	Comayagua	HN
+2670	Ocho Rios	JM
+2672	Montego Bay	JM
+2673	Port Antonio	JM
+2675	Negril	JM
+2676	Acapulco	MX
+2677	Monterrey	MX
+2678	Aguascalientes	MX
+2679	Huatulco	MX
+2680	Cuernavaca	MX
+2681	Ciudad Acuna	MX
+2682	Ciudad Del Carmen	MX
+2683	Nuevo Casas Grandes	MX
+2684	Chilpancingo	MX
+2685	Culiacan	MX
+2686	Chetumal	MX
+2687	Ciudad Obregon	MX
+2688	Campeche	MX
+2689	Ciudad Juarez	MX
+2690	Chihuahua	MX
+2691	Ciudad Victoria	MX
+2692	Cozumel	MX
+2693	Durango	MX
+2694	Tepic	MX
+2695	Ensenada	MX
+2696	Guadalajara	MX
+2697	Guaymas	MX
+2698	Tehuacan	MX
+2699	Hermosillo	MX
+2700	Colima	MX
+2701	Isla Mujeres	MX
+2702	Saltillo	MX
+2703	Iztepec	MX
+2704	Lazard Cardenas	MX
+2705	Los Mochis	MX
+2706	Del Bajio	MX
+2707	La Paz	MX
+2708	Loreto	MX
+2709	Matamoros	MX
+2710	Merida	MX
+2711	Mexicali	MX
+2712	Morelia	MX
+2713	Minatitlan	MX
+2714	Monclova	MX
+2715	Mexico City	MX
+2717	Mazatlan	MX
+2718	Nogales	MX
+2719	Nuevo Laredo	MX
+2720	Oaxaca	MX
+2721	Poza Rico	MX
+2722	Puebla	MX
+2723	Pachuca	MX
+2724	Punta Penasco	MX
+2725	Piedras Negras	MX
+2726	Uruapan	MX
+2727	Puerto Vallarta	MX
+2728	Puerto Escondido	MX
+2729	Queretaro	MX
+2730	Reynosa	MX
+2731	San Jose Del Cabo	MX
+2732	San Filipe	MX
+2733	San Luis Potosi	MX
+2734	Tlaxcala	MX
+2735	Tuxtla Gutierrez	MX
+2736	Torreon	MX
+2738	Tijuana	MX
+2739	Tampico	MX
+2740	Tamuin	MX
+2741	Toluca	MX
+2742	Tapachula	MX
+2743	Cancun	MX
+2744	Villahermosa	MX
+2745	Vera Cruz	MX
+2746	Zacatecas	MX
+2747	Zihuatanejo	MX
+2748	Zamora	MX
+2749	Manzanillo	MX
+2750	Zapopan	MX
+2751	Celaya	MX
+2752	Ciudad Constitución	MX
+2753	Guerrero Negro	MX
+2754	Jalapa	MX
+2755	Guasave	MX
+2756	Cabo San Lucas	MX
+2757	Chichen Itza	MX
+2758	San Cristobal de las Casas	MX
+2759	Bluefields	NI
+2760	Los Brasiles	NI
+2762	Managua	NI
+2763	Puerto Cabezas	NI
+2764	Corn Island	NI
+2765	Bonanza	NI
+2766	Rosita	NI
+2767	Siuna	NI
+2768	Waspam	NI
+2769	San Carlos	NI
+2770	Moyogalpa	NI
+2771	Bocas Del Toro	PA
+2772	Changuinola	PA
+2773	David	PA
+2774	Howard	PA
+2775	Panama	PA
+2777	Panama City	PA
+2778	Chitré	PA
+2779	Colón	PA
+2780	Jaqué	PA
+2781	La Palma	PA
+2782	Puerto Obaldia	PA
+2783	Rio Hato	PA
+2784	Buenos Aires	CR
+2785	Coto 47	CR
+2786	Chacarita	CR
+2787	El Carmen	CR
+2788	Finca 10	CR
+2789	Golfito	CR
+2790	Guapiles	CR
+2791	Liberia	CR
+2792	Los Chiles	CR
+2793	Limon	CR
+2794	Nosara Beach	CR
+2796	Pandora	CR
+2797	Palmar Sur	CR
+2798	Quepos	CR
+2799	Santa Clara	CR
+2800	San Vito De Jaba	CR
+2801	Roxana	CR
+2802	Pococi	CR
+2803	Nicoya	CR
+2804	Nandayure	CR
+2805	Puerto Jimenez	CR
+2807	Playa Samara	CR
+2808	La Fortuna/San Carlos	CR
+2810	Puntarenas	CR
+2811	Carrillo	CR
+2813	Upala	CR
+2814	San Salvador	SV
+2816	Cayes	HT
+2817	Cap Haitien	HT
+2818	Jacmel	HT
+2819	Port-au-prince	HT
+2820	Jeremie	HT
+2821	Port-de-Paix	HT
+2822	Baracoa Playa	CU
+2823	Bayamo	CU
+2824	Ciego De Avila	CU
+2825	Cunagua	CU
+2826	Cienfuegos	CU
+2827	Cayo Largo del Sur	CU
+2828	Camaguey	CU
+2829	Santiago De Cuba	CU
+2830	Florida	CU
+2831	Guantanamo	CU
+2833	Havana	CU
+2834	Holguin	CU
+2835	La Coloma	CU
+2836	Moa	CU
+2838	Nueva Gerona	CU
+2840	Pinar Del Rio Norte	CU
+2841	San Antonio De Banos	CU
+2843	Santa Lucia	CU
+2844	Siguanea	CU
+2845	Sancti Spiritus	CU
+2846	Varadero	CU
+2847	Las Tunas	CU
+2848	Cayo Coco	CU
+2849	Trinidad	CU
+2850	Kawama	CU
+2851	Cayo Santa Maria	CU
+2852	San Nicolás	CU
+2853	Pinar Del Rio	CU
+2854	Cayman Brac	KY
+2855	Georgetown	KY
+2856	Little Cayman	KY
+2857	Clarence Bain	BS
+2858	Andros Town	BS
+2859	Marsh Harbor	BS
+2860	San Andros	BS
+2861	Spring Point	BS
+2862	Sandy Point	BS
+2863	Treasure Cay	BS
+2864	Chub Cay	BS
+2865	Bullocks Harbour	BS
+2866	Alice Town	BS
+2867	Great Exuma	BS
+2868	George Town	BS
+2869	North Eleuthera	BS
+2870	Governor's Harbor	BS
+2871	Norman's Cay	BS
+2872	Rock Sound	BS
+2873	Staniel Cay	BS
+2874	Freeport	BS
+2875	Matthew Town	BS
+2876	Dead Man's Cay	BS
+2877	Stella Maris	BS
+2878	Mayaguana	BS
+2879	Nassau	BS
+2880	Duncan Town	BS
+2881	Port Nelson	BS
+2883	Andros	BS
+2884	Arthur's Town	BS
+2885	Cat Island	BS
+2886	Colonel Hill	BS
+2888	Walker's Cay	BS
+2889	Black Point	BS
+2890	Belize City	BZ
+2891	Belmopan	BZ
+2892	Aitutaki	CK
+2893	Avarua	CK
+2894	Atiu Island	CK
+2895	Mangaia Island	CK
+2896	Manihiki Island	CK
+2897	Mauke Island	CK
+2898	Mitiaro Island	CK
+2899	Penrhyn Island	CK
+2900	Nandi	FJ
+2901	Nausori	FJ
+2902	Levuka	FJ
+2903	Cicia	FJ
+2904	Malolo Lailai Island	FJ
+2905	Vunisea	FJ
+2906	Mana Island	FJ
+2907	Moala	FJ
+2908	Ngau	FJ
+2909	Lakeba Island	FJ
+2910	Lambasa	FJ
+2911	Matei	FJ
+2912	Koro Island	FJ
+2913	Rotuma	FJ
+2914	Savusavu	FJ
+2915	Vanua Balavu	FJ
+2916	Turtle Island	FJ
+2917	Tongatapu	TO
+2918	Vava'u	TO
+2919	Eua Island	TO
+2920	Lifuka	TO
+2921	Angaha. Niuafo'ou Island	TO
+2922	Niuatoputapu	TO
+2923	Tarawa	KI
+2924	Tabiteuea North	KI
+2925	Canton Island	KI
+2926	Kiritimati	KI
+2927	Abaiang Atoll	KI
+2928	Marakei	KI
+2929	Abemama	KI
+2930	Buariki	KI
+2931	Kuria	KI
+2932	Arorae	KI
+2933	Tamana	KI
+2934	Beru Island	KI
+2935	Nikunau	KI
+2936	Butaritari	KI
+2937	Makin	KI
+2938	Maiana	KI
+2939	Nonouti	KI
+2940	Tabiteuea	KI
+2941	Wallis	WF
+2942	Futuna Island	WF
+2943	Faleolo	WS
+2944	Apia	WS
+2945	Savaii Island	WS
+2946	Pago Pago	AS
+2947	Fiti\\'uta	AS
+2948	Rurutu	PF
+2949	Tubuai	PF
+2950	Anaa	PF
+2951	Fangatau	PF
+2952	Tikehau	PF
+2953	Reao	PF
+2954	Fakarava	PF
+2955	Manihi	PF
+2956	Totegegie	PF
+2957	Kaukura Atoll	PF
+2958	Makemo	PF
+2959	Puka Puka	PF
+2960	Takapoto	PF
+2961	Arutua	PF
+2962	Mataiva	PF
+2963	Takaroa	PF
+2964	Nuku Hiva	PF
+2965	Bora Bora	PF
+2966	Rangiroa	PF
+2967	Huahine Island	PF
+2968	Moorea	PF
+2969	Hao Island	PF
+2970	Maupiti	PF
+2971	Raiatea Island	PF
+2972	Papeete	PF
+2973	Apataki	PF
+2974	Ahe	PF
+2975	Hiva-oa	PF
+2976	Ua Pou	PF
+2977	Ua Huka	PF
+2978	Rimatara	PF
+2979	Niau	PF
+2980	Raivavae	PF
+2981	Tureia	PF
+2982	Tetiaroa	PF
+2983	Pukarua	PF
+2984	Port-vila	VU
+2985	Tanna	VU
+2986	Ablow	VU
+2987	Sola	VU
+2988	Loh/Linua	VU
+2989	Sangafa	VU
+2990	Craig Cove	VU
+2991	Longana	VU
+2992	Pentecost Island	VU
+2993	Paama Island	VU
+2994	Lamap	VU
+2995	Lamen Bay	VU
+2996	Maewo Island	VU
+2997	Lonorore	VU
+2998	Norsup	VU
+2999	Gaua Island	VU
+3000	Redcliffe	VU
+3001	Santo	VU
+3002	Tongoa Island	VU
+3003	Ambryn Island	VU
+3004	Valesdir	VU
+3005	Malekula Island	VU
+3006	Olpoi	VU
+3007	Anelghowhat	VU
+3008	Aniwa	VU
+3009	Dillon's Bay	VU
+3011	Ipota	VU
+3012	Walaha	VU
+3013	Kone	NC
+3014	Koumac	NC
+3015	Lifou	NC
+3016	Noumea	NC
+3017	Mare	NC
+3018	Touho	NC
+3019	Ouvea	NC
+3021	Tiga	NC
+3022	Waala	NC
+3023	Île des Pins	NC
+3024	Auckland	NZ
+3025	Taupo	NZ
+3026	Ardmore	NZ
+3027	Christchurch	NZ
+3028	Chatham Island	NZ
+3029	Dunedin	NZ
+3030	Gisborne	NZ
+3031	Glentanner	NZ
+3032	Hokitika	NZ
+3034	Hastings	NZ
+3035	Kerikeri	NZ
+3036	Kaitaia	NZ
+3037	Alexandra	NZ
+3038	Mount Cook	NZ
+3039	Manapouri	NZ
+3040	Masterton	NZ
+3041	New Plymouth	NZ
+3042	Nelson	NZ
+3043	Invercargill	NZ
+3044	Ohakea	NZ
+3045	Oamaru	NZ
+3046	Palmerston North	NZ
+3047	Paraparaumu	NZ
+3048	Queenstown International	NZ
+3049	Rotorua	NZ
+3050	Waiouru	NZ
+3051	Tauranga	NZ
+3052	Timaru	NZ
+3053	Pukaki	NZ
+3054	Woodbourne	NZ
+3055	Wanaka	NZ
+3056	Wigram	NZ
+3057	Whakatane	NZ
+3058	Wellington	NZ
+3059	Wairoa	NZ
+3060	Whenuapai	NZ
+3061	Whangarei	NZ
+3062	Westport	NZ
+3063	Wanganui	NZ
+3064	Milford Sound	NZ
+3065	NAPIER	NZ
+3066	Kaikoura	NZ
+3067	Picton	NZ
+3068	Lake Tekapo	NZ
+3069	Claris	NZ
+3070	Stewart Island	NZ
+3071	Whitianga	NZ
+3072	Takaka	NZ
+3073	Motueka	NZ
+3074	Omarama	NZ
+3075	Haast	NZ
+3076	Stephen's Island	AQ
+3077	Weydon	AQ
+3078	Marambio Base	AQ
+3079	Isla Rey Jorge	AQ
+3080	Budd Coast	AQ
+3081	Ross Island	AQ
+3082	McMurdo Station	AQ
+3083	Herat	AF
+3084	Jalalabad	AF
+3085	Kabul	AF
+3086	Kandahar	AF
+3087	Maimama	AF
+3088	Mazar-i-sharif	AF
+3089	Shindand	AF
+3090	Sheberghan	AF
+3091	Kunduz	AF
+3092	Faizabad	AF
+3094	Tarin Kowt	AF
+3095	Zaranj	AF
+3096	Chaghcharan	AF
+3097	Camp Bastion	AF
+3098	Khost	AF
+3099	Sharona	AF
+3100	Lashkar Gah	AF
+3101	Bamyan	AF
+3102	Farah	AF
+3103	Bahrain	BH
+3105	Abha	SA
+3106	Al-ahsa	SA
+3107	El-baha	SA
+3108	Bisha	SA
+3109	Abqaiq	SA
+3110	Dammam	SA
+3111	Dhahran	SA
+3112	Gizan	SA
+3113	Gassim	SA
+3114	Guriat	SA
+3115	Hail	SA
+3116	Jubail	SA
+3117	Jeddah	SA
+3119	King Khalid Mil.city	SA
+3120	Madinah	SA
+3121	Nejran	SA
+3122	Hafr Al-batin	SA
+3123	Petroline 3	SA
+3124	Petroline 6	SA
+3125	Petroline 10	SA
+3126	Rabigh	SA
+3127	Rafha	SA
+3128	Riyadh	SA
+3129	Rash Mishab	SA
+3130	Arar	SA
+3131	Ras Tanura	SA
+3132	Sharurah	SA
+3133	Sulayel	SA
+3134	Tabuk	SA
+3135	Taif	SA
+3136	Thumamah	SA
+3137	Ras Tanajib	SA
+3138	Turaif	SA
+3139	Wejh	SA
+3140	Yenbo	SA
+3141	Dawadmi	SA
+3142	Al-Jawf	SA
+3143	Wadi-al-dawasir	SA
+3144	Al Kharj	SA
+3145	Shaybah	SA
+3149	Abadan	IR
+3150	Dezful	IR
+3151	Aghajari	IR
+3152	Gachsaran	IR
+3153	Masjed Soleiman	IR
+3154	Omidyeh	IR
+3155	Bandar Mahshahr	IR
+3156	Ahwaz	IR
+3157	Abumusa I.	IR
+3158	Bushehr	IR
+3159	Bastak	IR
+3160	Golbandi	IR
+3161	Kish Island	IR
+3162	Bandar Lengeh	IR
+3163	Khark Island	IR
+3164	Siri Island	IR
+3165	Lavan Island	IR
+3166	Bakhtaran	IR
+3167	Sanandaj	IR
+3168	Daran	IR
+3169	Esfahan	IR
+3170	Kashan	IR
+3172	Sepah	IR
+3173	Rasht	IR
+3174	Arak	IR
+3175	Abe-ali	IR
+3176	Kushke Nosrat	IR
+3177	Teheran	IR
+3180	Ghazvin	IR
+3181	Khoram Dareh	IR
+3182	Bandar Abbas	IR
+3183	Jiroft	IR
+3184	Kerman	IR
+3186	Gheshm I.	IR
+3187	Sirjan	IR
+3188	Birjand	IR
+3189	Sarakhs	IR
+3190	Emam Shahr	IR
+3191	Tabas	IR
+3192	Kalaleh	IR
+3193	Ramsar	IR
+3194	Fasa	IR
+3195	Jahrom	IR
+3196	Lamerd	IR
+3197	Shiraz	IR
+3198	Khoy	IR
+3199	Tabriz	IR
+3200	Zanjan	IR
+3201	Yazd	IR
+3202	Zabol	IR
+3203	Chah Bahar	IR
+3204	Zahedan	IR
+3205	Iran Shahr	IR
+3206	Saravan	IR
+3207	Tehran	IR
+3208	Mashhad	IR
+3209	Khorram Abad	IR
+3210	Bam	IR
+3211	Rafsanjan	IR
+3212	Bojnourd	IR
+3213	Sabzevar	IR
+3214	Noshahr	IR
+3215	Dasht-e-naz	IR
+3216	Lar	IR
+3217	Ardabil	IR
+3218	Uromiyeh	IR
+3219	Maragheh	IR
+3220	Gorgan	IR
+3221	Ilam	IR
+3222	Parsabad	IR
+3223	Shahre Kord	IR
+3224	Hamadan	IR
+3225	Khalije Fars	IR
+3226	Yasuj	IR
+3227	Kangan	IR
+3229	Karaj	IR
+3230	Amman	JO
+3232	Aqaba	JO
+3233	Hotel Four	JO
+3234	Mafraq	JO
+3235	Kuwait	KW
+3237	Ahmed Al Jaber AB	KW
+3238	Beirut	LB
+3239	Kleiat	LB
+3240	Rayak	LB
+3241	Abu Dhabi	AE
+3243	Al Hamra	AE
+3244	Jebel Dhana	AE
+3246	Arzana	AE
+3247	Das Island	AE
+3248	Zirku	AE
+3249	Dubai	AE
+3250	Fujeirah	AE
+3251	Ras Al Khaimah	AE
+3252	Sharjah	AE
+3253	Al Ain	AE
+3254	Minhad AB	AE
+3256	Sir Bani Yas Island	AE
+3257	Clarksville	AE
+3258	Khasab	OM
+3259	Masirah	OM
+3260	Muscat	OM
+3261	Salalah	OM
+3262	Thumrait	OM
+3263	Sohar	OM
+3264	Bhagtanwala	PK
+3265	Faisalabad	PK
+3266	Gwadar	PK
+3267	Gilgit	PK
+3268	Jacobsbad	PK
+3269	Karachi	PK
+3270	Lahore	PK
+3272	Mangla	PK
+3273	Muzaffarabad	PK
+3274	Mianwali	PK
+3275	Moenjodaro	PK
+3277	Multan	PK
+3278	Nawabshah	PK
+3279	Okara	PK
+3280	Panjgur	PK
+3281	Pasni	PK
+3282	Peshawar	PK
+3283	Qasim	PK
+3284	Quetta	PK
+3285	Rahim Yar Khan	PK
+3286	Islamabad	PK
+3287	Risalpur	PK
+3288	Rawala Kot	PK
+3289	Sukkur	PK
+3290	Saidu Sharif	PK
+3291	Sui	PK
+3292	Talhar	PK
+3293	Wana	PK
+3294	Zhob	PK
+3295	Bannu	PK
+3296	Bahawalpur	PK
+3297	Chitral	PK
+3298	Dalbandin	PK
+3299	Dera Ghazi Khan	PK
+3300	Dera Ismael Khan	PK
+3301	Jiwani	PK
+3302	Hyderabad	PK
+3303	Khuzdar	PK
+3304	Ormara Raik	PK
+3305	Parachinar	PK
+3306	Skardu	PK
+3307	Sehwan Sharif	PK
+3308	Turbat	PK
+3309	Sialkot	PK
+3310	Sindh	PK
+3311	Mirpur Khas	PK
+3312	Kamra	PK
+3313	Shorkot	PK
+3315	Sargodha	PK
+3316	Basrah	IQ
+3317	Erbil	IQ
+3318	Baghdad	IQ
+3319	Al Asad	IQ
+3320	Al Taqaddum	IQ
+3321	Al Bakr	IQ
+3322	Sulaymaniyah	IQ
+3323	Kirkuk	IQ
+3324	Najaf	IQ
+3325	Mosul	IQ
+3326	Nasiriyah	IQ
+3327	Qayyarah	IQ
+3328	Tikrit	IQ
+3329	Tall Afar	IQ
+3330	Taji	IQ
+3331	Al Cut	IQ
+3332	Aleppo	SY
+3333	Damascus	SY
+3334	Deire Zor	SY
+3335	Latakia	SY
+3336	Palmyra	SY
+3337	Kamishly	SY
+3338	Doha	QA
+3341	Saipan	MP
+3342	West Tinian	MP
+3343	Andersen	GU
+3344	Agana	GU
+3345	Majuro	MH
+3346	Kwajalein	MH
+3348	Kili Island	MH
+3349	Utirik Island	MH
+3350	Mili Island	MH
+3351	Eniwetok Atoll	MH
+3352	Ujae Atoll	MH
+3353	Chuuk	FM
+3354	Pohnpei	FM
+3355	Kosrae	FM
+3356	Yap	FM
+3357	Babelthuap	PW
+3358	Kinmen	TW
+3359	Pingtung	TW
+3360	Longtang	TW
+3361	Fengnin	TW
+3362	Green Island	TW
+3363	Kaohsiung	TW
+3364	Chiayi	TW
+3365	Lanyu	TW
+3366	Taichung	TW
+3367	Tainan	TW
+3368	Hsinchu	TW
+3369	Makung	TW
+3370	Taitung	TW
+3372	Taipei	TW
+3374	Wang An	TW
+3375	Hualien	TW
+3376	Matsu Islands	TW
+3377	Hengchun	TW
+3380	Taoyuan	TW
+3381	Gangshan	TW
+3382	Tokyo	JP
+3383	Matsumoto	JP
+3384	Ibaraki	JP
+3385	Minami Tori Shima	JP
+3386	Iwojima	JP
+3387	Nanki-shirahama	JP
+3388	Kohnan	JP
+3389	Obihiro	JP
+3390	Sapporo	JP
+3391	Hakodate	JP
+3392	Chitose	JP
+3393	Memanbetsu	JP
+3394	Nakashibetsu	JP
+3395	Tokachi	JP
+3396	Wakkanai	JP
+3397	Iki	JP
+3398	Yamaguchi	JP
+3399	Tsushima	JP
+3400	Monbetsu	JP
+3401	Asahikawa	JP
+3402	Okushiri	JP
+3403	Rishiri Island	JP
+3404	Ashiya	JP
+3405	Yakushima	JP
+3406	Fukue	JP
+3407	Fukuoka	JP
+3408	Tanegashima	JP
+3409	Kagoshima	JP
+3410	Miyazaki	JP
+3411	Nyutabaru	JP
+3412	Oita	JP
+3413	Kitakyushu	JP
+3414	Kumamoto	JP
+3415	Nagasaki	JP
+3416	Kanoya	JP
+3417	Tsuiki	JP
+3418	Amami	JP
+3419	Okierabu	JP
+3420	Tokunoshima	JP
+3421	Fukui	JP
+3422	Gifu	JP
+3423	Hamamatsu	JP
+3424	Kanazawa	JP
+3425	Oki Island	JP
+3426	Toyama	JP
+3427	Yaizu	JP
+3428	Hiroshima	JP
+3429	Okayama	JP
+3430	Izumo	JP
+3431	Hofu	JP
+3432	Miho	JP
+3433	Kochi	JP
+3434	Matsuyama	JP
+3435	Osaka	JP
+3436	Tottori	JP
+3437	Tokushima	JP
+3438	Takamatsu	JP
+3440	Ozuki	JP
+3441	Aomori	JP
+3442	Yamagata	JP
+3443	Sado	JP
+3444	Hachinoe	JP
+3445	Hanamaki	JP
+3446	Akita	JP
+3447	Misawa	JP
+3448	Sendai	JP
+3449	Matsushima	JP
+3450	Atsugi	JP
+3451	Tateyama	JP
+3452	Hachijojima	JP
+3453	Iruma	JP
+3454	Kisarazu	JP
+3455	Shimofusa	JP
+3456	Oshima	JP
+3457	Zama	JP
+3459	Yokota	JP
+3460	Okinawa	JP
+3461	Iejima	JP
+3462	Kadena	JP
+3463	Ishigaki	JP
+3464	Kumejima	JP
+3465	Minami Daito	JP
+3466	Miyako	JP
+3467	Kitadaito	JP
+3468	Shimojishima	JP
+3469	Tarama	JP
+3470	Yoron	JP
+3471	Yonaguni Jima	JP
+3472	Wajima	JP
+3473	Nagoya	JP
+3474	Kobe	JP
+3476	Niigata	JP
+3477	Kushiro	JP
+3479	Saga	JP
+3481	Iwami	JP
+3482	Fukushima	JP
+3483	Odate Noshiro	JP
+3484	Shonai	JP
+3485	Miyakejima	JP
+3486	Niijima	JP
+3487	Toyooka	JP
+3488	Amakusa	JP
+3489	Kikai	JP
+3490	Aguni	JP
+3492	Akeno	JP
+3493	Kerama	JP
+3494	Shin-kamigoto	JP
+3495	Odika	JP
+3497	Taketomi	JP
+3500	Ie	JP
+3501	Kwangju	KR
+3502	Jhunju	KR
+3503	Yeosu	KR
+3504	Sokch'o	KR
+3505	Kangnung	KR
+3506	Cheju	KR
+3507	Chinhae	KR
+3508	Busan	KR
+3509	Ulsan	KR
+3510	Pyongtaek	KR
+3511	Seoul East	KR
+3512	Osan	KR
+3513	Seoul	KR
+3514	Suwon	KR
+3515	Pohang	KR
+3516	Taegu	KR
+3517	Yechon	KR
+3519	Muan	KR
+3520	Kunsan	KR
+3521	Mokpo	KR
+3522	Wonju	KR
+3523	Sokcho / Gangneung	KR
+3524	Sacheon	KR
+3525	Chongju	KR
+3526	Seogwipo	KR
+3527	Seosan	KR
+3528	Ulleung	KR
+3530	Manila	PH
+3531	Cotabato	PH
+3532	Ladag	PH
+3533	Pagadian	PH
+3534	Romblon	PH
+3535	Zamboanga	PH
+3536	Baguio	PH
+3537	Daet	PH
+3538	Floridablanca	PH
+3539	Lingayen	PH
+3541	Lipa	PH
+3542	Mamburao	PH
+3543	Vigan	PH
+3544	Baler	PH
+3545	Bagabag	PH
+3546	Tacloban	PH
+3547	Bacolod	PH
+3548	Dumaguete	PH
+3549	Caticlan	PH
+3550	Guiuan	PH
+3551	Iloilo	PH
+3552	Kalibo	PH
+3553	Puerto Princesa	PH
+3555	Tagbilaran	PH
+3556	Davao	PH
+3557	Angeles City	PH
+3558	Busuanga	PH
+3559	Butuan	PH
+3560	Dipolog	PH
+3561	Laoag	PH
+3562	Legazpi	PH
+3563	Ozamis	PH
+3564	Cebu	PH
+3565	Olongapo City	PH
+3566	Cuyo	PH
+3567	General Santos City	PH
+3568	Camiguin	PH
+3569	Jolo	PH
+3570	Sanga Sanga	PH
+3571	Sangley Point	PH
+3572	Tandag	PH
+3573	Naga	PH
+3574	Basco	PH
+3575	San Fernando	PH
+3576	Tuguegarao	PH
+3577	Virac	PH
+3578	Calbayog City	PH
+3579	Catarman	PH
+3580	Masbate	PH
+3581	Roxas City	PH
+3582	Ormoc City	PH
+3583	Cauayan	PH
+3585	Gasan	PH
+3586	Siargao	PH
+3587	Borongan	PH
+3588	Lubang	PH
+3589	Taytay	PH
+3590	Siquijor	PH
+3591	Surallah	PH
+3594	Concordia	AR
+3595	Gualeguaychu	AR
+3596	Junin	AR
+3597	Parana	AR
+3598	Rosario	AR
+3599	Santa Fe	AR
+3602	Gobernador Gordillo	AR
+3604	Jose C. Paz	AR
+3605	La Plata	AR
+3606	Moron	AR
+3607	El Palomar	AR
+3608	Chosmadal	AR
+3609	Fuerte Gral Roca	AR
+3610	Mendoza	AR
+3611	Malargue	AR
+3612	San Rafael	AR
+3613	Catamarca	AR
+3614	Santiago Del Estero	AR
+3615	Tinogasta	AR
+3616	La Rioja	AR
+3617	Chilecito	AR
+3618	Tucuman	AR
+3619	San Julian	AR
+3620	Rio Cuarto	AR
+3621	Villa Dolores	AR
+3622	Laboulaye	AR
+3623	Marcos Juarez	AR
+3624	Villa Reynolds	AR
+3626	Corrientes	AR
+3627	Resistencia	AR
+3628	Formosa	AR
+3629	Iguazu Falls	AR
+3630	Paso De Los Libres	AR
+3631	Monte Caseros	AR
+3632	Posadas	AR
+3633	Salta	AR
+3634	Jujuy	AR
+3636	La Quiaca	AR
+3637	El Dorado	AR
+3638	Goya	AR
+3639	Obera	AR
+3640	Reconquista	AR
+3641	Curuzu Cuatia	AR
+3642	El Bolson	AR
+3643	Comodoro Rivadavia	AR
+3644	Esquel	AR
+3645	Trelew	AR
+3646	Viedma	AR
+3647	Puerto Madryn	AR
+3648	Puerto Deseado	AR
+3649	Rio Grande	AR
+3650	Rio Gallegos	AR
+3651	Ushuaia	AR
+3653	Perito Moreno	AR
+3654	Santa Cruz	AR
+3655	Bahia Blanca	AR
+3656	Colonel Suarez	AR
+3657	Olavarria	AR
+3658	General Pico	AR
+3659	Tres Arroyos	AR
+3660	Bolivar	AR
+3661	Mar Del Plata	AR
+3662	Neuquen	AR
+3663	Pehuajo	AR
+3664	Santa Rosa	AR
+3665	San Carlos De Bariloche	AR
+3666	Tandil	AR
+3667	Villa Gesell	AR
+3668	Cutralco	AR
+3669	San Martin Des Andes	AR
+3671	El Calafate	AR
+3672	Tartagal	AR
+3673	Las Heras	AR
+3674	San Antonio Oeste	AR
+3676	Gobernador Gregores	AR
+3677	Santa Teresita	AR
+3678	Necochea	AR
+3679	ZAPALA	AR
+3680	Rincon de los Sauces	AR
+3681	Sierra Grande	AR
+3682	Ingeniero Jacobacci	AR
+3683	Alto Rio Senguer	AR
+3684	Jose de San Martin	AR
+3685	Rio Hondo	AR
+3686	Tolhuin	AR
+3687	Villa Maria	AR
+3688	Conceicao Do Araguaia	BR
+3689	Rio De Janeiro	BR
+3690	Amapa	BR
+3691	Araracuara	BR
+3692	Aracaju	BR
+3693	Alta Floresta	BR
+3694	Aracatuba	BR
+3695	Belem	BR
+3696	Bage	BR
+3697	Belo Horizonte	BR
+3698	Curitiba	BR
+3699	Barbacena	BR
+3700	Brasilia	BR
+3701	Bauru	BR
+3703	Barra Do Garcas	BR
+3704	Cascavel	BR
+3705	Itaituba	BR
+3707	Campo Grande	BR
+3708	Chapeco	BR
+3709	Carolina	BR
+3710	Criciuma	BR
+3711	Porto Alegre	BR
+3712	Campos	BR
+3713	Corumba	BR
+3715	Caravelas	BR
+3716	Caxias Do Sul	BR
+3717	Cuiaba	BR
+3718	Cruzeiro do Sul	BR
+3719	President Prudente	BR
+3720	Manaus	BR
+3721	Jacare-acanga	BR
+3722	Sao Pedro Da Aldeia	BR
+3723	Foz Do Iguacu	BR
+3724	Florianopolis	BR
+3725	Fernando Do Noronha	BR
+3726	Alpinopolis	BR
+3727	Fortaleza	BR
+3729	Guajara-mirim	BR
+3730	Goiania	BR
+3731	Macae	BR
+3732	Sao Paulo	BR
+3733	Guaratingueta	BR
+3734	Altamira	BR
+3737	Ilheus	BR
+3738	Ipatinga	BR
+3739	Itumbiara	BR
+3740	Imperatriz	BR
+3742	Juiz De Fora	BR
+3743	Joao Pessoa	BR
+3744	Joinville	BR
+3745	Campina Grande	BR
+3746	Campinas	BR
+3747	Lajes	BR
+3748	Lins	BR
+3749	Londrina	BR
+3750	Bom Jesus Da Lapa	BR
+3751	Lagoa Santa	BR
+3752	Maraba	BR
+3753	Almeirim	BR
+3754	Maringa	BR
+3755	Montes Claros	BR
+3757	Maceio	BR
+3758	Macapa	BR
+3759	Mocord	BR
+3761	Manicore	BR
+3762	Navegantes	BR
+3763	Santo Angelo	BR
+3764	Natal	BR
+3765	Oioiapoque	BR
+3767	Parnaiba	BR
+3768	Pocos De Caldas	BR
+3769	Passo Fundo	BR
+3770	Pelotas	BR
+3771	Petrolina	BR
+3772	Porto Nacional	BR
+3773	Ponta Pora	BR
+3774	Porto Velho	BR
+3775	Rio Branco	BR
+3776	Recife	BR
+3778	Ribeirao Preto	BR
+3780	Sao Jose Dos Campos	BR
+3781	Sao Luis	BR
+3783	Sao Jose Do Rio Preto	BR
+3784	Santos	BR
+3785	Salvador	BR
+3786	Oriximina	BR
+3787	Teresina	BR
+3788	Tefe	BR
+3789	Tarauaca	BR
+3790	Telemaco Borba	BR
+3791	Obidos Tirios	BR
+3792	Tabatinga	BR
+3793	Tucurui	BR
+3794	Sao Gabriel	BR
+3795	Paulo Alfonso	BR
+3796	Uruguaiana	BR
+3797	Uberlandia	BR
+3798	Uberaba	BR
+3799	Varginha	BR
+3800	Vilhena	BR
+3802	Iauarete	BR
+3803	Piracununga	BR
+3804	Santarem	BR
+3805	Porto Seguro	BR
+3806	Iguatu	BR
+3807	Palmas	BR
+3808	Caldas Novas	BR
+3809	Juazeiro Do Norte	BR
+3810	Lençóis	BR
+3811	Macaé	BR
+3812	Marília	BR
+3813	Vitória Da Conquista	BR
+3814	Santa Maria	BR
+3815	Toledo	BR
+3816	Sorocaba	BR
+3817	Mucuri	BR
+3819	Ji-Paraná	BR
+3820	Erechim	BR
+3821	Governador Valadares	BR
+3823	Cabo Frio	BR
+3825	Gurupi	BR
+3826	Santana do Araguaia	BR
+3827	Breves	BR
+3828	Soure	BR
+3829	Parintins	BR
+3830	Barreiras	BR
+3831	Santa Terezinha	BR
+3832	Minacu	BR
+3833	Araguaina	BR
+3834	Novo Aripuana	BR
+3835	Lucas do Rio Verde	BR
+3836	Franca	BR
+3837	Dourados	BR
+3838	Labrea	BR
+3839	Rondonopolis	BR
+3840	Guarapuava	BR
+3841	Joacaba	BR
+3842	Rio Verde	BR
+3843	Araxa	BR
+3844	Maues	BR
+3845	Borba	BR
+3846	Coari	BR
+3847	Barcelos	BR
+3848	Diamantino	BR
+3849	Guanambi	BR
+3850	Maturaca	BR
+3851	Parauapebas	BR
+3852	Alcantara	BR
+3853	Valenca	BR
+3854	Caruaru	BR
+3855	Nova Iguacu	BR
+3856	BLUMENAU	BR
+3857	Juiz de Fora	BR
+3858	Patos de Minas	BR
+3860	Ourilandia do Norte	BR
+3861	Redencao	BR
+3862	Sao Felix do Xingu	BR
+3863	Bointo	BR
+3864	Sao Felix do Araguaia	BR
+3865	Cacador	BR
+3866	Carauari	BR
+3867	Porto Urucu	BR
+3868	Eirunepe	BR
+3870	Francisco Beltrao	BR
+3871	Confresa	BR
+3872	Umuarama	BR
+3873	Diamantina	BR
+3874	Fonte Boa	BR
+3875	Sao Paulo de Olivenca	BR
+3876	Humaita	BR
+3877	Santa Isabel do Rio Negro	BR
+3879	Una	BR
+3880	Morro de Sao Paulo	BR
+3881	Botucatu	BR
+3882	Anapolis	BR
+3883	Sao Carlos	BR
+3884	Braganca Paulista	BR
+3885	Americana	BR
+3886	Tres Lagoas	BR
+3887	Cacoal	BR
+3888	Pouso Alegre	BR
+3889	Divinopolis	BR
+3890	Guarapari	BR
+3891	Ubatuba	BR
+3892	Rio de Janeiro	BR
+3893	Paracatu	BR
+3894	Conselheiro Lafaiete	BR
+3895	Janauba	BR
+3896	Teofilo Otoni	BR
+3897	Muriae	BR
+3898	Paraty	BR
+3899	Buzios	BR
+3900	Angra dos Reis	BR
+3901	Itaperuna	BR
+3902	Marica	BR
+3903	Resende	BR
+3904	Saquarema	BR
+3905	Aripuana	BR
+3906	Juruena	BR
+3907	Juina	BR
+3908	Vila Rica	BR
+3909	Juara	BR
+3910	Caceres	BR
+3911	Chapada dos Guimaraes	BR
+3912	Tangara da Serra	BR
+3913	Canarana	BR
+3914	Vila Bela da Santissima Trindade 	BR
+3915	Sobral	BR
+3916	Arapiraca	BR
+3917	Floriano	BR
+3918	Picos	BR
+3919	Sao Miguel do Oeste	BR
+3920	Barretos	BR
+3921	Taubaté	BR
+3922	Arica	CL
+3923	Balmaceda	CL
+3925	Chile Chico	CL
+3926	Calama	CL
+3927	Chillan	CL
+3928	Punta Arenas	CL
+3929	Coyhaique	CL
+3930	Iquique	CL
+3932	Antofagasta	CL
+3933	Porvenir	CL
+3934	Futaleufu	CL
+3935	Los Angeles	CL
+3936	Puerto Williams	CL
+3937	Concepcion	CL
+3938	Easter Island	CL
+3939	Osorno	CL
+3940	Vallenar	CL
+3941	Rancagua	CL
+3942	La Serena	CL
+3944	Temuco	CL
+3945	Puerto Montt	CL
+3946	Chaiten	CL
+3947	Valdivia	CL
+3948	Copiapo	CL
+3949	El Salvador	CL
+3950	Pucon	CL
+3951	Puerto Natales	CL
+3952	Vina del Mar	CL
+3953	Curico	CL
+3954	Isla San Felix	CL
+3955	San Juan Bautista	CL
+3956	Caldera	CL
+3957	San Pedro de Atacama	CL
+3958	Castro	CL
+3960	Tocopilla	CL
+3962	Chañaral	CL
+3963	Talca	CL
+3965	Taltal	CL
+3966	Ambato	EC
+3967	Clementia	EC
+3968	Coca	EC
+3969	Cuenca	EC
+3970	Galapagos	EC
+3971	Guayaquil	EC
+3972	Gualaquiza	EC
+3973	Ibarra	EC
+3974	Km-192	EC
+3975	La Julia	EC
+3976	Latacunga	EC
+3977	Macara	EC
+3978	Macas	EC
+3979	Machala	EC
+3980	Montalvo	EC
+3981	Manta	EC
+3982	Maragrosa	EC
+3983	Pasaje	EC
+3984	Portoviejo	EC
+3985	Quevedo	EC
+3986	Quito	EC
+3987	Riobamba	EC
+3989	Salinas	EC
+3991	Taura	EC
+3992	Tena	EC
+3993	Tarapoa	EC
+3994	Tulcan	EC
+3995	San Cristóbal	EC
+3996	La Toma (Catamayo)	EC
+3997	Esmeraldas	EC
+3998	Isabela	EC
+3999	Tiputini	EC
+4000	Pastaza	EC
+4001	Asuncion	PY
+4002	Ayolas	PY
+4003	Conception	PY
+4004	Itaipu	PY
+4005	Mariscal Estigarribia	PY
+4006	Pilar	PY
+4007	Ciudad del Este	PY
+4008	Pedro Juan Caballero	PY
+4009	Armenia	CO
+4010	Puerto Asis	CO
+4011	El Banco	CO
+4012	Bucaramanga	CO
+4013	Bogota	CO
+4014	Barranquilla	CO
+4015	Bahia Solano	CO
+4016	Buenaventura	CO
+4017	Cucuta	CO
+4018	Cartagena	CO
+4019	Cali	CO
+4020	Tumaco	CO
+4021	Corozal	CO
+4022	Barrancabermeja	CO
+4023	Florencia	CO
+4024	Girardot	CO
+4025	Guapi	CO
+4026	Guaymaral	CO
+4027	Ibague	CO
+4028	Ipiales	CO
+4029	Carepa	CO
+4030	La Mina	CO
+4031	Leticia	CO
+4032	Medellin	CO
+4033	Magangue	CO
+4034	Monteria	CO
+4035	Mitu	CO
+4036	Manizales	CO
+4037	Neiva	CO
+4039	Otu	CO
+4040	Puerto Bolivar	CO
+4041	Puerto Carreno	CO
+4042	Pereira	CO
+4043	Pitalito	CO
+4044	Popayan	CO
+4045	Pasto	CO
+4046	Providencia	CO
+4047	Mariquita	CO
+4048	Rio Negro	CO
+4049	Rio Hacha	CO
+4050	San Jose Del Guaviare	CO
+4051	Santa Marta	CO
+4052	San Andres Island	CO
+4053	San Vincente De Caguan	CO
+4054	Tame	CO
+4055	Arauca	CO
+4056	Quibdo	CO
+4057	Tulua	CO
+4058	Valledupar	CO
+4059	Villavicencio	CO
+4060	Cartago	CO
+4061	Garzón	CO
+4062	Puerto Leguízamo	CO
+4063	La Pedrera	CO
+4064	Nuquí	CO
+4065	Puerto Inírida	CO
+4066	Yopal	CO
+4068	Acandi	CO
+4069	Saravena	CO
+4070	Villa Garzon	CO
+4071	El Bagre	CO
+4072	Caucasia	CO
+4073	Condoto	CO
+4074	Tolu	CO
+4075	Capurgana	CO
+4076	Apiay	CO
+4077	Coveñas	CO
+4078	La Dorada	CO
+4079	Paz De Ariporo	CO
+4080	Tunja	CO
+4081	Tres Esquinas	CO
+4082	Marandúa	CO
+4083	Bermejo	BO
+4084	Cochabamba	BO
+4085	Chapacura	BO
+4086	Cobija	BO
+4088	Oruro	BO
+4089	Potosi	BO
+4090	Puerto Suarez	BO
+4091	Santa Ana	BO
+4092	Sucre	BO
+4093	Tarija	BO
+4095	Villa Montes	BO
+4097	Yacuiba	BO
+4099	Guayaramerín	BO
+4100	Puerto Rico/Manuripi	BO
+4101	Riberalta	BO
+4102	Reyes	BO
+4103	San Borja	BO
+4104	Uyuni	BO
+4105	Copacabana	BO
+4106	Zandery	SR
+4107	Paramaribo	SR
+4108	Afobaka	SR
+4109	Alapadu	SR
+4110	Albina	SR
+4111	Drietabbetje	SR
+4112	Kabalebo	SR
+4113	Kayser	SR
+4114	Kwamelasemoetoe	SR
+4115	Moengo	SR
+4116	Nieuw Nickerie	SR
+4117	Paloemeu	SR
+4118	Sipaliwini	SR
+4119	Stoelmans Eiland	SR
+4120	Totness	SR
+4121	Wageningen	SR
+4122	Cayenne	GF
+4123	St.-georges Oyapock	GF
+4124	Saul	GF
+4125	Grand-Santi	GF
+4126	Maripasoula	GF
+4127	Saint-Laurent-du-Maroni	GF
+4128	Huancabamba	PE
+4129	Andoas	PE
+4130	Atalaya	PE
+4131	Iberia	PE
+4132	Pucallpa	PE
+4133	Chimbote	PE
+4134	Puerto Esperanza	PE
+4135	Moquegua	PE
+4136	Chiclayo	PE
+4137	Ayacucho	PE
+4138	Andahuaylas	PE
+4139	Anta	PE
+4140	Lima	PE
+4141	Juanjui	PE
+4142	Jauja	PE
+4143	Juliaca	PE
+4144	Ilo	PE
+4145	Las Palmas	PE
+4146	Tumbes	PE
+4147	Yurimaguas	PE
+4148	Collique	PE
+4149	Chachapoyas	PE
+4150	Iquitos	PE
+4151	Arequipa	PE
+4152	San Ramon	PE
+4154	Pisco	PE
+4155	Tarapoto	PE
+4156	Tacna	PE
+4157	Puerto Maldonado	PE
+4158	Piura	PE
+4159	Talara	PE
+4160	Cuzco	PE
+4161	Caballococha	PE
+4162	Cajamarca	PE
+4163	Huánuco	PE
+4164	Nazca	PE
+4165	Tocache	PE
+4167	Tingo Maria	PE
+4168	Rioja	PE
+4169	Jaén	PE
+4170	Montevideo	UY
+4171	Durazno	UY
+4173	Salto	UY
+4174	Maldonado	UY
+4175	Punta del Este	UY
+4176	Colonia	UY
+4177	Rivera	UY
+4178	Melo	UY
+4179	Paysandu	UY
+4180	Artigas 	UY
+4181	Acarigua	VE
+4182	Anaco	VE
+4183	San Fernando Deatabapo	VE
+4185	Barinas	VE
+4186	Maracaibo	VE
+4187	Barquisimeto	VE
+4188	Ciudad Bolivar	VE
+4189	Caicara De Orinoco	VE
+4191	Calabozo	VE
+4192	Canaima	VE
+4193	Carora	VE
+4194	Carupano	VE
+4195	Coro	VE
+4196	Caracas	VE
+4197	Cumana	VE
+4198	Carrizal	VE
+4200	Elorza	VE
+4201	Guasdualito	VE
+4202	Guiria	VE
+4203	Guanare	VE
+4204	Higuerote	VE
+4205	Isla De Coche	VE
+4206	Paraguana	VE
+4207	San Juan De Los Morros	VE
+4208	La Fria	VE
+4209	La Orchila	VE
+4212	Porlamar	VE
+4214	Maturin	VE
+4215	Puerto Ayacucho	VE
+4216	Puerto Cabello	VE
+4217	San Cristobal	VE
+4218	Guayana	VE
+4219	Palmarito	VE
+4220	San Antonio	VE
+4221	Santa Barbara	VE
+4222	Santa Ana De Uairen	VE
+4224	San Felipe	VE
+4225	San Fernando De Apure	VE
+4226	San Tome	VE
+4228	Tucupita	VE
+4229	Tumeremo	VE
+4231	Valera	VE
+4232	Valle De La Pascua	VE
+4233	Maracay	VE
+4234	El Vigía	VE
+4235	Los Roques	VE
+4238	Linden	GY
+4239	Lethem	GY
+4242	Kaieteur	GY
+4243	Orinduik	GY
+4244	Annai	GY
+4245	Apoteri	GY
+4246	Imbaimadai	GY
+4247	Kamarang	GY
+4248	Mabaruma	GY
+4249	Mahdia	GY
+4250	Bartica	GY
+4251	Antigua	AG
+4252	Codrington	AG
+4253	Bridgetown	BB
+4254	Canefield	DM
+4255	Dominica	DM
+4256	Fort-de-france	MQ
+4257	St. Martin	GP
+4258	Pointe-a-pitre	GP
+4259	Grande Anse	GP
+4260	Basse Terre	GP
+4261	St-François	GP
+4262	Grand Bourg	GP
+4263	Les Saintes	GP
+4264	Point Salines	GD
+4265	Aguadilla	PR
+4266	Fajardo	PR
+4267	San Juan	PR
+4268	Mayaguez	PR
+4269	Ponce	PR
+4271	Vieques Island	PR
+4272	Culebra Island	PR
+4273	Arecibo	PR
+4274	Ceiba	PR
+4276	Charlestown	KN
+4277	Castries	LC
+4278	Hewandorra	LC
+4279	Oranjestad	AW
+4280	Kralendijk	AN
+4281	Willemstad	AN
+4283	Philipsburg	AN
+4284	Saba	AN
+4285	The Valley	AI
+4286	Scarborough	TT
+4287	Port-of-spain	TT
+4288	Tortola	VG
+4289	Spanish Town	VG
+4290	Anegada	VG
+4291	Canouan Island	VC
+4292	Mustique	VC
+4293	Kingstown	VC
+4294	Bequia	VC
+4295	Union Island	VC
+4296	Alma-ata	KZ
+4297	Balkhash	KZ
+4298	Tselinograd	KZ
+4299	Dzhambul	KZ
+4300	Chimkent	KZ
+4301	Uralsk	KZ
+4302	Pavlodar	KZ
+4303	Semiplatinsk	KZ
+4304	Aktyubinsk	KZ
+4305	Atyrau	KZ
+4306	Kzyl-Orda	KZ
+4307	Aktau	KZ
+4308	Karaganda	KZ
+4309	Kokshetau	KZ
+4310	Petropavlosk	KZ
+4311	Zhezkazgan	KZ
+4312	Ust Kamenogorsk	KZ
+4313	Kostanay	KZ
+4314	Arkalyk	KZ
+4315	Taldykorgan	KZ
+4316	Ekibastuz	KZ
+4317	Baikonur	KZ
+4318	Ayaguz	KZ
+4319	Chelkar	KZ
+4320	Bishkek	KG
+4321	Osh	KG
+4322	Batken	KG
+4323	Tamchy	KG
+4324	Kant	KG
+4325	Baku	AZ
+4326	Ganja	AZ
+4327	Nakhchivan	AZ
+4328	Stepanakert	AZ
+4329	Lankaran	AZ
+4330	Qabala	AZ
+4331	Zaqatala	AZ
+4332	Yakutsk	RU
+4333	Mirnyj	RU
+4334	Blagoveschensk	RU
+4335	Khabarovsk	RU
+4336	Provideniya Bay	RU
+4337	Magadan	RU
+4338	Pevek	RU
+4339	Petropavlovsk	RU
+4340	Yuzhno-sakhalinsk	RU
+4341	Vladivostok	RU
+4342	Chita	RU
+4343	Bratsk	RU
+4344	Irkutsk	RU
+4345	Ulan-ude	RU
+4346	St. Petersburg	RU
+4347	Murmansk	RU
+4348	Kaliningrad	RU
+4349	Abakan	RU
+4350	Barnaul	RU
+4351	Kemorovo	RU
+4352	Omsk	RU
+4353	Krasnodar	RU
+4354	Makhachkala	RU
+4355	Mineralnye Vody	RU
+4356	Stavropol	RU
+4357	Rostov	RU
+4358	Sochi	RU
+4359	Astrakhan	RU
+4360	Volgograd	RU
+4361	Chelyabinsk	RU
+4362	Magnetiogorsk	RU
+4363	Nizhnevartovsk	RU
+4364	Perm	RU
+4365	Surgut	RU
+4366	Yekaterinburg	RU
+4367	Bryansk	RU
+4368	Moscow	RU
+4369	Tver	RU
+4370	Voronezh	RU
+4372	Syktyvkar	RU
+4373	Kazan	RU
+4374	Orenburg	RU
+4375	Ufa	RU
+4376	Samara	RU
+4378	Novosibirsk	RU
+4379	Tyumen	RU
+4380	Nizhniy Novgorod	RU
+4381	Tomsk	RU
+4382	Ust Ilimsk	RU
+4383	Norilsk	RU
+4384	Anapa	RU
+4386	Arkhangelsk	RU
+4387	Saratov	RU
+4388	Novy Urengoy	RU
+4389	Noyabrsk	RU
+4390	Ukhta	RU
+4391	Usinsk	RU
+4392	Pechora	RU
+4393	Naryan-Mar	RU
+4394	Pskov	RU
+4395	Kogalym	RU
+4396	Krasnoyarsk	RU
+4398	Uraj	RU
+4399	Ivanovo	RU
+4400	Neryungri	RU
+4401	Yakutia	RU
+4402	Chokurdah	RU
+4403	Cherskiy	RU
+4404	Tiksi	RU
+4405	Komsomolsk-on-Amur	RU
+4406	Anadyr	RU
+4407	Okhotsk	RU
+4408	Solovetsky Islands	RU
+4409	Cherepovets	RU
+4410	Amderma	RU
+4411	Kotlas	RU
+4412	Petrozavodsk	RU
+4413	Yeniseysk	RU
+4414	Kyzyl	RU
+4415	Novokuznetsk	RU
+4416	Khatanga	RU
+4417	Igarka	RU
+4418	Grozny	RU
+4419	Nalchik	RU
+4420	Beslan	RU
+4421	Elista	RU
+4422	Salekhard	RU
+4423	Khanty-Mansiysk	RU
+4424	Nyagan	RU
+4425	Sovetskiy	RU
+4426	Izhevsk	RU
+4427	Kirov	RU
+4428	Nadym	RU
+4429	Raduzhnyi	RU
+4430	Nefteyugansk	RU
+4431	Kurgan	RU
+4432	Rybinsk	RU
+4433	Belgorod	RU
+4434	Kursk	RU
+4435	Lipetsk	RU
+4436	Vorkuta	RU
+4437	Bugulma	RU
+4438	Yoshkar-Ola	RU
+4439	Cheboksary	RU
+4440	Ulyanovsk	RU
+4441	Orsk	RU
+4442	Penza	RU
+4443	Saransk	RU
+4444	Balakovo	RU
+4445	Berezovo	RU
+4446	Kostroma	RU
+4447	Tambow	RU
+4448	Apatity	RU
+4449	Kirensk	RU
+4450	Ust-Kut	RU
+4451	Taganrog	RU
+4452	Gelendzhik	RU
+4453	Ramenskoe	RU
+4456	Sredniiy	RU
+4457	Yaroslavl	RU
+4458	Nizhnekamsk	RU
+4460	Strezhevoy	RU
+4461	Batagay	RU
+4462	Vologda	RU
+4463	Evensk	RU
+4464	Olenyok	RU
+4465	Saskylakh	RU
+4467	Nizhneangarsk	RU
+4468	Vanavara	RU
+4469	Aykhal	RU
+4471	Baykit	RU
+4472	Biysk	RU
+4474	Mezen	RU
+4476	Stary Oskol	RU
+4478	Shchyolkovo	RU
+4479	Turukhansk	RU
+4480	Bor	RU
+4481	Kolpashevo	RU
+4482	Tura	RU
+4483	Beloyarsky	RU
+4484	Saint-Petersburg	RU
+4485	Kaluga	RU
+4487	Ust Kamchatsk	RU
+4488	Kozyrevsk	RU
+4489	Dikson	RU
+4490	Ust-Tsylma	RU
+4491	Gorno-Altaysk	RU
+4492	Mys Shmidta	RU
+4493	Honuu	RU
+4495	Yuzhno-Kurilsk	RU
+4496	Ust-Nera	RU
+4497	Sortavala	RU
+4498	Bodaibo	RU
+4499	Lensk	RU
+4500	Kavalerovo	RU
+4501	Velikiye Luki	RU
+4503	Kodinsk	RU
+4504	Srednekolymsk	RU
+4505	Chara	RU
+4506	Adamovka	RU
+4507	Kvarkeno	RU
+4508	Markovo	RU
+4509	Seymchan	RU
+4510	Zyryanka	RU
+4511	Susuman	RU
+4512	Ust-Maya	RU
+4513	Aldan	RU
+4514	Olekminsk	RU
+4515	Vitim	RU
+4516	Yerbogachen	RU
+4517	Suntar	RU
+4518	Bagdarin	RU
+4519	Vladimir	RU
+4520	Eysk	RU
+4521	Lavrentiya	RU
+4522	Magas	RU
+4523	Krasnokamensk	RU
+4524	Vuktyl	RU
+4525	Berezniki	RU
+4526	Tarko-Sale	RU
+4527	Achinsk	RU
+4528	Kyzyl-Syr	RU
+4529	Vilyuisk	RU
+4531	Sovetskaya Gavan	RU
+4533	Omsukchan	RU
+4534	Chaybukha	RU
+4535	Keperveem	RU
+4537	Nikolayevsk-na-Amure Airport	RU
+4538	Palana	RU
+4539	Zheleznogorsk-Ilimsky	RU
+4540	Severomorsk	RU
+4542	Siversky	RU
+4543	Staraya Russa	RU
+4545	Severo-Eniseysk	RU
+4546	Sharypovo	RU
+4549	Svetlogorsk	RU
+4550	Valek	RU
+4551	Maykop	RU
+4552	Dudinka	RU
+4555	Lukhovitsy	RU
+4556	Balabanovo	RU
+4557	Inta	RU
+4558	Izhma	RU
+4560	Zhigansk	RU
+4562	Buguruslan	RU
+4564	Soltsy	RU
+4566	Kipelovo	RU
+4567	Kamyshin	RU
+4568	Smolensk	RU
+4569	Rtishchevo	RU
+4570	Kiev	UA
+4571	Donetsk	UA
+4572	Dnepropetrovsk	UA
+4573	Simferopol	UA
+4575	Lvov	UA
+4576	Odessa	UA
+4577	Mariupol International	UA
+4578	Lugansk	UA
+4579	Zaporozhye	UA
+4580	Krivoy Rog	UA
+4581	Kharkov	UA
+4582	Ivano-Frankivsk	UA
+4583	Chernovtsk	UA
+4584	Rivne	UA
+4585	Uzhgorod	UA
+4586	Lutsk	UA
+4587	Chernigov	UA
+4588	Ternopol	UA
+4589	Cherkassy	UA
+4590	Nikolayev	UA
+4591	Kherson	UA
+4592	Kirovograd	UA
+4593	Sevastopol	UA
+4594	Kerch	UA
+4596	Vinnitsa	UA
+4597	Poltava	UA
+4598	Khmeinitskiy	UA
+4599	Zhytomyr	UA
+4600	Kramatorsk	UA
+4601	Berdyansk	UA
+4602	Sarabuz	UA
+4603	Saki	UA
+4604	Dzhankoy	UA
+4606	Gomel	BY
+4607	Vitebsk	BY
+4608	Minsk	BY
+4609	Minsk 2	BY
+4610	Hrodna	BY
+4611	Mogilev	BY
+4614	Baranavichi	BY
+4615	Babruisk	BY
+4616	Ashkhabad	TM
+4617	Krasnovodsk	TM
+4618	Chardzhou	TM
+4619	Mary	TM
+4620	Dasoguz	TM
+4621	Dushanbe	TJ
+4622	Khudzhand	TJ
+4623	Kurgan Tyube	TJ
+4624	Kulyab	TJ
+4625	Bukhara	UZ
+4626	Samarkand	UZ
+4627	Tashkent	UZ
+4628	Andizhan	UZ
+4629	Fergana	UZ
+4630	Namangan	UZ
+4631	Nukus	UZ
+4632	Urgench	UZ
+4633	Khanabad	UZ
+4634	Termez	UZ
+4635	Navoi	UZ
+4636	Zarafshan	UZ
+4638	Ahmedabad	IN
+4639	Akola	IN
+4640	Aurangabad	IN
+4641	Mumbai	IN
+4642	Bilaspur	IN
+4643	Bhuj	IN
+4644	Belgaum	IN
+4645	Baroda	IN
+4646	Bhopal	IN
+4647	Bhaunagar	IN
+4648	Daman	IN
+4649	Deesa	IN
+4650	Guna	IN
+4651	Goa	IN
+4652	Indore	IN
+4653	Jabalpur	IN
+4654	Jamnagar	IN
+4655	Kandla	IN
+4656	Khajuraho	IN
+4657	Kolhapur	IN
+4658	Keshod	IN
+4659	Nagpur	IN
+4660	Nasik Road	IN
+4661	Pune	IN
+4662	Porbandar	IN
+4663	Rajkot	IN
+4664	Raipur	IN
+4665	Sholapur	IN
+4666	Surat	IN
+4667	Udaipur	IN
+4668	Along	IN
+4669	Agartala	IN
+4670	Aizwal	IN
+4671	Baghdogra	IN
+4672	Bokaro	IN
+4673	Bhubaneswar	IN
+4674	Kolkata	IN
+4675	Cooch-behar	IN
+4676	Dhanbad	IN
+4677	Gaya	IN
+4678	Hirakud	IN
+4679	Imphal	IN
+4680	Jharsuguda	IN
+4681	Jamshedpur	IN
+4682	Jorhat	IN
+4683	Kailashahar	IN
+4684	Silchar	IN
+4685	Lilabari	IN
+4686	Mohanbari	IN
+4687	Mazuffarpur	IN
+4688	Nawapara	IN
+4689	Patina	IN
+4690	Purnea	IN
+4691	Ranchi	IN
+4692	Rourkela	IN
+4693	Utkela	IN
+4694	Vishakhapatnam	IN
+4695	Zero	IN
+4696	Agra	IN
+4697	Allahabad	IN
+4698	Amritsar	IN
+4699	Bikaner	IN
+4700	Varanasi	IN
+4701	Kulu	IN
+4702	Bhiwani	IN
+4703	Chandigarh	IN
+4704	Delhi	IN
+4705	Dehra Dun	IN
+4707	Gwalior	IN
+4708	Hissar	IN
+4709	Jhansi	IN
+4710	Jodhpur	IN
+4711	Jaipur	IN
+4712	Jaisalmer	IN
+4713	Jammu	IN
+4714	Kanpur	IN
+4715	Kota	IN
+4716	Ludhiaha	IN
+4717	Leh	IN
+4718	Lucknow	IN
+4719	Patiala	IN
+4720	Nainital	IN
+4721	Raibarelli	IN
+4722	Srinagar	IN
+4723	Satna	IN
+4724	Agatti Island	IN
+4725	Bangalore	IN
+4726	Bellary	IN
+4727	Vijayawada	IN
+4728	Coimbatore	IN
+4730	Calicut	IN
+4731	Cuddapah	IN
+4732	Dundigul	IN
+4734	Madurai	IN
+4735	Mangalore	IN
+4736	Madras	IN
+4737	Nagarjunsagar	IN
+4738	Port Blair	IN
+4739	Pendicherry	IN
+4740	Rajahmundry	IN
+4741	Salem	IN
+4742	Tanjore	IN
+4743	Tirupeti	IN
+4744	Tiruchirappalli	IN
+4745	Trivandrum	IN
+4746	Diu	IN
+4747	Hubli	IN
+4748	Shillong	IN
+4749	Guwahati	IN
+4750	Dimapur	IN
+4751	Tezpur	IN
+4752	Gorakhpur	IN
+4753	Kangra	IN
+4754	Nanded	IN
+4755	Shimla	IN
+4756	Mysore	IN
+4757	Nagaur	IN
+4758	Pasighat	IN
+4761	Durgapur	IN
+4762	Puttaparthi	IN
+4763	Colombo	LK
+4764	Anuradhapura	LK
+4765	Batticaloa	LK
+4767	Galoya	LK
+4768	Jaffna	LK
+4769	Trinciomalee	LK
+4770	Koggala	LK
+4771	Wirawila	LK
+4772	Mattala	LK
+4773	Sigiriya	LK
+4774	Polonnaruwa Town	LK
+4775	Kompong Chnang	KH
+4776	Phnom-penh	KH
+4777	Siem-reap	KH
+4778	Stung Treng	KH
+4779	Sihanoukville	KH
+4780	Ratanakiri	KH
+4781	Battambang	KH
+4782	Kratie	KH
+4784	Cox's Bazar	BD
+4785	Chittagong	BD
+4786	Ishurdi	BD
+4787	Jessore	BD
+4788	Rajshahi	BD
+4789	Saidpur	BD
+4790	Sylhet Osmani	BD
+4791	Dhaka	BD
+4793	Barisal	BD
+4794	Hong Kong	HK
+4795	Sek Kong	HK
+4797	Luang Prabang	LA
+4798	Pakse	LA
+4799	Phong Savanh	LA
+4800	Savannakhet	LA
+4801	Sam Neua	LA
+4802	Vientiane	LA
+4803	Phon Savan	LA
+4804	Luang Namtha	LA
+4805	Muang Xay	LA
+4806	Huay Xai	LA
+4807	Saravane	LA
+4808	Attopeu	LA
+4809	Macau	MO
+4810	Bhairawa	NP
+4811	Janakpur	NP
+4812	Kathmandu	NP
+4813	Pokhara	NP
+4814	Simara	NP
+4815	Biratnagar	NP
+4816	Lukla	NP
+4817	Bhojpur	NP
+4818	Lamidanda	NP
+4819	Jomsom	NP
+4820	Manang	NP
+4821	Phaplu	NP
+4822	Rumjatar	NP
+4823	Dang	NP
+4824	Rukumkot	NP
+4825	Jumla	NP
+4826	Taplejung	NP
+4827	Tumling Tar	NP
+4828	Surkhet	NP
+4829	Simikot	NP
+4830	Dolpa	NP
+4831	Bajhang	NP
+4832	Dhangarhi	NP
+4833	Bharatpur	NP
+4834	Chandragarhi	NP
+4835	Meghauli	NP
+4836	Nepalgunj	NP
+4837	Ramechhap	NP
+4838	Syangboche	NP
+4839	Kangel Danda	NP
+4840	Bajura	NP
+4841	Thamkharka	NP
+4842	Thimphu	BT
+4843	Jakar	BT
+4844	Gelephu	BT
+4845	Male	MV
+4846	Kaadedhdhoo	MV
+4847	Gan Island	MV
+4848	Haa Dhaalu Atoll	MV
+4849	Laamu Atoll	MV
+4850	South Aari Atoll	MV
+4851	Maamigili	MV
+4852	Kooddoo	MV
+4853	DHARAVANDHOO	MV
+4854	Thimarafushi	MV
+4855	Ifuru	MV
+4856	Bangkok	TH
+4857	Nakhon Pathom	TH
+4858	Lop Buri	TH
+4859	Pattaya	TH
+4860	Prachin Buri	TH
+4861	Lampang	TH
+4862	Phrae	TH
+4863	Prachuap Khiri Khan	TH
+4864	Nakhon Sawan	TH
+4865	Phetchabun	TH
+4867	Phitsanulok	TH
+4868	Tak	TH
+4869	Satun	TH
+4870	Narathiwat	TH
+4871	Krabi	TH
+4872	Songkhla	TH
+4873	Pattani	TH
+4874	Ko Samui	TH
+4875	Nakhon Si Thammarat	TH
+4876	Phuket	TH
+4877	Ranong	TH
+4878	Hat Yai	TH
+4879	Trang	TH
+4880	Udon Thani	TH
+4881	Sakon Nakhon	TH
+4882	Surin	TH
+4883	Loei	TH
+4884	Nakhon Ratchasima	TH
+4885	Roi Et	TH
+4887	Chiang Mai	TH
+4888	Chiang Rai	TH
+4891	Nakhon Phanom	TH
+4892	Ubon Ratchathani	TH
+4893	Khon Kaen	TH
+4894	Sukhothai	TH
+4895	Surat Thani	TH
+4896	Mae Hong Son	TH
+4897	Nan	TH
+4899	Buri Ram	TH
+4900	Trat	TH
+4901	Pai	TH
+4903	Chumphon	TH
+4906	Danang	VN
+4907	Hanoi	VN
+4908	Kep	VN
+4910	Nhatrang	VN
+4911	Hue	VN
+4912	Phuquoc	VN
+4913	Ho Chi Minh City	VN
+4914	Dalat	VN
+4915	Rach Gia	VN
+4916	Ca Mau	VN
+4917	Chu Lai	VN
+4918	Tuy Hoa	VN
+4919	Buonmethuot	VN
+4920	Haiphong	VN
+4921	Nha Trang	VN
+4922	Conson	VN
+4923	Can Tho	VN
+4924	Dienbienphu	VN
+4925	Phucat	VN
+4926	Pleiku	VN
+4927	Vinh	VN
+4928	Phan Rang	VN
+4929	Son-La	VN
+4930	Ann	MM
+4931	Anisakan	MM
+4932	Bagan	MM
+4933	Coco Island	MM
+4934	Heho	MM
+4935	Hommalin	MM
+4936	Kengtung	MM
+4937	Kyaukpyu	MM
+4938	Lashio	MM
+4939	Lanywa	MM
+4940	Mandalay	MM
+4941	Myeik	MM
+4942	Myitkyina	MM
+4943	Momeik	MM
+4944	Mong Hsat	MM
+4945	Nampong	MM
+4946	Namsang	MM
+4947	Hpa-an	MM
+4948	Putao	MM
+4949	Pyay	MM
+4950	Shante	MM
+4951	Sittwe	MM
+4952	Thandwe	MM
+4953	Tachilek	MM
+4954	Taungoo	MM
+4955	Yangon	MM
+4956	Magwe	MM
+4957	Khamti	MM
+4959	Banmaw	MM
+4960	Dawei	MM
+4961	Kawthoung	MM
+4962	Loikaw	MM
+4963	Mawlamyine	MM
+4964	Pathein	MM
+4965	Pakhokku	MM
+4966	Naypyidaw	MM
+4967	Kyauktu	MM
+4968	Bokepyin	MM
+4969	Monywa	MM
+4970	Ye	MM
+4972	Meiktila	MM
+4973	Ujung Pandang	ID
+4974	Biak	ID
+4975	Nabire	ID
+4976	Timika	ID
+4977	Jayapura	ID
+4978	Wamena	ID
+4979	Merauke	ID
+4980	Gorontalo	ID
+4981	Palu	ID
+4982	Manado	ID
+4983	Poso	ID
+4984	Morotai Island	ID
+4985	Ternate	ID
+4986	Luwuk	ID
+4987	Ambon	ID
+4988	Fak Fak	ID
+4989	Kaimana	ID
+4990	Babo	ID
+4991	Manokwari	ID
+4992	Sorong	ID
+4993	Pekanbaru	ID
+4994	Dumai	ID
+4995	Jakarta	ID
+4996	Gunung Sitoli	ID
+4997	Padang Sidempuan	ID
+4998	Padang	ID
+4999	Medan	ID
+5000	Sibolga	ID
+5001	Nangapinoh	ID
+5002	Ketapang	ID
+5003	Pontianak	ID
+5004	Jambi	ID
+5005	Bengkulu	ID
+5006	Palembang	ID
+5007	Rengat	ID
+5008	Lhok Sukon	ID
+5009	Banda Aceh	ID
+5010	Naha	ID
+5011	Masamba	ID
+5012	Soroako	ID
+5014	Kendari	ID
+5015	Sabang	ID
+5016	Tasikmalaya	ID
+5017	Madiun	ID
+5018	Malang	ID
+5019	Tangerang	ID
+5020	Bandung	ID
+5021	Cirebon	ID
+5022	Yogyakarta	ID
+5023	Cilacap	ID
+5025	Semarang	ID
+5026	Batam	ID
+5027	Tanjung Pandan	ID
+5028	Pangkal Pinang	ID
+5029	Tanjung Pinang	ID
+5030	Singkep	ID
+5031	Banjarmasin	ID
+5032	Batu Licin	ID
+5033	Pangkalan Bun	ID
+5034	Palangkaraya	ID
+5035	Maumere	ID
+5036	Ende	ID
+5037	Ruteng	ID
+5038	Kupang	ID
+5039	Labuhan Bajo	ID
+5040	Balikpapan	ID
+5041	Taraken	ID
+5042	Samarinda	ID
+5043	Tanjung Santan	ID
+5044	Mataram	ID
+5045	Bima	ID
+5046	Waingapu	ID
+5047	Surabaya	ID
+5048	Solo City	ID
+5049	Denpasar	ID
+5050	Sumbawa Island	ID
+5051	Waikabubak-Sumba Island	ID
+5052	Bokondini-Papua Island	ID
+5053	Senggeh-Papua Island	ID
+5054	Tanjung Selor-Borneo Island	ID
+5055	Datadawai-Borneo Island	ID
+5056	Tanjung Redep-Borneo Island	ID
+5057	Tanjung-Borneo Island	ID
+5058	Sampit-Borneo Island	ID
+5059	Langgur-Kei Islands	ID
+5060	Alor Island	ID
+5061	Bandar Lampung-Sumatra Island	ID
+5063	Ranai-Natuna Besar Island	ID
+5064	Putussibau-Borneo Island	ID
+5065	Sintang-Borneo Island	ID
+5066	Talang Gudang-Sumatra Island	ID
+5067	Lhok Seumawe-Sumatra Island	ID
+5068	Long Bawan-Borneo Island	ID
+5069	Nunukan-Nunukan Island	ID
+5070	Long Apung-Borneo Island	ID
+5071	Pagerungan	ID
+5072	Anambas Islands	ID
+5073	Praya	ID
+5074	Nusawiru	ID
+5076	Sulawesi Tenggara	ID
+5077	Waris-Papua Island	ID
+5078	Muara Teweh	ID
+5079	Mulia	ID
+5080	Bintuni	ID
+5081	Wasior	ID
+5082	Siborong-Borong	ID
+5083	Sinabang	ID
+5084	Nagan Raya	ID
+5085	Bau-Bau	ID
+5086	Kao	ID
+5087	Melonguane	ID
+5088	Sanggata	ID
+5089	Muara Bungo	ID
+5090	Selayar	ID
+5091	Illaga	ID
+5092	Oksibil	ID
+5093	Kokonau	ID
+5095	Saumlaki	ID
+5096	Karimunjawa	ID
+5097	Toli-Toli	ID
+5098	Bintulu	MY
+5099	Kuching	MY
+5100	Limbang	MY
+5101	Marudi	MY
+5102	Miri	MY
+5103	Sibu	MY
+5104	Lahad Datu	MY
+5105	Kota Kinabalu	MY
+5106	Labuan	MY
+5107	Tawau	MY
+5108	Kluang	MY
+5109	Alor Setar	MY
+5110	Butterworth	MY
+5111	Kota Bahru	MY
+5112	Kuantan	MY
+5113	Kerteh	MY
+5114	Simpang	MY
+5115	Ipoh	MY
+5116	Johor Bahru	MY
+5117	Kuala Lumpur	MY
+5118	Langkawi	MY
+5119	Malacca	MY
+5120	Kuala Terengganu	MY
+5121	Penang	MY
+5122	Tioman	MY
+5124	Redang	MY
+5125	Mulu	MY
+5126	Sandakan	MY
+5127	Belaga	MY
+5128	Long Datih	MY
+5129	Long Seridan	MY
+5130	Mukah	MY
+5131	Bakalalan	MY
+5132	Lawas	MY
+5133	Bario	MY
+5134	Tomanggong	MY
+5135	Kudat	MY
+5136	Pangkor Island	MY
+5137	Long Akah	MY
+5138	Bandar Seri Begawan	BN
+5139	Seria	BN
+5140	Sembawang	SG
+5141	Paya Lebar	SG
+5142	Tengah	SG
+5143	Singapore	SG
+5146	Brisbane	AU
+5147	Amberley	AU
+5148	Alice Springs	AU
+5150	Coolangatta	AU
+5151	Cairns	AU
+5152	Charlieville	AU
+5153	Mount Isa	AU
+5154	Maroochydore	AU
+5155	Mackay	AU
+5156	Prosserpine	AU
+5157	Rockhampton	AU
+5158	Townsville	AU
+5159	Weipa	AU
+5160	Avalon	AU
+5161	Albury	AU
+5162	Melbourne	AU
+5163	East Sale	AU
+5164	Hobart	AU
+5165	Launceston	AU
+5168	Point Cook	AU
+5169	Adelaide	AU
+5172	Karratha	AU
+5173	Kalgoorlie	AU
+5174	Kununurra	AU
+5175	Learmonth	AU
+5176	Port Hedland	AU
+5179	Woomera	AU
+5181	Canberra	AU
+5182	Coff's Harbour	AU
+5183	Camden	AU
+5184	Dubbo	AU
+5185	Richmond	AU
+5187	Tamworth	AU
+5188	Wagga Wagga	AU
+5189	Emerald	AU
+5190	Darwin	AU
+5191	Uluru	AU
+5192	Kingscote	AU
+5193	Hervey Bay	AU
+5194	Armidale	AU
+5195	Blackall	AU
+5196	Bundaberg	AU
+5197	Hayman Island	AU
+5198	Biloela	AU
+5199	Ballina Byron Bay	AU
+5200	Broome	AU
+5202	Albany	AU
+5203	Argyle	AU
+5204	Aurukun	AU
+5205	Barcaldine	AU
+5206	Badu Island	AU
+5207	Birdsville	AU
+5208	Broken Hill	AU
+5209	Hamilton Island	AU
+5210	Bedourie	AU
+5211	Bourke	AU
+5212	Burketown	AU
+5213	Boigu	AU
+5214	Oakey	AU
+5215	Boulia	AU
+5217	Blackwater	AU
+5218	Carnarvon	AU
+5219	Cobar	AU
+5220	Coober Pedy	AU
+5221	Coconut Island	AU
+5222	Cloncurry	AU
+5223	Ceduna	AU
+5224	Cooktown	AU
+5225	Cunnamulla	AU
+5226	Coonamble	AU
+5227	Coen	AU
+5228	Cooma	AU
+5229	Doomadgee	AU
+5230	Darnley Island	AU
+5231	Devonport	AU
+5232	Elcho Island	AU
+5233	Esperance	AU
+5234	Flinders Island	AU
+5236	Gladstone	AU
+5237	Groote Eylandt	AU
+5238	Griffith	AU
+5239	Horn Island	AU
+5240	Hooker Creek	AU
+5241	Mount Hotham	AU
+5242	Hughenden	AU
+5243	Julia Creek	AU
+5244	Kalbarri	AU
+5245	King Island	AU
+5246	Kalkgurung	AU
+5247	Karumba	AU
+5248	Kowanyama	AU
+5249	Kubin	AU
+5250	Leonora	AU
+5251	Lake Evella	AU
+5252	Lord Howe Island	AU
+5253	Lockhart River	AU
+5254	Lismore	AU
+5255	Lightning Ridge	AU
+5256	Longreach	AU
+5257	Leinster	AU
+5258	Laverton	AU
+5259	Mabuiag Island	AU
+5260	Meekatharra	AU
+5261	Merimbula	AU
+5262	Milingimbi	AU
+5263	Maningrida	AU
+5264	McArthur River Mine	AU
+5265	Mildura	AU
+5266	Mount Magnet	AU
+5267	Moree	AU
+5268	Moranbah	AU
+5269	Moruya	AU
+5270	Mount Gambier	AU
+5271	Mornington Island	AU
+5272	Murray Island	AU
+5273	Maryborough	AU
+5274	Narrandera	AU
+5275	Narrabri	AU
+5276	Normanton	AU
+5277	Newman	AU
+5278	Olympic Dam	AU
+5280	Palm Island	AU
+5281	Paraburdoo	AU
+5282	Gove	AU
+5283	Parkes	AU
+5284	Port Lincoln	AU
+5285	Pormpuraaw	AU
+5286	Port Macquarie	AU
+5287	Portland	AU
+5288	Quilpie	AU
+5289	Ramingining	AU
+5290	Roma	AU
+5291	St George	AU
+5292	Shark Bay	AU
+5293	Saibai Island	AU
+5294	Strahan	AU
+5295	Thargomindah	AU
+5296	Tennant Creek	AU
+5297	Victoria River Downs	AU
+5298	Sue Islet	AU
+5299	Windorah	AU
+5300	Whyalla	AU
+5301	Wiluna	AU
+5302	Wollongong	AU
+5303	Winton	AU
+5304	Burnie	AU
+5305	Yorke Island	AU
+5306	Yam Island	AU
+5307	Mount Keith	AU
+5308	Grafton	AU
+5310	Taree	AU
+5311	Goulburn	AU
+5312	Cessnock	AU
+5313	Scone	AU
+5314	Mudgee	AU
+5315	Maitland	AU
+5316	Fraser Island	AU
+5317	Bungle Bungle	AU
+5318	Airlie Beach	AU
+5320	Katherine	AU
+5322	Nowra	AU
+5324	Bendigo	AU
+5325	Toowoomba	AU
+5326	Ballera	AU
+5327	Gatton	AU
+5329	Derby	AU
+5330	Walgett	AU
+5331	Bathurst Island	AU
+5332	Dunk Island	AU
+5333	Lizard Island	AU
+5335	Halls Creek	AU
+5336	Fitzroy Crossing	AU
+5337	Ravensthorpe	AU
+5338	Geelong	AU
+5339	Penneshaw	AU
+5340	Rothwell	AU
+5341	Phillip Island	AU
+5342	Cooinda	AU
+5343	Jabiru	AU
+5344	Telfer	AU
+5345	Renmark	AU
+5346	Leigh Creek	AU
+5347	Warburton Community	AU
+5348	Cunderdin	AU
+5349	Rottnest Island	AU
+5350	Forrest	AU
+5351	Ballarat	AU
+5352	Mallacoota	AU
+5353	Yuendumu 	AU
+5354	Yarram	AU
+5355	Yalata	AU
+5356	Wyndham	AU
+5357	Mine Site	AU
+5358	Great Keppel Island	AU
+5359	Roper Bar	AU
+5360	Mount Garnet	AU
+5361	Innisfail	AU
+5362	Moomba	AU
+5363	Onslow	AU
+5364	Theodore	AU
+5365	Chinchilla	AU
+5366	Shute Harbour	AU
+5367	Shepparton	AU
+5368	Temora	AU
+5369	Gayndah	AU
+5370	Wilcannia	AU
+5371	Ivanhoe	AU
+5372	Menindee	AU
+5373	Pooncarie	AU
+5374	Tilpa	AU
+5375	Lake Macquarie	AU
+5376	Brampton Island	AU
+5377	Brusselton	AU
+5378	Inverell	AU
+5379	Glen Innes	AU
+5380	Cloudbreak	AU
+5381	Coonabarabran	AU
+5382	Warnervale Airport	AU
+5383	Bairnsdale	AU
+5384	Prominent Hill	AU
+5385	Coral Bay	AU
+5386	Lilydale	AU
+5388	Clermont	AU
+5389	Warrnambool	AU
+5392	Bunbury	AU
+5393	Atherton	AU
+5394	Kadina	AU
+5395	Coondewanna	AU
+5396	Borroloola	AU
+5397	Wadeye	AU
+5398	Pirlangimpi	AU
+5399	Elliston	AU
+5400	Murray Bridge	AU
+5401	Horsham	AU
+5402	Swan Hill	AU
+5403	Dulkaninna	AU
+5404	William Creek	AU
+5405	Taroom	AU
+5406	Alpha	AU
+5416	Deniliquin	AU
+5419	Forbes	AU
+5426	Morwell	AU
+5439	Sale	AU
+5440	West Wyalong	AU
+5442	Christmas Island	CX
+5443	Norfolk Island	NF
+5444	Beijing	CN
+5445	Hailar	CN
+5446	Tianjin	CN
+5447	Taiyuan	CN
+5448	Guangzhou	CN
+5449	Changcha	CN
+5450	Guilin	CN
+5451	Nanning	CN
+5452	Shenzhen	CN
+5453	Zhengzhou	CN
+5454	Wuhan	CN
+5455	Lanzhou	CN
+5456	Xi'an	CN
+5457	Jinghonggasa	CN
+5458	Kunming	CN
+5459	Xiamen	CN
+5460	Nanchang	CN
+5461	Fuzhou	CN
+5462	Hangzhou	CN
+5463	Ninbo	CN
+5464	Nanjing	CN
+5465	Hefei	CN
+5466	Qingdao	CN
+5467	Shanghai	CN
+5468	Yantai	CN
+5469	Chongqing	CN
+5470	Guiyang	CN
+5471	Chengdu	CN
+5472	Xichang	CN
+5473	Kashi	CN
+5474	Hotan	CN
+5475	Urumqi	CN
+5476	Harbin	CN
+5477	Mudanjiang	CN
+5478	Dalian	CN
+5480	Sanya	CN
+5481	Lijiang	CN
+5482	Dali	CN
+5483	Yinchuan	CN
+5484	Lhasa	CN
+5485	Jinan	CN
+5486	Changzhou	CN
+5487	Yibin	CN
+5488	Haikou	CN
+5489	Shenyang	CN
+5490	Luoyang	CN
+5491	Xuzhou	CN
+5492	Jiuzhaigou	CN
+5493	Shantou	CN
+5494	Dunhuang	CN
+5495	Changchun	CN
+5497	Chifeng	CN
+5498	Changzhi	CN
+5499	Datong	CN
+5500	Hohhot	CN
+5501	Baotou	CN
+5502	Shijiazhuang	CN
+5503	Tongliao	CN
+5504	Ulanhot	CN
+5505	Xilinhot	CN
+5506	Beihai	CN
+5507	Changde	CN
+5508	Dayong	CN
+5509	Meixian	CN
+5510	Zhuhai	CN
+5511	Liuzhou	CN
+5512	Zhanjiang	CN
+5513	Enshi	CN
+5514	Nanyang	CN
+5515	Xiangfan	CN
+5516	Yichang	CN
+5517	Ankang	CN
+5518	Golmud	CN
+5519	Hanzhong	CN
+5520	Qingyang	CN
+5521	Xining	CN
+5522	Yan'an	CN
+5523	Yulin	CN
+5524	Shangri-La	CN
+5525	Luxi	CN
+5526	Simao	CN
+5527	Zhaotong	CN
+5528	Ganzhou	CN
+5529	Jingdezhen	CN
+5530	Jiujiang	CN
+5531	Quzhou	CN
+5532	Lianyungang	CN
+5533	Huangyan	CN
+5534	Linyi	CN
+5535	Quanzhou	CN
+5536	Huangshan	CN
+5537	Weifang	CN
+5538	Weihai	CN
+5539	Wuxi	CN
+5540	Wuyishan	CN
+5541	Wenzhou	CN
+5542	Yancheng	CN
+5543	Yiwu	CN
+5544	Zhoushan	CN
+5545	Bangda	CN
+5546	Dazhou	CN
+5547	Guangyuan	CN
+5548	Luzhou	CN
+5549	Mianyang	CN
+5550	Nanchong	CN
+5551	Nyingchi	CN
+5552	Wanxian	CN
+5553	Aksu	CN
+5554	Qiemo	CN
+5555	Kuqa	CN
+5556	Korla	CN
+5557	Karamay	CN
+5558	Yining	CN
+5559	Heihe	CN
+5560	Jiamusi	CN
+5561	Jinzhou	CN
+5562	Qiqihar	CN
+5563	Yanji	CN
+5564	Anqing	CN
+5565	Qinhuangdao	CN
+5566	Yuncheng	CN
+5568	Jiayuguan	CN
+5569	Dongsheng	CN
+5570	Hami	CN
+5571	Wuzhou	CN
+5572	Tacheng	CN
+5573	Chaoyang	CN
+5574	Mohe County	CN
+5575	Jining	CN
+5576	Wuhai	CN
+5577	Tongren	CN
+5578	Xi\\'AN	CN
+5579	Fuyang	CN
+5580	Longyan	CN
+5581	Xingyi	CN
+5582	Liping	CN
+5583	Zhijiang	CN
+5584	Tengchong	CN
+5585	Yushu	CN
+5586	Shiquanhe	CN
+5587	Zhongwei	CN
+5588	Burqin	CN
+5589	Handan	CN
+5590	Jixi	CN
+5591	Bayannur	CN
+5592	Yongzhou	CN
+5593	Yangzhou	CN
+5594	Turpan	CN
+5595	Guyuan	CN
+5596	Changhai	CN
+5597	Bijie	CN
+5598	Yichun	CN
+5599	Xiahe city	CN
+5600	Xinyuan	CN
+5601	Anshan	CN
+5602	Zunyi	CN
+5603	Yinchun	CN
+5604	Anshun	CN
+5605	Tonghua	CN
+5606	Suzhou	CN
+5607	Erenhot	CN
+5608	Hechi	CN
+5609	Fuyuan	CN
+5610	Kaili	CN
+5611	Shennongjia	CN
+5612	Arxan	CN
+5613	Hengyang	CN
+5614	Bole	CN
+5615	Guanghua	CN
+5616	Shiyan	CN
+5617	Mengnai	CN
+5618	Bengbu	CN
+5619	Rugao	CN
+5620	Wuhu	CN
+5621	Shanshan	CN
+5622	Yingkou	CN
+5624	Pyongyang	KP
+5625	Hamhung	KP
+5626	Wonsan	KP
+5627	Sunchon	KP
+5628	Ulan Bator	MN
+5629	Arvaikheer	MN
+5630	Altai	MN
+5631	Bayankhongor	MN
+5632	Dalanzadgad	MN
+5633	Khovd	MN
+5634	Muren	MN
+5635	Choibalsan	MN
+5636	Olgii	MN
+5637	Uliastai	MN
+5638	Bulgan	MN
+5639	Ulaangom	MN
+5641	Barter Island	US
+5642	Cape Lisburne	US
+5643	Point Lay	US
+5644	Hilo	US
+5645	Orlando	US
+5646	Bettles	US
+5647	Clear Mews	US
+5648	Indian Mountains	US
+5649	Fort Yukon	US
+5650	Sparrevohn	US
+5651	Fort Richardson	US
+5652	Tatalina	US
+5653	Cape Romanzof	US
+5654	Bedford	US
+5655	St. Paul Island	US
+5656	Cape Newenham	US
+5657	Point Barrow	US
+5658	Iliamna	US
+5659	Port Moller	US
+5660	Big Mountain	US
+5661	Oscoda	US
+5662	Fort Ord	US
+5663	Sacramento	US
+5664	Fort Irwin	US
+5665	Twenty Nine Palms	US
+5667	Anchorage	US
+5668	Grants	US
+5669	Ponca City	US
+5670	Hunter Aaf	US
+5672	Pine Bluff	US
+5673	Milton	US
+5674	Hana	US
+5675	Prescott	US
+5677	Boston	US
+5678	Fairfield	US
+5680	Wendover	US
+5681	Mobile	US
+5682	Oakland	US
+5683	Omaha	US
+5684	Port Angeles	US
+5685	Kahului	US
+5686	Wichita	US
+5687	Kansas City	US
+5688	Madison	US
+5689	Dillingham	US
+5690	Harrison	US
+5691	Phoenix	US
+5692	Bangor	US
+5693	Fort Lauderdale	US
+5694	Longview	US
+5696	Spokane	US
+5697	Hollywood	US
+5698	San Francisco	US
+5699	Cutbank	US
+5700	Louisiana	US
+5701	Gainesville	US
+5702	Memphis	US
+5703	Douglas	US
+5704	Delta Junction	US
+5705	Waco	US
+5706	Annette Island	US
+5707	Caribou	US
+5708	Jacksonville	US
+5709	Redstone	US
+5710	Fort Bragg	US
+5711	Dalhart	US
+5712	Del Rio	US
+5714	Anniston	US
+5715	Cleveland	US
+5716	Dover	US
+5717	Cincinnati	US
+5718	Fort Meade	US
+5719	China Lake	US
+5720	Huron	US
+5721	Juneau	US
+5722	Lafayette	US
+5723	Newark	US
+5724	Boise	US
+5725	Indian Springs	US
+5726	Garden City	US
+5727	Minot	US
+5728	Wahiawa	US
+5729	Montgomery	US
+5730	Robinson	US
+5731	Dallas	US
+5732	Fort Carson	US
+5733	Helena	US
+5734	Miramar	US
+5736	Mary Esther	US
+5737	Hawthorne	US
+5738	Houlton	US
+5739	Enid	US
+5740	Point Mugu	US
+5741	Edwards Afb	US
+5742	Lake Charles	US
+5743	Kona	US
+5744	Myrtle Beach	US
+5745	Lemoore	US
+5746	Nantucket	US
+5747	Fort Eustis	US
+5748	Hopkinsville	US
+5749	Washington	US
+5750	Patuxent River	US
+5751	Palacios	US
+5752	Blytheville	US
+5753	Atlantic City	US
+5754	Oklahoma City	US
+5755	Pueblo	US
+5756	Presque Isle	US
+5757	Fort Lewis	US
+5758	Kodiak	US
+5759	Opolu	US
+5761	Muskogee	US
+5762	International Falls	US
+5763	Salt Lake City	US
+5764	Childress	US
+5765	Biloxi	US
+5766	Fort Benning	US
+5767	Fort Riley	US
+5768	Harrisburg	US
+5769	Lincoln	US
+5770	Lansing	US
+5771	Kamuela	US
+5772	Massena	US
+5773	Hickory	US
+5775	Fort Myers	US
+5776	Houston	US
+5777	Millinocket	US
+5778	Camp Springs	US
+5779	Winston-salem	US
+5780	Victorville	US
+5781	Crestview	US
+5782	Fort Drum	US
+5783	Port Huron	US
+5784	Bakersfield	US
+5785	El Paso	US
+5786	Harlingen	US
+5787	Columbia	US
+5788	Tucson	US
+5789	Pensacola	US
+5791	Red River	US
+5793	Buckley	US
+5794	Northway	US
+5795	Palmer	US
+5796	Pittsburgh	US
+5797	Barrow	US
+5799	Whidbey Island	US
+5800	Alice	US
+5801	Valdosta	US
+5802	Miami	US
+5803	Seattle	US
+5804	Chattanooga	US
+5805	Stratford	US
+5806	Jackson	US
+5807	Galveston	US
+5808	Long Beach	US
+5810	Williamsport	US
+5811	Indianapolis	US
+5812	Knobnoster	US
+5813	Akron	US
+5815	White Plains	US
+5816	West Hampton Beach	US
+5817	Jonesboro	US
+5818	Tonopah	US
+5819	West Palm Beach	US
+5820	San Diego	US
+5822	Yuma	US
+5823	Carlsbad	US
+5824	Duluth	US
+5825	Bethel	US
+5826	Louisville	US
+5827	Fort Huachuca	US
+5828	Lihue	US
+5829	Terre Haute	US
+5830	Havre	US
+5831	Grant County Airport	US
+5832	Montpelier	US
+5833	San Nicolas Island	US
+5835	Shreveport	US
+5836	Cordova	US
+5837	Norfolk	US
+5838	Beaumont	US
+5839	Savannah	US
+5840	Ogden	US
+5841	Nome	US
+5845	Conroe	US
+5846	Deadhorse	US
+5849	Coco Beach	US
+5850	Teterboro	US
+5851	Rapid City	US
+5852	Raleigh-durham	US
+5853	Dayton	US
+5854	Kenai	US
+5855	Mcalester	US
+5856	Niagara Falls	US
+5857	Bryan	US
+5858	Wright	US
+5859	Newport News	US
+5861	Altus	US
+5864	Marysville	US
+5865	Kankakee	US
+5866	Goldsboro	US
+5867	Providence	US
+5868	Salisbury	US
+5869	Rancho Murieta	US
+5870	Burbank	US
+5871	Detroit	US
+5872	Tampa	US
+5873	Pembina	US
+5874	Fort Polk	US
+5875	Fairbanks	US
+5876	Hibbing	US
+5877	Lufkin	US
+5879	Green Bay	US
+5881	Wrightstown	US
+5882	Cherry Point	US
+5884	Bush Field	US
+5885	Williston	US
+5886	Little Rock	US
+5887	Newburgh	US
+5888	Baudette	US
+5890	Homer	US
+5891	Fort Leonardwood	US
+5892	Marietta	US
+5894	Houghton Lake	US
+5896	Dallas-Fort Worth	US
+5898	Tacoma	US
+5899	Austin	US
+5900	Columbus	US
+5901	Gwinn	US
+5902	Knoxville	US
+5903	Fort Hood	US
+5905	Millville	US
+5906	Wichita Falls	US
+5908	Atlanta	US
+5909	Merced	US
+5911	Grand Rapids	US
+5912	Wink	US
+5913	Fresno	US
+5914	Vero Beach	US
+5915	Imperial	US
+5916	Nashville	US
+5917	Laredo	US
+5919	Kotzebue	US
+5920	Altoona	US
+5921	Abilene	US
+5923	New York	US
+5924	Tallahassee	US
+5925	West Chicago	US
+5927	Augusta	US
+5928	Hillsboro	US
+5930	Molokai	US
+5931	Fort Knox	US
+5933	San Angelo	US
+5934	Calexico	US
+5935	Chico	US
+5940	College Station	US
+5942	Milwaukee	US
+5948	Fort Worth	US
+5949	Ogdensburg	US
+5952	Honolulu	US
+5953	Des Moines	US
+5954	New Bern	US
+5956	Monroe	US
+5957	Sumter	US
+5958	Ontario	US
+5959	Greenvile	US
+5960	Roswell	US
+5962	Brownsville	US
+5963	Dothan	US
+5964	Wildwood	US
+5965	Mount Clemens	US
+5966	Farmington	US
+5967	Corpus Christi	US
+5968	Syracuse	US
+5969	Key West	US
+5970	Chicago	US
+5972	Hobbs	US
+5973	Philadelphia	US
+5974	Denver	US
+5976	Sioux City	US
+5978	Truth Or Consequences	US
+5979	Palmdale	US
+5981	El Centro	US
+5983	Fayetteville	US
+5984	Fort Sill	US
+5987	Galena	US
+5988	Chandler	US
+5989	Mineral Wells	US
+5991	New Orleans	US
+5992	Beaufort	US
+5993	Texarkana	US
+5994	Plattsburgh	US
+5996	Tucumcari	US
+5998	Killeen	US
+5999	Zuni Pueblo	US
+6000	Bellingham	US
+6001	Millington	US
+6002	Elkins	US
+6003	Hartford	US
+6004	Smithfield	US
+6006	Mountain View	US
+6008	Barking Sands	US
+6009	Deridder	US
+6010	Bradshaw Field	US
+6013	Belleville	US
+6017	King Salmon	US
+6018	Muir	US
+6019	Lahania-kapalua	US
+6021	Homestead	US
+6022	Riverside	US
+6023	Fort Leavenworth	US
+6024	Wallops Island	US
+6025	Alamogordo	US
+6026	Willow Grove	US
+6027	Cheyenne	US
+6028	Stockton	US
+6029	Charleston	US
+6030	Reno	US
+6031	Ketchikan	US
+6033	Lompoc	US
+6035	Lakehurst	US
+6036	Las Vegas	US
+6038	Modesto	US
+6041	Colorado Springs	US
+6042	Buffalo	US
+6043	Sandusky	US
+6044	Everett	US
+6045	Mountain Home	US
+6046	Cedar City	US
+6047	Windsor Locks	US
+6048	Mcallen	US
+6050	Chicopee Falls	US
+6051	Lubbock	US
+6053	Boca Raton	US
+6055	Quantico	US
+6056	Clovis	US
+6057	Kaneohe Bay	US
+6059	Gulkana	US
+6060	Watertown	US
+6061	Palm Springs	US
+6062	Amarillo	US
+6063	Fort Dodge	US
+6065	Topeka	US
+6066	Cotulla	US
+6067	Wilmington	US
+6068	Baton Rouge	US
+6069	Tyler	US
+6070	Baltimore	US
+6072	Lanai	US
+6074	White Sands	US
+6075	Cold Bay	US
+6076	Tulsa	US
+6077	Sitka	US
+6078	Islip	US
+6079	Minneapolis	US
+6081	Unalaska	US
+6086	Valdez	US
+6087	Hampton	US
+6089	Colombus	US
+6090	Kendall-tamiami	US
+6091	Oceana	US
+6092	Peru	US
+6093	Casper	US
+6094	Valparaiso	US
+6095	Selma	US
+6097	Charlotte	US
+6101	Great Falls	US
+6102	Youngstown	US
+6103	Fort Wainwright	US
+6104	Mackminnville	US
+6106	Pullman	US
+6107	Lewiston	US
+6108	Elmira	US
+6109	Ithaca	US
+6110	Monterey	US
+6112	Daytona Beach	US
+6113	Talkeetna	US
+6114	New Haven	US
+6115	Asheville	US
+6116	Greensboro	US
+6117	Sioux Falls	US
+6118	Manchester NH	US
+6121	Charlottesville VA	US
+6122	Roanoke VA	US
+6123	Lexington KY	US
+6124	Evansville	US
+6125	Albuquerque	US
+6126	Bozeman	US
+6127	Billings	US
+6128	Butte	US
+6129	Traverse City	US
+6130	Bar Harbor	US
+6131	Rockland	US
+6132	Jacksn Hole	US
+6133	Rockford	US
+6135	Bloomington	US
+6136	Gulfport	US
+6137	Kalamazoo	US
+6139	Fort Wayne	US
+6140	Decatur	US
+6141	Cedar Rapids	US
+6142	La Crosse	US
+6143	Wassau	US
+6144	Peoria	US
+6145	Appleton	US
+6147	Champaign	US
+6148	Manhattan	US
+6149	Franklin	US
+6150	Grand Junction	US
+6151	Saint George	US
+6153	Port O\\'Connor	US
+6154	Sarasota	US
+6155	Van Nuys	US
+6156	Moline	US
+6158	Bismarck	US
+6159	Telluride	US
+6162	Flint	US
+6163	Redding	US
+6164	Eugene	US
+6165	Idaho Falls	US
+6166	Medford	US
+6167	Redmond-Bend	US
+6169	Huntsville	US
+6170	PARKERSBURG	US
+6171	MONTGOMERY	US
+6172	BRISTOL	US
+6173	PADUCAH	US
+6174	Page	US
+6175	Kalispell	US
+6176	Saginaw	US
+6177	Binghamton	US
+6178	Blythe	US
+6179	Petersburg	US
+6180	Sanford	US
+6181	Johnstown	US
+6182	Missoula	US
+6183	Grand Canyon	US
+6184	Sugar Land	US
+6187	Fort Stockton	US
+6190	La Junta	US
+6191	Las Cruces	US
+6192	Breckenridge	US
+6193	Temple	US
+6194	Ozona	US
+6195	Vail	US
+6196	Richmond Heights	US
+6197	Mansfield	US
+6199	Lawton	US
+6200	Fort Collins	US
+6201	Flagstaff	US
+6202	South Lake Tahoe	US
+6203	Twin Falls	US
+6204	Vineyard Haven MA	US
+6205	Concord NH	US
+6206	Groton CT	US
+6207	Saint Cloud	US
+6208	Columbus Mississippi	US
+6209	Hoquiam	US
+6210	Erie	US
+6211	Barnstable	US
+6212	Sedona	US
+6213	Morgantown	US
+6215	Scranton	US
+6216	Bemidji	US
+6217	Fargo	US
+6219	Gillette	US
+6220	State College Pennsylvania	US
+6221	Meridian	US
+6222	Springfield	US
+6223	Cortez	US
+6224	Hayden	US
+6225	Gallup	US
+6226	Liberal	US
+6227	Lamar	US
+6228	Goodland	US
+6229	Cody	US
+6231	Joplin	US
+6232	Allentown	US
+6233	Bentonville	US
+6234	South Bend	US
+6235	Fort Wayne IN	US
+6236	Arcata CA	US
+6237	Jacksonville NC	US
+6238	Tuscaloosa AL	US
+6239	Dubuque IA	US
+6245	Walla Walla	US
+6246	Alpena	US
+6248	Bradford	US
+6249	Scottsbluff	US
+6250	Beckley	US
+6251	Brunswick	US
+6253	Crescent City	US
+6254	Cape Girardeau	US
+6255	Sault Ste Marie	US
+6256	Clarksburg	US
+6258	Hancock	US
+6259	Dodge City	US
+6260	Du Bois	US
+6261	Eau Claire	US
+6262	Elko	US
+6263	New Bedford	US
+6266	Grand Island	US
+6267	Hot Springs	US
+6268	Huntington	US
+6269	Kirksville	US
+6270	Jamestown	US
+6271	Laramie	US
+6272	Latrobe	US
+6273	North Platte	US
+6274	Lebanon	US
+6275	Klamath Falls	US
+6276	Lancaster	US
+6277	Lewistown	US
+6278	Lynchburg	US
+6279	Muskegon	US
+6280	Miles City	US
+6281	Muscle Shoals	US
+6282	North Bend	US
+6283	Owensboro	US
+6284	Hattiesburg/Laurel	US
+6285	Pocatello	US
+6286	Pierre	US
+6287	Pellston	US
+6288	Portsmouth	US
+6289	Reading	US
+6290	Rhinelander	US
+6291	Rock Springs	US
+6292	Rutland	US
+6293	San Luis Obispo	US
+6294	Sheridan	US
+6295	Saranac Lake	US
+6296	Salina	US
+6298	Tupelo	US
+6299	Quincy	US
+6302	Worland	US
+6303	Yakima	US
+6304	Adak Island	US
+6305	Gustavus	US
+6306	Skagway	US
+6307	Holy Cross	US
+6308	Haines	US
+6309	Kalskag	US
+6310	Mcgrath	US
+6311	Mountain Village	US
+6312	Aniak	US
+6313	Chevak	US
+6314	Wrangell	US
+6316	Aleknagik	US
+6317	Bluefield	US
+6319	Pasco	US
+6320	Akutan	US
+6321	Lopez	US
+6322	Waikoloa Village	US
+6323	Worcester	US
+6324	Bremerton	US
+6325	Spencer	US
+6326	Jefferson City	US
+6327	Provincetown	US
+6328	Fullerton	US
+6329	Concord	US
+6330	Hailey	US
+6331	Mason City	US
+6332	Mesa	US
+6333	Anaktuvuk Pass	US
+6334	Anvik	US
+6335	Atqasuk	US
+6336	Gambell	US
+6337	Hooper Bay	US
+6338	Kaltag	US
+6339	St Mary's	US
+6340	Kivalina	US
+6341	Mekoryuk	US
+6342	Ruby	US
+6343	Shishmaref	US
+6344	Savoonga	US
+6345	Noatak	US
+6346	Arctic Village	US
+6347	Hagerstown	US
+6348	Sand Point	US
+6349	Deering	US
+6350	Igiugig	US
+6351	New Stuyahok	US
+6352	King Cove	US
+6353	Port Heiden	US
+6354	Togiak Village	US
+6355	Escanaba	US
+6356	Yakutat	US
+6357	Marion	US
+6358	Iron Mountain	US
+6359	Marquette	US
+6360	Allakaket	US
+6361	Michigan City	US
+6362	Seward	US
+6363	Grand Marais	US
+6364	Wausau	US
+6365	Muncie	US
+6369	Kenosha	US
+6370	Montrose CO	US
+6371	Riverton WY	US
+6372	Pendleton	US
+6373	Oshkosh	US
+6374	Wenatchee	US
+6376	Gary	US
+6377	Brainerd	US
+6378	Lewisburg	US
+6380	Chefornak	US
+6381	Oxnard	US
+6382	Scotia NY	US
+6383	St. Augustine Airport	US
+6385	Kissimmee	US
+6386	Lake City	US
+6387	DeLand	US
+6388	Green Cove Springs	US
+6389	Logan	US
+6390	Brigham City	US
+6391	Malad City	US
+6392	Aspen	US
+6393	Kerrville	US
+6395	Great Bend	US
+6396	Hays	US
+6398	Ely	US
+6399	Grand Rapids MN	US
+6400	Thief River Falls	US
+6401	Eagle River	US
+6402	Minocqua - Woodruff	US
+6403	Ankeny	US
+6405	Catalina Island	US
+6406	Mojave	US
+6407	Hutchinson	US
+6408	Rosecrans	US
+6409	Camp Douglas	US
+6410	Gunnison	US
+6411	Torrance	US
+6412	Manistee	US
+6413	Punta Gorda	US
+6414	Frenchville	US
+6416	Somerset	US
+6417	Weyers Cave	US
+6418	Devils Lake	US
+6419	Dickinson	US
+6420	Sidney	US
+6421	Chadron	US
+6422	Alliance	US
+6423	McCook	US
+6425	Glendive	US
+6426	Wolf Point	US
+6427	West Yellowstone	US
+6428	Alamosa	US
+6429	Moab	US
+6431	Vernal	US
+6432	Ruidoso	US
+6433	Show Low	US
+6434	McCall	US
+6435	Salmon	US
+6436	Mammoth Lakes	US
+6437	Friday Harbor	US
+6438	Eastsound	US
+6439	Astoria	US
+6440	Newport	US
+6441	Emmonak	US
+6442	Unalakleet	US
+6443	Kuparuk	US
+6444	Shageluk	US
+6445	Nuiqsut	US
+6446	Eek	US
+6447	Kasigluk	US
+6448	Kwethluk	US
+6449	Kwigillingok	US
+6450	Marshall	US
+6451	Russian Mission	US
+6452	Koliganek	US
+6453	Manokotak	US
+6454	Chalkyitsik	US
+6455	Eagle	US
+6456	Hughes	US
+6457	Huslia	US
+6458	Nulato	US
+6459	Venetie	US
+6460	Beaver	US
+6461	Central	US
+6462	Shungnak	US
+6463	Inyokern	US
+6464	Visalia	US
+6466	Goodyear	US
+6467	Angoon	US
+6468	Elfin Cove	US
+6469	Funter Bay	US
+6470	Hoonah	US
+6471	Kake	US
+6472	Metakatla	US
+6473	Hydaburg	US
+6474	Egegik	US
+6475	Perryville	US
+6476	Pilot Point	US
+6477	South Naknek	US
+6478	Akhiok	US
+6479	Karluk	US
+6480	Larsen Bay	US
+6481	Ambler	US
+6482	Buckland	US
+6483	Kiana	US
+6484	Kobuk	US
+6485	Noorvik	US
+6486	Selawik	US
+6487	Brevig Mission	US
+6488	Elim	US
+6489	Golovin	US
+6490	Teller	US
+6491	Wales	US
+6492	White Mountain	US
+6493	Koyuk	US
+6494	St. Michael	US
+6495	Shaktoolik	US
+6496	Tin City	US
+6497	Atka	US
+6498	Yakataga	US
+6499	Alakanuk	US
+6500	Kipnuk	US
+6501	False Pass	US
+6502	Nelson Lagoon	US
+6504	Klawock	US
+6505	Quinhagak	US
+6506	Kotlik	US
+6507	Koyukuk	US
+6508	Scammon Bay	US
+6509	Nondalton	US
+6510	Kongiganak	US
+6511	Nikolai	US
+6512	Akiak	US
+6513	Wainwright	US
+6514	Chenega	US
+6515	Tok	US
+6516	Circle	US
+6517	Sleetmute	US
+6518	Healy	US
+6520	Lake Minchumina	US
+6521	Manley Hot Springs	US
+6522	Martinsburg	US
+6523	Rock Hill	US
+6528	Addison	US
+6529	Destin	US
+6530	Kinston	US
+6531	Kill Devil Hills	US
+6532	Provo	US
+6533	Steamboat Springs	US
+6534	Delta	US
+6535	Richfield	US
+6536	Price	US
+6537	Los Alamos	US
+6538	Lake Havasu City	US
+6539	Winslow	US
+6541	Bartow	US
+6542	Livermore	US
+6543	Mariposa	US
+6545	Santa Monica	US
+6547	Scottsdale	US
+6548	Olympia	US
+6549	Davis-Woodland-Winters	US
+6550	Rifle	US
+6551	SARATOGA	US
+6554	Stuart	US
+6555	Morristown	US
+6556	Napa	US
+6559	Pahokee	US
+6561	San Bernardino	US
+6563	Rocky Mount	US
+6564	Whittier	US
+6565	Soldotna	US
+6566	El Cajon	US
+6567	San Clemente Island	US
+6568	Truckee	US
+6570	Dell	US
+6571	Livingston-Montana	US
+6572	Big Timber	US
+6573	Holland	US
+6574	Monument Valley	US
+6575	Lakeland	US
+6577	Murrieta-Temecula	US
+6578	Port Clinton	US
+6581	Findley	US
+6582	Spearfish-South Dakota	US
+6583	Olive Branch	US
+6584	Broomfield-CO	US
+6586	Tunica	US
+6588	Janesville	US
+6589	Arlington	US
+6590	Lawrenceville	US
+6591	Bowling Green	US
+6593	Bryce Canyon	US
+6595	Olathe	US
+6596	Easton	US
+6597	Yuba City	US
+6598	Duncan	US
+6599	Uvalde	US
+6600	Lockport	US
+6602	Ocean Reef Club Airport	US
+6608	Smyrna	US
+6609	Sewanee	US
+6610	DALLAS	US
+6611	Chicago-Wheeling	US
+6612	Kelso	US
+6615	Casa Grande	US
+6617	Buckeye	US
+6618	Gila Bend	US
+6620	Sterling	US
+6621	Rawlins	US
+6622	Caldwell	US
+6623	Kaiser Lake Ozark	US
+6624	Thomasville	US
+6625	Henderson	US
+6626	Tifton	US
+6627	Phoenix 	US
+6628	Farmingdale	US
+6629	Hondo	US
+6630	McKinley Park	US
+6632	Prospect Creek	US
+6633	Wheeling	US
+6634	Fitzgerald	US
+6635	Rockport	US
+6636	Cordele	US
+6637	Ormond Beach	US
+6638	Troutdale	US
+6641	Bend	US
+6642	Christmas Valley	US
+6643	Burns	US
+6644	Prineville	US
+6645	Red Bluff	US
+6646	Novato	US
+6647	Lakeview	US
+6648	Tillamook	US
+6650	The Dalles	US
+6651	Gaithersburg	US
+6652	Charelvoix	US
+6653	Flagler	US
+6654	Morrisville	US
+6656	Washington County	US
+6657	Block Island	US
+6658	Nightmute	US
+6659	Toksook Bay	US
+6660	Bainbridge	US
+6661	Silver Springs	US
+6663	Madera	US
+6664	Apalachicola	US
+6666	Fort Pierce	US
+6667	Taunton	US
+6669	North Kingstown	US
+6670	Norwood	US
+6671	Westfield	US
+6672	Willimantic	US
+6675	Marshfield	US
+6676	Danbury	US
+6677	Nashua	US
+6678	Lawrence	US
+6680	Fitchburg	US
+6681	Villa Rica	US
+6682	Cartersville	US
+6683	Centre	US
+6685	Gadsden	US
+6687	Winder	US
+6688	Sylvania	US
+6689	Dalton	US
+6690	Carrollton	US
+6691	LaGrange	US
+6692	Milledgeville	US
+6693	Pine Mountain	US
+6696	New Philadelpha	US
+6697	Darlington	US
+6698	Hilton Head Island	US
+6700	Morganton	US
+6701	Pikeville	US
+6702	Locust Grove	US
+6703	Toccoa	US
+6705	East Troy	US
+6708	Pompano Beach	US
+6709	Alabaster	US
+6710	Carefree	US
+6713	Fredericksburg	US
+6714	Racine	US
+6715	Redlands	US
+6718	Gulf Shores	US
+6719	Hazleton	US
+6720	Cumberland	US
+6722	Lone Rock	US
+6723	Phillips	US
+6725	Joliet	US
+6728	Connellsville	US
+6731	Okeechobee	US
+6732	Sebring	US
+6733	Avon Park	US
+6734	Winter Haven	US
+6735	Zephyrhills	US
+6736	Ocala	US
+6737	Jesup	US
+6739	Newnan	US
+6740	Thomson	US
+6741	Aiken	US
+6743	Lumberton	US
+6744	Pinehurst-Southern Pines	US
+6745	Rockingham	US
+6746	Baraboo	US
+6747	Statesville	US
+6749	Lock Haven	US
+6750	Zelienople	US
+6751	Lorain-Elyria	US
+6753	Dunkirk	US
+6754	Mount Holly	US
+6756	Angola	US
+6758	Van Wert	US
+6760	Batavia	US
+6761	Clearwater	US
+6763	Jasper	US
+6764	North Myrtle Beach	US
+6766	Ramona	US
+6767	Coldwater	US
+6768	Wilkes-Barre	US
+6769	Willoughby	US
+6770	Frankfort	US
+6772	Tomah	US
+6773	Marco Island Airport	US
+6774	Drummond Island	US
+6775	Gladwin	US
+6776	South Haven	US
+6778	Wisconsin Rapids	US
+6779	Clinton	US
+6780	Beverly	US
+6781	Poplar Bluff	US
+6782	Somerville	US
+6783	Eastport	US
+6784	Keokuk	US
+6785	St. Paul	US
+6786	Oconomowoc	US
+6788	Fond du Lac	US
+6789	Waupaca	US
+6790	Stevens Point	US
+6791	Newberry	US
+6792	Galion	US
+6795	Coatesville	US
+6796	Lake Placid	US
+6799	Beaver Falls	US
+6802	Renton	US
+6803	La Verne	US
+6804	Cross City	US
+6805	Clemson	US
+6807	Calhoun	US
+6808	Cornelia	US
+6810	Rhinebeck	US
+6812	Kapolei	US
+6813	East Tawas	US
+6815	Leesburg	US
+6816	Anoka	US
+6817	Williamson	US
+6818	Boulder	US
+6819	Palo Alto	US
+6821	Cooldige	US
+6822	Cottonwood	US
+6824	Wickenburg	US
+6825	Pontiac	US
+6826	Keene	US
+6828	Iowa City	US
+6829	Windom	US
+6831	Annapolis	US
+6832	Pecos	US
+6833	Hattiesburg	US
+6834	Yankton	US
+6835	Hayward	US
+6836	Ann Arbor	US
+6839	Immokalee 	US
+6840	Cambria	US
+6842	Sheboygan	US
+6843	Marana	US
+6844	Glendale	US
+6845	Safford	US
+6846	Sikeston	US
+6847	Queensbury	US
+6848	Ballston Spa	US
+6849	Crystal River	US
+6852	Fostoria	US
+6853	Fryeburg	US
+6854	Placida	US
+6856	Coeur d'Alene	US
+6858	Danville	US
+6859	Titusville	US
+6861	Eden Prairie	US
+6863	West Goshen Township	US
+6864	Manassas	US
+6865	Angleton	US
+6866	Shelbyville	US
+6867	Enumclaw	US
+6868	Winnsboro	US
+6870	Newton	US
+6872	Fort Bridger	US
+6873	Prosser	US
+6874	Chehalis	US
+6875	Mattawa	US
+6876	Evanston	US
+6877	Sabetha	US
+6879	Americus	US
+6880	Eufala	US
+6881	Saluda	US
+6882	Manteo	US
+6883	Auburn	US
+6884	Endicott	US
+6885	Bessemer	US
+6886	Ellicott	US
+6887	Crystal	US
+6888	Quitman	US
+6890	Corvallis	US
+6893	Chatsworth	US
+6895	Poteau	US
+6897	Shelton	US
+6898	Napakiak	US
+6899	Napaskiak	US
+6901	Liberty	US
+6902	Doylestown	US
+6904	Engelhard	US
+6905	Stillwater	US
+6906	Okmulgee	US
+6907	Cushing	US
+6909	Winfield	US
+6913	Perry	US
+6915	Ada	US
+6916	Misquite	US
+6917	Denton	US
+6919	Lago Vista	US
+6920	Brenham	US
+6921	Lakeway	US
+6922	Iraan	US
+6924	North Wilkesboro	US
+6927	Brookneal	US
+6928	Cheraw	US
+6929	Wuchula	US
+6930	Conway	US
+6931	Asheboro	US
+6932	Wallace	US
+6933	Emporia	US
+6934	El Monte	US
+6935	Pineville	US
+6936	Stinson	US
+6937	Sallisaw	US
+6939	El dorado springs	US
+6940	Marfa	US
+6941	Alpine	US
+6942	Upland	US
+6943	Mount Sterling	US
+6944	Elkhart	US
+6945	Nappanee 	US
+6947	Grove	US
+6948	Mc Pherson	US
+6951	Hartsville	US
+6952	Chapel Hill	US
+6953	Oak Island	US
+6957	Chino	US
+6959	Paso Robles	US
+6960	Half Moon Bay	US
+6962	Roxboro	US
+6963	Talladega	US
+6965	Mankato	US
+6966	Troy	US
+6967	Sylacauga	US
+6968	Enterprise	US
+6970	Alexander City	US
+6971	Meriden	US
+6972	Ridgely	US
+6973	New Castle	US
+6974	Scott City	US
+6975	Holdredge	US
+6976	Pratt	US
+6977	Wahoo	US
+6978	Lexington	US
+6979	Sublette	US
+6980	Council Bluffs	US
+6981	Kokomo	US
+6982	Neodesha	US
+6983	Sutton	US
+6986	Galesburg	US
+6987	Guymon	US
+6988	Meade	US
+6989	Shell Knob	US
+6990	Ulysses	US
+6992	Independence	US
+6994	Larned	US
+6995	Lampasas	US
+6996	Bay City	US
+6998	Coffeyville	US
+6999	Summit	US
+7000	Greeley	US
+7002	Oakley	US
+7003	Fremont	US
+7004	La Grande	US
+7005	Mount Pocono	US
+7006	Quakertown	US
+7007	Banning	US
+7008	Norfolk  Nebraska	US
+7011	Montauk	US
+7012	Valparaiso IN	US
+7013	Ludington	US
+7015	Camarillo - CA	US
+7016	Watsonville	US
+7017	Williamsburg	US
+7019	Alton/St Louis	US
+7022	Brady	US
+7023	Bishop	US
+7024	Baker City	US
+7025	Big Piney	US
+7027	Battle Creek	US
+7028	Burley	US
+7029	Charles City	US
+7030	Chanute	US
+7032	Crossville	US
+7033	Fort Belvoir	US
+7034	Daggett	US
+7035	Deming	US
+7036	Mercury	US
+7037	Needles	US
+7040	San Marcos	US
+7042	Junction	US
+7043	Monticello	US
+7044	Lovelock	US
+7045	Mobridge	US
+7046	Mc Comb	US
+7047	Carbondale/Murphysboro	US
+7048	Eastover	US
+7050	Mayport	US
+7051	Orangeburg	US
+7053	Ottumwa	US
+7054	Fort Rucker/Ozark	US
+7055	Pinedale	US
+7056	Poughkeepsie	US
+7057	New Richmond	US
+7058	Russell	US
+7059	Redwood Falls	US
+7061	Sonora	US
+7062	Benton	US
+7064	Aurora	US
+7065	Ukiah	US
+7068	Valentine	US
+7069	Winnemucca	US
+7070	Woodward	US
+7071	Cocoa Beach	US
+7072	Groom Lake	US
+7073	Zanesville	US
+7074	Nenana	US
+7075	Wasilla	US
+7076	Liepaja	LV
+7077	Riga	LV
+7078	Ventspils	LV
+7079	Daugavpils	LV
+7080	Jēkabpils	LV
+7081	Tukums	LV
+7082	Siauliai	LT
+7083	Barysiai	LT
+7084	Kaunas	LT
+7086	Palanga	LT
+7087	Vilnius	LT
+7088	Panevezys	LT
+7089	Paluknys	LT
+7090	Kėdainiai	LT
+7091	Yerevan	AM
+7092	Stepanavan	AM
+7094	Gyumri	AM
+7095	Dzhermuk	AM
+7096	Assab	ER
+7097	Asmara	ER
+7098	Massawa	ER
+7099	Batumi	GE
+7100	Kutaisi	GE
+7101	Tbilisi	GE
+7102	Sukhumi	GE
+7103	Mestia	GE
+7104	Mukalla	YE
+7105	Taiz	YE
+7106	Hodeidah	YE
+7107	Aden	YE
+7108	Ataq	YE
+7109	Al Ghaidah Intl	YE
+7110	Sanaa	YE
+7111	Beihan	YE
+7112	Socotra	YE
+7113	Al Badie	YE
+7114	Sayun Intl	YE
+7115	Bermuda	BM
+7116	Honiara	SB
+7117	Atoifi	SB
+7118	Auki	SB
+7119	Ballalae	SB
+7120	Fera Island	SB
+7121	Mbambanakira	SB
+7122	Kirakira	SB
+7123	Santa Cruz/Graciosa Bay/Luova	SB
+7124	Munda	SB
+7125	Gizo	SB
+7126	Stirling Island	SB
+7127	Rennell Island	SB
+7128	Marau	SB
+7129	Suavanao	SB
+7130	Kagau Island	SB
+7131	Ramata	SB
+7132	Sege	SB
+7133	Ringi Cove	SB
+7134	Afutara	SB
+7135	Ulawa	SB
+7136	Choiseul Bay	SB
+7138	Yandina	SB
+7139	Nauru	NR
+7140	Funafuti	TV
+7141	Djibouti	DJ
+7142	Obock	DJ
+7143	Tadjoura	DJ
+7144	Geralds	MS
+7145	Smara	EH
+7146	Dakhla	EH
+7147	El Aaiún	EH
+7148	Alofi	NU
+7149	Cocos Keeling Island	CC

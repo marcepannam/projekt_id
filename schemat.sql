@@ -3,22 +3,30 @@
 --Od nowego roku postanowiła wprowadzić również loty rejsowe. Zatrudniła ciebie do zaprojektowania bazy, w której będzie przechowywać dane o lotach.
 
 drop table if exists kraje cascade;
+drop table if exists miasta cascade;
 drop table if exists lotniska cascade;
 drop table if exists modele_samolotow cascade;
 drop table if exists samoloty cascade;
 drop table if exists bilety cascade;
 drop table if exists bilety_laczone cascade;
-drop table if exists pasy_startowe cascade;
 drop table if exists loty cascade;
 drop table if exists nadanie_bagazu cascade;
 drop table if exists miejsca_w_samolocie cascade;
-drop table if exists rezerwacje_pasow_startowych cascade;
 drop table if exists linie_lotnicze cascade;
+--PASY STARTOWE - WYRZUCONE
+--drop table if exists pasy_startowe cascade;
+--drop table if exists rezerwacje_pasow_startowych cascade;
 
 create table kraje(
   kod_iso varchar(2) primary key,
   nazwa varchar(40) not null,
   czy_w_schengen boolean not null  
+);
+
+create table miasta(
+  id_miasta serial primary key,
+  nazwa varchar(40) not null,
+  kraj varchar(2) references kraje
 );
 
 create table linie_lotnicze(
@@ -40,19 +48,22 @@ create table lotniska(
 
 
 create table modele_samolotow(
-  model varchar(20) primary key,
-  potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
-  ilosc_miejsc numeric (4) not null,
+  model serial primary key,
+  kod_iata varchar(3) not null,
+  nazwa varchar(50) not null,
+--PASY STARTOWE - WYRZUCONE
+--potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
+  liczba_miejsc numeric (4) not null,
   ilosc_zalogi numeric (2) not null,
-  zasieg varchar(30) not null
+  zasieg integer not null
 );
 
 
 create table samoloty(
   id_samolotu serial primary key,
-  nazwa varchar(20),
+  nazwa varchar(30),
   --np Bodzio maly helikopter
-  id_modelu varchar(20) not null references modele_samolotow(model),
+  id_modelu integer not null references modele_samolotow(model),
   czy_sprawny boolean default true
 );
 create table bilety_laczone(
@@ -77,11 +88,12 @@ create table bilety_laczone(
 );
 
 
-create table pasy_startowe (
-  id_pasa serial primary key,
-  id_lotniska varchar(6) not null references lotniska(kod_IATA),
-  dl_pasa numeric(6, 2) not null --w metrach
-);
+--PASY STARTOWE - WYRZUCONE
+--create table pasy_startowe (
+--  id_pasa serial primary key,
+--  id_lotniska varchar(6) not null references lotniska(kod_IATA),
+--  dl_pasa numeric(6, 2) not null --w metrach
+--);
 
 create table loty(
   id_lotu serial primary key,
@@ -92,7 +104,9 @@ create table loty(
   dokad varchar(6) not null references lotniska (kod_IATA) check (skad <> dokad),
   odlot timestamp not null,--w utc
   przylot timestamp not null--w utc
+  --PASY STARTOWE - WYRZUCONE
   --nr_pasa_startowego_przylot serial references pasy_startowe(id_pasa) --kodlotniska+4cyfrowy_nr
+
   --check sprawdzajaca czy loty na pasach startowych sie nie pokrywaja
   --check spr czy dlugosc pasa startowego jest opowiednia
   --check sprawdzajaca czy samolot sie nie teleportuje
@@ -114,16 +128,18 @@ create table bilety(
   miejsce varchar(5) -- + check czy takie miejsce jest w samolocie i czy nie pokrywaja sie
 );
 
-create table rezerwacje_pasow_startowych(
-  id_pasa integer not null references pasy_startowe(id_pasa),   
-  od timestamp not null,
-  "do" timestamp not null check ("do" > od)
-);
+--PASY STARTOWE - WYRZUCONE
+--create table rezerwacje_pasow_startowych(
+--  id_pasa integer not null references pasy_startowe(id_pasa),   
+--  od timestamp not null,
+--  "do" timestamp not null check ("do" > od)
+--);
 
 create table miejsca_w_samolocie(
-  id_modelu_samolotu varchar(20) not null references modele_samolotow(model),
-  nr_miejsca varchar(5) not null,--np. A25
-  rodzaj varchar(20) default 'normal' --pro, plus
+  id_modelu_samolotu integer not null references modele_samolotow(model),
+  nr_miejsca varchar(3) not null,--np. A25
+  rodzaj varchar(20) default 'normal', --pro, plus
+  primary key(id_modelu_samolotu, nr_miejsca)
 );
 
 create table nadanie_bagazu(
