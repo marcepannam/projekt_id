@@ -47,7 +47,7 @@ auto random_choice(const M& v) {
   return v[rand() % v.size()];
 }
 
-int main() {
+int main(int argc, char** argv) {
   cout << "begin;" << endl;
   fstream surname("nazwiska.txt");
   vector<string> names = readlines<string>("imiona.txt");
@@ -58,31 +58,48 @@ int main() {
 
   vector<string> kody_lotnisk = readlines<string>("airports_codes.txt");
   vector<int> id_linii_lotniczych = readlines<int>("id_linii_lotniczych.txt");
-  kody_lotnisk = vector<string>(kody_lotnisk.begin(), kody_lotnisk.begin() + 10);
+  kody_lotnisk = vector<string>(kody_lotnisk.begin(), kody_lotnisk.begin() + 150);
 
   int ilosc_linii = 100;
   int rok = 3600*24*365;
 
   // loty!
 
-  for (int i=1; i <=3000; i++) {
-    string start = random_choice(kody_lotnisk);
-    string koniec = random_choice(kody_lotnisk);
-    while (koniec == start) koniec = random_choice(kody_lotnisk);
-    int odlot = rok * 40 + rand() % (rok / 10); // sekundy po 1970
-    int przylot = odlot + 3200 + rand() % 7200;
-    int linia = random_choice(id_linii_lotniczych);
-    int id_samolotu = 1;
-    string kod;
-    for (int i=0;i<6;i++) kod += random_choice(alphabet);
+  string polecenie = argv[1];
 
-    cout << "insert into loty (linia_lotnicza, kod, skad, dokad, odlot, przylot) values (" << linia << ",'" << kod << "','" <<
-    start << "','" << koniec << "',to_timestamp(" << odlot << "),to_timestamp(" << przylot
-    << "));" << endl;
+  if (polecenie == "loty") {
+  int ilosc_samolotow = 500;
+
+  for (int id_samolotu=1; id_samolotu <= ilosc_samolotow; id_samolotu ++) {
+    // 
+
+    string start = random_choice(kody_lotnisk);
+    int czas = rok * 40 + rand() % (3600 * 24 + 10);
+    for (int i=1; i<=50; i++) {
+      string koniec = random_choice(kody_lotnisk);
+      while (koniec == start) koniec = random_choice(kody_lotnisk);
+
+      int odlot = czas; // sekundy po 1970
+      czas += 3200 + rand() % 7200;
+      int przylot = odlot + 3200 + rand() % 7200;
+      czas += rand() % (3600 * 24) + 3200;
+
+      int linia = random_choice(id_linii_lotniczych);
+      string kod;
+      for (int i=0;i<6;i++) kod += random_choice(alphabet);
+  
+      cout << "insert into loty (id_samolotu, linia_lotnicza, kod, skad, dokad, odlot, przylot)   values (" << id_samolotu << "," <<
+      linia << ",'" << kod << "','" <<
+      start << "','" << koniec << "',to_timestamp(" << odlot << "),to_timestamp(" <<   przylot
+      << "));" << endl;
+
+      start = koniec;
+    }
   }
+  } else if (polecenie == "bilety") {
   
   // bilety_laczone
-  for (int i=1; i<=100; i++) {
+  for (int i=1; i<=600; i++) {
     string name = random_choice(names);
     string surname = random_choice(surnames);
     string title;
@@ -118,6 +135,7 @@ int main() {
 
     int planuj_po = rok * 40;// + rand() % (rok / 5);
     cout << "select zaplanuj_lot(" << i << ", '" << skad << "', '" <<  dokad <<"', to_timestamp("<< planuj_po << ")::timestamp);" << endl;
+  }
   }
 
   cout << "commit;" << endl;
