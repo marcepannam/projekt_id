@@ -118,8 +118,6 @@ create table bilety(
   id_lotu integer references loty(id_lotu),
   id_biletu_laczonego integer references bilety_laczone(id_biletu_laczonego),
   --nawetjak maszjeden bielt wpisac wartosc, wtedy id_biletu
-  klasa varchar(20) default 'ekonomiczna', 
-  --jeszcze biznes, premium (check)
   czy_karta_pokladowa_wystawiona boolean default false, 
   --zrobic funkcje wstawiajaca karty pokladowe
   cena numeric(7, 2) not null, 
@@ -139,7 +137,7 @@ create table bilety(
 create table miejsca_w_samolocie(
   id_modelu_samolotu integer not null references modele_samolotow(model),
   nr_miejsca varchar(3) not null,--np. A25
-  rodzaj varchar(20) default 'normal', --pro, plus
+  klasa varchar(20) default 'ekonomiczna' check(klasa like 'ekonomiczna' or klasa like 'biznes' or klasa like 'premium'),
   primary key(id_modelu_samolotu, nr_miejsca)
 );
 
