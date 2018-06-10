@@ -7,4 +7,5 @@ alter table lotniska add column miasto integer;
 update lotniska set miasto = (select id_miasta from miasta where nazwa_miasta=nazwa);
 alter table lotniska drop column nazwa_miasta;
 alter table lotniska add foreign key (miasto) references miasta;
+alter table modele_samolotow drop column liczba_miejsc;
 
