@@ -9,10 +9,11 @@ drop table if exists modele_samolotow cascade;
 drop table if exists samoloty cascade;
 drop table if exists bilety cascade;
 drop table if exists bilety_laczone cascade;
-drop table if exists loty cascade;
 drop table if exists nadanie_bagazu cascade;
 drop table if exists miejsca_w_samolocie cascade;
 drop table if exists linie_lotnicze cascade;
+drop table if exists plany_lotow cascade;
+drop view if exists loty cascade;
 
 create table kraje(
   kod_iso varchar(2) primary key,
