@@ -116,8 +116,8 @@ linia_lotnicza,
 kod,
 skad,
 dokad,
-'2010-01-03'::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + (odlot * '1 minute'::interval) as odlot,
-'2010-01-03'::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + ((odlot+czas_lotu) * '1 minute'::interval) as przylot
+current_date::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + (odlot * '1 minute'::interval) as odlot,
+current_date::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 day'::interval) + ((odlot+czas_lotu) * '1 minute'::interval) as przylot
 from plany_lotow p 
 cross join (select generate_series(0, 9) as tydzien) t;
 
