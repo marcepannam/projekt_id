@@ -4,7 +4,7 @@ declare
     a numeric;
 BEGIN
     select count(*) into a from loty left join samoloty on loty.id_samolotu=samoloty.id_samolotu left join modele_samolotow on samoloty.id_modelu=modele_samolotow.model left join
-    miejsca_w_samolocie on miejsca_w_samolocie.id_modelu_samolotu=modele_samolotow.model where loty.id_lotu=new.id_lotu and miejsca_w_samolocie.nr_miejsca=new.miejsce;
+    miejsca_w_samolocie on miejsca_w_samolocie.id_modelu_samolotu=modele_samolotow.model where loty.kod_lotu=new.kod_lotu and date_trunc('day',loty.odlot)=new.data_lotu and miejsca_w_samolocie.nr_miejsca=new.miejsce;
     case when a=0 then raise exception 'Nie ma takiego miejsca w samolocie'; else
     end case;
 
@@ -40,5 +40,5 @@ BEGIN
 end
 $$ language plpgsql;
 
-drop trigger if exists teleport_check on loty;
+drop trigger if exists teleport_check on plany_lotow;
 create trigger teleport_check before insert or update on loty for each row execute procedure teleport_check();

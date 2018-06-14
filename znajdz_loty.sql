@@ -35,7 +35,7 @@ while que:
             dist[i] = dist[node] + cost
 
 if dest not in parent:
-    raise Exception('lot z %s do %s nie znaleziony' % (src, dest))
+    return []
 
 i = dest
 while i != src:
