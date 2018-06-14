@@ -90,35 +90,60 @@ const server = http.createServer((req, res) => {
                                 if (temp == 0) {
                                     res.end(JSON.stringify([]));
                                 }
+
                                 for (var j = 0; j < temp; j++) {
                                     console.log('here');
 
                                     (function (nr) {
-                                        console.log("SELECT modele_samolotow.nazwa from samoloty left join modele_samolotow on samoloty.id_modelu=modele_samolotow.model where samoloty.id_samolotu=$1;", out[nr].samolot);
-                                        pool.query("SELECT modele_samolotow.nazwa from samoloty left join modele_samolotow on samoloty.id_modelu=modele_samolotow.model where samoloty.id_samolotu=$1;", [out[nr].samolot],
-                                            function (err, dbres) {
-                                                if (err) {
-                                                    console.log(err);
-                                                    throw err;
-                                                }
-                                                out[nr].samolot = dbres.rows[0].nazwa;
-                                                q++;
-                                                if (q >= temp) {
-                                                    q = 0;
-                                                    for (var k = 0; k < temp; k++) {
-                                                        (function (nr) {
-                                                            console.log("SELECT nazwa from linie_lotnicze where id_linii_lotniczej=" + out[nr].linia + ";");
-                                                            pool.query("SELECT nazwa from linie_lotnicze where id_linii_lotniczej=$1;", [out[nr].linia], function (err, dbres) {
-                                                                out[nr].linia = dbres.rows[0].nazwa;
-                                                                q++;
-                                                                if (q >= temp) {
-                                                                    res.end(JSON.stringify(out));
-                                                                }
-                                                            });
-                                                        })(k)
+                                        pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'ekonomiczna'], function (err, dbres) {
+                                            if (err) {
+                                                console.log(err);
+                                                res.end("error")
+                                            } else {
+                                                out[nr].cena = "ekonomiczna: " + dbres.rows[0].ticket_cost;
+                                                pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'biznes'], function (err, dbres) {
+                                                    if (err) {
+                                                        console.log(err);
+                                                        res.end("error")
+                                                    } else {
+                                                        out[nr].cena += " biznes: " + dbres.rows[0].ticket_cost;
+                                                        pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'premium'], function (err, dbres) {
+                                                            if (err) {
+                                                                console.log(err);
+                                                                res.end("error")
+                                                            } else {
+                                                                out[nr].cena += " premium: " + dbres.rows[0].ticket_cost;
+                                                            }
+                                                            console.log("SELECT modele_samolotow.nazwa from samoloty left join modele_samolotow on samoloty.id_modelu=modele_samolotow.model where samoloty.id_samolotu=$1;", out[nr].samolot);
+                                                            pool.query("SELECT modele_samolotow.nazwa from samoloty left join modele_samolotow on samoloty.id_modelu=modele_samolotow.model where samoloty.id_samolotu=$1;", [out[nr].samolot],
+                                                                function (err, dbres) {
+                                                                    if (err) {
+                                                                        console.log(err);
+                                                                        throw err;
+                                                                    }
+                                                                    out[nr].samolot = dbres.rows[0].nazwa;
+                                                                    q++;
+                                                                    if (q >= temp) {
+                                                                        q = 0;
+                                                                        for (var k = 0; k < temp; k++) {
+                                                                            (function (nr) {
+                                                                                console.log("SELECT nazwa from linie_lotnicze where id_linii_lotniczej=" + out[nr].linia + ";");
+                                                                                pool.query("SELECT nazwa from linie_lotnicze where id_linii_lotniczej=$1;", [out[nr].linia], function (err, dbres) {
+                                                                                    out[nr].linia = dbres.rows[0].nazwa;
+                                                                                    q++;
+                                                                                    if (q >= temp) {
+                                                                                        res.end(JSON.stringify(out));
+                                                                                    }
+                                                                                });
+                                                                            })(k)
+                                                                        }
+                                                                    }
+                                                                });
+                                                        });
                                                     }
-                                                }
-                                            });
+                                                });
+                                            }
+                                        });
 
                                     })(j);
 
@@ -159,15 +184,24 @@ const server = http.createServer((req, res) => {
                                 (function (obj, i, idBiletu) {
                                     //date trunc obj arr i odlot
                                     obj.arr[i].odlot = obj.arr[i].odlot.split(" ")[0].substring(1);
-                                    var query = "INSERT INTO bilety (kod_lotu,data_lotu,id_biletu_laczonego,cena) values ($1,$2,$3,100);"
-                                    pool.query(query, [obj.arr[i].kod, obj.arr[i].odlot, idBiletu], function (err, dbres) {
+                                    console.log(obj.arr[i]);
+                                    pool.query("SELECT ticket_cost($1,$2,$3,0);", [obj.arr[i].skad, obj.arr[i].dokad, obj.klasa], function (err, dbres) {
                                         if (err) {
                                             console.log(err);
-                                            res.end("Blad, nie zarezerwowano");
+                                            res.end("error")
                                         } else {
-                                            res.end("Pomyślnie zarezerwowano");
+                                            console.log(dbres);
+                                            var query = "INSERT INTO bilety (kod_lotu,data_lotu,id_biletu_laczonego,cena) values ($1,$2,$3,$4);"
+                                            pool.query(query, [obj.arr[i].kod, obj.arr[i].odlot, idBiletu, dbres.rows[0].ticket_cost], function (err, dbres) {
+                                                if (err) {
+                                                    console.log(err);
+                                                    res.end("Blad, nie zarezerwowano");
+                                                } else {
+                                                    res.end("Pomyślnie zarezerwowano");
+                                                }
+                                            })
                                         }
-                                    })
+                                    });
                                 })(obj, i, idBiletu);
                             }
                         }

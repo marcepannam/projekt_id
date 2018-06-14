@@ -115,11 +115,11 @@
                     document.getElementById("result").innerHTML = "";
                     var table = document.createElement("table");
                     var row = document.createElement("tr");
-                    row.innerHTML = "<td>kod</td><td>skad</td><td>dokad</td><td>odlot</td><td>przylot</td><td>linia</td><td>samolot</td>";
+                    row.innerHTML = "<td>kod</td><td>skad</td><td>dokad</td><td>odlot</td><td>przylot</td><td>linia</td><td>samolot</td><td>cena</td>";
                     table.appendChild(row);
                     for (var i = 0; i < arr.length; i++) {
                         var row = document.createElement("tr");
-                        row.innerHTML = "<td>" + arr[i].kod + "</td><td>" + arr[i].skad + "</td><td>" + arr[i].dokad + "</td><td>" + arr[i].odlot + "</td><td>" + arr[i].przylot + "</td><td>" + arr[i].linia + "</td><td>" + arr[i].samolot + "</td>";
+                        row.innerHTML = "<td>" + arr[i].kod + "</td><td>" + arr[i].skad + "</td><td>" + arr[i].dokad + "</td><td>" + arr[i].odlot + "</td><td>" + arr[i].przylot + "</td><td>" + arr[i].linia + "</td><td>" + arr[i].samolot + "</td><td>"+arr[i].cena+"</td>";
                         table.appendChild(row);
                     }
                     document.getElementById("result").appendChild(table);
