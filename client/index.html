@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select id="selectFromCity"></select>
+<select id="selectToCity"></select><br>
+<select id="selectFrom"></select>
+<select id="selectTo"></select>
+<input type="date" id="selectDate">
+<button id="searchFlights">Search</button>
+<br>
+<span id="result"></span>
+<span id="reserve" style="visibility:hidden;">
+    Imię
+    <input id="reserveName"><br>
+    Nazwisko
+    <input id="reserveSurname"><br>
+    Email
+    <input type="email" id="reserveMail"><br>
+    Płeć
+    <select id="reserveSex">
+        <option value="Pan">Mężczyzna</option>
+        <option value="Pani">Kobieta</option>
+    </select><br>
+    Data urodzin
+    <input id="reserveBirthdate" type="date"><br>
+    Nr paszportu
+    <input id="passportNr"><br>
+    <select id="klasa">
+        <option value="ekonomiczna">ekonomiczna</option>
+        <option value="biznes">biznes</option>
+        <option value="premium">premium</option>
+    </select>
+    <button id="reserveButton" onclick="reserve()">Rezerwuj</button>
+</span>
+</body>
+<script>
+    function updateAirportsSelect(select, selectedCity) {
+        select.innerHTML = "";
+        console.log(array2[selectedCity]);
+        console.log(selectedCity);
+        for (var i = 0; i < array2[selectedCity].kod.length; i++) {
+            var optionElement = document.createElement("option");
+            console.log(array2[selectedCity].kod[i] + " " + array2[selectedCity].nazwal[i]);
+            var text = document.createTextNode(array2[selectedCity].kod[i] + " " + array2[selectedCity].nazwal[i]);
+            optionElement.setAttribute("value", array2[selectedCity].kod[i]);
+            optionElement.appendChild(text);
+            select.appendChild(optionElement);
+        }
+    }
+
+    var selectFromCity = document.getElementById("selectFromCity");
+    var selectToCity = document.getElementById("selectToCity");
+
+
+    var selectFrom = document.getElementById("selectFrom");
+    var selectTo = document.getElementById("selectTo");
+    var selectDate = document.getElementById("selectDate");
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var arr = JSON.parse(this.responseText);
+            array2 = arr;
+            airportsArray = arr;
+            selectedCityFrom = 0;
+            selectedCityTo = 0;
+            for (var i = 0; i < arr.length; i++) {
+                var optionElement = document.createElement("option");
+                console.log(arr[i]);
+                var text = document.createTextNode(arr[i].nazwa);
+                optionElement.setAttribute("value", i);
+                optionElement.appendChild(text);
+                selectFromCity.appendChild(optionElement);
+                var optionElement2 = optionElement.cloneNode(true);
+                selectToCity.appendChild(optionElement2);
+            }
+            updateAirportsSelect(selectFrom, selectedCityFrom);
+            updateAirportsSelect(selectTo, selectedCityTo);
+        }
+    };
+    xhttp.open("POST", "getAirports", true);
+    xhttp.send();
+    selectFromCity.addEventListener("change", function () {
+        updateAirportsSelect(selectFrom, selectFromCity.value);
+    });
+    selectToCity.addEventListener("change", function () {
+        updateAirportsSelect(selectTo, selectToCity.value);
+    });
+    var searchFlightsButton = document.getElementById("searchFlights");
+    searchFlightsButton.addEventListener("click", function () {
+        var from = selectFrom.value;
+        var to = selectTo.value;
+        var date = selectDate.value;
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var arr = JSON.parse(this.responseText);
+                arr.sort(function (a, b) {
+                    aa = a.odlot;
+                    bb = b.odlot;
+                    aa = aa.substring(1, aa.length - 1);
+                    bb = bb.substring(1, bb.length - 1);
+                    console.log(aa, bb);
+                    var adate = new Date(aa);
+                    var bdate = new Date(bb);
+                    console.log(adate, bdate);
+                    return adate > bdate;
+                });
+                console.log("Fdsfdsfds");
+                if (arr.length > 0) {
+                    array = arr;
+                    document.getElementById("result").innerHTML = "";
+                    var table = document.createElement("table");
+                    var row = document.createElement("tr");
+                    row.innerHTML = "<td>kod</td><td>skad</td><td>dokad</td><td>odlot</td><td>przylot</td><td>linia</td><td>samolot</td>";
+                    table.appendChild(row);
+                    for (var i = 0; i < arr.length; i++) {
+                        var row = document.createElement("tr");
+                        row.innerHTML = "<td>" + arr[i].kod + "</td><td>" + arr[i].skad + "</td><td>" + arr[i].dokad + "</td><td>" + arr[i].odlot + "</td><td>" + arr[i].przylot + "</td><td>" + arr[i].linia + "</td><td>" + arr[i].samolot + "</td>";
+                        table.appendChild(row);
+                    }
+                    document.getElementById("result").appendChild(table);
+                    document.getElementById("reserve").style.visibility = "visible";
+                }
+                else {
+                    document.getElementById("reserve").style.visibility = "hidden";
+                    document.getElementById("result").innerHTML = "";
+                    setTimeout(function() {
+                        alert("Nie znaleziono lotu");
+                    }, 0);
+                }
+            }
+        };
+        xhttp.open("POST", "getFlights", true);
+        var arr = [from, to, date];
+        xhttp.send(JSON.stringify(arr));
+    });
+
+    function reserve() {
+        email = document.getElementById("reserveMail").value;
+        if (!ValidateEmail(email)) {
+            return;
+        }
+        if (document.getElementById("reserveBirthdate").value == '') {
+            alert("Nieprawidłowa data urodzin");
+            return;
+        }
+        var obj = {};
+        obj.arr = array;
+        obj.name = document.getElementById("reserveName").value;
+        obj.surname = document.getElementById("reserveSurname").value;
+        obj.birthdate = document.getElementById("reserveBirthdate").value;
+        obj.passportnr = document.getElementById("passportNr").value;
+        obj.sex = document.getElementById("reserveSex").value;
+        obj.email = document.getElementById("reserveMail").value;
+        obj.klasa=document.getElementById("klasa").value;
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                alert(this.responseText);
+            }
+        };
+        xhttp.open("POST", "reserve", true);
+        xhttp.send(JSON.stringify(obj));
+    }
+
+    function ValidateEmail(mail) {
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+            return (true)
+        }
+        alert("Nieprawidłowy adres email.");
+        return (false)
+    }
+</script>
+</html>
