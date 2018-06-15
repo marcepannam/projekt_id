@@ -83,7 +83,11 @@ create table bilety_laczone(
   --tylko loty miedzynarodowe!(schengen nie licza sie jako miedzynarodowe)
   --dla biletow laczonych, w ktorychg wystepuje wiecej niz jeden lot spr
   --czy miedzy lotami jest przynajmniej 30 min odstepu
-  oplaty_dodatkowe numeric(7, 2) default 0
+  oplaty_dodatkowe numeric(7, 2) default 0,
+  check (oplaty_dodatkowe >= 0),
+  check (ascii('A') <= ascii(substring(imie, 1, 1)) and ascii(substring(imie, 1, 1)) <= ascii('Z')),
+  check (ascii('A') <= ascii(substring(nazwisko, 1, 1)) and ascii(substring(nazwisko, 1, 1)) <= ascii('Z')),
+  check (tytul like 'Pan' OR tytul like 'Pani')
 );
 
 
