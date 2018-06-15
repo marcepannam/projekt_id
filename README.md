@@ -11,3 +11,7 @@ Contains information from OpenFlights Database, which is made available [here](h
 Set up the DB:
 
 cat schemat.sql create.sql alter.sql znajdz_loty.sql create_loty.sql create_bilety.sql functions.sql | psql
+
+Start application:
+
+cd client && node index.js
