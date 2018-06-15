@@ -1,6 +1,3 @@
---LINIA LOTNICZA TANIE CZARTERY SAMOLOTÓW
---Linia lotnicza powstała w 2005 roku. Do tej pory oferowała jedynie loty czarterowe.
---Od nowego roku postanowiła wprowadzić również loty rejsowe. Zatrudniła ciebie do zaprojektowania bazy, w której będzie przechowywać dane o lotach.
 
 drop table if exists kraje cascade;
 drop table if exists miasta cascade;
@@ -50,8 +47,6 @@ create table modele_samolotow(
   model serial primary key,
   kod_iata varchar(3) not null,
   nazwa varchar(50) not null,
---PASY STARTOWE - WYRZUCONE
---potrzebna_dl_pasa_startowego numeric(6, 2) not null,--w metrach 
   liczba_miejsc numeric (4) not null,
   ilosc_zalogi numeric (2) not null,
   zasieg integer not null
@@ -77,26 +72,17 @@ create table bilety_laczone(
   tytul varchar(25) not null,
   --Pan, Pani
   data_urodzenia date not null,
-  --spr czy ma <13, jesli tak przydziel czlonka zalogi do opieki
-  --do ceny biletu dodaj 300 zl
   nr_paszportu varchar(30),
-  --tylko loty miedzynarodowe!(schengen nie licza sie jako miedzynarodowe)
-  --dla biletow laczonych, w ktorychg wystepuje wiecej niz jeden lot spr
-  --czy miedzy lotami jest przynajmniej 30 min odstepu
   oplaty_dodatkowe numeric(7, 2) default 0,
   check (oplaty_dodatkowe >= 0),
-  check (ascii('A') <= ascii(substring(imie, 1, 1)) and ascii(substring(imie, 1, 1)) <= ascii('Z')),
-  check (ascii('A') <= ascii(substring(nazwisko, 1, 1)) and ascii(substring(nazwisko, 1, 1)) <= ascii('Z')),
+  check (initcap(imie) like imie),
+  check (initcap(nazwisko) like nazwisko),
+
+  --check (ascii('A') <= ascii(substring(nazwisko, 1, 1)) and ascii(substring(nazwisko, 1, 1)) <= ascii('Z')),
   check (tytul like 'Pan' OR tytul like 'Pani')
 );
 
 
---PASY STARTOWE - WYRZUCONE
---create table pasy_startowe (
---  id_pasa serial primary key,
---  id_lotniska varchar(6) not null references lotniska(kod_IATA),
---  dl_pasa numeric(6, 2) not null --w metrach
---);
 
 create table plany_lotow(
   id_samolotu integer references samoloty(id_samolotu) not null,
@@ -125,9 +111,6 @@ current_date::timestamp + (dzien_tygodnia * '1 day'::interval) + (tydzien * '7 d
 from plany_lotow p 
 cross join (select generate_series(0, 9) as tydzien) t;
 
--- (kod, data odlotu) muszą być unikalne. Nie stanowią primary key ze wzgłedów praktycznych.
---create unique index loty_index
---on loty (kod, skad::date);
 
 create table bilety(
   kod_lotu varchar(6) references plany_lotow(kod),
@@ -136,7 +119,7 @@ create table bilety(
   --nawetjak maszjeden bielt wpisac wartosc, wtedy id_biletu
   czy_karta_pokladowa_wystawiona boolean default false,
   --zrobic funkcje wstawiajaca karty pokladowe
-  cena numeric(7, 2) not null,
+  cena numeric(7, 2) not null check(cena >= 0),
   -- funkcja przeliczajaca pln na euro i dolary
   oplacony boolean default false,
   --jesli nieoplacona nie wystawiaj karty pokladowej
@@ -144,13 +127,6 @@ create table bilety(
   primary key (kod_lotu, data_lotu, miejsce)
 );
 
-
---check (
-    --(select count(*) from miejsca_w_samolocie ms 
-    --join samoloty s on ms.id_modelu_samolotu = s.id_modelu_samolotu 
-    --join loty l on l.id_samolotu = s.id_samolotu
-    --where s.id_samolotu = id_lotu) = 1
-  --),
 
 create table miejsca_w_samolocie(
   id_modelu_samolotu integer not null references modele_samolotow(model),
@@ -181,15 +157,6 @@ $$ language plpgsql;
 
 create trigger ustaw_miejsce before insert on bilety for each row execute procedure ustaw_miejsce();
 
---create table nadanie_bagazu(
---  waga numeric(3, 2) check (waga <= 32), -- >=18 kg, >=32kg, 32kg +
---  id_lotu integer not null,
---  miejsce varchar(5) not null,
---  foreign key (id_lotu, miejsce) references bilety(id_lotu, miejsce)
---);
-
 --zmiany w tabelach zawiera plik alter.sql
-
---funkcja wypisz kortke podróż bagażu np KRK->WAW->BAR->VIE
 
 create or replace language plpython3u;

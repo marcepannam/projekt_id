@@ -22,7 +22,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE FUNCTION good_for_fly() RETURNS TRIGGER AS $good_for_fly$
+CREATE OR REPLACE FUNCTION good_for_fly() RETURNS TRIGGER AS $good_for_fly$
 DECLARE 
 	line RECORD;
 	line_ RECORD;
@@ -46,7 +46,7 @@ BEGIN
 	END LOOP;
 END;
 $good_for_fly$ language plpgsql;
-CREATE TRIGGER good_for_fly BEFORE INSERT OR UPDATE ON plany_lotow;
+CREATE TRIGGER good_for_fly BEFORE INSERT OR UPDATE ON plany_lotow
 for each row execute procedure good_for_fly();
 
 CREATE OR REPLACE FUNCTION ticket_cost(airport1 char(3), airport2 char(3), klasa varchar(20), oplaty_dodatkowe NUMERIC(7,2)) RETURNS NUMERIC(8,2) AS $$
@@ -81,11 +81,4 @@ END;
 $$ language plpgsql;
 
 
-
-
-
-
-
-
-
-
+alter sequence bilety_laczone_id_biletu_laczonego_seq restart with 50;

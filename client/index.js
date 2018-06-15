@@ -3,10 +3,10 @@ const fs = require('fs');
 const {Pool, Client} = require('pg');
 
 const pool = new Pool({
-    user: 'thegu',
+    user: 'testuser',
     host: '127.0.0.1',
-    database: 'thegu',
-    password: 'zaq1@WSX',
+    database: 'testuser',
+    password: 'test',
     port: 5432,
 });
 
@@ -16,7 +16,7 @@ pool.query('SELECT NOW()', (err, res) => {
 });
 
 const hostname = '127.0.0.1';
-const port = 80;
+const port = 8080;
 
 const server = http.createServer((req, res) => {
         switch (req.url) {
@@ -95,19 +95,19 @@ const server = http.createServer((req, res) => {
                                     console.log('here');
 
                                     (function (nr) {
-                                        pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'ekonomiczna'], function (err, dbres) {
+                                        pool.query("SELECT ticket_cost($1,$2,$3,0::numeric);", [out[nr].skad, out[nr].dokad, 'ekonomiczna'], function (err, dbres) {
                                             if (err) {
                                                 console.log(err);
                                                 res.end("error")
                                             } else {
                                                 out[nr].cena = "ekonomiczna: " + dbres.rows[0].ticket_cost;
-                                                pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'biznes'], function (err, dbres) {
+                                                pool.query("SELECT ticket_cost($1,$2,$3,0::numeric);", [out[nr].skad, out[nr].dokad, 'biznes'], function (err, dbres) {
                                                     if (err) {
                                                         console.log(err);
                                                         res.end("error")
                                                     } else {
                                                         out[nr].cena += " biznes: " + dbres.rows[0].ticket_cost;
-                                                        pool.query("SELECT ticket_cost($1,$2,$3,0);", [out[nr].skad, out[nr].dokad, 'premium'], function (err, dbres) {
+                                                        pool.query("SELECT ticket_cost($1,$2,$3,0::numeric);", [out[nr].skad, out[nr].dokad, 'premium'], function (err, dbres) {
                                                             if (err) {
                                                                 console.log(err);
                                                                 res.end("error")

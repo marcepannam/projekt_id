@@ -204,7 +204,3 @@ QOGYJM	2010-02-15	40	f	100.00	f	A1
 
 SELECT pg_catalog.setval('public.bilety_laczone_id_biletu_laczonego_seq', 1, false);
 
-
---
--- PostgreSQL database dump complete
---
